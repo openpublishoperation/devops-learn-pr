@@ -35,8 +35,21 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-TeamServices",
+      "ms.topic": "conceptual",
       "breadcrumb_path": "/azure/devops/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "extendBreadcrumb": true,
+      "searchScope": ["VSTS", "Visual Studio Team Services", "Azure", "DevOps"],
+      "author": "samgu",
+      "ms.author": "samgu",
+      "ms.date": "03/01/2018",
+      "ms.prod": "vs-devops-alm",
+      "ms.version": "ALM",
+      "MSHAttr.msprod": "ms.prod:ALM",
+      "ms.prodfamily": "ALM",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/vsts-docs",
+      "feedback_product_url": "https://developercommunity.visualstudio.com/spaces/21/index.html"  
     },
     "fileMetadata": {},
     "template": [],
