@@ -24,9 +24,7 @@ Let’s start with a basic assumption about software development. We’ll descri
 
 ![Image of DevOps cycle time](_img/devops-road.png)
 
-## Understand your Cycle Time
-
-Become Data-Informed
+## Become Data-Informed
 Hopefully, you use data to inform what to do in your next cycle. Many experience reports tell us that roughly one-third of the deployments will have negative business results, roughly one third will have positive results, and one third will make no difference. Ideally, you would like to fail fast on those that don’t advance the business and double down on those that support the business. Sometimes this is called pivot or persevere.
 
 ## Strive for Validated Learning
@@ -50,39 +48,39 @@ Remember, the goal is to shorten cycle time. Start with the release pipeline. Ho
 
 1. [Continuous Integration](http://www.visualstudio.com/learn/what-is-continuous-integration) drives the ongoing merging and testing of code, which leads to finding defects early. Other benefits include less time wasted on fighting merge issues and rapid feedback for development teams.
 
-![Image: How to Achieve DevOps](_img/devops-build-success.png)
+    ![Image: How to Achieve DevOps](_img/devops-build-success.png)
 
 2. [Continuous Delivery](http://www.visualstudio.com/learn/what-is-continuous-delivery) of software solutions to production and testing environments helps organizations quickly fix bugs and respond to ever-changing business requirements.
 
-![Image: Continuously Delivery](_img/devops-continuous-delivery.png)
+    ![Image: Continuously Delivery](_img/devops-continuous-delivery.png)
 
 3. [Version Control, Usually With Git](https://www.visualstudio.com/learn/what-is-git/), enables teams located anywhere in the world to communicate effectively during daily development activities as well as to integrate with software development tools for monitoring activities such as deployments.
 
-![Image: Version Control, Usually With Git](_img/devops-version-control.png)
+    ![Image: Version Control, Usually With Git](_img/devops-version-control.png)
 
 4. [Agile planning and lean project management](http://www.visualstudio.com/learn/what-is-agile) techniques are used to plan and isolate work into sprints, manage team capacity, and help teams quickly adapt to changing business needs. A DevOps Definition of Done is working software collecting telemetry against the intended business objectives.
 
-![Image: Agile planning and lean project management techniques](_img/devops-kanban.png)
+    ![Image: Agile planning and lean project management techniques](_img/devops-kanban.png)
 
 5. [Monitoring and Logging](http://www.visualstudio.com/learn/what-is-monitoring) of running applications including production environments for application health as well as customer usage, helps organizations form a hypothesis and quickly validate or disprove strategies. Rich data is captured and stored in various logging formats.
 
-![Image: Monitoring and Logging](_img/devops-monitor.png)
+    ![Image: Monitoring and Logging](_img/devops-monitor.png)
 
 6. [Public and Hybrid Clouds](https://azure.microsoft.com/en-us/overview/what-is-azure/) have made the impossible easy. The cloud has removed traditional bottlenecks and helped commoditize infrastructure. Whether you use Infrastructure as a Service (IaaS) to lift and shift your existing apps, or Platform as a Service (PaaS) to gain unprecedented productivity, the cloud gives you a datacenter without limits.
 
-![Image: Public and Hybrid Clouds](_img/devops-public-clouds.png)
+    ![Image: Public and Hybrid Clouds](_img/devops-public-clouds.png)
 
 7. [Infrastructure as Code](http://www.visualstudio.com/learn/what-is-infrastructure-as-code) (IaC) is a practice which enables the automation and validation of creation and teardown of environments to help with delivering secure and stable application hosting platforms.
 
-![Image:Infrastructure as Code](_img/devops-iac.png)
+    ![Image:Infrastructure as Code](_img/devops-iac.png)
 
 8. [Microservices](http://www.visualstudio.com/learn/what-are-microservices) architecture is leveraged to isolate business use cases into small reusable services that communicate via interface contracts. This architecture enables scalability and efficiency. 
 
-![Image: Microservices v. monolithic services](_img/devops-microservices.png)
+    ![Image: Microservices v. monolithic services](_img/devops-microservices.png)
 
 9. [Containers](https://azure.microsoft.com/en-us/services/container-service/) are the next evolution in virtualization. They are much more lightweight than virtual machines, allow much faster hydration, and can be easily configured from files. 
 
-![Image: Fuzzed Containers on ship](_img/devops-containers.png)
+    ![Image: Fuzzed Containers on ship](_img/devops-containers.png)
 
 
 ## DevOps May Hurt at First
