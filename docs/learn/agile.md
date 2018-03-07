@@ -2,8 +2,7 @@
 
 #### Your guide through the theory and application of Agile
 
-![what is agile](https://www.visualstudio.com/wp-content/uploads/2016/08/WhatIsAgile_600x300.png
-"what is agile")</span>
+![what is agile](_img/WhatIsAgile_600x300.png "what is agile")
 
 ## What is Agile
 
@@ -13,7 +12,7 @@
 
 
 
-![](https://www.visualstudio.com/wp-content/uploads/2016/08/AgileDev4_64x.png)
+![](_img/AgileDev4_64x.png)
 
 
 ## What is Agile Development?
@@ -29,7 +28,7 @@ engineering.
 
 
 
-![](https://www.visualstudio.com/wp-content/uploads/2016/08/AgileCulture_64x.png)
+![](_img/AgileCulture_64x.png)
 
 
 
@@ -40,7 +39,7 @@ Agile culture means more than performing Agile practices. It is not a
 
 [Read more \>](agile-culture.md)
 
-![scrum](https://www.visualstudio.com/wp-content/uploads/2016/08/home-whatisscrum.png)
+![scrum](_img/home-whatisscrum.png)
 
 ## What is Scrum?
 
