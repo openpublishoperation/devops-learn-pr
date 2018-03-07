@@ -134,15 +134,13 @@ and including in our own workflow.
 VSTS merges the code to master, and it’ll deploy in the next sprint or
 TFS release. Importantly, that doesn’t mean the new feature will show up
 right away. We’ve talked elsewhere about how we decouple deployment and
-exposure of new features using [feature
-flags](progressive-experimentation-feature-flags.md).
+exposure of new features using [feature flags](progressive-experimentation-feature-flags.md).
 This means even if the feature needs a little more bake time before it’s
 ready to show off, if the product builds and deploys, it’s safe to go to
 master. Once in master, the code ends up in an official build, where
 it’s (again) tested, confirmed to meet policy, and digitally signed.
 ### Shipping
-Deployment is a complex topic which we’ve [covered elsewhere on the
-site](hachieving-no-downtime-versioned-service-updates.md).
+Deployment is a complex topic which we’ve [covered elsewhere on the site](achieving-no-downtime-versioned-service-updates.md).
 The branch model is the main intersection between deployment and Git. At
 the end of each sprint, one of our release managers sends out an email
 reminding people of the cut-off time. At the appointed time, the release

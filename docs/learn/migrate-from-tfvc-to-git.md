@@ -12,7 +12,7 @@ After you’ve prepared, you can begin the migration.
 In order to make migrations simple, there are a number of requirements
 on the [TFVC Import tool](/docs/git/import-from-tfvc):
 1.  Only a single branch is migrated. When [planning your
-    migration](centralized-to-git) you should choose a new branching
+    migration](centralized-to-git.md) you should choose a new branching
     strategy for Git; migrating only the main branch supports a
     topic-branch based workflow like
     [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/)
@@ -118,21 +118,16 @@ migration and keep their TFVC repository online but read-only to view
 history.
 If you want to attempt an advanced migration with Git-TFS, that project
 provides documentation on how to do a migration from TFVC to Git,
-[cloning a single branch with
-history](https://github.com/git-tfs/git-tfs/blob/master/doc/usecases/manage_tfs_branches.md#clone-all-history)
-or [cloning all branches with merge
-history](https://github.com/git-tfs/git-tfs/blob/master/doc/usecases/manage_tfs_branches.md#clone-all-history).
+[cloning a single branch with history](https://github.com/git-tfs/git-tfs/blob/master/doc/usecases/manage_tfs_branches.md#clone-all-history)
+or [cloning all branches with merge history](https://github.com/git-tfs/git-tfs/blob/master/doc/usecases/manage_tfs_branches.md#clone-all-history).
 ### Update your workflow
 Moving from a centralized version control system to Git is more than
 just migrating code. Your team needs training to understand how Git is
 different from your existing version control system and how these
-differences affect day-to-day work. [Learn
-more](centralized-to-git.md).
+differences affect day-to-day work. [Learn more](centralized-to-git.md).
 ![](_img/LearnGIT_32x.png) Get
-started with unlimited free private Git repos in [Visual Studio Team
-Services](https://www.visualstudio.com/team-services/git/).
-  [Edward
-Thomson](https://www.visualstudio.com/author/ethomson/ "Posts by Edward Thomson")
+started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+  [Edward Thomson](https://www.visualstudio.com/author/ethomson/ "Posts by Edward Thomson")
   
 2017-05-30T06:46:23+00:00
 ![](https://secure.gravatar.com/avatar/1bd10d2eb4ea34a361c566f8ca396202?s=130&d=mm&r=g)
