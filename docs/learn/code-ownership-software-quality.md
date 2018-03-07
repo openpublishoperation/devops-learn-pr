@@ -184,12 +184,10 @@ Conference on Computer and Communications Security, 2009.
 \[13\] A. Mockus, “Succession: Measuring transfer of code and developer
 productivity,” in Proceedings of the 31st International Conference on
 Software Engineering, Vancouver, 2009.
-  [Michaela
-Greiler](https://www.visualstudio.com/author/michaelagreiler2/ "Posts by Michaela Greiler")
+  [Michaela Greiler](https://www.visualstudio.com/author/michaelagreiler2/ "Posts by Michaela Greiler")
   
 2017-08-16T17:20:24+00:00 
-![Michaela
-Greiler](_img/michaelagreiler2_avatar_1502929123-130x130.jpeg)
+![Michaela Greiler](_img/michaelagreiler2_avatar_1502929123-130x130.jpg)
 ### Michaela Greiler
 Michaela works as a software engineer and researcher at Microsoft. She
 supports product teams including Office, Windows, Exchange to optimize

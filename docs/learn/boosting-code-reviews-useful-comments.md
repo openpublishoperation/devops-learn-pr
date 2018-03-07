@@ -130,12 +130,10 @@ Conference on Software Engineering. IEEE Press, 2013, pp. 712–721.
 \[3\] M. Mantyla and C. Lassenius, “What types of defects are really
 discovered in code reviews?” Software Engineering, IEEE Transactions on,
 vol. 35, no. 3, pp. 430–448, May 2009.
-  [Michaela
-Greiler](https://www.visualstudio.com/author/michaelagreiler2/ "Posts by Michaela Greiler")
+  [Michaela Greiler](https://www.visualstudio.com/author/michaelagreiler2/ "Posts by Michaela Greiler")
   
 2017-12-11T10:16:48+00:00 
-![Michaela
-Greiler](_img/michaelagreiler2_avatar_1502929123-130x130.jpeg)
+![Michaela Greiler](_img/michaelagreiler2_avatar_1502929123-130x130.jpg)
 ### Michaela Greiler
 Michaela works as a software engineer and researcher at Microsoft. She
 supports product teams including Office, Windows, Exchange to optimize
