@@ -47,7 +47,7 @@
             "feedback_github_repo": "MicrosoftDocs/vsts-docs",
             "feedback_product_url": "https://developercommunity.visualstudio.com/spaces/21/index.html",
             "brand": "azure",
-            "titleSuffix": "DevOps"
+            "titleSuffix": "Azure DevOps"
         },
         "fileMetadata": {},
         "template": [],

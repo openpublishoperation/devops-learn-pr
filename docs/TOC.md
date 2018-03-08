@@ -29,7 +29,7 @@
 ### [Software testing at scale to increase velocity](learn/software-testing-scale-increase-velocity.md)
 ### [Test while building to maximize test effectiveness and minimize cost](learn/test-building-maximize-test-effectiveness-minimize-cost.md)
 ### [Using a simple code churn metric to find software bugs](learn/using-simple-code-churn-metric-find-software-bugs.md)
-## [Learn Git](/learn/learn-git.md)
+## [Learn Git](learn/learn-git.md)
 ### [What is Version Control?](learn/what-is-version-control.md)
 ### [What is Git?](learn/what-is-git.md)
 ### [Learn Git with Team Services](learn/learn-git-with-team-services.md)
