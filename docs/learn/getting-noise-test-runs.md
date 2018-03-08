@@ -1,8 +1,16 @@
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 # Getting the noise out of test runs
-### By Kim Herzig
+> By: Kim Herzig, Nachi Nagappan
 
-# Getting the noise out of test runs
-### Authors: Kim Herzig, Nachi Nagappan
 Last Update: 9/27/2016
 Can you believe your test results? If a test runs green or red, is it a
 true pass or fail, or might it be a false positive or negative? Sorting

@@ -1,10 +1,18 @@
-# What is DevOps Culture?
-### By Sam Guckenheimer
+---
+title: What is DevOps Culture?
+description: DevOps culture stresses small, multidisciplinary teams, who work autonomously and take accountability for how actual users experience their software.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: samgu
+ms.date: 04/04/2017
+---
 
 # What is DevOps Culture?
-### By Sam Guckenheimer
-![DevOps
-culture](_img/DevOps-lifecycle_600x300.png)
+> By: Sam Guckenheimer
+
+![DevOps culture](_img/DevOps-lifecycle_600x300.png)  
 DevOps culture stresses small, multidisciplinary teams, who work
 autonomously and take collective accountability for how actual users
 experience their software. For a DevOps team, *there’s no place like
@@ -35,17 +43,8 @@ share responsibility for running the live site.  That means that
 developers on the team accept responsibility for the health of the
 running services and will rotate time on-call. The principle is, if you
 build it, you run it.
-See how [Bing has built a DevOps
-culture](http://stories.visualstudio.com/bing-continuous-delivery/ "Bing DevOps Culture").
-  [Sam
-Guckenheimer](https://www.visualstudio.com/author/samgu/ "Posts by Sam Guckenheimer")
-  
-2017-04-04T11:52:36+00:00 
-![Sam
-Guckenheimer](_img/Sam-Guckenheimer_avatar_1509383568-130x130.jpg)
-### Sam Guckenheimer
-Sam Guckenheimer works on Microsoft Visual Studio Cloud Services,
-including VS Team Services and Team Foundation Server. He acts as the
-chief customer advocate, responsible for strategy of the next releases
-of these products, focusing on DevOps. He has written four books on
-DevOps and Agile Software practices.
+See how [Bing has built a DevOps culture](http://stories.visualstudio.com/bing-continuous-delivery/ "Bing DevOps Culture").
+
+|             |                           |
+|-------------|---------------------------|
+|![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices.|

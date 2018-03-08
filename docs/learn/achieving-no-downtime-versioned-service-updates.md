@@ -1,6 +1,16 @@
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 
 # Achieving No Downtime Through Versioned Service Updates
-### By Buck Hodges
+> By: Buck Hodges
 
 With on-premises software like Team Foundation Server (TFS), it often
 means taking the server offline for updates and upgrades. Visual Studio
@@ -10,7 +20,9 @@ TFS would mean downtime. Downtime is a complete nonstarter for global
 count on it in order to ship their own software. There’s never a good
 time for everybody. So how did we decide to handle upgrades for
 VSTS?
+
 ## Update Layers Separately
+
 We have to be able to upgrade online. With a distributed online service
 in multiple datacenters and separate data storage, not everything can
 change simultaneously. If you broadly split the VSTS service into
@@ -37,7 +49,9 @@ load the appropriate binding. Then, the application code handles the
 case when the new data schema is not yet available. Once the new version
 is available, the application code can start making use of the new
 functionality that is enabled by the latest database version.
+
 ## Roll Forward Only with Data Tier
+
 Once we upgrade the databases, we’re in a roll-forward situation if we
 encounter a problem. Online database migrations are pretty complex and
 often multi-step – therefore rolling forward is usually the best way to
@@ -45,7 +59,9 @@ address a problem. To look at it another way, if you can’t get upgrade
 right, what leads you to believe you could get rollback right as well?
 On top of that, you’d end up testing code (rollback) that you hope never
 to use and would almost always be wasted work.
+
 ## Deployment Sequence
+
 Now let’s look at how we sequence the database changes while remaining
 online. For example, consider a case where we want to add a set of
 columns into the database and maybe transform the data. We have to do
@@ -85,14 +101,7 @@ application tier, it’s loading assets with a specified version. Only
 when a user action results in a full page refresh does the new web UI
 get loaded into the browser. This ensures that the user’s experience is
 never disrupted by the upgrade.
-  [Buck
-Hodges](https://www.visualstudio.com/author/buckh/ "Posts by Buck Hodges")
-  
-2017-11-09T14:51:00+00:00
-![](https://secure.gravatar.com/avatar/baad17c3a2d3ea8fffc392f9dd209426?s=130&d=mm&r=g)
-### Buck Hodges
-Buck Hodges is Director of Engineering for Visual Studio Team Services.
-He's been a member of the team since the beginning of TFS, starting as a
-developer on Team Foundation Version Control for the first version of
-TFS. He's helped lead the transition of the team to the cloud and
-DevOps.
+
+|             |                           |
+|-------------|---------------------------|
+|![Image: Buck Hodges, MSFT](https://secure.gravatar.com/avatar/baad17c3a2d3ea8fffc392f9dd209426?s=130&d=mm&r=g)|Buck Hodges is Director of Engineering for Visual Studio Team Services. He's been a member of the team since the beginning of TFS, starting as a developer on Team Foundation Version Control for the first version of TFS. He's helped lead the transition of the team to the cloud and DevOps.|

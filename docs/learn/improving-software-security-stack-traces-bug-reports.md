@@ -1,8 +1,15 @@
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 # Improving software security with stack traces from bug reports
-### By Kim Herzig
-
-# Improving software security with stack traces from bug reports
-### Author: Kim Herzig
+> By: Kim Herzig
 Last Update: 9/27/2016
 As digital services connect sensitive data about nearly all aspects of
 our daily lives, software security may never have been as important as

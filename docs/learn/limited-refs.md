@@ -1,8 +1,16 @@
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 # Limited Refs
-### By Saeed Noursalehi
+> By: Saeed Noursalehi
 
-# Limited Refs
-### By Saeed Noursalehi
 As we discussed in the [previous
 article](technical-scale-challenges.md),
 one of the major scale challenges for Git is dealing with the linear

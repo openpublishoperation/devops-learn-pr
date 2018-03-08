@@ -1,8 +1,17 @@
-# The Race to Push
-### By Saeed Noursalehi
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 
 # The Race to Push
-### By Saeed Noursalehi
+> By: Saeed Noursalehi
+
 In a [previous article](technical-scale-challenges.md),
 we talked about the issue of “too many pushes”. In a team with more than
 a dozen or so members, people often end up racing with each other to

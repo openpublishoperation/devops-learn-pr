@@ -1,3 +1,13 @@
+---
+title: Welcome to Agile
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: samgu
+ms.date: 04/04/2017
+---
 # Welcome to Agile
 
 #### Your guide through the theory and application of Agile
@@ -14,11 +24,7 @@
 
 ![](_img/AgileDev4_64x.png)
 
-
 ## What is Agile Development?
-
-
-
 
 Agile Development takes Agile principles and applies them software
 engineering.
@@ -26,11 +32,7 @@ engineering.
 [Read more
 \>](https://visualstudio.com/learn/what-is-agile-development)
 
-
-
 ![](_img/AgileCulture_64x.png)
-
-
 
 ## Building Agile Culture
 
@@ -54,18 +56,14 @@ FEATURED ARTICLES
 
 ###### By Matthew Manela | ** Read time 8mins
 
-
-
 Learn how teams can balance building features customers need tomorrow
 and fixing issues customers face today.
 
 [Read more \>](productive-teams.md)
 
-
 ### Scale Agile to Large Teams
 
 ###### By Gregg Boer | ** Read time 9mins
-
 
 Simple practices to scale Agile principles to large teams. No extensive
 framework required.

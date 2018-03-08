@@ -1,5 +1,5 @@
 ---
-title: What is DevOps? | Azure DevOps
+title: What is DevOps?
 description: DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.
 ms.prod: vs-devops-alm
 ms.technology: vs-devops-articles
@@ -17,6 +17,7 @@ DevOps is the union of people, process, and products to enable continuous delive
 ![Image of DevOps cycle: Getting to DevOps](_img/devops-cycle.png)
 
 ## Getting to DevOps
+
 Be not afraid of DevOps. Some teams are born to DevOps; some achieve DevOps; others have DevOps thrust upon them.<sup>3</sup> What is DevOps? Why does DevOps matter? Why now? How do you achieve DevOps successfully? Those are the topics we’d like to look at.
 
 ## Understand your Cycle Time

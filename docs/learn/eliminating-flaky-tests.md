@@ -1,5 +1,15 @@
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 # Eliminating Flaky Tests
-### By Munil Shah
+> By Munil Shah
 
 ## Eliminating Flaky Tests
 The next part of ensuring ‘Master is Shippable’ was eliminating flaky

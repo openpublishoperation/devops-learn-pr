@@ -1,5 +1,17 @@
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
+
 # Patterns for Resiliency in the Cloud
-### By Buck Hodges
+
+> By: Buck Hodges
 
 We use feature flags, and they’re awesome, right? What could possibly go
 wrong? Let’s rewind to November 2013 at the Connect() conference. We had

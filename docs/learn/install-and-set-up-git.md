@@ -1,5 +1,16 @@
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 # Install and set up Git
-### By Robert Outlaw
+> By: Robert Outlaw
+
 Git isn’t usually set up by default on your computer, so you need to
 install and configure it before you can start using it to manage your
 code. It’s important to keep Git up to date, just like all the other

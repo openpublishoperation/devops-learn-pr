@@ -1,8 +1,17 @@
-# Using a simple code churn metric to find software bugs
-### By Hitesh Sajnani
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 
 # Using a simple code churn metric to find software bugs
-### Authors: Hitesh Sajnani and Jacek Czerwonka
+> By: Hitesh Sajnani and Jacek Czerwonka
+
 Last Update: 9/27/2016
 A common problem in software engineering is understanding how to evolve
 large software projects, particularly when trying to maintain,

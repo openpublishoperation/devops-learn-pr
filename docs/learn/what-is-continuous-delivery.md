@@ -1,10 +1,18 @@
-# What is Continuous Delivery?
-### By Sam Guckenheimer
+---
+title: What is Continuous Delivery?
+description: Continuous Delivery (CD) is the process to build, test, configure and deploy from a build to a production environment.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: samgu
+ms.date: 04/04/2017
+---
 
 # What is Continuous Delivery?
-### By Sam Guckenheimer
-![Continuous Delivery Automates the Flow to
-Production](_img/ContinuousDelivery_600x300.png)
+> By: Sam Guckenheimer
+
+![Continuous Delivery Automates the Flow to Production](_img/ContinuousDelivery_600x300.png)  
 Continuous Delivery (CD) is the process to build, test, configure and
 deploy from a build to a production environment. Multiple testing or
 staging environments create a *Release Pipeline* to automate the
@@ -38,8 +46,7 @@ deployment. By automation, CD minimizes the time to deploy and *time to
 mitigate* or *time to remediate* production incidents (TTM and TTR).  In
 lean terms, this optimizes process time and eliminates idle time.
 Continuous Delivery is helped considerably by the complementary
-practices of [Infrastructure as
-Code](what-is-infrastructure-as-code.md)
+practices of [Infrastructure as Code](what-is-infrastructure-as-code.md)
 and
 [Monitoring](what-is-monitoring.md).
 Continuously delivering value has become a mandatory requirement for
@@ -59,24 +66,12 @@ Modern release pipelines allow development teams to deploy new features
 fast and safely. Issues found in production can be remediated quickly by
 rolling forward with a new deployment. In this way, CD creates a
 continuous stream of customer value.
-Read more about the Continuous Delivery capabilities of [Visual Studio
-Team
-Services](https://www.visualstudio.com/team-services/release-management__trashed/ "Continuous Delivery with VSTS").
+Read more about the Continuous Delivery capabilities of [Visual Studio Team Services](https://www.visualstudio.com/team-services/release-management__trashed/ "Continuous Delivery with VSTS").
 Learn how to set up Continuous Deployment to
 [Azure](https://www.visualstudio.com/en-us/docs/release/examples/examples).
-See how [Bing is using Continuous
-Delivery](http://stories.visualstudio.com/bing-continuous-delivery/ "Continuous Delivery at Bing")with
+See how [Bing is using Continuous Delivery](http://stories.visualstudio.com/bing-continuous-delivery/ "Continuous Delivery at Bing")with
 Visual Studio Team Services.
- 
-  [Sam
-Guckenheimer](https://www.visualstudio.com/author/samgu/ "Posts by Sam Guckenheimer")
-  
-2017-04-04T11:55:50+00:00 
-![Sam
-Guckenheimer](_img/Sam-Guckenheimer_avatar_1509383568-130x130.jpg)
-### Sam Guckenheimer
-Sam Guckenheimer works on Microsoft Visual Studio Cloud Services,
-including VS Team Services and Team Foundation Server. He acts as the
-chief customer advocate, responsible for strategy of the next releases
-of these products, focusing on DevOps. He has written four books on
-DevOps and Agile Software practices.
+
+|             |                           |
+|-------------|---------------------------|
+|![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices.|

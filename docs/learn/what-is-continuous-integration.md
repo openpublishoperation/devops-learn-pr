@@ -1,8 +1,18 @@
+---
+title: What is Continuous Integration?
+description: Continuous Integration (CI) is the process of automating the build and testing of code every time a team member commits changes to version control.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: samgu
+ms.date: 04/04/2017
+---
 
 # What is Continuous Integration?
-### By Sam Guckenheimer
-![Continuous Integration Build sequence showing pass/fail and
-time](_img/ContinuousIntegration_600x300.png)
+> By: Sam Guckenheimer
+
+![Continuous Integration Build sequence showing pass/fail and time](_img/ContinuousIntegration_600x300.png)  
 Continuous Integration (CI) is the process of automating the build and
 testing of code every time a team member commits changes to version
 control. CI encourages developers to share their code and unit tests by
@@ -37,16 +47,7 @@ Services](https://www.visualstudio.com/team-services/continuous-integration/ "Co
 Learn how to set up [Continuous
 Integration](https://www.visualstudio.com/docs/build/overview "Continuous Integration with VSTS") for
 any platform.
- 
-  [Sam
-Guckenheimer](https://www.visualstudio.com/author/samgu/ "Posts by Sam Guckenheimer")
-  
-2017-04-04T11:56:31+00:00 
-![Sam
-Guckenheimer](_img/Sam-Guckenheimer_avatar_1509383568-130x130.jpg)
-### Sam Guckenheimer
-Sam Guckenheimer works on Microsoft Visual Studio Cloud Services,
-including VS Team Services and Team Foundation Server. He acts as the
-chief customer advocate, responsible for strategy of the next releases
-of these products, focusing on DevOps. He has written four books on
-DevOps and Agile Software practices.
+
+|             |                           |
+|-------------|---------------------------|
+|![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices.|

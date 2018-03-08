@@ -1,8 +1,17 @@
-# Migrate from other systems to Git | Learn Git
-### By Robert Outlaw
-
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 # Migrate from other systems to Git
-### By Robert Outlaw
+
+> By: Robert Outlaw
+
 Before you try to migrate your source code from a legacy version control
 system to Git, be sure that you familiarize yourself with the
 differences between centralized version control systems and Git, and

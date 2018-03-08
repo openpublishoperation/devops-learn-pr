@@ -1,8 +1,17 @@
-# Set up a repository
-### By Robert Outlaw
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 
 # Set up a repository
-### By Robert Outlaw
+> By: Robert Outlaw
+
 A Git repository, or repo, is a folder that you’ve told Git to help you
 track file changes in. You can have any number of repos on your
 computer, each stored in their own folder. Each Git repo on your system

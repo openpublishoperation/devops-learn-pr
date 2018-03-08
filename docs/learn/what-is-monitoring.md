@@ -1,7 +1,19 @@
+---
+title: What is Monitoring?
+description: Monitor your application in production. Monitoring delivers information about an application’s performance and usage patterns.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: samgu
+ms.date: 04/04/2017
+---
+
 # What is Monitoring?
-### By Sam Guckenheimer
-![Monitoring surfaces production data in real
-time](_img/Monitoring_600x300.png)
+> By: Sam Guckenheimer
+
+![Monitoring surfaces production data in real time](_img/Monitoring_600x300.png)
+
 Monitoring provides feedback from production. Monitoring delivers
 information about an application’s performance and usage patterns.
 One goal of monitoring is to achieve high availability by minimizing
@@ -47,19 +59,11 @@ pre-production environments.
 Effective monitoring is essential to allow DevOps teams to deliver at
 speed, get feedback from production, and increase customers
 satisfaction, acquisition and retention.
-Read more about the monitoring capabilities of [Application
-Insights](https://www.visualstudio.com/application-insights/).
-Learn how to set up and use [Application Insights for
-monitoring](https://azure.microsoft.com/en-us/documentation/articles/app-insights-overview/).
-  [Sam
-Guckenheimer](https://www.visualstudio.com/author/samgu/ "Posts by Sam Guckenheimer")
-  
-2017-04-04T11:55:09+00:00 
-![Sam
-Guckenheimer](_img/Sam-Guckenheimer_avatar_1509383568-130x130.jpg)
-### Sam Guckenheimer
-Sam Guckenheimer works on Microsoft Visual Studio Cloud Services,
-including VS Team Services and Team Foundation Server. He acts as the
-chief customer advocate, responsible for strategy of the next releases
-of these products, focusing on DevOps. He has written four books on
-DevOps and Agile Software practices.
+
+Read more about the monitoring capabilities of [Application Insights](https://www.visualstudio.com/application-insights/).
+
+Learn how to set up and use [Application Insights for monitoring](https://azure.microsoft.com/en-us/documentation/articles/app-insights-overview/).
+
+|             |                           |
+|-------------|---------------------------|
+|![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices.|

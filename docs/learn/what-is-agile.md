@@ -1,10 +1,18 @@
-# What is Agile?
-### By Aaron Bjork
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 
 # What is Agile?
-### By Aaron Bjork
-![what is
-agile](_img/WhatIsAgile_600x300.png)
+> By: Aaron Bjork
+
+![what is agile](_img/WhatIsAgile_600x300.png)  
 Agile is a term used to describe approaches to software development
 emphasizing incremental delivery, team collaboration, continual
 planning, and continual learning. The term “Agile” was coined in 2001 in
@@ -14,14 +22,18 @@ development. At its core, the manifesto declares 4 value statements
 representing the foundation of the agile movement. As written, the
 manifesto states…
 We have come to value:
-  - Individuals and interactions over processes and tools
-  - Working software over comprehensive documentation
-  - Customer collaboration over contract negotiation
-  - Responding to change over following a plan
+
+- Individuals and interactions over processes and tools
+- Working software over comprehensive documentation
+- Customer collaboration over contract negotiation
+- Responding to change over following a plan
+
 This does not imply the items on the right side of these statements
 aren’t important or needed; rather, items on the left are simply more
 valued.
+
 ## Agile methods and practices
+
 It’s important to understand that agile is not a “thing” … you don’t “do
 Agile”. Rather, agile is a mindset. A mindset that drives an approach to
 software development. There’s not one approach here that works for all

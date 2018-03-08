@@ -1,5 +1,17 @@
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
+
 # Shift Right to Test in Production
-### By Linda Webster
+
+> By: Linda Webster
 
 ## There’s No Place Like Production
 This is the third and last part of the major changes we made. As you saw

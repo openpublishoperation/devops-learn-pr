@@ -1,5 +1,17 @@
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 # Migrate from TFVC to Git
-### By Edward Thomson
+
+> By: Edward Thomson
+
 Visual Studio Team Services provides [a simple migration tool](/docs/git/import-from-tfvc) to migrate from Team Foundation
 Version Control to Git. If you’re not using TFVC, you can [migrate from another system](migrate-other-systems-to-git.md)
 manually.
@@ -11,25 +23,28 @@ After you’ve prepared, you can begin the migration.
 #### Requirements
 In order to make migrations simple, there are a number of requirements
 on the [TFVC Import tool](/docs/git/import-from-tfvc):
-1.  Only a single branch is migrated. When [planning your
+
+1. Only a single branch is migrated. When [planning your
     migration](centralized-to-git.md) you should choose a new branching
     strategy for Git; migrating only the main branch supports a
     topic-branch based workflow like
     [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/)
     or [GitHub Flow](https://guides.github.com/introduction/flow/index.html).
-2.  A “tip migration”, importing only the latest version of the source
+2. A “tip migration”, importing only the latest version of the source
     code, is suggested. You can opt to migrate some history, up to 180
     days, so that your team doesn’t need to refer back to TFVC as often,
     but [this is discouraged](centralized-to-git.md) unless your history is
     very simple.
-3.  You do not have binary assets like images, scientific data sets, or
+3. You do not have binary assets like images, scientific data sets, or
     game models in your repository. These assets should use the Git LFS
     (Large File Support) extension, which the import tool does not
     configure.
-4.  The imported repository cannot exceed 1GB in size.
+4. The imported repository cannot exceed 1GB in size.
+
 If you do not meet these requirements, you can use the Git-TFS tool to
 perform the migration, or perform a [manual
 migration](migrate-other-systems-to-git.md).
+
 In general, the process to migrate from TFVC is very easy:
 #### Steps to migrate
 1.  Check out the latest version of your branch from TFVC onto your

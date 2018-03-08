@@ -1,8 +1,16 @@
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 # Get feedback with pull requests
-### By Robert Outlaw
+> By Robert Outlaw
 
-# Get feedback with pull requests
-### By Robert Outlaw
 Pull requests combine the review and merge of your code into a single
 collaborative process.  Once you’re done fixing a bug or new feature in
 a branch, create a new pull request. Add the members of the team to the

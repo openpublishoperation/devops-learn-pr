@@ -1,8 +1,17 @@
-# Creating Productive Teams
-### By Matthew Manela
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 
 # Building productive, customer focused teams
-### By Matthew Manela
+> By: Matthew Manela
+
 Engineers thrive in environments where they can focus and “get in the
 zone”. Teams often face many distractions and competing priorities that
 force engineers to shift context and divide their attention. They

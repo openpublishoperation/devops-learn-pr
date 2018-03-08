@@ -1,8 +1,17 @@
-# What is Agile Development?
-### By Dan Hellem
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 
 # What is Agile Development?
-### By Dan Hellem
+> By: Dan Hellem
+
 [Agile](what-is-agile.md) development
 is a term used to describe iterative software development. Iterative
 software development shortens the software development lifecycle. Agile

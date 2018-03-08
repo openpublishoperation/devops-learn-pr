@@ -1,15 +1,27 @@
+---
+title: What is Infrastructure as Code?
+description: Infrastructure as Code (IaC) is the management of infrastructure in a descriptive model, using the same versioning as DevOps team uses for source code.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: samgu
+ms.date: 04/04/2017
+---
+
 # What is Infrastructure as Code?
-### By Sam Guckenheimer
+> By:  Sam Guckenheimer
+
 ![Infrastructure as code defines the environment in a versioned
 file](_img/InfrastructureAsCode_600x300-3.png)
+
 Infrastructure as Code (IaC) is the management of infrastructure
 (networks, virtual machines, load balancers, and connection topology) in
 a descriptive model, using the same versioning as DevOps team uses for
 source code. Like the principle that the same source code generates the
 same binary, an IaC model generates the same environment every time it
 is applied. IaC is a key DevOps practice and is used in conjunction with
-[continuous
-delivery](what-is-continuous-delivery.md).
+[continuous delivery](what-is-continuous-delivery.md).
 Infrastructure as Code evolved to solve the problem of *environment
 drift* in the release pipeline. Without IaC, teams must maintain the
 settings of individual deployment environments. Over time, each
@@ -44,17 +56,8 @@ runtime issues caused by configuration drift or missing
 dependencies. DevOps teams can work together with a unified set of
 practices and tools to deliver applications and their supporting
 infrastructure rapidly, reliably, and at scale.
-Learn more about Infrastructure as Code with [Azure Resource
-Manager](https://azure.microsoft.com/documentation/articles/resource-group-overview/ "ARM for IaC").
-  [Sam
-Guckenheimer](https://www.visualstudio.com/author/samgu/ "Posts by Sam Guckenheimer")
-  
-2017-04-04T11:54:24+00:00 
-![Sam
-Guckenheimer](_img/Sam-Guckenheimer_avatar_1509383568-130x130.jpg)
-### Sam Guckenheimer
-Sam Guckenheimer works on Microsoft Visual Studio Cloud Services,
-including VS Team Services and Team Foundation Server. He acts as the
-chief customer advocate, responsible for strategy of the next releases
-of these products, focusing on DevOps. He has written four books on
-DevOps and Agile Software practices.
+Learn more about Infrastructure as Code with [Azure Resource Manager](https://azure.microsoft.com/documentation/articles/resource-group-overview/ "ARM for IaC").
+
+|             |                           |
+|-------------|---------------------------|
+|![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices.|

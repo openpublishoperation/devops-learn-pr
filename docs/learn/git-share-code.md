@@ -1,14 +1,24 @@
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 # Save and share code with Git
-### By Robert Outlaw
+> By Robert Outlaw
 
-# Save and share code with Git
-### By Robert Outlaw
 Saving and sharing versions of code with your team are the most common
 things you do when using version control. Git has an easy three step
 workflow for these tasks:
-1.  Create a new branch for your work
-2.  Commit your changes
-3.  Push the branch to share it with your team
+
+1. Create a new branch for your work
+2. Commit your changes
+3. Push the branch to share it with your team
+
 Git makes it easy to manage your work using branches. Make every bugfix,
 new feature, added test, and updated configuration in a new branch. Git
 branches are lightweight and are local to your machine, so you don’t

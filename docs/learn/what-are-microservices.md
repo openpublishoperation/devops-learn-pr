@@ -1,9 +1,18 @@
-# What are Microservices? | Learn DevOps
-### By Sam Guckenheimer
+---
+title: What are Microservices?
+description: Microservices provide many benefits over monolithic architectures.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: samgu
+ms.date: 01/10/2018
+---
 
 # What are Microservices?
-### By Sam Guckenheimer
-![microservices\_600x300](_img/Microservices_600x300-1.png)
+> By: Sam Guckenheimer
+
+![microservices\_600x300](_img/Microservices_600x300-1.png)  
 *Microservices* describes the architectural pattern of composing a
 distributed application from separately deployable services that perform
 specific business functions and communicate over web interfaces. DevOps
@@ -34,15 +43,7 @@ deployment of microservices, and orchestration scales out a group of
 containers into an application.
 Learn more about [microservices on
 Azure](https://azure.microsoft.com/en-us/documentation/articles/service-fabric-overview-microservices/ "Microservices on Azure service fabric.").
-  [Sam
-Guckenheimer](https://www.visualstudio.com/author/samgu/ "Posts by Sam Guckenheimer")
-  
-2017-05-25T14:06:26+00:00 
-![Sam
-Guckenheimer](_img/Sam-Guckenheimer_avatar_1509383568-130x130.jpg)
-### Sam Guckenheimer
-Sam Guckenheimer works on Microsoft Visual Studio Cloud Services,
-including VS Team Services and Team Foundation Server. He acts as the
-chief customer advocate, responsible for strategy of the next releases
-of these products, focusing on DevOps. He has written four books on
-DevOps and Agile Software practices.
+
+|             |                           |
+|-------------|---------------------------|
+|![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices.|

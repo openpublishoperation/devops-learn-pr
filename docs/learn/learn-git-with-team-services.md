@@ -1,16 +1,27 @@
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: routlaw
+ms.date: 04/04/2017
+---
 # Learn Git with Team Services
-### By Robert Outlaw
+> By: Robert Outlaw
 
-# Learn Git with Team Services
 This tutorial will walk you through some basic Git tasks using Visual
 Studio Team Services. You’ll work with Team Services and learn Git
 basics using your web browser and a [free Team Services
 account](https://www.visualstudio.com/en-us/docs/setup-admin/team-services/sign-up-for-visual-studio-team-services).
 This ten minute guide covers four key Git tasks:
-1.  Create a new repo for your code.
-2.  Add some code and save the changes.
-3.  Create a feature branch and make some changes on it.
-4.  Merge the changes into your master branch using a pull request.
+
+1. Create a new repo for your code.
+2. Add some code and save the changes.
+3. Create a feature branch and make some changes on it.
+4. Merge the changes into your master branch using a pull request.
+
 When you’re done, you’ll have a Git repo that you can clone and use with
 our [quick start
 guide](https://www.visualstudio.com/docs/git/gitquickstart) to get your

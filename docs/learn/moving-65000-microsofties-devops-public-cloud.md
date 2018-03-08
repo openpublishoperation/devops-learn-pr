@@ -1,9 +1,16 @@
-
+---
+title: What is version control?
+description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+ms.prod: vs-devops-alm
+ms.technology: vs-devops-articles
+ms.topic: article
+ms.manager: douge
+ms.author: samgu
+ms.date: 08/04/2017
+---
 # Moving 65,000 Microsofties to DevOps on the Public Cloud
-### By Sam Guckenheimer
+> By: Sam Guckenheimer
 
-# Moving 65,000 Microsofties to DevOps on the Public Cloud
-### Author: Sam Guckenheimer
 Last Update: 8/4/2017
 ## Interview and Transcript
 At Build 2017, I hosted an open Q\&A session with me leaders from four
@@ -125,7 +132,9 @@ letting us be part of this.
 SG: That’s great. Okay, anyone want to start us? Great. Okay. You got
 the first question.
 JP: Thank you sir for breaking the ice.
+
 ## Moving to Git
+
 QUESTIONER 1: My question maybe one that nobody else is asking because
 I’m sort of an old troglodyte, but I was in the NT Kernel team for 20
 years. I remember the transition from SLIME to Source Depot. Everybody
@@ -909,15 +918,7 @@ remember your eval. I think we will all be happy to keep going, but we
 need to respect your time. If you want to step out, that’s great. If you
 want to swarm us, that’s great too.
 JP: Thank you.
-  [Sam
-Guckenheimer](https://www.visualstudio.com/author/samgu/ "Posts by Sam Guckenheimer")
-  
-2017-11-09T16:16:21+00:00 
-![Sam
-Guckenheimer](_img/Sam-Guckenheimer_avatar_1509383568-130x130.jpg)
-### Sam Guckenheimer
-Sam Guckenheimer works on Microsoft Visual Studio Cloud Services,
-including VS Team Services and Team Foundation Server. He acts as the
-chief customer advocate, responsible for strategy of the next releases
-of these products, focusing on DevOps. He has written four books on
-DevOps and Agile Software practices.
+
+|             |                           |
+|-------------|---------------------------|
+|![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices.|
