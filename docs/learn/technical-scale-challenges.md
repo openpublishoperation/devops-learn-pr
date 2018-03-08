@@ -1,8 +1,7 @@
-# Technical Scale Challenges with Git
-### By Saeed Noursalehi
 
 # Technical Scale Challenges with Git
 ### By Saeed Noursalehi
+
 It’s become “common knowledge” that Git struggles with larger repos, but
 what does that mean, exactly? Let’s break it down. It turns out there
 are there a few different ways that a repo can be “too big”. These
@@ -11,7 +10,9 @@ for a repo to grow in one dimension but not the rest. However they also
 often feed into one another, for example the more people there are
 writing code, the more files you’ll tend to have too.
 Let’s take a look at each dimension:
+
 ## Too many pushes
+
 One common workflow when working in a Git repo is that the master branch
 contains the latest and greatest code, and people create topic branches
 or feature branches off of master, make some changes, validate those
@@ -47,7 +48,9 @@ be a complete show stopper for the Windows repo.
 See [The Race to Push](race-to-push.md)
 to see how we use pull requests and merge queues to solve this issue by
 handling that race for you.
+
 ## Too many branches
+
 Branches are cheap to create and easy to use, and people tend to create
 lots of them. Typically, you’ll have a few branches that everyone cares
 about, like master and release branches, and then lots of branches that
@@ -57,20 +60,11 @@ active, some of them are parked, and some are forgotten, but by default
 everyone has to deal with all of these branches, regardless of how
 useful they are (or aren’t).
 There are several reasons that having too many branches can be painful:
-  - When listing out the branches, either locally or in the web, you
-    have to wade through all of the branches to find the few you care
-    about.
-  - When fetching, the Git client has to communicate with the server to
-    figure out what new branches and commits to send down. The protocol
-    requires the client and server to negotiate by comparing the set of
-    branches that each of them has, finding the latest commit that each
-    of them knows about for each branch, and then computing what new
-    commits to send from the server to the client. These negotiations
-    and computations grow linearly with the number of branches, so the
-    more branches there are, the longer it takes not just to fetch, but
-    also to figure out *what* to fetch.
-  - When pushing, there is a similar negotiation, which again gets more
-    expensive the more branches there are.
+
+- When listing out the branches, either locally or in the web, you have to wade through all of the branches to find the few you care about.
+- When fetching, the Git client has to communicate with the server to figure out what new branches and commits to send down. The protocol requires the client and server to negotiate by comparing the set of branches that each of them has, finding the latest commit that each of them knows about for each branch, and then computing what new commits to send from the server to the client. These negotiations and computations grow linearly with the number of branches, so the more branches there are, the longer it takes not just to fetch, but also to figure out *what* to fetch.
+- When pushing, there is a similar negotiation, which again gets more expensive the more branches there are.
+
 For a team as big as VSTS, this problem is a nuisance, but not
 insurmountable. We would routinely see that when people run “git fetch”,
 git would sit there for up to 5 minutes negotiating what to send, before
@@ -84,7 +78,9 @@ branches”, it’s actually “too many refs”. We’ll cover that in more
 detail as we talk about how the VSTS [Limited
 Refs](limited-refs.md) feature solves
 this problem by only showing you the branches that you care about.
+
 ## Too much history
+
 One interesting aspect of working with a DVCS like Git is that when you
 clone, you get not only all of the latest sources, but also all of the
 history copied to your local machine. This enables some very nice
@@ -99,6 +95,7 @@ major nuisance, depending on where in the world you’re cloning from
 Redmond). But for an XL repo like Windows, it takes long enough that it
 goes beyond nuisance and become a blocking issue.
 History can grow for a few different reasons.
+
   - The more edits you make to files, the more the history grows. And
     the more files and people you have, the more edits you’re going to
     have. But for the most part, Git does pretty well here, thanks the
@@ -114,7 +111,9 @@ History can grow for a few different reasons.
     simple in Git to create a topic branch, commit whatever you want in
     there, and push it to the server. So one careless (or inexperienced)
     person can inflict pain on everyone else on the team.
+
 There are some solutions already available to help with these issues:
+
   - Packaging systems like NuGet, npm, etc. By pulling build outputs and
     3rd party dependencies out of the repo and consuming them as
     packages, we can eliminate some of the problems associated with fast
@@ -125,6 +124,7 @@ There are some solutions already available to help with these issues:
     repo itself doesn’t have to contain every historical copy of the
     file. This tool comes with some tradeoffs, but it does a nice job of
     keeping the size under control for certain scenarios.
+
 However, there are cases where none of these solutions are ideal. We’ll
 talk in more depth later on about the core issue of sources vs binaries,
 and the range of tools and approaches that various teams have used to
@@ -134,11 +134,14 @@ Git Virtual File System (GVFS). Handling the size of history is actually
 just a secondary benefit of GVFS, but for repos that are large enough to
 require virtualization, the size of history becomes much less of an
 issue.
+
 ## Too many files
+
 The biggest challenge for the Windows repo is that even after you manage
 to clone the whole thing to your machine, local Git operations simply
 take too long, to the point where the repo would be completely unusable.
 Some examples:
+
   - ‘git status’ takes up to 10 minutes, even where there are no dirty
     files in the repo
   - ‘git checkout’ can take 3 hours
@@ -155,16 +158,19 @@ Why do these operations take so long? Two fundamental reasons:
     Git tree. With over 3M files in the repo, the sheer cost of all that
     file IO means there’s no way for the operation to complete quickly
     enough to feel responsive.
+
 This is the problem that GVFS is uniquely positioned to solve, without
 forcing a rewrite of all of Git.
 You can read more about the [design history of
 GVFS](gvfs-design-history.md), and
 coming soon we’ll discuss the inner workings of GVFS in much more
 detail.
+
 ## Next article in the series
+
   - [Limited Refs](limited-refs.md)
-  [Saeed
-Noursalehi](https://www.visualstudio.com/author/sanoursa/ "Posts by Saeed Noursalehi")
+
+  [Saeed Noursalehi](https://www.visualstudio.com/author/sanoursa/ "Posts by Saeed Noursalehi")
   
 2017-10-02T13:41:09+00:00 
 ![Saeed
