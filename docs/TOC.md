@@ -42,12 +42,12 @@
 ### [Migrate from TFVC to Git](learn/migrate-from-tfvc-to-git.md)
 ### [Migrate from other systems to Git](learn/migrate-other-systems-to-git.md)
 
-## [Git at scale](git-at-scale.md)
-### [Technical Scale Challenges with Git](technical-scale-challenges.md)
-### [Limited Refs](limited-refs.md)
-### [The Race to Push](race-to-push.md)
-### [Git Virtual File System Design History](gvfs-design-history.md)
-### [Technical Scale Challenges with Git](gvfs-architecture.md)
+## [Git at scale](learn/git-at-scale.md)
+### [Technical Scale Challenges with Git](learn/technical-scale-challenges.md)
+### [Limited Refs](learn/limited-refs.md)
+### [The Race to Push](learn/race-to-push.md)
+### [Git Virtual File System Design History](learn/gvfs-design-history.md)
+### [Technical Scale Challenges with Git](learn/gvfs-architecture.md)
 
 ## [Welcome to Agile](learn/agile.md)
 ### [What is Agile](learn/what-is-agile.md)
