@@ -133,7 +133,4 @@ Get started with free agile tools in [Visual Studio Team Services](https://www.v
 
 |             |                           |
 |-------------|---------------------------|
-|![Aaron Bjork](_img/Aaron-Bjork_avatar_1472225238-130x130.jpg)|Aaron is a Principal Group Program Manager at Microsoft where he drives
-investments in work management, agile project management, reporting, and
-collaboration for Microsoft’s Visual Studio Team Services (VSTS) and
-Team Foundation Server (TFS) products. |
+|![Aaron Bjork](_img/Aaron-Bjork_avatar_1472225238-130x130.jpg)|Aaron is a Principal Group Program Manager at Microsoft where he drives investments in work management, agile project management, reporting, and collaboration for Microsoft’s Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) products. |
