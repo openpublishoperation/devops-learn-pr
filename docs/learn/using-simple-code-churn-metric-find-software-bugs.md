@@ -1,7 +1,6 @@
 ---
 title: Using a simple code churn metric to find software bugs
-description: A common problem in software engineering is understanding how to evolve large software projects, particularly when trying to aintain,
-modernize, or refactor.
+description: A common problem in software engineering is understanding how to evolve large software projects, particularly when trying to maintain, modernize, or refactor.
 ms.prod: vs-devops-alm
 ms.technology: vs-devops-articles
 ms.topic: article

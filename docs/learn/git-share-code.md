@@ -1,7 +1,6 @@
 ---
 title: Save and share code with Git
-description: Saving and sharing versions of code with your team are the most common
-things you do when using version control.
+description: Saving and sharing versions of code with your team are the most common things you do when using version control.
 ms.prod: vs-devops-alm
 ms.technology: vs-devops-articles
 ms.topic: article
