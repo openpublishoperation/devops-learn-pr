@@ -10,7 +10,7 @@ ms.date: 01/10/2018
 ---
 # What is Git? Tutorials and Best Practices
 
-# ![git-logo-58x58](_img/git-logo-58x58.png) Learn Git
+## ![git-logo-58x58](_img/git-logo-58x58.png) Learn Git
 #### Learn Git with tutorials and best practices for individuals, teams, and enterprises
 ![Icon of Book on Orange Background Symbolizing Learn Git](_img/LearnGit_64x-2.png)
 

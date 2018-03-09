@@ -6,7 +6,7 @@ ms.technology: vs-devops-articles
 ms.topic: article
 ms.manager: douge
 ms.author: sanoursa
-ms.date: 02//21/2018
+ms.date: 02/21/2018
 ---
 # Git at Scale
 > By: Saeed Noursalehi

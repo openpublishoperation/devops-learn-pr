@@ -69,7 +69,7 @@ Services or TFS.
 ![Set up the Git Credential Manager to easily connect to Team Services/TFS](_img/gcminstall.png)
 
 ### Create and clone your Git repository
-[Create a Git repository](/docs/git/create-new-repo) in Visual Studio
+[Create a Git repository](/vsts/git/create-new-repo) in Visual Studio
 Team Services or an on-premises Team Foundation Server that will contain
 your code when the migration is complete.
 
@@ -119,7 +119,7 @@ the [NuGet Gallery](http://www.nuget.org/), but for proprietary
 dependencies, you will need to create your own NuGet packages.
 Once you have moved your dependencies into NuGet, make sure that they
 will not be included in your Git repository by adding them to your
-[`.gitignore`](/docs/git/tutorial/ignore-files) file.
+[`.gitignore`](/vsts/git/tutorial/ignore-files) file.
 
 #### Manage asset files with Git-LFS
 Look at the size and the history of the binary asset files in your
@@ -129,7 +129,7 @@ without bloating the repository.
 
 If you have large binaries, or assets that change frequently, then you
 should
-use [Git-LFS](/docs/git/manage-large-files#use-git-large-file-storage-lfs)
+use [Git-LFS](/vsts/git/manage-large-files#use-git-large-file-storage-lfs)
 to manage these assets. Simply [follow the instructions](https://github.com/github/git-lfs/wiki/Tutorial) to set up
 the Large File Support extension, then add the files to your local repository.
 
@@ -138,7 +138,7 @@ Many version control tools offer an “ignore” file to ensure that some
 files are not included in version control. For example, Team Foundation
 Version Control provides a `.tfignore` file and Subversion offers a
 similar `.svnignore`. If you rely on this behavior, convert these files
-to a [`.gitignore`](/docs/git/tutorial/ignore-files) file.
+to a [`.gitignore`](/vsts/git/tutorial/ignore-files) file.
 
 Some version control tools also offer an “attributes” file that controls
 how files are placed on the local disk when checked out or translated

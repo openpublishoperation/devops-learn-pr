@@ -38,7 +38,7 @@ with the following constraints:
   - Maintain file system performance that matches the local file system
     for already-hydrated contents.
 
-# Architecture overview
+## Architecture overview
 GVFS is made up of the following pieces, and we’ll talk about each one
 in detail:
 
@@ -65,7 +65,7 @@ in detail:
 
 ![GVFS architecture](_img/gvfs-architecture.png)
 
-## GvFlt
+### GvFlt
 Some optional background reading for those who are curious: GvFlt is a
 [file system filter driver](https://docs.microsoft.com/windows-hardware/drivers/ifs/file-system-filter-drivers)
 that makes heavy use of [reparse points](https://msdn.microsoft.com/library/windows/desktop/aa365503\(v=vs.85\).aspx).
@@ -83,7 +83,7 @@ application such as GVFS (known as the provider), so that the provider
 can specify what the contents of the directory or file should be.
 Let’s go over some of the details of how this is accomplished.
 
-### Virtual file system objects
+#### Virtual file system objects
 GvFlt introduces some new states for directories and files.
 A directory can be in one of these states:
 
@@ -128,7 +128,7 @@ And here is how a file transitions through those states:
   - Any state -\> tombstone. If a file is deleted, GvFlt records a
     tombstone in its place.
 
-### Virtual projection
+#### Virtual projection
 Now let’s go over how all those states enable a provider application to
 create a virtual file system.
 
@@ -153,13 +153,13 @@ first time a user enumerates the root directory, the following happens:
     process recurses, and in this way the contents of the file system
     are populated on demand as they are accessed.
 
-### File system events
+#### File system events
 GvFlt also provides a set of notifications of file system events, so
 that the provider can respond to, and sometimes prevent, changes in the
 file system. For example, the provider might need to know if a file was
 modified, or it might need to block deletes of certain files.
 
-## GVFS
+### GVFS
 At a high level, GVFS has a few primary responsibilities:
 
   - Respond to GvFlt’s requests to enumerate directories and hydrate
@@ -172,7 +172,7 @@ At a high level, GVFS has a few primary responsibilities:
   - Ensure that all Git commands produce correct results and operate
     efficiently
 
-### Disk layout
+#### Disk layout
 When GVFS first creates a new clone, it creates the following layout on
 disk:
     
@@ -187,7 +187,7 @@ disk:
         |
         |__ 
 
-### Virtual projection
+#### Virtual projection
 Prerequisite reading: to really follow along here, you should be
 familiar with Git’s commits, trees, blobs, index, and basic operation of
 commands like status, checkout, merge, rebase. See this [description of Git’s internals](https://git-scm.com/book/en/v2) for more details.
@@ -223,7 +223,7 @@ modified, GVFS parses it and stores the directory/file structure in
 memory so that it can respond efficiently to enumeration requests from
 GvFlt.
 
-### Making Git commands run fast
+#### Making Git commands run fast
 So how does all of this help with making Git commands fast? Nothing
 we’ve discussed so far helps with that directly. Downloading files on
 demand is great, and helps with download times, but if Git decides to
@@ -288,7 +288,7 @@ get the best of both – all the files in the working directory look like
 they exist, but Git thinks they don’t and so it doesn’t bother looking
 at them.
 
-### Making Git commands run correctly
+#### Making Git commands run correctly
 Making Git commands run fast is all well and good, but if they don’t
 give the right results, it’s all for naught. And so one of GVFS’s
 primary responsibilities is to monitor file system activity and update
@@ -323,7 +323,7 @@ when they are accessed. Any files that have been written to by the user
 are “owned” by Git, and must be considered by any Git command that deals
 with file contents.
 
-### GVFS protocol
+#### GVFS protocol
 One of the issues we faced in building GVFS is that the native Git
 protocol does not provide any way to download individual objects. The
 smallest granularity that you can ask for is a commit, along with the
@@ -350,7 +350,7 @@ more efficient to download in bulk rather than one at a time.
 In a future article, we’ll also discuss how we built a caching proxy for
 the GVFS protocol to reduce the latency of downloading files on demand.
 
-## Final note on performance
+### Final note on performance
 To state the obvious, developers care deeply about performance. We have
 succeeded in designing GVFS such that Git commands are no longer linear
 on the number of files in the repo, but we’re still a ways off from

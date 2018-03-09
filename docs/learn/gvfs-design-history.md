@@ -37,8 +37,8 @@ we explored a lot of other options. We’ll cover how GVFS works in detail
 in an upcoming article, but for now, we’ll discuss the other options we
 considered and why we landed on building a virtual file system.
 
-# Background
-## Why one repo?\!
+## Background
+### Why one repo?\!
 Let’s tackle the first, most obvious question. Why does anyone need a
 repo this big?\! Just make your repos smaller, and life will be so much
 better\! Right?\!
@@ -58,7 +58,7 @@ Multiple repos also make your release process more complicated. In the
 end, if the scale issues can be solved, having one repo often makes the
 overall workflows far simpler.
 
-### VSTS
+#### VSTS
 The VSTS product comprises several different services that all work
 together, and when we first moved to Git, we put each of those services
 in their own repo. Our reasoning was that there are fewer scale issues
@@ -95,7 +95,7 @@ to enforce those sorts of things, and we also had to do more work to
 create strong code boundaries and avoid a mess of dependencies across
 all the various services.
 
-### Windows
+#### Windows
 The Windows team went through a similar thought process when planning
 their move to Git. There are several components of Windows that could
 feasibly live in their own separate repos, and for a while, that was the
@@ -109,7 +109,7 @@ cross-cutting changes are difficult to do, and one of the goals of
 moving Windows to one repo is to make it easier to do major
 refactorings, not more complicated.
 
-### Our design philosophy
+#### Our design philosophy
 Which brings us to our philosophy as tool developers: Tools should
 enable you to make the right choices for your codebase. If your code
 would be healthier and your team would be more productive by working in
@@ -118,13 +118,13 @@ efficient workflows in that environment. And if your team would be more
 productive in a larger repo, the *tools* should not be the reason that
 you have to split your repo up into smaller chunks.
 
-# Alternatives considered
+## Alternatives considered
 So we’ve been working on this question of: how do we enable teams to
 work with very large codebases in Git? We’ve gone through quite an
 evolution of design ideas over the last few years, and we’ll talk about
 some of those ideas here.
 
-## Submodules
+### Submodules
 The first major attempt that we made to solve this problem was to use
 the existing concept of git submodules. Git allows one repo to reference
 another repo, so that when you checkout a commit in the parent repo,
@@ -171,7 +171,7 @@ asking every developer to work with a collection of loosely coupled
 DAGs, and to keep all of that straight and never checkout/commit/push
 things out of order. It was just too much to ask.
 
-## Multiple repos, stitched together
+### Multiple repos, stitched together
 Submodules didn’t quite work out, but we still thought maybe we can
 create multiple repos and use some custom tooling to stitch them
 together. Android has been using this approach with repo.py, so we
@@ -189,7 +189,7 @@ The major lesson learned from the above two approaches is: you should
 not slice up your repos into a smaller granularity than what you build
 and ship.
 
-## Git alternates
+### Git alternates
 In the theme of trying to reuse existing features, git has a concept of
 an alternate object store. Whenever git needs to find a commit, tree, or
 blob object, it looks for loose objects in the .git\\objects folder,
@@ -217,7 +217,7 @@ problem. All of those assumptions are violated when you point the
 alternate at a network share, and the performance really suffers as a
 result.
 
-## Shallow clones
+### Shallow clones
 Git has an existing feature to only download a limited number of
 commits, rather than all commits in history. However, this doesn’t
 really help a repo as big as Windows, since any one commit and its
@@ -227,7 +227,7 @@ order to do their daily work, we needed a way to reduce that size.
 And like alternates, shallow clones don’t help at all with the issue of
 just having too many files in the working directory.
 
-## Sparse-checkout
+### Sparse-checkout
 By default, when you checkout a commit, git will place all of the files
 referenced by that commit into your working directory. However, you can
 configure the .git\\info\\sparse-checkout file with a list of files,
@@ -251,7 +251,7 @@ this feature are:
 All of that said, sparse-checkouts became a key part of our solution, as
 we’ll discuss later.
 
-## LFS
+### LFS
 When large, undiffable files are checked into a git repo, every
 modification creates a new copy of that file in the history and results
 in a lot of bloat. Git-LFS helps with this problem by rewriting the
@@ -266,7 +266,7 @@ files or the size of the index, which means it doesn’t help at all with
 the long runtimes of local commands. Therefore this approach still
 resulted in a repo that was not all that usable.
 
-## Virtual file system
+### Virtual file system
 From all of the above experiments, we learned:
 
   - We really do need to have a single, large repo
