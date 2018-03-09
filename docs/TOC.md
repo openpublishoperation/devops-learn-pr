@@ -11,7 +11,7 @@
 ### [Moving to Cloud Cadence](learn/moving-cloud-cadence.md)
 ### [How We Use Git at Microsoft](learn/use-git-microsoft.md)
 ### [Evolving Test Practices at Microsoft](learn/evolving-test-practices-microsoft.md)
-### [From Monolith to Cloud ServiceMigrate from TFVC to Git](learn/monolith-cloud-service.md)
+### [From Monolith to Cloud Service](learn/monolith-cloud-service.md)
 ### [Achieving No Downtime Through Versioned Service Updates](learn/achieving-no-downtime-versioned-service-updates.md)
 ### [Progressive Experimentation with Feature Flags](learn/progressive-experimentation-feature-flags.md)
 ### [Patterns for Resiliency in the Cloud](learn/patterns-resiliency-cloud.md)

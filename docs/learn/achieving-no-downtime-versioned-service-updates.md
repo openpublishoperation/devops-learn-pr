@@ -1,12 +1,12 @@
 ---
-title: What is version control?
+title: Achieving No Downtime Through Versioned Service Updates
 description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
 ms.prod: vs-devops-alm
 ms.technology: vs-devops-articles
 ms.topic: article
 ms.manager: douge
-ms.author: routlaw
-ms.date: 04/04/2017
+ms.author: buckh
+ms.date: 11/09/2017
 ---
 
 # Achieving No Downtime Through Versioned Service Updates
@@ -21,6 +21,8 @@ count on it in order to ship their own software. There’s never a good
 time for everybody. So how did we decide to handle upgrades for
 VSTS?
 
+> [!VIDEO https://www.youtube.com/embed/wTYoW41U2n8]
+
 ## Update Layers Separately
 
 We have to be able to upgrade online. With a distributed online service
@@ -29,17 +31,20 @@ change simultaneously. If you broadly split the VSTS service into
 application code and databases, which are versioned independently of
 each other, one of those needs to absorb the complexity of handling
 versioning.
+
 We chose to handle it in the application code. VSTS and TFS have a lot
 of SQL in the databases. Lots of IF statements are possible with SQL,
 but never fun. So instead of further complicating our SQL, we handle
 this complexity in our application code. Specifically, we created a set
 of factory classes that understand the SQL versioning.
+
 Every sprint we create a new interface with that version. That way
 there’s always code that matches each database version. This allows
 for easy rollback of binaries during deployment. The first thing we do
 is deploy the binaries. If we deploy the new binaries and something goes
 wrong, we can very quickly roll back binaries. After we deploy the
 binaries, we kick off the database servicing.
+
 So how does this actually work? Let’s say we’re currently deploying
 Sprint 123. The binaries understand Sprint 123 database schema and they
 understand Sprint 122 schema. The general pattern is to work with both
@@ -68,16 +73,19 @@ columns into the database and maybe transform the data. We have to do
 this invisibly to the user, which means avoiding table locks as much as
 possible and then holding locks for the shortest time possible so that
 it is not perceptible to the end user.
+
 The first thing we do is to manipulate the data, possibly in parallel
 tables using a SQL trigger to keep the data in sync. This also means
 that large data migrations and transformations sometimes have to be
 multi-step over several deployments across multiple sprints.
+
 Once we’ve created the extra data or new schema in parallel, we go into
 what we call “deployment mode” for the application code. In deployment
 mode, when the code makes a call to the database, it first grabs a lock
 on the schema and then releases it after running the stored procedure to
 keep the database from changing between the time the call to the
 database is issued and when the stored procedure runs.
+
 The upgrade code acts as a schema writer and requests a writer lock on
 the schema. The application code takes priority in taking a reader lock,
 and the upgrade code sits in the background trying to acquire the writer
@@ -85,11 +93,13 @@ the lock. Under the writer lock, only a small number of very fast
 operations are allowed on the tables. Then the lock is released and the
 application records the new version of the database is in use and uses
 the interfaces that match the new database version.
+
 The database upgrades are all performed using a migration pattern – we
 have a set of code and scripts that look at the version of the database
 and then make the incremental changes to migrate the schema between from
 the old to the new version. All migrations are automated and rolled out
 via the Release Management service in VSTS.
+
 We also need to update the web UI without disrupting users. When we
 upgrade the Javascript files, style sheets or images, we don’t want a
 mix of old and new being loaded by the client, as that can lead to

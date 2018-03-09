@@ -1,12 +1,12 @@
 ---
 title: Is 100% code coverage worth the cost?
-description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+description: "Often you have code that does not have 100% test coverage. In other words, tests don't exercise all code paths. (The code and tests were developed independently, and the system has evolved over time.) How much engineering effort is worth investing to increase"
 ms.prod: vs-devops-alm
 ms.technology: vs-devops-articles
 ms.topic: article
 ms.manager: douge
 ms.author: samgu
-ms.date: 04/04/2017
+ms.date: 09/27/2016
 ---
 
 # Is 100% code coverage worth the cost?
@@ -33,6 +33,7 @@ answer the three questions:
 To address these issues we analyzed data from both Microsoft and Avaya
 two large companies as part of a joint research project. The table below
 summarizes the scale of the projects.
+
 ![Table of project sizes at Microsoft and Avaya](_img/100-percent-survey.png)  
 
 ### Did higher coverage mean fewer bugs?

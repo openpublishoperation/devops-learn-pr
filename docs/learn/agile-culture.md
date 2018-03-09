@@ -15,16 +15,16 @@ ms.date: 10/03/2017
 If there’s anything we’ve all learned in the last decade of “agile
 transformations” it’s that there is no one-size-fits-all approach to
 adopting or implementing an
-[agile](what-is-agile.md) approach.
-Every organization has different needs, constraints, and requirements.
+[agile](what-is-agile.md) approach. Every organization has different needs, constraints, and requirements.
 Blindly following prescription won’t lead to success.
+
 At the end of the day, the agile movement is about continually finding
 ways to improve the approach and practice of building software. It’s not
 about a perfect daily standup, or retrospective. Instead, it’s about
 creating a culture where the right thing happens more often than not.
 Those activities (standup, retrospective, etc.) have their place, but
 they won’t change your culture.
- 
+
 ![agile culture](_img/agile-culture.png)
 
 This article details foundational elements that every organization needs
@@ -130,10 +130,8 @@ principles in mind. And remember, there is no single recipe that will
 work for your organization. Agile transformations are a journey. Make
 changes and learn from them. Only then can you develop an agile culture
 that fits your organization.
-   
-![get started for free](_img/AgileGetStartedForFree_32x.png)
-Get started with free agile tools in [Visual Studio Team
-Services](https://www.visualstudio.com/team-services/agile-tools).
+
+![get started for free](_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
 
 |             |                           |
 |-------------|---------------------------|

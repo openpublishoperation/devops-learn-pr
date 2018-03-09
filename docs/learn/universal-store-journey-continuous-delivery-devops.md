@@ -16,6 +16,7 @@ ms.date: 03/09/2017
 ## Overview
 
 The “Microsoft Universal Store Team” (UST) is the main commercial engine of Microsoft with the mission to bring One Universal Store for all commerce at Microsoft. The UST encompasses everything Microsoft sells and everything others sell through the company, consumer and commercial, digital and physical, subscription and transaction, via all channels and storefronts.
+
 To achieve the objective of one Universal Store, UST had to bring together multiple teams from across Microsoft with different engineering systems, engineering culture, and processes into one streamlined delivery cadence catering to cost, agility and quality needs of the business.
 **Continuous Delivery** is a key part of the UST transformation. Visual Studio Team Services (VSTS) in the Microsoft One Engineering System (1ES) made continuous delivery practical for the UST. This case study provides an overview of the approach, the challenges and the process adopted to help achieve the objective.
 
@@ -36,7 +37,8 @@ The UST piloted VSTS in December 2015 through Feb 2016 and went into production 
 ## Before DevOps
 
 Before moving to DevOps, the UST had seven disparate engineering systems, with source code distributed across multiple TFS instances, many custom build, test and deployment solutions, with different release workflows, policy requirements and compliance needs.
-![Before DevOps Figure 1](_img/ust-cd-1.png)  
+
+![Before DevOps Figure 1](_img/ust-cd-1.png)
 
 Culturally, teams had varying levels of delivery maturity and engineering processes. Business problems came first, and engineering debt accumulated on different legacy systems over a period of time. Teams also had been reorganized and felt fatigue migrating from one custom solution to another. On top of that, the 1ES was not mature enough to handle UST’s scale. No-one was excited about continuous delivery since it involved yet another ES migration.
 
@@ -56,7 +58,8 @@ The UST put a set of principles in place to make the transformation to DevOps a 
 
 Git under VSTS is now the standard version control for UST, with more than 2000 Git repos in use among 4000 monthly active users. The UST transitioned from centralized version control to Git in the beginning of 2016 and currently more than 70% of the code bases in UST are in Git.
 As part of the process, we were also able to drive productivity improvements by consolidating or retiring several legacy services and their code bases.
-![Git under VSTS Figure 2](_img/ust-cd-2.png)  
+
+![Git under VSTS Figure 2](_img/ust-cd-2.png)
 
 ### Package Management
 
@@ -69,7 +72,8 @@ UST now has more than 10,000 monthly deployments through VSTS Release Management
 ### Agile Work Management
 
 The UST leverages the work management features heavily to track stories, scenarios and work items at the team level. At the same time, the UST wanted to consolidate portfolio views integrating multiple data sources by organizational structure. To help with this, the UST created a Team Map to align organizational data to other data domains such as VSTS Area Paths.
-![Agile Work Management Figure 3](_img/ust-cd-3.png)  
+
+![Agile Work Management Figure 3](_img/ust-cd-3.png)
 
 ### Continuous Testing in DevOps
 
@@ -82,7 +86,8 @@ Moving to DevOps has enabled an architectural move to refactor previous monolith
 ### Internal Open Source: Contributions Back to VSTS
 
 When UST needed more capabilities in VSTS to accelerate the adoption of continuous delivery, UST contributed to the VSTS project directly. In this way, UST could make VSTS better for everyone rather than create custom tooling. The following table lists the VSTS features contributed to by UST.
-![Contributions Back to VSTS Figure 4](_img/ust-cd-4.png)  
+
+![Contributions Back to VSTS Figure 4](_img/ust-cd-4.png)
 
 ## Key learnings
 

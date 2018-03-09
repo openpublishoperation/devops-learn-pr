@@ -14,6 +14,7 @@ ms.date: 09/27/2016
 
 Collective code ownership has been advocated as a best practice \[1\].
 Is it always?
+
 Several studies have shown that code ownership has an impact on software
 quality. This article outlines code ownership and its impact on quality
 and shows the results of two studies we performed at Microsoft
@@ -84,7 +85,8 @@ between ownership and quality. For example, we could show that the more
 engineers modify a file, the higher the number of bugs that are linked
 to this file and that if there is **one primary contributor, the chances
 for a file to be buggy decreases significantly** (see Figure 1).
-![Figure 1: Effects of code ownership on bugs](_img/code_ownership_effects_bugs.png)  
+
+![Figure 1: Effects of code ownership on bugs](_img/code_ownership_effects_bugs.png)
 
 ### Predicting bugs based on weak ownership
 In addition, ownership metrics have a strong defect prediction power. We

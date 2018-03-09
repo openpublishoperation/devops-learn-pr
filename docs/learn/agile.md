@@ -1,12 +1,12 @@
 ---
 title: Welcome to Agile
-description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+description: What is Agile? What is Scrum? What is Agile Development? Learn about Agile principles, methodologies, and applications.
 ms.prod: vs-devops-alm
 ms.technology: vs-devops-articles
 ms.topic: article
 ms.manager: douge
 ms.author: samgu
-ms.date: 04/04/2017
+ms.date: 01/19/2018
 ---
 # Welcome to Agile
 
@@ -20,8 +20,6 @@ ms.date: 04/04/2017
 
 ###### [Read more \>](what-is-agile.md)
 
-
-
 ![](_img/AgileDev4_64x.png)
 
 ## What is Agile Development?
@@ -29,8 +27,7 @@ ms.date: 04/04/2017
 Agile Development takes Agile principles and applies them software
 engineering.
 
-[Read more
-\>](https://visualstudio.com/learn/what-is-agile-development)
+[Read more \>](https://visualstudio.com/learn/what-is-agile-development)
 
 ![](_img/AgileCulture_64x.png)
 
@@ -72,12 +69,8 @@ framework required.
 
 ### Agile at Microsoft
 
-
 ###### Learn how the [Visual Studio Team Services (VSTS)](https://www.visualstudio.com/team-services/) team at Microsoft has changed their approach to building software and services by adopting an Agile culture and mindset. Aaron Bjork takes you on a journey of contrasting the “old way” with the “new way”, and shares key changes that contributed to the transformation including thoughts on teams, roles, sprints, planning, and learning.
-
 
 ###### [Read more \>](agile-culture.md)
 
-
-[](https://www.youtube.com/embed/-LvCJpnNljU)
-
+> [!VIDEO https://www.youtube.com/embed/LvCJpnNljU]

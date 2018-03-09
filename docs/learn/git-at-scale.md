@@ -1,15 +1,15 @@
 ---
-title: What is version control?
-description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+title: Git at Scale
+description: "In this series of articles, we’ll discuss each of these scale challenges in depth, and how we have solved them to enable a team of this size to work successfully in Git."
 ms.prod: vs-devops-alm
 ms.technology: vs-devops-articles
 ms.topic: article
 ms.manager: douge
-ms.author: routlaw
-ms.date: 04/04/2017
+ms.author: sanoursa
+ms.date: 02//21/2018
 ---
 # Git at Scale
-> By Saeed Noursalehi
+> By: Saeed Noursalehi
 
 We recently
 [announced](https://blogs.msdn.microsoft.com/bharry/2017/05/24/the-largest-git-repo-on-the-planet/)
@@ -21,6 +21,7 @@ the git command line, to workflow challenges for a team of that size
 working in one repo. In this series of articles, we’ll discuss each of
 these scale challenges in depth, and how we have solved them to enable a
 team of this size to work successfully in Git.
+
 The scale journey has been a long one, and these articles will take you
 through that journey. When talking about “Git at scale”, it’s important
 to remember that there are a number of independent factors that affect
@@ -40,6 +41,7 @@ problems more concrete. At the end of the series, we will come back to
 these repos and discuss how each of these teams have composed the
 various scale solutions to create the best possible experience for their
 teams.
+
 These articles are intended for people who have a good understanding of
 Git, and are thinking about how to make Git scale to larger teams.We
 will not cover the basics of how Git works, but where necessary, we will
@@ -103,6 +105,7 @@ We recently announced the [Git Virtual File
 System](https://blogs.msdn.microsoft.com/visualstudioalm/2017/02/03/announcing-gvfs-git-virtual-file-system/)
 as one of the pieces in that puzzle. In this series of articles, we’ll
 examine that entire puzzle, and how all the pieces fit together.
+
 In the next
 [article](technical-scale-challenges.md)
 in the series, we’ll discuss the specific issues that Git encounters as
@@ -120,11 +123,7 @@ a repo grows in size.
 
 - Windows repo case study
 
-  [Saeed Noursalehi](https://www.visualstudio.com/author/sanoursa/ "Posts by Saeed Noursalehi")
-  
-2018-02-21T08:02:24+00:00 
-![Saeed Noursalehi](_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)
-### Saeed Noursalehi
-Saeed Noursalehi is a Principal Program Manager on the Visual Studio
-Team Services team at Microsoft, and works on making Git scale for the
-largest teams in Microsoft
+|             |                           |
+|-------------|---------------------------|
+|![Saeed Noursalehi](_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Visual Studio
+Team Services team at Microsoft, and works on making Git scale for the largest teams in Microsoft|

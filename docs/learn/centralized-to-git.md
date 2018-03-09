@@ -66,12 +66,14 @@ integration becomes very challenging. By using modern continuous
 delivery techniques like [“feature flags”](what-is-continuous-delivery.md),
 you can integrate code into the main branch quickly, but still keep
 in-progress features hidden from users until they’re complete.
+
 Short-lived “topic” branches allow developers to work close to the main
 branch and integrate quickly, avoiding merge problems. Two common topic
 branch strategies are
 [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/) and a
 simpler variation, [GitHub Flow](https://guides.github.com/introduction/flow/index.html), which you
 can adopt or look to for inspiration.
+
 If you’re currently using a long-lived feature branch strategy, it may
 be easiest to begin adopting feature flags before migrating to Git, so
 that you need to migrate as few branches as possible. Be sure to
@@ -197,39 +199,31 @@ The actual process you take will vary based on the system you’re
  migrating from. We have a detailed article about [migrating from Team Foundation Version Control](migrate-from-tfvc-to-git.md), and guidance for [migrating from other systems](migrate-other-systems-to-git.md) as well.
 
 ### Migration checklist
-Area
-Task
-Team workflows
-Determine how builds will run
-Determine when tests will run
-Develop a release management process
-Move your code reviews to pull requests
-Branching strategy
-Pick a Git branching strategy
-Document the branching strategy, including why it was selected and how
-legacy branches map
-History
-Decide how long to keep legacy VC running
-Identify branches which need to migrate
-If needed, create “breadcrumbs” to help engineers navigate back to the
-legacy system
-Binaries and tools
-Identify which binaries and undiffable files to remove from the repo
-Decide on an approach for large files, such as Git-LFS
-Decide on an approach for delivering tools and libraries, such as NuGet
-Training
-Identify training materials
-Plan training: events, written material, videos, etc.
-Identify members of the team to serve as local Git experts
-Code migration
-Run multiple test runs to ensure the migration will go smoothly
-Identify and communicate a time to make the cutover
-Create the new Git repo on VSTS
-Migrate the mainline branch first, followed by any additional branches
-needed
-Learn more about migrating to [Team Services from Team Foundation
-Server](/articles/adopting-vsts) and get an overview of [how your TFVC commands and workflow map to Git](/articles/mapping-my-tfvc-actions-to-git).
-![](_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+|Area|Task|
+|----|----|
+|Team workflows|Determine how builds will run |
+| |Determine when tests will run|
+| |Develop a release management process|
+| |Move your code reviews to pull requests|
+|Branching strategy|Pick a Git branching strategy|
+| |Document the branching strategy, including why it was selected and how legacy branches map
+|History |Decide how long to keep legacy VC running|
+| |Identify branches which need to migrate|
+| |If needed, create “breadcrumbs” to help engineers navigate back to the legacy system|
+|Binaries and tools|Identify which binaries and undiffable files to remove from the repo|
+| |Decide on an approach for large files, such as Git-LFS|
+| |Decide on an approach for delivering tools and libraries, such as NuGet |
+|Training|Identify training materials|
+| |Plan training: events, written material, videos, etc.|
+| |Identify members of the team to serve as local Git experts|
+|Code migration|Run multiple test runs to ensure the migration will go smoothly|
+| |Identify and communicate a time to make the cutover|
+| |Create the new Git repo on VSTS|
+| |Migrate the mainline branch first, followed by any additional branches needed|
+
+Learn more about migrating to [Team Services from Team Foundation Server](/articles/adopting-vsts) and get an overview of [how your TFVC commands and workflow map to Git](/articles/mapping-my-tfvc-actions-to-git).
+
+![Learn Git](_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|

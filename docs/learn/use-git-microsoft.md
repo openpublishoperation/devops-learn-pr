@@ -1,6 +1,6 @@
 ---
 title: How We Use Git at Microsoft
-description: "We've talked a lot about hosting the world&#039;s largest Git repository, about how we're moving Microsoft to Git, and about the challenges of Git at scale."
+description: "We've talked a lot about hosting the world's largest Git repository, about how we're moving Microsoft to Git, and about the challenges of Git at scale."
 ms.prod: vs-devops-alm
 ms.technology: vs-devops-articles
 ms.topic: article
@@ -41,7 +41,7 @@ out complex software.
 ## Git Repository Structure
 The majority of our code is in one Git repository hosted by VSTS. That
 repository contains about 8GB worth of history on a fresh clone. We
-follow a single-trunk model; more on our branch structure later.  
+follow a single-trunk model; more on our branch structure later.
 
 Code is broken up into components, which each live in their own
 root-level folder. Really large components, especially some of the older
@@ -80,7 +80,7 @@ diagram below, short-lived branches are shown in light blue and the
 release branches are shown in dark blue. One branch with a commit that
 needs cherry-picking is shown in red.
 
-![screenshot of Git branch structure and policies](/wp-content/uploads/2018/02/branch-strategy.png)  
+![screenshot of Git branch structure and policies](/wp-content/uploads/2018/02/branch-strategy.png)
 
 We use a couple of VSTS features to help enforce this structure and keep
 master clean. Branch policies prevent direct pushes to master. We
@@ -141,8 +141,8 @@ don’t have to sign off again. Soon, we’ll be rolling out an extension
 built by our friends in Windows which allows conflict resolution right
 in the browser. That’s pretty amazing – by using an extensibility point,
 the Windows team built something cool enough that we’re turning around
-and including in our own workflow.  
-   
+and including in our own workflow.
+
 VSTS merges the code to master, and it’ll deploy in the next sprint or
 TFS release. Importantly, that doesn’t mean the new feature will show up
 right away. We’ve talked elsewhere about how we decouple deployment and
@@ -158,8 +158,8 @@ The branch model is the main intersection between deployment and Git. At
 the end of each sprint, one of our release managers sends out an email
 reminding people of the cut-off time. At the appointed time, the release
 manager creates a new release branch off a particular commit, then lets
-everyone know which commits are in and which ones missed the train.  
-   
+everyone know which commits are in and which ones missed the train.
+
 If an engineer misses the cutoff, he or she can (with permission)
 cherry-pick the changes into the release branch. These cherry-picks go
 through a PR to land in the release branch.
@@ -173,15 +173,15 @@ monitoring and telemetry when something isn’t right. A developer can –
 you guessed it – create a branch off master, make a fix, and PR it into
 master. Keeping the same general workflow means that developers don’t
 have to context-switch or learn a different process for a (hopefully
-rare) different code change.  
-   
+rare) different code change.
+
 One additional step is required: to cherry-pick the change into the
 release branch. We run a hotfix deployment out of the current release
 branch each weekday morning, though we can also do this on demand for
 urgent fixes. The fix actually hits production out of the release branch
 first. But because we develop in master first, we know it won’t regress
-the next sprint when a new release branch is created from master.  
-   
+the next sprint when a new release branch is created from master.
+
 Releases of the on-premises TFS are largely the same, though without the
 deployment rings and stages. Also, because we do more manual testing on
 different configurations and data shapes, there’s a longer tail between
@@ -195,8 +195,8 @@ pull request flow gives us a common point to force testing, code review,
 and error detection early in the pipeline. This helps us shorten the
 feedback cycle to developers – errors are usually detected in minutes,
 not hours or days. Also, it gives us confidence when we refactor, since
-all changes are tested all the time.  
-   
+all changes are tested all the time.
+
 Currently, we have more than 200 pull requests and 300 continuous
 integration builds per day. Together, that amounts to 500 test runs
 every 24 hours, a level that would have been a fantasy without this

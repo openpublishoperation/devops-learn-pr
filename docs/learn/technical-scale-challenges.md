@@ -1,12 +1,12 @@
 ---
-title: What is version control?
-description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
+title: Technical Scale Challenges with Git
+description: "It’s become “common knowledge” that Git struggles with larger repos, but what does that mean, exactly?"
 ms.prod: vs-devops-alm
 ms.technology: vs-devops-articles
 ms.topic: article
 ms.manager: douge
-ms.author: routlaw
-ms.date: 04/04/2017
+ms.author: sanoursa
+ms.date: 10/02/2017
 ---
 
 # Technical Scale Challenges with Git
@@ -178,14 +178,9 @@ detail.
 
 ## Next article in the series
 
-  - [Limited Refs](limited-refs.md)
+- [Limited Refs](limited-refs.md)
 
-  [Saeed Noursalehi](https://www.visualstudio.com/author/sanoursa/ "Posts by Saeed Noursalehi")
-  
-2017-10-02T13:41:09+00:00 
-![Saeed
-Noursalehi](_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)
-### Saeed Noursalehi
-Saeed Noursalehi is a Principal Program Manager on the Visual Studio
-Team Services team at Microsoft, and works on making Git scale for the
-largest teams in Microsoft
+|             |                           |
+|-------------|---------------------------|
+|![Saeed Noursalehi](_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Visual Studio
+Team Services team at Microsoft, and works on making Git scale for the largest teams in Microsoft|
