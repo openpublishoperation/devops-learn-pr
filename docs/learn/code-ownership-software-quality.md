@@ -170,44 +170,56 @@ code review efforts.
 ## References
 \[1\] K. Beck, Extreme Programming Explained: Embrace Change 2nd. ed.,
 Boston: Addison-Wesley, 2000.
+
 \[2\] C. Bird, N. Nagappan, B. Murphy, H. Gall and P. Devanbu, “Don’T
 Touch My Code\!: Examining the Effects of Ownership on Software
 Quality,” in Proceedings of the 19th ACM SIGSOFT Symposium and the
 13th European Conference on Foundations of Software Engineering, 2011.
+
 \[3\] M. Greiler, K. Herzig and J. Czerwonka, “Code ownership and
 software quality: a replication study,” in Proceedings of the 12th
 Working Conference on Mining Software Repositories, Florence, Italy,
 2015.
+
 \[4\] T. D. LaToza, G. Venolia and R. DeLine, “Maintaining mental
 models: a study of developer work habits,” in International Conference
 on Software engineering , New York, 2006.
+
 \[5\] M. E. Nordberg III, “Managing Code Ownership,” IEEE Softw., pp.
 26-33 , 2003.
+
 \[6\] J. Czerwonka, N. Nagappa, W. Schulte and B. Murphy, “CODEMINE:
 Building a Software Development Data Analytics Platform for Microsoft,”
 IEEE Software, pp. 64-71, 2013.
+
 \[7\] M. Foucault, J.-R. Falleri and X. Blanc, “Code ownership in
 open-source software,” in Proceedings of the 18th International
 Conference on Evaluation and Assessment in Software Engineering, New
 York, 2014.
+
 \[8\] C. Bird, N. Nagappan, P. Devanbu, H. Gall and B. Murphy, “Does
 Distributed Development Affect Software Quality? An Empirical Case Study
 of Windows Vista,” in Proceedings of the 31st International Conference
 on Software Engineering, 2009.
+
 \[9\] N. Nagappan, B. Murphy and V. Basili, “The Influence of
 Organizational Structure on Software Quality: An Empirical Case Study,”
 in Proceedings of the 30th International Conference on Software
 Engineering, 2008.
+
 \[10\] K. Herzig and N. Nagappan, “The Impact of Test Ownership and Team
 Structure on the Reliability and Effectiveness of Quality Test Runs,” in
 Proceedings of the 8th ACM/IEEE International Symposium on Empirical
 Software Engineering and Measurement, 2014.
+
 \[11\] F. Rahman and P. Devanbu, “Ownership, Experience and Defects: A
 Fine-grained Study of Authorship,” in Proceedings of the 33rd
 International Conference on Software Engineering, 2011.
+
 \[12\] A. Meneely and L. Williams, “Secure Open Source Collaboration: An
 Empirical Study of Linus’ Law,” in Proceedings of the 16th ACM
 Conference on Computer and Communications Security, 2009.
+
 \[13\] A. Mockus, “Succession: Measuring transfer of code and developer
 productivity,” in Proceedings of the 31st International Conference on
 Software Engineering, Vancouver, 2009.

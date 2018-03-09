@@ -122,19 +122,18 @@ that are affected by changes.
 \[1\] E. Engstrom and P. Runeson. A qualitative survey of regression
 testing practices. In Product-Focused Software Process Improvement,
 volume 6156, pages 3-16. Springer-Verlag, 2010
+
 \[2\] H. K. N. Leung and L. White. Insights into regression testing. In
 International Conference on Software Maintenance, pages 60-69, 1989.
+
 \[3\] P. K. Chittimalli and M. J. Harrold. Re-computing coverage
 information to assist regression testing. In International Conference on
 Software Maintenance, pages 164-173, 2007.
+
 \[4\] S. Yoo and M. Harman. Regression testing minimization, selection
 and prioritization: A survey. Journal of Software Testing, Verification
 and Reliability, 22(2):67-120, 2012.
 
 |             |                           |
 |-------------|---------------------------|
-|![Jacek Czerwonka](_img/jacekcz_avatar_1502749714.png) |Jacek is a lead developer on the Tools for Software Engineers team
-focusing creating solutions for understanding software engineering
-organizations, and improving engineering processes at Microsoft. His
-team works on engineering data analytics platform CodeMine and code
-review experiences and tools. |
+|![Jacek Czerwonka](_img/jacekcz_avatar_1502749714.png) |Jacek is a lead developer on the Tools for Software Engineers team focusing creating solutions for understanding software engineering organizations, and improving engineering processes at Microsoft. His team works on engineering data analytics platform CodeMine and code review experiences and tools. |

@@ -249,8 +249,4 @@ Quality](http://research.microsoft.com/apps/pubs/default.aspx?id=238350).
 
 |             |                           |
 |-------------|---------------------------|
-|![Jacek Czerwonka](_img/jacekcz_avatar_1502749714.png) |Jacek is a lead developer on the Tools for Software Engineers team
-focusing creating solutions for understanding software engineering
-organizations, and improving engineering processes at Microsoft. His
-team works on engineering data analytics platform CodeMine and code
-review experiences and tools. |
+|![Jacek Czerwonka](_img/jacekcz_avatar_1502749714.png) |Jacek is a lead developer on the Tools for Software Engineers team focusing creating solutions for understanding software engineering organizations, and improving engineering processes at Microsoft. His team works on engineering data analytics platform CodeMine and code review experiences and tools. |

@@ -56,9 +56,15 @@ Paste the following HTML in the editor, then select the save icon (
 ![Save icon in Team Services UI](_img/save_icon.png) )
 to save your changes.
 
-``` vscom-pre vscom-pre--block
-    Hello from Team Services
+```HTML
+<html lang="en">
+<head>
+    <title>Hello from Team Services</title>
+</head>
+<body>
     Hello World!
+</body>
+</html>
 ```
 
 When you hit the save icon, a new commit was created to add the
@@ -92,8 +98,10 @@ Select HelloWorld.html to view the contents of the file. Select the
 **Edit** button to make updates. Change the greeting to be a bit more
 direct.
 
-``` vscom-pre vscom-pre--block
+```HTML
+<body>
     Hello everyone!
+</body>
 ```
 
 Select the disk icon ( ![Save icon in Team Services UI](_img/save_icon.png) )
@@ -151,5 +159,4 @@ Now that you have a repo and are familiar with some of the basics of Git, you ca
 
 |             |                           |
 |-------------|---------------------------|
-|![Robert Outlaw](_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team
-Services and Team Foundation Server.|
+|![Robert Outlaw](_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|

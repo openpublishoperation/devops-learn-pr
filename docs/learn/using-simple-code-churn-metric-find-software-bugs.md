@@ -147,8 +147,4 @@ ICSE 2014: 34-43](http://dl.acm.org/citation.cfm?doid=2591062.2591176)
 
 |             |                           |
 |-------------|---------------------------|
-|![Hitesh Sajnani](_img/Hitesh-Sajnani_avatar_1502749067.jpg)|Hitesh is currently a Software Engineer in the Tools for Software
-Engineering (TSE) group at Microsoft. Before joining TSE, Hitesh
-graduated with a PhD in Informatics from the School of Information and
-Computer Science, University of California Irvine. His dissertation
-topic was Large-Scale Code Clone Detection.|
+|![Hitesh Sajnani](_img/Hitesh-Sajnani_avatar_1502749067.jpg)|Hitesh is currently a Software Engineer in the Tools for Software Engineering (TSE) group at Microsoft. Before joining TSE, Hitesh graduated with a PhD in Informatics from the School of Information and Computer Science, University of California Irvine. His dissertation topic was Large-Scale Code Clone Detection.|

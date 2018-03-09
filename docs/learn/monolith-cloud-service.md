@@ -418,8 +418,4 @@ more consistent.
 
 |             |                           |
 |-------------|---------------------------|
-|![Buck Hodges](https://secure.gravatar.com/avatar/baad17c3a2d3ea8fffc392f9dd209426?s=130&d=mm&r=g)|Buck Hodges is Director of Engineering for Visual Studio Team Services.
-He's been a member of the team since the beginning of TFS, starting as a
-developer on Team Foundation Version Control for the first version of
-TFS. He's helped lead the transition of the team to the cloud and
-DevOps. |
+|![Buck Hodges](https://secure.gravatar.com/avatar/baad17c3a2d3ea8fffc392f9dd209426?s=130&d=mm&r=g)|Buck Hodges is Director of Engineering for Visual Studio Team Services. He's been a member of the team since the beginning of TFS, starting as a developer on Team Foundation Version Control for the first version of TFS. He's helped lead the transition of the team to the cloud and DevOps. |

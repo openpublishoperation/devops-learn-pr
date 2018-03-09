@@ -176,6 +176,4 @@ and all other forms.
 
 |             |                           |
 |-------------|---------------------------|
-|![Linda Webster](_img/linda_avatar_1479516507-130x130.jpg) | Linda Webster is a front-end web and WordPress developer who works on
-the Microsoft Visual Studio.com Team. She dabbles in web design and
-loves the Seattle Seahawks and zombies. |
+|![Linda Webster](_img/linda_avatar_1479516507-130x130.jpg) | Linda Webster is a front-end web and WordPress developer who works on the Microsoft Visual Studio.com Team. She dabbles in web design and loves the Seattle Seahawks and zombies. |

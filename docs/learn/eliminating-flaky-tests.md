@@ -84,11 +84,4 @@ quickly.
 
 |             |                           |
 |-------------|---------------------------|
-|![Munil Shah](_img/munils_avatar_1509056114-130x130.jpg)|As Partner Director of Engineering in Microsoft's Cloud and Enterprise
-division, Munil Shah leads engineering for Visual Studio Team Services
-and TFS products. Munil has over 20 years of experience building large
-scale software and distributed services. Prior to his current role, he
-held various engineering leadership positions Bing Advertising and
-Windows groups at Microsoft. He is passionate about leading engineering
-teams through significant transformation to deliver successful solutions
-to customers. |
+|![Munil Shah](_img/munils_avatar_1509056114-130x130.jpg)|As Partner Director of Engineering in Microsoft's Cloud and Enterprise division, Munil Shah leads engineering for Visual Studio Team Services and TFS products. Munil has over 20 years of experience building large scale software and distributed services. Prior to his current role, he held various engineering leadership positions Bing Advertising and Windows groups at Microsoft. He is passionate about leading engineering teams through significant transformation to deliver successful solutions to customers. |

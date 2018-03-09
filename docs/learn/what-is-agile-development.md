@@ -153,9 +153,4 @@ opportunities.
 
 |             |                           |
 |-------------|---------------------------|
-|![Dan Hellem](_img/Dan-Hellem_avatar_1491925080-130x130.jpg)|Dan is a Senior Program Manager with Microsoft's Visual Studio Team
-Services. Dan focuses on the Agile space as well as the customer
-adoption of the service. Before coming to Microsoft in 2012 Dan spent
-his career building applications using Microsoft technologies and
-assembling Agile teams centered on delivering high quality software to
-customers. |
+|![Dan Hellem](_img/Dan-Hellem_avatar_1491925080-130x130.jpg)|Dan is a Senior Program Manager with Microsoft's Visual Studio Team Services. Dan focuses on the Agile space as well as the customer adoption of the service. Before coming to Microsoft in 2012 Dan spent his career building applications using Microsoft technologies and assembling Agile teams centered on delivering high quality software to customers. |

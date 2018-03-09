@@ -143,18 +143,19 @@ previously deprioritized.
 ## References
 \[1\] Howard, M. and Lipner, S. The Security Development Lifecycle.
 Microsoft Press, 2006.
+
 \[2\] Christopher Theisen. “Automated attack surface approximation,” in
 Proceedings of the 2015 10th Joint Meeting on Foundations of Software
 Engineering (ESEC/FSE 2015).
+
 \[3\] M. Howard, J. Pincus and J. M. Wing, “Measuring Relative Attack
 Surfaces,” in Computer Security in the 21st Century, Springer US, 2005.
+
 \[4\] P. Manadhata and J. Wing, “An Attack Surface Metric,” Software
 Engineering, IEEE Transactions on, vol. 37, no. 3
+
 \[5\] Automated Attack Surface Approximation, Chris Theissen,
 
 |             |                           |
 |-------------|---------------------------|
-|![Kim Herzig](_img/kimh_avatar_1502754815-130x130.jpg)|Kim leads the analytical team on the Tools for Software Engineers team.
-The focuses lies on helping development teams to speed up their
-development process(es) while maintaining or increasing product quality
-and reliability. |
+|![Kim Herzig](_img/kimh_avatar_1502754815-130x130.jpg)|Kim leads the analytical team on the Tools for Software Engineers team. The focuses lies on helping development teams to speed up their development process(es) while maintaining or increasing product quality and reliability. |

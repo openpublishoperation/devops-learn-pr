@@ -44,23 +44,23 @@ branch.
 
 Create branches in Git using the `git branch` command:  
 
-``` vscom-pre vscom-pre--block
-> git branch
+```
+> git branch <branchname>
 ```
 
 The command to swap between branches in your repo is `git checkout`.
 After creating your branch, you’ll need to switch to it before you can
 save changes on your branch.
 
-``` vscom-pre vscom-pre--block
-> git checkout
+```
+> git checkout <branchname>
 ```
 
 Git has a shorthand command to create the branch and the swap to it at
 the same time:
 
-``` vscom-pre vscom-pre--block
-> git checkout -b
+```
+> git checkout -b <branchname>
 ```
 
 Learn more about working with Git branches in our [Team Services Git tutorial](https://www.visualstudio.com/en-us/docs/git/tutorial/branches).
@@ -99,13 +99,13 @@ to create the commit.
 
 Usually you just want to stage all changed files in your repo:
 
-``` vscom-pre vscom-pre--block
+``` 
 > git add –all
 ```
 
 Then commit the changes with a short description:
 
-``` vscom-pre vscom-pre--block
+```
 > git commit -m “Short description of changes”
 ```
 
@@ -125,7 +125,7 @@ commits on your current branch to another branch (*branchname*) on this
 *origin* repository. Git will create *branchname* on the remote repo if
 it doesn’t exist.
 
-``` vscom-pre vscom-pre--block
+```
 > git push origin
 ```
 
@@ -142,8 +142,8 @@ branch to *branchname* the `origin` repo. After this one-time setup of
 tracking information, you can use `git push` to share updates quickly
 and easily.
 
-``` vscom-pre vscom-pre--block
-> git push -u origin
+```
+> git push origin <branchname>
 ```
 
 Learn more about pushing your commits and branches in our [Team Services Git tutorial](https://www.visualstudio.com/en-us/docs/git/tutorial/pushing).
@@ -152,5 +152,4 @@ Learn more about pushing your commits and branches in our [Team Services Git tut
 
 |             |                           |
 |-------------|---------------------------|
-|![Robert Outlaw](_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team
-Services and Team Foundation Server.|
+|![Robert Outlaw](_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|

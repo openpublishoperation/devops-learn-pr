@@ -9,7 +9,7 @@ ms.author: kimh
 ms.date: 09/27/2016
 ---
 # Getting the noise out of test runs
-> By: Kim Herzig, Nachi Nagappan
+> By: Kim Herzig
 
 Can you believe your test results? If a test runs green or red, is it a
 true pass or fail, or might it be a false positive or negative? Sorting
@@ -114,7 +114,4 @@ Alarms Using Association Rules. ICSE (2) 2015: 39-48
 
 |             |                           |
 |-------------|---------------------------|
-|![Kim Herzig](_img/kimh_avatar_1502754815-130x130.jpg)|Kim leads the analytical team on the Tools for Software Engineers team.
-The focuses lies on helping development teams to speed up their
-development process(es) while maintaining or increasing product quality
-and reliability. |
+|![Kim Herzig](_img/kimh_avatar_1502754815-130x130.jpg)|Kim leads the analytical team on the Tools for Software Engineers team. The focuses lies on helping development teams to speed up their development process(es) while maintaining or increasing product quality and reliability. |

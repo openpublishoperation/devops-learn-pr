@@ -227,4 +227,4 @@ Learn more about migrating to [Team Services from Team Foundation Server](/artic
 
 |             |                           |
 |-------------|---------------------------|
-|![Matt Cooper](https://secure.gravatar.com/avatar/430135977e33df497a125eef52420daf?s=130&d=mm&r=g)|I'm currently a program manager for Visual Studio Team Services, focused on version control. Previously I've worked on package management, Xbox, and Dynamics CRM.|
+|![Matt Cooper](https://secure.gravatar.com/avatar/430135977e33df497a125eef52420daf?s=130&d=mm&r=g)|Matt Cooper is currently a program manager for Visual Studio Team Services, focused on version control. Previously he's worked on package management, Xbox, and Dynamics CRM.|
