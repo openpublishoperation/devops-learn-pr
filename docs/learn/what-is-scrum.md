@@ -136,4 +136,4 @@ Services](https://www.visualstudio.com/team-services/agile-tools).
 
 |             |                           |
 |-------------|---------------------------|
-|![Gregg Boer](_img/greggboe_avatar_1472497044.jpg)|Gregg Boer is a Principal Group Program Manager at Microsoft. He works in the Microsoft’s Visual Studio Cloud Services (VSCS) division. A big believer in the benefits of Agile, Gregg drives the vision for Agile management solution provided by Microsoft’s Visual Studio Team Services and Team Foundation Server products.|
+|![Gregg Boer](_img/greggboe_avatar_1472497044-130x130.jpg)|Gregg Boer is a Principal Group Program Manager at Microsoft. He works in the Microsoft’s Visual Studio Cloud Services (VSCS) division. A big believer in the benefits of Agile, Gregg drives the vision for Agile management solution provided by Microsoft’s Visual Studio Team Services and Team Foundation Server products.|

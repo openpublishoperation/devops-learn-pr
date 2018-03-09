@@ -153,4 +153,4 @@ Twitter [@mmanela](https://twitter.com/mmanela) and
 
 |             |                           |
 |-------------|---------------------------|
-|![Matthew Manela](_img/Matthew-Manela_avatar_1472490234.jpg)|Matthew Manela is a software engineering manager working on Agile tooling in Visual Studio Team Services. He is passionate about building scalable high quality services, Pair Programming, Test Driven Development and Open Source software.|
+|![Matthew Manela](_img/Matthew-Manela_avatar_1472490234-130x130.jpg)|Matthew Manela is a software engineering manager working on Agile tooling in Visual Studio Team Services. He is passionate about building scalable high quality services, Pair Programming, Test Driven Development and Open Source software.|
