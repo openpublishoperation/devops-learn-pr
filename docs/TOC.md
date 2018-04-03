@@ -1,4 +1,4 @@
-# [Index](index.md)
+# [DevOps Resource Center](index.md)
 # DevOps
 ## [What is DevOps?](learn/what-is-devops.md)
 ## [What is Continuous Integration?](learn/what-is-continuous-integration.md)
