@@ -8,11 +8,11 @@
 ## [What are Microservices?](learn/what-are-microservices.md)
 ## [What is Monitoring?](learn/what-is-monitoring.md)
 # [Devops at Microsoft](learn/devops-at-microsoft.md)
-## [How We Work with Visual Studio Team Services]
+## How We Work with Visual Studio Team Services
 ### [Moving to Cloud Cadence](learn/moving-cloud-cadence.md)
 ### [How We Use Git at Microsoft](learn/use-git-microsoft.md)
 ### [Evolving Test Practices at Microsoft](learn/evolving-test-practices-microsoft.md)
-## [How We Architect Visual Studio Team Services]
+## How We Architect Visual Studio Team Services
 ### [From Monolith to Cloud Service](learn/monolith-cloud-service.md)
 ### [Achieving No Downtime Through Versioned Service Updates](learn/achieving-no-downtime-versioned-service-updates.md)
 ### [Progressive Experimentation with Feature Flags](learn/progressive-experimentation-feature-flags.md)
@@ -20,10 +20,10 @@
 ### [Shift Left to Make Testing Fast and Reliable](learn/shift-left-make-testing-fast-reliable.md)
 ### [Eliminating Flaky Tests](learn/eliminating-flaky-tests.md)
 ### [Shift Right to Test in Production](learn/shift-right-test-production.md)
-## [One Engineering System at Microsoft]
+## One Engineering System at Microsoft
 ### [Moving 65,000 Microsofties to DevOps on the Public Cloud](learn/moving-65000-microsofties-devops-public-cloud.md)
 ### [Universal Store: Journey to Continuous Delivery and DevOps](learn/universal-store-journey-continuous-delivery-devops.md)
-##[Microsoft Research on DevOps Productivity]
+## Microsoft Research on DevOps Productivity
 ### [Boosting your code reviews with useful comments](learn/boosting-code-reviews-useful-comments.md)
 ### [Code reviews are not (primarily) for finding bugs](learn/code-reviews-not-primarily-finding-bugs.md)
 ### [Code ownership and software quality](learn/code-ownership-software-quality.md)
