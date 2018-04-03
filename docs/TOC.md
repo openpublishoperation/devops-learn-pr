@@ -33,7 +33,7 @@
 ### [Software testing at scale to increase velocity](learn/software-testing-scale-increase-velocity.md)
 ### [Test while building to maximize test effectiveness and minimize cost](learn/test-building-maximize-test-effectiveness-minimize-cost.md)
 ### [Using a simple code churn metric to find software bugs](learn/using-simple-code-churn-metric-find-software-bugs.md)
-# [Learn Git](learn/learn-git.md)
+# [Learn Git]
 ## [What is Version Control?](learn/what-is-version-control.md)
 ## [What is Git?](learn/what-is-git.md)
 ## [Learn Git with Team Services](learn/learn-git-with-team-services.md)
@@ -52,7 +52,7 @@
 ### [Git Virtual File System Design History](learn/gvfs-design-history.md)
 ### [Technical Scale Challenges with Git](learn/gvfs-architecture.md)
 
-# [Welcome to Agile](learn/agile.md)
+# [Welcome to Agile]
 ## [What is Agile](learn/what-is-agile.md)
 ## [What is Agile development](learn/what-is-agile-development.md)
 ## [Agile Culture](learn/agile-culture.md)
