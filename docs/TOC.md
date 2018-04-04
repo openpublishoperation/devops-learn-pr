@@ -1,4 +1,5 @@
 # [DevOps Resource Center](index.md)
+
 # DevOps
 ## [What is DevOps?](what-is-devops.md)
 ## [What is Continuous Integration?](what-is-continuous-integration.md)
@@ -33,6 +34,7 @@
 ### [Software testing at scale to increase velocity](software-testing-scale-increase-velocity.md)
 ### [Test while building to maximize test effectiveness and minimize cost](test-building-maximize-test-effectiveness-minimize-cost.md)
 ### [Using a simple code churn metric to find software bugs](using-simple-code-churn-metric-find-software-bugs.md)
+
 # Learn Git
 ## [What is Version Control?](what-is-version-control.md)
 ## [What is Git?](what-is-git.md)
