@@ -1,13 +1,5 @@
 # [DevOps Resource Center](index.md)
 
-# DevOps
-## [What is DevOps?](what-is-devops.md)
-## [What is Continuous Integration?](what-is-continuous-integration.md)
-## [What is Continuous Delivery?](what-is-continuous-delivery.md)
-## [What is DevOps Culture?](what-is-devops-culture.md)
-## [What is Infrastructure as Code?](what-is-infrastructure-as-code.md)
-## [What are Microservices?](what-are-microservices.md)
-## [What is Monitoring?](what-is-monitoring.md)
 # [Devops at Microsoft](devops-at-microsoft.md)
 ## How We Work with Visual Studio Team Services
 ### [Moving to Cloud Cadence](moving-cloud-cadence.md)
@@ -35,6 +27,15 @@
 ### [Test while building to maximize test effectiveness and minimize cost](test-building-maximize-test-effectiveness-minimize-cost.md)
 ### [Using a simple code churn metric to find software bugs](using-simple-code-churn-metric-find-software-bugs.md)
 
+# Learn DevOps
+## [What is DevOps?](what-is-devops.md)
+## [What is Continuous Integration?](what-is-continuous-integration.md)
+## [What is Continuous Delivery?](what-is-continuous-delivery.md)
+## [What is DevOps Culture?](what-is-devops-culture.md)
+## [What is Infrastructure as Code?](what-is-infrastructure-as-code.md)
+## [What are Microservices?](what-are-microservices.md)
+## [What is Monitoring?](what-is-monitoring.md)
+
 # Learn Git
 ## [What is Version Control?](what-is-version-control.md)
 ## [What is Git?](what-is-git.md)
@@ -54,7 +55,7 @@
 ### [Git Virtual File System Design History](gvfs-design-history.md)
 ### [Technical Scale Challenges with Git](gvfs-architecture.md)
 
-# Agile
+# Learn Agile
 ## [What is Agile](what-is-agile.md)
 ## [What is Agile development](what-is-agile-development.md)
 ## [Agile Culture](agile-culture.md)
