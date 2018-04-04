@@ -10,6 +10,6 @@ ms.date: 03/09/2018
 ---
 # Welcome to azure/devops docs!
 
-- [Test page: "What is DevOps"](learn/what-is-devops.md)
+- [Test page: "What is DevOps"](what-is-devops.md)
 
-- [Test page: "DevOps at Microsoft"](learn/devops-at-microsoft.md)
+- [Test page: "DevOps at Microsoft"](devops-at-microsoft.md)
