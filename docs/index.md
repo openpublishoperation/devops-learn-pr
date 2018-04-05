@@ -44,8 +44,7 @@ ms.date: 03/09/2018
                         </div>
                         <div class="cardText">
                             <h3>Learn Git</h3>
-                            <p>Version control systems are software that help you track changes you make in your code over time. Git is a distributed version control system, meaning your local copy of code is a complete version control repository.</p>
-                            <p>To learn how to start with your own free hosted git repos, <a href="https://docs.microsoft.com/en-us/vsts/git/index?view=vsts">start here…</a></p>
+                            <p>Version control systems are software that help you track changes you make in your code over time. Git is a distributed version control system, meaning your local copy of code is a complete version control repository.<br /><br />To learn how to start with your own free hosted git repos, <a href="https://docs.microsoft.com/en-us/vsts/git/index?view=vsts">start here…</a></p>
                         </div>
                     </div>
                 </div>
@@ -64,8 +63,7 @@ ms.date: 03/09/2018
                         </div>
                         <div class="cardText">
                             <h3>Learn Agile</h3>
-                            <p>Agile is a term used to describe approaches to software development emphasizing incremental delivery, team collaboration, continual planning, and continual learning. Agile practices are techniques applied during phases of the software development lifecycle.</p>
-                            <p>These hosted <a href="https://docs.microsoft.com/en-us/vsts/index?view=vsts#pivot=services&panel=agile">Agile tools</a> are available to you for free. </p>
+                            <p>Agile is a term used to describe approaches to software development emphasizing incremental delivery, team collaboration, continual planning, and continual learning. Agile practices are techniques applied during phases of the software development lifecycle.<br /><br />These hosted <a href="https://docs.microsoft.com/en-us/vsts/index?view=vsts#pivot=services&panel=agile">Agile tools</a> are available to you for free. </p>
                         </div>
                     </div>
                 </div>
