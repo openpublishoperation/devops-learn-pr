@@ -33,7 +33,7 @@ ms.date: 03/09/2018
         </a>
     </li>
     <li>
-        <a href="learn-git.md">
+        <a href="what-is-git.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -52,7 +52,7 @@ ms.date: 03/09/2018
         </a>
     </li>
     <li>
-        <a href="agile.md">
+        <a href="what-is-agile.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
