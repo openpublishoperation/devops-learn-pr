@@ -25,7 +25,7 @@ ms.date: 03/09/2018
                         </div>
                         <div class="cardText">
                             <h3>Learn DevOps</h3>
-                            <p>DevOps is the union of people, process, and products to enable continuous delivery of value to our end users. Essential DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications. To get started with DevOps on Azure, read the <a href="https://docs.microsoft.com/en-us/vsts/deploy-azure/?view=vsts">docs here …</a></p>
+                            <p>DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.</p>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ ms.date: 03/09/2018
                         </div>
                         <div class="cardText">
                             <h3>Learn Git</h3>
-                            <p>Version control systems are software that help you track changes you make in your code over time. Git is a distributed version control system, meaning your local copy of code is a complete version control repository.<br /><br />To learn how to start with your own free hosted git repos, <a href="https://docs.microsoft.com/en-us/vsts/git/index?view=vsts">start here…</a></p>
+                            <p>Git is a distributed version control system to track changes you make in your code over time. </p>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ ms.date: 03/09/2018
                         </div>
                         <div class="cardText">
                             <h3>Learn Agile</h3>
-                            <p>Agile is a term used to describe approaches to software development emphasizing incremental delivery, team collaboration, continual planning, and continual learning. Agile practices are techniques applied during phases of the software development lifecycle.<br /><br />These hosted <a href="https://docs.microsoft.com/en-us/vsts/index?view=vsts#pivot=services&panel=agile">Agile tools</a> are available to you for free. </p>
+                            <p>Agile approaches to software development emphasize incremental delivery, team collaboration, continual planning, and continual learning.  </p>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ ms.date: 03/09/2018
                         </div>
                         <div class="cardText">
                             <h3>DevOps at Microsoft</h3>
-                            <p>This center will keep you current on how we continue to adopt DevOps at Microsoft. We’ve selected the best videos and articles from both public conferences and internal training sessions. For most of the videos, we also provide an accompanying article.</p>
+                            <p>This center will keep you current on how we adopt DevOps at Microsoft. We’ve selected the best videos and articles from both public conferences and internal training sessions.</p>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@ ms.date: 03/09/2018
                         </div>
                         <div class="cardText">
                             <h3>DevOps Self-Assessment</h3>
-                            <p>Get tailored recommendations on how to improve your organization’s ability to develop and deliver value to customers, pivot when necessary, beat competitors to market, and respond to regulatory and compliance requirements. Try the <a href="https://devopsassessment.net/">DevOps Assessment</a> here.</p>
+                            <p>Get tailored recommendations on how to improve your organization’s ability to develop and deliver value to customers, pivot when necessary, and beat competitors to market. </p>
                         </div>
                     </div>
             </div>
