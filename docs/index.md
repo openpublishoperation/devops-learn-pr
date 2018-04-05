@@ -39,7 +39,7 @@ ms.date: 03/09/2018
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage bgdAccent1">
-                                <img class="x-hidden-focus" alt="" src="https://docs.microsoft.com/media/hubs/dotnet/net-docs-web-1.svg" data-linktype="external">
+                                <img class="x-hidden-focus" alt="" src="_img/Git-branching.png" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText">
@@ -58,7 +58,7 @@ ms.date: 03/09/2018
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage bgdAccent1">
-                                <img class="x-hidden-focus" alt="" src="https://docs.microsoft.com/media/hubs/dotnet/net-docs-web-1.svg" data-linktype="external">
+                                <img class="x-hidden-focus" alt="" src="_img/devops-kanban.png" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText">
