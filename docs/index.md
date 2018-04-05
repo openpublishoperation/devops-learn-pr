@@ -107,12 +107,13 @@ ms.date: 03/09/2018
         </div>
     </li>
     <li>
+    <a href=""https://devopsassessment.net">   
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
-                            <img class="x-hidden-focus" alt="" src="https://docs.microsoft.com/media/hubs/dotnet/net-docs-web-1.svg" data-linktype="external">
+                            <img class="x-hidden-focus" alt="" src="_img/DevopsAssessment-Results.png" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
