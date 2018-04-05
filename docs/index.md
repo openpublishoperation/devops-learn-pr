@@ -5,7 +5,7 @@ author: samgu
 description: do-come
 ms.prod: vs-devops-alm
 ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: landing-page
 ms.manager: douge
 ms.author: samgu
 ms.date: 03/09/2018
@@ -20,7 +20,7 @@ ms.date: 03/09/2018
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage bgdAccent1">
-                                <img class="x-hidden-focus" alt="" src=(_img/devops-cycle.png) data-linktype="external">
+                                <img class="x-hidden-focus" alt="" src="_img/devops-cycle.png" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText">
