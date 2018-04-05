@@ -1,5 +1,7 @@
 ---
 title: DevOps Resource Center
+layout: LandingPage
+author: samgu
 description: do-come
 ms.prod: vs-devops-alm
 ms.technology: vs-devops-articles
@@ -10,7 +12,7 @@ ms.date: 03/09/2018
 ---
 # DevOps Resource Center
 
-<ul class="cardsC panelContent" id="cardtypes-C" style="margin-top: -137px; display: flex;">
+<ul class="panelContent cardsC" style="display: flex;">
     <li>
         <a href="what-is-devops.md">
             <div class="cardSize">
