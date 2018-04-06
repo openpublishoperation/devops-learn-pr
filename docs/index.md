@@ -44,7 +44,7 @@ ms.date: 03/09/2018
                         </div>
                         <div class="cardText">
                             <h3>Learn Git</h3>
-                            <p>Git is a distributed version control system to track changes you make in your code over time. </p>
+                            <p>Git is a distributed version control system to track changes you make in your code over time.</p>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ ms.date: 03/09/2018
                         </div>
                         <div class="cardText">
                             <h3>Learn Agile</h3>
-                            <p>Agile approaches to software development emphasize incremental delivery, team collaboration, continual planning, and continual learning.  </p>
+                            <p>Agile approaches to software development emphasize incremental delivery, team collaboration, continual planning, and continual learning.</p>
                         </div>
                     </div>
                 </div>
@@ -90,6 +90,7 @@ ms.date: 03/09/2018
         </a>
     </li>
     <li>
+        <a href="https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -100,11 +101,12 @@ ms.date: 03/09/2018
                     </div>
                     <div class="cardText">
                         <h3>DevOps Events and Talks</h3>
-                        <p>Take a look at some of our recent conference talks on youtube at the channel <a href="https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA">Devops at Microsoft</a>.</p>
+                        <p>Take a look at some of our recent conference talks on youtube at the channel Devops at Microsoft.</p>
                     </div>
                 </div>
             </div>
         </div>
+        </a>
     </li>
     <li>
         <a href="https://devopsassessment.net">   
@@ -121,7 +123,8 @@ ms.date: 03/09/2018
                             <p>Get tailored recommendations on how to improve your organization’s ability to develop and deliver value to customers, pivot when necessary, and beat competitors to market. </p>
                         </div>
                     </div>
+                </div>
             </div>
-        </div>
+        </a>
     </li>
 </ul>
