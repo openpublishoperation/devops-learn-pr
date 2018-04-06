@@ -37,7 +37,7 @@ from one commit to the next, Git uses the previously stored file. This
 design differs from other systems which store an initial version of a
 file and keep a record of deltas over time.
 
-![linear graph of development in Git](_img/linear_straight_line.png)
+![linear graph of development in Git](../_img/linear_straight_line.png)
 
 Commits create links to other commits, forming a graph of
 your development history . You can revert your code to a previous
@@ -56,7 +56,7 @@ work in progress, manage this separation.  Once your work created in a
 branch is finished, merge it back into your team’s main (or master)
 branch.
 
-![branching\_line](_img/branching_line.png)
+![branching\_line](../_img/branching_line.png)
 
 #### Files and commits
 Files in Git are in one of three states: modified, staged, or committed.
@@ -69,7 +69,7 @@ commit. Once you’re happy with the staged files, *commit* them with a
 message describing what changed. This commit becomes a part of your
 development history.
 
-![file\_status\_lifecycle-2](_img/file_status_lifecycle.2.png)
+![file\_status\_lifecycle-2](../_img/file_status_lifecycle.2.png)
 
 Staging lets you pick which file changes to save in a commit so you can
 break down large changes into a series of smaller commits. When you
@@ -129,7 +129,7 @@ ensure that pull requests meet your requirements before completion.
 Branch policies protect your important branches by preventing direct
 pushes, requiring reviewers, and ensuring clean builds.
 
-![Learn Git](_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|

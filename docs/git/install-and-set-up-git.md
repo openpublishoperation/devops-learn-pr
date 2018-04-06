@@ -73,8 +73,8 @@ to configure this information:
 Visual Studio offers a great out of the box Git experience without any
 additional tooling. Learn more in our [Visual Studio Git tutorial](https://www.visualstudio.com/docs/git/tutorial/gitworkflow).
 
-![Learn Git](_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|
-|![Robert Outlaw](_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|
+|![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|

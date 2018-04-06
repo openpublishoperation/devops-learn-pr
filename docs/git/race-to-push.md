@@ -55,20 +55,20 @@ lose other people’s work. Let’s examine why that is.
 Imagine that the server currently has one commit, named A, and a branch
 named master pointing to A:
 
-![Master pointing to A](_img/race-to-push-diagram-1.png)
+![Master pointing to A](../_img/race-to-push-diagram-1.png)
 
 Then imagine that two people, named Alice and Bob, pull down master with
 commit A and commit their own changes on top:
 
-![Alice and Bob pull down master with commit A](_img/race-to-push-diagram-2.png)
+![Alice and Bob pull down master with commit A](../_img/race-to-push-diagram-2.png)
 
 Alice pushes first, and succeeds in making the server’s DAG and branch look like hers:
 
-![Alice pushes first](_img/race-to-push-diagram-3.png)
+![Alice pushes first](../_img/race-to-push-diagram-3.png)
 
 Now if Bob pushes and isn’t stopped, the server’s DAG will look like:
 
-![Bob pushes next](_img/race-to-push-diagram-4.png)
+![Bob pushes next](../_img/race-to-push-diagram-4.png)
 
 Commit B still technically exists, but it’s no longer reachable from
 master, or any other branch. And more importantly, Bob did not consider
@@ -92,11 +92,11 @@ So, Bob’s push gets blocked, and Bob is now forced to fetch again, and
 ensure that his push will result in a fast-forward. He can do this by
 either merging:
 
-![Merge](_img/race-to-push-diagram-5.png)
+![Merge](../_img/race-to-push-diagram-5.png)
 
 Or rebasing:
 
-![Rebase](_img/race-to-push-diagram-6.png)
+![Rebase](../_img/race-to-push-diagram-6.png)
 
 In either case, Bob can now push to the server, because the server will
 have a path available from either B to D, or B to C’. That is, Bob can
@@ -262,4 +262,4 @@ upcoming article.
 
 |             |                           |
 |-------------|---------------------------|
-|![Saeed Noursalehi](_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Visual Studio Team Services team at Microsoft, and works on making Git scale for the largest teams in Microsoft|
+|![Saeed Noursalehi](../_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Visual Studio Team Services team at Microsoft, and works on making Git scale for the largest teams in Microsoft|

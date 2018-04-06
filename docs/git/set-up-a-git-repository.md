@@ -35,7 +35,7 @@ control system. Every repo is self-contained, and the owner of the repo
 is responsible for keeping it up to date with the changes from
 others.
 
-![git\_repositories](_img/git_repositories.png)
+![git\_repositories](../_img/git_repositories.png)
 
 Most teams will use a central repo hosted on a server everyone can
 access to coordinate their changes.  The central repo is usually hosted
@@ -88,8 +88,8 @@ today.
 Visual Studio user? Learn more about creating and cloning repos from
 Visual Studio in our [Team Services Git tutorial](https://www.visualstudio.com/en-us/docs/git/tutorial/creatingrepo).
 
-![Learn Git](_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|
-|![Robert Outlaw](_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|
+|![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|

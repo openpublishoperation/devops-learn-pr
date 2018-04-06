@@ -43,7 +43,7 @@ development process.
 You may wish to consider:
 - Build and Test  
     When do you perform builds, and when do you run tests? Adopting
-    [continuous integration](what-is-continuous-integration.md),
+    [continuous integration](../what-is-continuous-integration.md),
     so that [every check-in performs a build and a test pass](/vsts/build/define/triggers), will help you identify defects
     early and provides a strong safety net for your project.
 - Code reviews  
@@ -53,7 +53,7 @@ You may wish to consider:
     code review workflow a natural part of your development process, and
     pull requests complement a continuous integration workflow nicely.
 - Release Management  
-    Are you performing [continuous delivery](what-is-continuous-delivery.md)?
+    Are you performing [continuous delivery](../what-is-continuous-delivery.md)?
     Moving to different version control tools will require you to make
     changes to your deployment processes, so a migration is a good time
     to adopt a modern release pipeline and automate your deployment
@@ -63,7 +63,7 @@ You may wish to consider:
 Before migrating your code you should [select a branching strategy](https://visualstudio.com/articles/git-branching-guidance). Using long-lived, isolated
 feature branches is discouraged; this tends to delay merges until
 integration becomes very challenging. By using modern continuous
-delivery techniques like [“feature flags”](what-is-continuous-delivery.md),
+delivery techniques like [“feature flags”](../what-is-continuous-delivery.md),
 you can integrate code into the main branch quickly, but still keep
 in-progress features hidden from users until they’re complete.
 
@@ -223,7 +223,7 @@ The actual process you take will vary based on the system you’re
 
 Learn more about migrating to [Team Services from Team Foundation Server](/vsts/articles/migrate-to-vsts-from-tfs) and get an overview of [how your TFVC commands and workflow map to Git](/vsts/git/concepts/mapping-my-tfvc-actions-to-git).
 
-![Learn Git](_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|

@@ -66,7 +66,7 @@ haven’t done so already. Make sure to **Enable Git Credential
 Manager** during the installation so you can easily connect to Team
 Services or TFS.
 
-![Set up the Git Credential Manager to easily connect to Team Services/TFS](_img/gcminstall.png)
+![Set up the Git Credential Manager to easily connect to Team Services/TFS](../_img/gcminstall.png)
 
 ### Create and clone your Git repository
 [Create a Git repository](/vsts/git/create-new-repo) in Visual Studio
@@ -75,7 +75,7 @@ your code when the migration is complete.
 
 Make note of the **Clone URL** for this repository.
 
-![Clone URL provided in Team Services after creating a new repo](_img/cloneURLTFS.png)
+![Clone URL provided in Team Services after creating a new repo](../_img/cloneURLTFS.png)
 
 Use this URL on the command-line to clone the new, empty repository that
 you just created. This will create an empty folder on-disk that you will
@@ -221,8 +221,8 @@ just migrating code. Your team needs training to understand how Git is
 different from your legacy version control system and how these
 differences affect day-to-day work. [Learn more](centralized-to-git.md).
 
-![Learn Git](_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|
-|![Robert Outlaw](_img/Robert-Outlaw_avatar_1479411198-130x130.jpg) |Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server. |
+|![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg) |Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server. |

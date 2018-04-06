@@ -25,7 +25,7 @@ focused on feature work (design, code, review, test and documentation)
 and another focused on live site health (bug fixes, telemetry, live-site
 issues, and responding directly with customers).
 
-![](_img/AgileCrews1.png)
+![](../_img/AgileCrews1.png)
 
 The two-crew approach yields greater productivity and predictability.
 Successful implementation relies on these key elements:
@@ -149,8 +149,8 @@ work for your team. Then, let us know how it works. You can find us on
 Twitter [@mmanela](https://twitter.com/mmanela) and
 [@ewaldhofman](https://twitter.com/ewaldhofman).
 
-![get started for free](_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
 
 |             |                           |
 |-------------|---------------------------|
-|![Matthew Manela](_img/Matthew-Manela_avatar_1472490234-130x130.jpg)|Matthew Manela is a software engineering manager working on Agile tooling in Visual Studio Team Services. He is passionate about building scalable high quality services, Pair Programming, Test Driven Development and Open Source software.|
+|![Matthew Manela](../_img/Matthew-Manela_avatar_1472490234-130x130.jpg)|Matthew Manela is a software engineering manager working on Agile tooling in Visual Studio Team Services. He is passionate about building scalable high quality services, Pair Programming, Test Driven Development and Open Source software.|

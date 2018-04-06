@@ -58,7 +58,7 @@ must define a taxonomy for your organization.
 
 A common taxonomy is Epics, Features, Stories, and Tasks.
 
-![](_img/AgileScaledGraph-2.png)
+![](../_img/AgileScaledGraph-2.png)
 
 #### Epics
 Epics declare initiatives important the organizations success. Epics may
@@ -91,7 +91,7 @@ This taxonomy is not a one-size-fits-all. Many organizations introduce a
 level above Epics called Initiatives, Initiatives break down into
 Epics.
 
-![](_img/AgileScaledGraph-1.png)
+![](../_img/AgileScaledGraph-1.png)
 
 The names of each level can be tailored to your organization. However,
 the names defined above (Epics, Features, Stories) are fairly close to
@@ -106,7 +106,7 @@ The example below has drawn the Line of Autonomy below Features.
 Management owns Epics and Features, which provide alignment. Teams own
 Stories and Tasks and have autonomy on how they execute.
 
-![](_img/AgileScaledGraph-3.png)
+![](../_img/AgileScaledGraph-3.png)
 
 Management doesn’t extend ownership below the Line of Autonomy. For
 example, management doesn’t tell the team how to decompose stories, plan
@@ -125,7 +125,7 @@ For example, an 18-month plan could be calibrated every 6 months.
 Here we define planning methods for each level of a taxonomy: Epics,
 Features, Stories, Tasks.
 
-![](_img/AgileScaledGraph-5.png)
+![](../_img/AgileScaledGraph-5.png)
 
 #### Vision
 Expressed through Epics and sets the long-term direction of the
@@ -162,7 +162,7 @@ The Line of Autonomy is drawn to show where teams have planning
 autonomy. The above planning process draws the Line of Autonomy as
 follows:
 
-![](_img/AgileScaledGraph-4.png)
+![](../_img/AgileScaledGraph-4.png)
 
 As stated above, Management doesn’t extend ownership below the Line of
 Autonomy. They provide guidance using the Vision and Season plans and
@@ -221,8 +221,8 @@ goals. The critical building blocks are clearly defined ownership and a
 culture of trust. Once you have this foundation in place, you will find
 that Agile can scale very well.
 
-![get started for free](_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
 
 |             |                           |
 |-------------|---------------------------|
-|![Gregg Boer](_img/greggboe_avatar_1472497044-130x130.jpg)|Gregg Boer is a Principal Group Program Manager at Microsoft. He works in the Microsoft’s Visual Studio Cloud Services (VSCS) division. A big believer in the benefits of Agile, Gregg drives the vision for Agile management solution provided by Microsoft’s Visual Studio Team Services and Team Foundation Server products.|
+|![Gregg Boer](../_img/greggboe_avatar_1472497044-130x130.jpg)|Gregg Boer is a Principal Group Program Manager at Microsoft. He works in the Microsoft’s Visual Studio Cloud Services (VSCS) division. A big believer in the benefits of Agile, Gregg drives the vision for Agile management solution provided by Microsoft’s Visual Studio Team Services and Team Foundation Server products.|

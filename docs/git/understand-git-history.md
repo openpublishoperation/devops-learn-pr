@@ -26,7 +26,7 @@ find Git confusing.
 
 Start with a simple history example: a repo with 3 linear commits.
 
-![three commits in a line](_img/history-abc-1.png)  
+![three commits in a line](../_img/history-abc-1.png)  
 
 Commit A is the parent of commit B, and commit B is the parent of commit
 C. This history looks very similar to a CVCS. The arrow pointing to
@@ -45,7 +45,7 @@ This merges all changes from the master branch in the remote repository,
 which Git names `origin` by default . This pull brought one new commit
 and the master branch in my local repo moves to that commit.
 
-![a fourth commit, D, is added to the line](_img/history-abcd-1.png)
+![a fourth commit, D, is added to the line](../_img/history-abcd-1.png)
 
 ### Understand branch history
 
@@ -61,12 +61,12 @@ This is a shortcut combining two commands:` git branch cool-new-feature`
 to create the branch followed by `git checkout cool-new-feature` to
 begin working in the branch.
 
-![Branch cool-new-feature is added](_img/history-abcd-cool-new-feature-1.png)
+![Branch cool-new-feature is added](../_img/history-abcd-cool-new-feature-1.png)
 
 Two branches now point to the same commit. I’ll make a few changes on
 the `cool-new-feature `branch in two new commits, E and F.
 
-![](_img/history-abcd-cool-new-feature-e-f-1.png)  
+![](../_img/history-abcd-cool-new-feature-e-f-1.png)  
 
 My commits are reachable by the `cool-new-feature` branch since I made
 them in that branch. I’m done with my feature and want to merge it into
@@ -74,7 +74,7 @@ the master branch. To do that I’ll use the following command:
 
 `git merge cool-feature master`
 
-![](_img/history-abcd-cool-new-feature-e-f-merge-1.png)
+![](../_img/history-abcd-cool-new-feature-e-f-merge-1.png)
 
 The graph structure of history becomes visible when there’s a merge. Git
 creates a new commit when I merged my branch into another branch. This
@@ -87,15 +87,15 @@ would include the changes needed to resolve those conflicts.
 Here is an example of Git history that more closely resembles code in
 active development on a team. There are three people who merge commits
 from their own branches into the master branch around the same time.
-![console log of git graph](_img/gitlogconsole.png)
+![console log of git graph](../_img/gitlogconsole.png)
 
 Now that you understand how branches and merges create the shape of the
 graph, this shouldn’t be too scary\!
 
 Learn more about Git history in our [Team Services Git tutorial](https://www.visualstudio.com/en-us/docs/git/tutorial/history)
 
-![Learn Git](_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|
-|![Robert Outlaw](_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|
+|![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|

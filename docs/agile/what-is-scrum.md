@@ -25,7 +25,7 @@ The following diagram details the Scrum lifecycle. Scrum is iterative.
 The entire lifecycle is completed in fixed time-period called a Sprint.
 A Sprint is typically 2-4 weeks long.
 
-![Scrum Lifecycle Diagram](_img/agile-scrum-lifecycle-diagram.png)
+![Scrum Lifecycle Diagram](../_img/agile-scrum-lifecycle-diagram.png)
 
 ## Scrum Roles
 Scrum prescribes three specific roles…
@@ -79,7 +79,7 @@ tasks required to complete it. Tasks are placed in To Do, In Progress,
 and Done columns based on their status. It provides a visual way of
 tracking progress for each backlog item.
 
-![](_img/agile-vsts-taskboard.2.png)
+![](../_img/agile-vsts-taskboard.2.png)
 
 #### The Sprint Burndown
 A graph that plots the daily total of remaining work. Remaining work is
@@ -131,9 +131,9 @@ to implement [Agile](what-is-agile.md) principles.
 
 [Scrum.org](http://www.scrum.org "Scrum.org")
 
-![get started for free](_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team
 Services](https://www.visualstudio.com/team-services/agile-tools).
 
 |             |                           |
 |-------------|---------------------------|
-|![Gregg Boer](_img/greggboe_avatar_1472497044-130x130.jpg)|Gregg Boer is a Principal Group Program Manager at Microsoft. He works in the Microsoft’s Visual Studio Cloud Services (VSCS) division. A big believer in the benefits of Agile, Gregg drives the vision for Agile management solution provided by Microsoft’s Visual Studio Team Services and Team Foundation Server products.|
+|![Gregg Boer](../_img/greggboe_avatar_1472497044-130x130.jpg)|Gregg Boer is a Principal Group Program Manager at Microsoft. He works in the Microsoft’s Visual Studio Cloud Services (VSCS) division. A big believer in the benefits of Agile, Gregg drives the vision for Agile management solution provided by Microsoft’s Visual Studio Team Services and Team Foundation Server products.|

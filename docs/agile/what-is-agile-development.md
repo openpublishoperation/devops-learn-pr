@@ -41,7 +41,7 @@ user stories are at the top. The product owner owns the backlog and
 adds, changes, and reprioritizes user stories based on the customer’s
 needs.
 
-![](_img/Agile-planning_600x300.png)
+![](../_img/Agile-planning_600x300.png)
 
 One of the biggest drags on an agile team’s productivity is a poorly
 defined backlog. A team cannot be expected to consistently deliver high
@@ -74,8 +74,8 @@ Don’t waste time refining lower priority items. Stay intently focused on
 the top of the backlog.
 
 ## Integrate early and often
-[Continuous integration](what-is-continuous-integration.md)
-and [continuous delivery](what-is-continuous-delivery.md)
+[Continuous integration](../what-is-continuous-integration.md)
+and [continuous delivery](../what-is-continuous-delivery.md)
 (CICD) sets your team up for the fast pace of Agile Development. As soon
 as possible, automate your build, test and deployment pipeline. It
 should be one of the first things you complete when starting a new
@@ -149,8 +149,8 @@ If you are starting with agile development, expect more learning
 opportunities. Way more. An Agile team doesn’t waste those
 opportunities.
 
-![get started for free](_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
 
 |             |                           |
 |-------------|---------------------------|
-|![Dan Hellem](_img/Dan-Hellem_avatar_1491925080-130x130.jpg)|Dan is a Senior Program Manager with Microsoft's Visual Studio Team Services. Dan focuses on the Agile space as well as the customer adoption of the service. Before coming to Microsoft in 2012 Dan spent his career building applications using Microsoft technologies and assembling Agile teams centered on delivering high quality software to customers. |
+|![Dan Hellem](../_img/Dan-Hellem_avatar_1491925080-130x130.jpg)|Dan is a Senior Program Manager with Microsoft's Visual Studio Team Services. Dan focuses on the Agile space as well as the customer adoption of the service. Before coming to Microsoft in 2012 Dan spent his career building applications using Microsoft technologies and assembling Agile teams centered on delivering high quality software to customers. |

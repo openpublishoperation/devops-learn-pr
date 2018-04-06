@@ -12,7 +12,7 @@ ms.date: 10/03/2017
 # What is Agile?
 > By: Aaron Bjork
 
-![what is agile](_img/WhatIsAgile_600x300.png)
+![what is agile](../_img/WhatIsAgile_600x300.png)
 
 Agile is a term used to describe approaches to software development
 emphasizing incremental delivery, team collaboration, continual
@@ -55,7 +55,7 @@ of the software development lifecycle. [Planning Poker](https://www.agileallianc
 collaborative estimation practice designed to encourage team members to
 share their understanding of what “done” means. The process is quite
 fun, and has proven to help foster teamwork and better estimates.
-[Continuous Integration](what-is-continuous-integration.md)
+[Continuous Integration](../what-is-continuous-integration.md)
 (also known as CI) is a common agile engineering practice where code
 changes are integrated into the main branch frequently.  An automated
 build verifies changes, leading to a reduction in integration debt and a
@@ -127,10 +127,10 @@ promise to establish a culture and environment where solutions emerge…
 through collaboration, continual planning and learning, and a desire to
 ship high quality software more often.
 
-![get started for free](_img/AgileGetStartedForFree_32x.png)
+![get started for free](../_img/AgileGetStartedForFree_32x.png)
 
 Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
 
 |             |                           |
 |-------------|---------------------------|
-|![Aaron Bjork](_img/Aaron-Bjork_avatar_1472225238-130x130.jpg)|Aaron is a Principal Group Program Manager at Microsoft where he drives investments in work management, agile project management, reporting, and collaboration for Microsoft’s Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) products. |
+|![Aaron Bjork](../_img/Aaron-Bjork_avatar_1472225238-130x130.jpg)|Aaron is a Principal Group Program Manager at Microsoft where he drives investments in work management, agile project management, reporting, and collaboration for Microsoft’s Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) products. |

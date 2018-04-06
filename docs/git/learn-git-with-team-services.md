@@ -37,7 +37,7 @@ Create a repo on the web in Team Services with the following steps:
     drop-down next to the current repo name and choose **New
     Repository.**  
 
-    ![create a new repo from the repository drop-down](_img/get-started-new-repo.png)
+    ![create a new repo from the repository drop-down](../_img/get-started-new-repo.png)
 
 2.  In the **Create a new repository** window, verify that Git is the
     repo type and enter a name for your repo. Select **Add a README**
@@ -49,11 +49,11 @@ Create a repo on the web in Team Services with the following steps:
 Now that you’ve created your repo, add some code to it. Select the **…**
 next to your repo name on the left and select **Add File(s)..**.
 
-![addfile](_img/addfile.png)
+![addfile](../_img/addfile.png)
 
 Enter HelloWorld.html in the **New File Name** field and select **OK**.
 Paste the following HTML in the editor, then select the save icon (
-![Save icon in Team Services UI](_img/save_icon.png) )
+![Save icon in Team Services UI](../_img/save_icon.png) )
 to save your changes.
 
 ```HTML
@@ -84,7 +84,7 @@ the HelloWorld.html file we created earlier. From your repo, select the
 dropdown next to **master** (your current branch), and select **New
 Branch…**
 
-![Create a new branch from the drop-down in Team Services](_img/newbranch.png)
+![Create a new branch from the drop-down in Team Services](../_img/newbranch.png)
 
 Since you’ll use this branch to update the HTML file with a new
 greeting, use `update-greeting` as the branch name. You’ll notice in the
@@ -104,7 +104,7 @@ direct.
 </body>
 ```
 
-Select the disk icon ( ![Save icon in Team Services UI](_img/save_icon.png) )
+Select the disk icon ( ![Save icon in Team Services UI](../_img/save_icon.png) )
 to save your changes to a new commit on the `update-greeting` branch.
 The `update-greeting` branch now points to a different version of
 HelloWorld.html than the `master` branch does.
@@ -133,7 +133,7 @@ message to create a pull request for the `update-greeting` branch after
 you saved the new version of HelloWorld.html in the previous
 section.
 
-![create\_pr\_from\_push](_img/create_pr_from_push.png)
+![create\_pr\_from\_push](../_img/create_pr_from_push.png)
 
 Select **Create a pull request** to open a new pull request to get the
 changes in `update-greeting` merged into the `master` branch.
@@ -144,7 +144,7 @@ review by your team, you’d want to make sure that the title and
 description were more meaningful than the default provided, as well as
 add team members to the list of reviewers. Select **New pull request**.
 
-![Preview your Git pull request in Team Services before you create it.](_img/previewpr.png)
+![Preview your Git pull request in Team Services before you create it.](../_img/previewpr.png)
 
 Once the pull request is open, complete the pull request and merge the
 code into `master` by selecting **Complete**, then **Complete merge**
@@ -155,8 +155,8 @@ changes made in the `update-greeting` branch.
 ### What’s next
 Now that you have a repo and are familiar with some of the basics of Git, you can follow [the Git quick start](https://www.visualstudio.com/docs/git/gitquickstart) to learn how to clone an existing repo and start working with Git using your favorite tools on your computer.
 
-![Learn Git](_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|
-|![Robert Outlaw](_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|
+|![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|

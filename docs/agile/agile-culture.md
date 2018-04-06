@@ -25,7 +25,7 @@ creating a culture where the right thing happens more often than not.
 Those activities (standup, retrospective, etc.) have their place, but
 they won’t change your culture.
 
-![agile culture](_img/agile-culture.png)
+![agile culture](../_img/agile-culture.png)
 
 This article details foundational elements that every organization needs
 to create an agile mindset and culture. They should not be followed
@@ -131,8 +131,8 @@ work for your organization. Agile transformations are a journey. Make
 changes and learn from them. Only then can you develop an agile culture
 that fits your organization.
 
-![get started for free](_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
 
 |             |                           |
 |-------------|---------------------------|
-|![Aaron Bjork](_img/Aaron-Bjork_avatar_1472225238-130x130.jpg)|Aaron is a Principal Group Program Manager at Microsoft where he drives investments in work management, agile project management, reporting, and collaboration for Microsoft’s Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) products. |
+|![Aaron Bjork](../_img/Aaron-Bjork_avatar_1472225238-130x130.jpg)|Aaron is a Principal Group Program Manager at Microsoft where he drives investments in work management, agile project management, reporting, and collaboration for Microsoft’s Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) products. |

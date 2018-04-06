@@ -160,7 +160,7 @@ just migrating code. Your team needs training to understand how Git is
 different from your existing version control system and how these
 differences affect day-to-day work. [Learn more](centralized-to-git.md).
 
-![Learn Git](_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|

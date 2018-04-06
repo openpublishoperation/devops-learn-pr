@@ -63,7 +63,7 @@ in detail:
   - Applications: Other applications sitting on top of GVFS need to
     think they are interacting with a normal Git repo and file system
 
-![GVFS architecture](_img/gvfs-architecture.png)
+![GVFS architecture](../_img/gvfs-architecture.png)
 
 ### GvFlt
 Some optional background reading for those who are curious: GvFlt is a
@@ -368,4 +368,4 @@ GVFS on other operating systems.
 
 |             |                           |
 |-------------|---------------------------|
-|![Saeed Noursalehi](_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Visual Studio Team Services team at Microsoft, and works on making Git scale for the largest teams in Microsoft|nd works on making Git scale for the largest teams in Microsoft
+|![Saeed Noursalehi](../_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Visual Studio Team Services team at Microsoft, and works on making Git scale for the largest teams in Microsoft|nd works on making Git scale for the largest teams in Microsoft

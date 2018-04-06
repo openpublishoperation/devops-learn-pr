@@ -28,7 +28,7 @@ your team until you
 [push](https://www.visualstudio.com/en-us/docs/git/tutorial/pushing)the
 branch.
 
-![branching\_line](_img/branching_line.png)
+![branching\_line](../_img/branching_line.png)
 
 Branches let you develop your code in isolation from other changes in
 development. Once everything’s working, you share the branch and its
@@ -79,7 +79,7 @@ these changes into three categories:
 - Modified files – These files have changes since your last commit, but you haven’t yet staged for the next commit.
 - Staged files – These files have changes that will be added to the next commit.
 
-![file\_status\_lifecycle-2](_img/file_status_lifecycle.2.png)
+![file\_status\_lifecycle-2](../_img/file_status_lifecycle.2.png)
 
 When you create a commit, only the staged changes and unchanged files
 are used for the snapshot. Unstaged changes are kept on the filesystem,
@@ -148,8 +148,8 @@ and easily.
 
 Learn more about pushing your commits and branches in our [Team Services Git tutorial](https://www.visualstudio.com/en-us/docs/git/tutorial/pushing).
 
-![Learn Git](_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|
-|![Robert Outlaw](_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|
+|![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|
