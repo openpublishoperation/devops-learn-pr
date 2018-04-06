@@ -15,7 +15,7 @@ ms.date: 02/02/2018
 ## How We Use Git
 We’ve talked a lot about [hosting the world’s largest Git repository](https://blogs.msdn.microsoft.com/bharry/2017/05/24/the-largest-git-repo-on-the-planet/),
 about how we’re moving [Microsoft to Git](https://www.youtube.com/watch?v=rKgBV4yfK3g), and about the
-challenges of [Git at scale](git-at-scale.md). We often get
+challenges of [Git at scale](git/git-at-scale.md). We often get
 asked, “how does Microsoft actually use Git?” and, while we’ve given [a little guidance](https://docs.microsoft.com/en-us/vsts/git/concepts/git-branching-guidance)
 based on our learnings, we’d like to be more thorough. This will be a
 whirlwind walkthrough of the standard Git workflow at Microsoft. There
