@@ -4,6 +4,7 @@
 ## How We Work with Visual Studio Team Services
 ### [Moving to Cloud Cadence](moving-cloud-cadence.md)
 ### [How We Use Git at Microsoft](use-git-microsoft.md)
+### [Release Flow: Our Branching Strategy](release-flow.md)
 ### [Evolving Test Practices at Microsoft](evolving-test-practices-microsoft.md)
 ## How We Architect Visual Studio Team Services
 ### [From Monolith to Cloud Service](monolith-cloud-service.md)
