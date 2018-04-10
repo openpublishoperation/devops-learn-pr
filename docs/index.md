@@ -12,6 +12,8 @@ ms.date: 03/09/2018
 ---
 # DevOps Resource Center
 
+Test intro paragraph
+
 <ul class="panelContent cardsC" style="display: flex;">
     <li>
         <a href="what-is-devops.md">
