@@ -12,7 +12,7 @@ ms.date: 03/09/2018
 ---
 # DevOps Resource Center
 
-Test intro paragraph
+This center combines our resources on learning DevOps practices, Git version control, Agile methods, how we work with DevOps at Microsoft, and how you can assess your own DevOps progression. Alternatively, you can jump to documentation on getting started with DevOps on Azure, or to dive in, start your own Azure DevOps project. If you’re interested in practices, read on. 
 
 <ul class="panelContent cardsC" style="display: flex;">
     <li>
