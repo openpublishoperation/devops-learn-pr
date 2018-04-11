@@ -111,22 +111,22 @@ This center combines our resources on learning DevOps practices, Git version con
         </a>
     </li>
     <li>
-        <a href="https://devopsassessment.net">   
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1">
-                                <img class="x-hidden-focus" alt="" src="_img/DevopsAssessment-Results.png" data-linktype="external">
-                            </div>
+        <a href="https://devopsassessment.net">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage bgdAccent1">
+                            <img class="x-hidden-focus" alt="" src="_img/DevopsAssessment-Results.png" data-linktype="external">
                         </div>
-                        <div class="cardText">
-                            <h3>DevOps Self-Assessment</h3>
-                            <p>Get tailored recommendations on how to improve your organization’s ability to develop and deliver value to customers, pivot when necessary, and beat competitors to market. </p>
-                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>DevOps Self-Assessment</h3>
+                        <p>Get tailored recommendations on how to improve your organization’s ability to develop and deliver value to customers, pivot when necessary, and beat competitors to market. </p>
                     </div>
                 </div>
             </div>
+        </div>
         </a>
     </li>
 </ul>
