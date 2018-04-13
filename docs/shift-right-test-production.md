@@ -1,9 +1,9 @@
 ---
 title: Shift Right to Test in Production
 description: "There’s No Place Like Production This is the third and last part of the major changes we made. As you saw earlier, we reduced our reliance on functional tests in the lab in favor of unit tests. The flip side of that strategy was to rely a lot more on testing in production. When it comes to cloud services, there is no place like production. The full breadth and diversity of the prod environment is hard to replicate in the lab. And the real workload of customer traffic is also hard to simulate. Moreover, the prod environment keeps changing."
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: routlaw
 ms.date: 04/04/2017

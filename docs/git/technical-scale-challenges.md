@@ -1,9 +1,9 @@
 ---
 title: Technical Scale Challenges with Git
 description: "It’s become “common knowledge” that Git struggles with larger repos, but what does that mean, exactly?"
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: sanoursa
 ms.date: 10/02/2017

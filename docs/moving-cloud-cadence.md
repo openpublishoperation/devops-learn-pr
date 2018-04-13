@@ -1,9 +1,9 @@
 ---
 title: Moving to Cloud Cadence
 description: "At VSTS in Microsoft, we’ve been on a DevOps journey. We're not perfect, we didn't do this in six months and we're not done. We had major milestones along the way and the pattern that we followed is very similar to the pattern I see customers following. They start with, 'Gosh, I want to reduce my cycle times. I want to do this DevOps thing. I want to move to that cloud cadence. My business isn't keeping up.' Yes, that's why we changed too. First Change the Cadence What do you do first? Change your schedule. I want to ship..."
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: nat
 ms.author: loril
 ms.date: 11/09/2017

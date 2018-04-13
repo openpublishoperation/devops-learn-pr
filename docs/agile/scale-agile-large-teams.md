@@ -1,9 +1,9 @@
 ---
 title: Scale Agile to Large Teams
 description: To scale Agile, you must enable autonomy for the team, while ensuring alignment with the organization.
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: gregboe
 ms.date: 01/16/2018

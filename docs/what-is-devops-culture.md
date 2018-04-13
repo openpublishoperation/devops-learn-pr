@@ -1,9 +1,9 @@
 ---
 title: What is DevOps Culture?
 description: DevOps culture stresses small, multidisciplinary teams, who work autonomously and take accountability for how actual users experience their software.
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
 ms.date: 04/04/2017

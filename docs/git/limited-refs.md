@@ -1,9 +1,9 @@
 ---
 title: Limited Refs
 description: "As we discussed in the previous article, one of the major scale challenges for Git is dealing with the linear costs associated with having too many refs. Let’s look a little more closely at the problem, and how we’ve solved it."
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: sanoursa
 ms.date: 02/21/2018

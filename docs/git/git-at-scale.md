@@ -1,9 +1,9 @@
 ---
 title: Git at Scale
 description: "In this series of articles, we’ll discuss each of these scale challenges in depth, and how we have solved them to enable a team of this size to work successfully in Git."
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: sanoursa
 ms.date: 02/21/2018

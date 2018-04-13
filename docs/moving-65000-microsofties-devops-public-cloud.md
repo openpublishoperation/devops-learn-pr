@@ -1,9 +1,9 @@
 ---
 title: Moving 65,000 Microsofties to DevOps on the Public Cloud
 description: "Moving 65,000 Microsofties to DevOps on the Public Cloud Author: Sam Guckenheimer Last Update: 8/4/2017 Interview and Transcript At Build 2017, I hosted an open Q&A session with me leaders from four engineering groups in Microsoft. We have been on a move for the last three years toward one engineering system in Microsoft. This is a decision"
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
 ms.date: 08/04/2017

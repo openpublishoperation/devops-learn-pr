@@ -1,9 +1,9 @@
 ---
 title: Evolving Test Practices at Microsoft
 description: Testing at Microsoft circa 1990s For a long period of time Microsoft shipped software with a basic setup for the engineering team. Every product team had three distinct disciplines. PMs owned understanding customer requirements and writing feature specs, Devs owned designing and coding the features.
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: munils
 ms.date: 11/14/2017

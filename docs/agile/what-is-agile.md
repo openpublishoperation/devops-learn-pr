@@ -1,9 +1,9 @@
 ---
 title: What is Agile?
 description: Agile is a term used to describe approaches to software development emphasizing incremental delivery, collaboration and continual learning.
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: abjork
 ms.date: 10/03/2017

@@ -1,9 +1,9 @@
 ---
 title: Get feedback with pull requests
 description: "Get feedback with pull requests By Robert Outlaw Pull requests combine the review and merge of your code into a single collaborative process.  Once you're done fixing a bug or new feature in a branch, create a new pull request."
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: routlaw
 ms.date: 04/04/2017

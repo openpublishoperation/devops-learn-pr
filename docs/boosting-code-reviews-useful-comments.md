@@ -1,9 +1,9 @@
 ---
 title: Boosting your code reviews with useful comments
 description: "Having peer developers review code before changes are submitted and integrated to the main codebase can be beneficial for a number of reasons: First, code reviewing helps to improve software quality, as the additional attention of peers can help to detect errors, improve readability of the code, or even help with design decisions. Second, code reviewing also helps to disseminate knowledge between team members or even across different teams or organizations."
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: mgreiler
 ms.date: 09/27/2016

@@ -1,9 +1,9 @@
 ---
 title: Learn Git with Team Services
 description: This tutorial will walk you through some basic Git tasks using Visual Studio Team Services.
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: routlaw
 ms.date: 04/04/2017

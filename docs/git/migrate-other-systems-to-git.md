@@ -1,9 +1,9 @@
 ---
 title: Migrate from other systems to Git
 description: "Before you try to migrate your source code from a legacy version control system to Git, be sure that you familiarize yourself with the differences between centralized version control systems and Git, and plan your team's migration."
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: routlaw
 ms.date: 04/04/2017

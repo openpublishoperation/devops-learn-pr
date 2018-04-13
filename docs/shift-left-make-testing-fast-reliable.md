@@ -1,9 +1,9 @@
 ---
 title: Shift Left to Make Testing Fast and Reliable
 description: Back in September 2014, we were three years into our cloud cadence. And we were still running our testing the way we had tested before moving to the cloud. We were trying to do things faster, we were trying to optimize our automation, but we were struggling.
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: munils
 ms.date: 11/09/2017

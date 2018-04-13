@@ -3,9 +3,9 @@ title: DevOps Resource Center
 layout: LandingPage
 author: samgu
 description: do-come
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: landing-page
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
 ms.date: 03/09/2018

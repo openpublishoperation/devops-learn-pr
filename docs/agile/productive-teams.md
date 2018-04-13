@@ -1,9 +1,9 @@
 ---
 title: Building productive, customer focused teams
 description: "Engineers thrive in environments where they can focus and 'get in the zone'. Teams often face many distractions and competing priorities that force engineers to shift context and divide their attention. "
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: mmanela
 ms.date: 04/04/2017

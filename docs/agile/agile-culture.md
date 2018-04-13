@@ -1,9 +1,9 @@
 ---
 title: Agile Culture
 description: The agile movement is about continually finding ways to improve the approach and practice of building software.
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: abjork
 ms.date: 10/03/2017

@@ -1,9 +1,9 @@
 ---
 title: What is Agile Development?
 description: "Agile development is a term used to describe iterative software development. Iterative software development shortens the software development lifecycle. Agile development teams execute the entire software development lifecycle in smaller increments, usually called sprints. Sprints are typically 1-4 weeks long."
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: dahellem
 ms.date: 10/12/2017

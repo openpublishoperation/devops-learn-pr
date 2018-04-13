@@ -1,9 +1,9 @@
 ---
 title: Patterns for Resiliency in the Cloud
 description: We use feature flags, and they’re awesome, right? What could possibly go wrong? Let’s rewind to November 2013 at the Connect() conference. We had a bunch of new functionality we wanted to roll out.
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: buckh
 ms.date: 11/09/2017

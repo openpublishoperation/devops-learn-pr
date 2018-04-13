@@ -1,9 +1,9 @@
 ---
 title: What is Continuous Integration?
 description: Continuous Integration (CI) is the process of automating the build and testing of code every time a team member commits changes to version control.
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
 ms.date: 04/04/2017

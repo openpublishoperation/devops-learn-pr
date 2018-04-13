@@ -1,9 +1,9 @@
 ---
 title: Git Virtual File System Design History
 description: "GVFS virtualizes the file system beneath a Git repo to solve two main problems: Only download contents that the user needs and make local Git commands consider just the files that the user cares about, and not all the files that exist in the working directory."
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: sanoursa
 ms.date: 02/21/2018

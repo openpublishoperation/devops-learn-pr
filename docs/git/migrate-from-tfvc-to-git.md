@@ -1,9 +1,9 @@
 ---
 title: Migrate from TFVC to Git
 description: Visual Studio Team Services provides a simple migration tool to migrate from Team Foundation Version Control to Git.
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: routlaw
 ms.date: 04/04/2017
