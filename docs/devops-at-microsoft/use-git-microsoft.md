@@ -15,7 +15,7 @@ ms.date: 02/02/2018
 ## How We Use Git
 We've talked a lot about [hosting the world's largest Git repository](https://blogs.msdn.microsoft.com/bharry/2017/05/24/the-largest-git-repo-on-the-planet/),
 about how we're moving [Microsoft to Git](https://www.youtube.com/watch?v=rKgBV4yfK3g), and about the
-challenges of [Git at scale](git/git-at-scale.md). We often get
+challenges of [Git at scale](../git/git-at-scale.md). We often get
 asked, "how does Microsoft actually use Git?" and, while we've given [a little guidance](https://docs.microsoft.com/en-us/vsts/git/concepts/git-branching-guidance)
 based on our learnings, we'd like to be more thorough. This will be a
 whirlwind walkthrough of the standard Git workflow at Microsoft. There
@@ -48,7 +48,7 @@ root-level folder. Really large components, especially some of the older
 components, may be made up of multiple subcomponents. Those
 subcomponents get separate sub-folders within the parent component.
 
-![screenshot of Git repository structure](_img/vso-files.png)
+![screenshot of Git repository structure](../_img/vso-files.png)
 
 We have a few adjunct repositories, as well. For instance, our build &
 release [agent](https://github.com/microsoft/vsts-agent) and
@@ -83,7 +83,7 @@ short-lived branches are shown in light blue and the release branches
 are shown in dark blue. One branch with a commit that needs cherry-picking
 is shown in red.
 
-![screenshot of Git branch structure and policies](_img/branch-strategy.png)
+![screenshot of Git branch structure and policies](../_img/branch-strategy.png)
 
 We use a couple of VSTS features to help enforce this structure and keep
 master clean. Branch policies prevent direct pushes to master. We
@@ -92,7 +92,7 @@ require a [successful build](https://docs.microsoft.com/en-us/vsts/git/branch-po
 of any code that was touched, and a handful of [external checks](https://docs.microsoft.com/en-us/vsts/git/branch-policies#require-approval-from-external-services)
 verifying corporate policies before a PR can be completed.
 
-![screenshot of sign off policy](_img/pr-policy.png)
+![screenshot of sign off policy](../_img/pr-policy.png)
 
 We also like to keep our branch hierarchy tidy. We use permissions to
 block creation of branches at the root level of the hierarchy. Everyone
@@ -100,7 +100,7 @@ can create branches in folders like users/, features/, and teams/. Only
 release managers have permission to create branches under releases/, and
 some automation tools have permission to the integrations/ folder.
 
-![screenshot of branches](_img/vso-branches.png)
+![screenshot of branches](../_img/vso-branches.png)
 
 ## Working in the Git Repository
 Within this structure, how do engineers actually get their daily work
@@ -134,7 +134,7 @@ use of optional reviewers for code that many people touch, like REST
 client generation and shared controls, as a way to get expert eyes on
 those changes.
 
-![screenshot of teams integration](_img/ms-teams-integration.png)
+![screenshot of teams integration](../_img/ms-teams-integration.png)
 
 Once the people and the automation are satisfied, our engineer completes
 the pull request. If there's a merge conflict, the engineer is given

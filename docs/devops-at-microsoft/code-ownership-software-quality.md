@@ -86,7 +86,7 @@ engineers modify a file, the higher the number of bugs that are linked
 to this file and that if there is **one primary contributor, the chances
 for a file to be buggy decreases significantly** (see Figure 1).
 
-![Figure 1: Effects of code ownership on bugs](_img/code_ownership_effects_bugs.png)
+![Figure 1: Effects of code ownership on bugs](../_img/code_ownership_effects_bugs.png)
 
 ### Predicting bugs based on weak ownership
 In addition, ownership metrics have a strong defect prediction power. We
@@ -226,4 +226,4 @@ Software Engineering, Vancouver, 2009.
 
 |             |                           |
 |-------------|---------------------------|
-|![Michaela Greiler](_img/michaelagreiler2_avatar_1502929123-130x130.jpg)|Michaela works as a software engineer and researcher at Microsoft. She supports product teams including Office, Windows, Exchange to optimize their software development processes. She especially focuses on optimizing effectiveness of company-wide testing and code reviewing activities. |
+|![Michaela Greiler](../_img/michaelagreiler2_avatar_1502929123-130x130.jpg)|Michaela works as a software engineer and researcher at Microsoft. She supports product teams including Office, Windows, Exchange to optimize their software development processes. She especially focuses on optimizing effectiveness of company-wide testing and code reviewing activities. |

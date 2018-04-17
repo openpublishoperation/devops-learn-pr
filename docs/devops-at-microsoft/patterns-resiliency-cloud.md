@@ -109,7 +109,7 @@ extension that was requested and not disrupt your work. Some things have
 choices; some don’t. Here’s a quick diagram of what a circuit breaker
 looks like.
 
-![Circuit Breaker State Transitions](_img/circuit-breaker-state.jpg)
+![Circuit Breaker State Transitions](../_img/circuit-breaker-state.jpg)
 
 As calls come in and go through the circuit breaker, normally the
 circuit breaker is closed. Normally things are flowing through. The
@@ -136,7 +136,7 @@ represented in the state diagram as *half open*.
 Now what does that look like in code? Here is a set of properties on a
 circuit breaker, as shown in this example.
 
-![set of properties on a circuit breaker](_img/circuit-breaker-settings.png)
+![set of properties on a circuit breaker](../_img/circuit-breaker-settings.png)
 
 The defaults for all these settings are particularly important. One is
 request volume, how much volume do I have to have coming through the
@@ -167,7 +167,7 @@ Let’s look at an example. This was one where we had a slow DB and due to
 a bug in SPS. We hit the concurrency limits for one DB for two minutes
 and the circuit breaker opened.
 
-![circuit breaker example](_img/circuit-breaker-example.png)
+![circuit breaker example](../_img/circuit-breaker-example.png)
 
 We had passed the concurrency limit of 100, and the opened breaker
 started causing requests to fail. We don’t take this lightly. If a
@@ -244,7 +244,7 @@ offender, not other people.
 We also need to be able to let people know when they are approaching or
 hitting the limits.
 
-![throttle impact](_img/screenshot-throttle-impact.png)
+![throttle impact](../_img/screenshot-throttle-impact.png)
 
 That’s the purpose of this page in your account. You can see the impact
 you’re having now. This page helps you understand if you’re getting
@@ -269,7 +269,7 @@ back to the client, and the clients should react to it intelligently,
 for example, to pause. For the client to react, we give you a set of
 response headers.
 
-![reacting on the client](_img/reacting-on-the-client.png)
+![reacting on the client](../_img/reacting-on-the-client.png)
 
 The client can read the headers to see what’s going on. The server is
 going to tell you, “I delayed you this much, and if you go beyond this

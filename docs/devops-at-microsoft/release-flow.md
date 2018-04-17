@@ -112,7 +112,7 @@ open for developers to merge changes.  These changes, of course, do not
 get deployed to production - they'll be deployed within the next three
 weeks, during the next sprint deployment.
 
-![Illustration of release branch at sprint 129](_img/releaseflow-1.png)
+![Illustration of release branch at sprint 129](../_img/releaseflow-1.png)
 
 ## Releasing Hotfixes
 
@@ -149,7 +149,7 @@ cherry-pick the change into the release branch.  This creates a new pull
 request that targets the release branch, backporting the contents that
 were just merged into `master`.
 
-![Illustration of cherry-picking a hotfix commit into branch 129](_img/releaseflow-2.png)
+![Illustration of cherry-picking a hotfix commit into branch 129](../_img/releaseflow-2.png)
 
 By opening a new pull request, we get traceability and reliability from
 branch policies.  And using the VSTS cherry-pick functionality allows us
@@ -165,7 +165,7 @@ for a more advanced experience.
 Once we have a pull request targeting our release branch, we'll code
 review it again, evaluate the branch policies, and test it.  Once it's
 merged, it will get deployed to our first "ring" of servers in minutes.
-From there, we'll [progressively deploy](what-is-continuous-delivery.md)
+From there, we'll [progressively deploy](../what-is-continuous-delivery.md)
 it to more VSTS accounts using
 [deployment rings](https://docs.microsoft.com/en-us/vsts/articles/phase-rollout-with-rings?view=vsts).
 As more users are exposed to the changes, we'll monitor its success and
@@ -194,7 +194,7 @@ careful to ensure that any changes that we brought into the sprint 129
 branch as a hotfix was also made in `master`.  So those changes will
 also be in the `releases/M130` branch that we create.
 
-![Illustration of release branch at sprint 130](_img/releaseflow-3.png)
+![Illustration of release branch at sprint 130](../_img/releaseflow-3.png)
 
 ## In Conclusion
 

@@ -90,7 +90,7 @@ there: Version control, work item tracking, build, test, identity, and
 account. Of course, things like release management and code search
 didn’t exist then but everything that we had was in one place.
 
-![Becoming a service: One instance](_img/becoming-a-service.png)
+![Becoming a service: One instance](../_img/becoming-a-service.png)
 
 We put the application tiers in virtual machines and we use what is now
 known as Azure PaaS 1.0 web roles for the application tiers and worker
@@ -127,7 +127,7 @@ which customer owns that data. And this is important because now we pack
 approximately 40,000 accounts per database today versus at the beginning
 when it was a single tenant.
 
-![Becoming Multi-Tenant](_img/becoming-multi-tenant.png)  
+![Becoming Multi-Tenant](../_img/becoming-multi-tenant.png)  
 SQL table with PartitionID
 
 How do we protect against leaking data from one account to another? We
@@ -178,7 +178,7 @@ called mseng. Every deployment we do starts with SU0. We get every
 change that goes out. If we screw something up, we want to feel that
 pain. We want to fix it before it gets to you.
 
-![Becoming a Service: Multiple Instances](_img/becoming-a-service_multiple.png)
+![Becoming a Service: Multiple Instances](../_img/becoming-a-service_multiple.png)
 
 I’d love to say we catch every bug that way. Clearly we don’t, but it’s
 so valuable. It’s saved us many times and it’s a fantastic practice also
@@ -205,7 +205,7 @@ such as code search, also have dependencies on TFS, because it indexes
 code. All these services build out on the SPS foundation. New services
 do not contribute to building a giant monolith.
 
-![Today: Microservices](_img/today-microservices.png)
+![Today: Microservices](../_img/today-microservices.png)
 
 ## Configuration in Azure
 A typical scale unit might have an Application Tier with four Dv2
@@ -221,7 +221,7 @@ but the JAs are not deployed as separate machines.) JAs could be
 processing commits, could be doing cleanup, etc., but they’re background
 jobs.
 
-![Scale Unit - Typical Sizes](_img/scale-unit-typical-sizes.png)
+![Scale Unit - Typical Sizes](../_img/scale-unit-typical-sizes.png)
 
 Our largest scale unit is SU1 with 1.3 million accounts, using 11 D4
 ATs, 32 partition DBs with about 40,000 accounts per DB, and about 120

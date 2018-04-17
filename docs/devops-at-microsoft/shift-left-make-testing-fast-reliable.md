@@ -62,7 +62,7 @@ portfolio to look like. The y-axis has no real numbers but was drawn to
 scale to illustrate the point. L0, L1s are the unit tests and the L2,
 L3s are the functional tests.
 
-![published VSTS quality vision](_img/published-vsts-quality-vision.png)
+![published VSTS quality vision](../_img/published-vsts-quality-vision.png)
 
 ## Test Principles
 We came out with a set of principles that the team would adhere to.
@@ -151,7 +151,7 @@ shows what it means to shift left and move quality upstream. Most of the
 testing is completed even before a change is merged into the
 master.
 
-![Shift-Left](_img/shift-left.png)
+![Shift-Left](../_img/shift-left.png)
 
 ## Selling the Vision to the Team
 The first issue we had to tackle was convincing the team to start
@@ -168,7 +168,7 @@ testing that would be allowed, the classical versus mockist approach, in
 other words unit tests that are completely isolated versus unit tests
 that take some amount of dependency.
 
-![selling the vision](_img/selling-the-vision.png)
+![selling the vision](../_img/selling-the-vision.png)
 
 For each of these questions, we took fairly pragmatic approach and
 focused on getting the flywheel going. For example, we pushed for the
@@ -209,7 +209,7 @@ less than 6 minutes and our goal is to get this down to less than a
 minute. We track unit test execution time using charts like below and
 file bugs against tests that exceed the allowed thresholds.
 
-![continuous focus on test execution time](_img/unit-test-characteristics.png)
+![continuous focus on test execution time](../_img/unit-test-characteristics.png)
 
 ## Functional Tests Must Be Independent
 The key concept for the L2s is test isolation. Properly isolated tests
@@ -246,7 +246,7 @@ many are simply deleted. Mission accomplished\! The new test portfolio
 looks even better than the one we set out to do with the picture shown
 earlier.
 
-![VSTS Test Portfolio Balance](_img/vsts-test-portfolio-balance.png)
+![VSTS Test Portfolio Balance](../_img/vsts-test-portfolio-balance.png)
 
 Let’s talk about how we made this journey. We left the old functional
 tests (“TRA tests”) alone when we started. First we wanted to get the
@@ -286,14 +286,14 @@ product is tested with that change. Within 2 hours (Merge to SelfHost),
 the entire product is tested and the change is ready to go into
 production.
 
-![PR and Rolling CI pipeline in action](_img/pr-and-rolling-ci-pipeline.png)
+![PR and Rolling CI pipeline in action](../_img/pr-and-rolling-ci-pipeline.png)
 
 ## DevOps Metrics We Use
 This is what our team scorecard looks like. At a high level, we track
 two types of metrics: Live site and engineering health (or debt), and
 engineering velocity.
 
-![What we track](_img/what-we-track.png)
+![What we track](../_img/what-we-track.png)
 
 In case of live site, we are interested in our time to detect, time to
 mitigate, and how many repair items a team is carrying. A repair item is
@@ -314,4 +314,4 @@ getting data back from the customers.
 
 |             |                           |
 |-------------|---------------------------|
-|![Munil Shah](_img/munils_avatar_1509056114-130x130.jpg)|As Partner Director of Engineering in Microsoft's Cloud and Enterprise division, Munil Shah leads engineering for Visual Studio Team Services and TFS products. Munil has over 20 years of experience building large scale software and distributed services. Prior to his current role, he held various engineering leadership positions Bing Advertising and Windows groups at Microsoft. He is passionate about leading engineering teams through significant transformation to deliver successful solutions to customers. |
+|![Munil Shah](../_img/munils_avatar_1509056114-130x130.jpg)|As Partner Director of Engineering in Microsoft's Cloud and Enterprise division, Munil Shah leads engineering for Visual Studio Team Services and TFS products. Munil has over 20 years of experience building large scale software and distributed services. Prior to his current role, he held various engineering leadership positions Bing Advertising and Windows groups at Microsoft. He is passionate about leading engineering teams through significant transformation to deliver successful solutions to customers. |

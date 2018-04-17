@@ -76,7 +76,7 @@ change. Therefore, if a test project is not built fresh by CloudBuild,
 it is not going to be executed. The effect is that CloudBuild performs
 regression test selection as a side-effect of its regular function.
 
-![Build and test dependencies with associated build actions](_img/build-test-dependencies.png)
+![Build and test dependencies with associated build actions](../_img/build-test-dependencies.png)
 
 ## Testing earlier, while building
 Traditionally, tests are executed only after the entire build is
@@ -136,4 +136,4 @@ and Reliability, 22(2):67-120, 2012.
 
 |             |                           |
 |-------------|---------------------------|
-|![Jacek Czerwonka](_img/jacekcz_avatar_1502749714.png) |Jacek is a lead developer on the Tools for Software Engineers team focusing creating solutions for understanding software engineering organizations, and improving engineering processes at Microsoft. His team works on engineering data analytics platform CodeMine and code review experiences and tools. |
+|![Jacek Czerwonka](../_img/jacekcz_avatar_1502749714.png) |Jacek is a lead developer on the Tools for Software Engineers team focusing creating solutions for understanding software engineering organizations, and improving engineering processes at Microsoft. His team works on engineering data analytics platform CodeMine and code review experiences and tools. |

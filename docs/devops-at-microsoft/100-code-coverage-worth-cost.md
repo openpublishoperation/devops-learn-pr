@@ -34,7 +34,7 @@ To address these issues we analyzed data from both Microsoft and Avaya
 two large companies as part of a joint research project. The table below
 summarizes the scale of the projects.
 
-![Table of project sizes at Microsoft and Avaya](_img/100-percent-survey.png)  
+![Table of project sizes at Microsoft and Avaya](../_img/100-percent-survey.png)  
 
 ### Did higher coverage mean fewer bugs?
 
@@ -77,4 +77,4 @@ coverage and post-verification defects: A multiple case study. ESEM
 
 |             |                           |
 |-------------|---------------------------|
-|![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices. |
+|![Image: Sam Guckenheimer, MSFT](../_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices. |

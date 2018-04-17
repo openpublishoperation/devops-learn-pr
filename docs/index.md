@@ -73,7 +73,7 @@ This center combines our resources on learning DevOps practices, Git version con
         </a>
     </li>
     <li>
-        <a href="devops-at-microsoft.md">
+        <a href="devops-at-microsoft/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

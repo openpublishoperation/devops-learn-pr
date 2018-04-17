@@ -80,7 +80,7 @@ should fallback to source of the cache. If the Redis goes down, the
 circuit breaker should break open and switch to the fallback. So that’s
 the hypothesis that we are trying to test.
 
-![Redis testing in production](_img/redis-testing-in-production.png)
+![Redis testing in production](../_img/redis-testing-in-production.png)
 
 In picture above we have three ATs, with the breaker in front of the
 call to Redis. We want to make sure when the breaker opens, the call
@@ -94,7 +94,7 @@ but doesn’t validate the configuration of the circuit breaker settings.
 Will the breaker open when it needs to? To test that question we need to
 simulate actual failures.
 
-![Redis testing with fault injection](_img/redis-testing-with-fault-injection.png)
+![Redis testing with fault injection](../_img/redis-testing-with-fault-injection.png)
 
 This is where the fault injection comes into play. Through a fault agent
 we can introduce a fault in the call going to Redis. The fault injector
@@ -176,4 +176,4 @@ and all other forms.
 
 |             |                           |
 |-------------|---------------------------|
-|![Linda Webster](_img/linda_avatar_1479516507-130x130.jpg) | Linda Webster is a front-end web and WordPress developer who works on the Microsoft Visual Studio.com Team. She dabbles in web design and loves the Seattle Seahawks and zombies. |
+|![Linda Webster](../_img/linda_avatar_1479516507-130x130.jpg) | Linda Webster is a front-end web and WordPress developer who works on the Microsoft Visual Studio.com Team. She dabbles in web design and loves the Seattle Seahawks and zombies. |

@@ -96,7 +96,7 @@ user-initiated crash has three attributes:
 Combining the information of single stack traces into a combined data
 set yields an attack surface approximation (Figure 1).
 
-![Figure 1: Parsing stack traces into a dependency graph and extracting attack surface information](_img/parsing-stack-traces.png)  
+![Figure 1: Parsing stack traces into a dependency graph and extracting attack surface information](../_img/parsing-stack-traces.png)  
 > Figure 1. Parsing stack traces into a dependency graph and extracting attack surface information
 
 ## How many vulnerabilities do stack traces reveal?
@@ -158,4 +158,4 @@ Engineering, IEEE Transactions on, vol. 37, no. 3
 
 |             |                           |
 |-------------|---------------------------|
-|![Kim Herzig](_img/kimh_avatar_1502754815-130x130.jpg)|Kim leads the analytical team on the Tools for Software Engineers team. The focuses lies on helping development teams to speed up their development process(es) while maintaining or increasing product quality and reliability. |
+|![Kim Herzig](../_img/kimh_avatar_1502754815-130x130.jpg)|Kim leads the analytical team on the Tools for Software Engineers team. The focuses lies on helping development teams to speed up their development process(es) while maintaining or increasing product quality and reliability. |

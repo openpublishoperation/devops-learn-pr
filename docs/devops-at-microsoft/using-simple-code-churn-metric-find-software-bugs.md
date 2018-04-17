@@ -77,7 +77,7 @@ with an activity window t (number of days) if it has changed on date d
 and at least once between d-t and d-1. This is shown visually in Figure
 1 where we use ℂ*x* to denote the set of files changed on a given date.
 
-![Figure 1: Defining an active file](_img/defining_active_file.png)
+![Figure 1: Defining an active file](../_img/defining_active_file.png)
 
 We extend this definition to recurrently active files. A file is
 recurrently active with periodicity n if it is active and has also
@@ -85,7 +85,7 @@ changed at least once in each of the previous n active windows. For
 example, as visually depicted in Figure 2, file f is active at date d,
 with activity window t, and recurrence of 5.
 
-![Figure 2: Defining a recurrent active file](_img/recurrent_active_file.png)
+![Figure 2: Defining a recurrent active file](../_img/recurrent_active_file.png)
 
 ## Compute active files as a proportion of the code base
 Keeping the above definitions in mind, we can classify any file in the
@@ -105,7 +105,7 @@ changes, and are responsible for 60%-90% of all bugs**. The majority,
 65%-95%, of the active files are architectural hub files which change
 due to feature addition as opposed to fixing defects.
 
-![Figure 3: Percent monthly active files in relation to all files in the code](_img/monthly_active_files.png)
+![Figure 3: Percent monthly active files in relation to all files in the code](../_img/monthly_active_files.png)
 
 Figure 3 shows the percent size of active files to total files in a
 software system throughout its lifecycle for several software projects
@@ -147,4 +147,4 @@ ICSE 2014: 34-43](http://dl.acm.org/citation.cfm?doid=2591062.2591176)
 
 |             |                           |
 |-------------|---------------------------|
-|![Hitesh Sajnani](_img/Hitesh-Sajnani_avatar_1502749067.jpg)|Hitesh is currently a Software Engineer in the Tools for Software Engineering (TSE) group at Microsoft. Before joining TSE, Hitesh graduated with a PhD in Informatics from the School of Information and Computer Science, University of California Irvine. His dissertation topic was Large-Scale Code Clone Detection.|
+|![Hitesh Sajnani](../_img/Hitesh-Sajnani_avatar_1502749067.jpg)|Hitesh is currently a Software Engineer in the Tools for Software Engineering (TSE) group at Microsoft. Before joining TSE, Hitesh graduated with a PhD in Informatics from the School of Information and Computer Science, University of California Irvine. His dissertation topic was Large-Scale Code Clone Detection.|

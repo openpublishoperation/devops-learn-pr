@@ -38,7 +38,7 @@ The UST piloted VSTS in December 2015 through Feb 2016 and went into production 
 
 Before moving to DevOps, the UST had seven disparate engineering systems, with source code distributed across multiple TFS instances, many custom build, test and deployment solutions, with different release workflows, policy requirements and compliance needs.
 
-![Before DevOps Figure 1](_img/ust-cd-1.png)
+![Before DevOps Figure 1](../_img/ust-cd-1.png)
 
 Culturally, teams had varying levels of delivery maturity and engineering processes. Business problems came first, and engineering debt accumulated on different legacy systems over a period of time. Teams also had been reorganized and felt fatigue migrating from one custom solution to another. On top of that, the 1ES was not mature enough to handle UST’s scale. No-one was excited about continuous delivery since it involved yet another ES migration.
 
@@ -59,7 +59,7 @@ The UST put a set of principles in place to make the transformation to DevOps a 
 Git under VSTS is now the standard version control for UST, with more than 2000 Git repos in use among 4000 monthly active users. The UST transitioned from centralized version control to Git in the beginning of 2016 and currently more than 70% of the code bases in UST are in Git.
 As part of the process, we were also able to drive productivity improvements by consolidating or retiring several legacy services and their code bases.
 
-![Git under VSTS Figure 2](_img/ust-cd-2.png)
+![Git under VSTS Figure 2](../_img/ust-cd-2.png)
 
 ### Package Management
 
@@ -73,7 +73,7 @@ UST now has more than 10,000 monthly deployments through VSTS Release Management
 
 The UST leverages the work management features heavily to track stories, scenarios and work items at the team level. At the same time, the UST wanted to consolidate portfolio views integrating multiple data sources by organizational structure. To help with this, the UST created a Team Map to align organizational data to other data domains such as VSTS Area Paths.
 
-![Agile Work Management Figure 3](_img/ust-cd-3.png)
+![Agile Work Management Figure 3](../_img/ust-cd-3.png)
 
 ### Continuous Testing in DevOps
 
@@ -87,7 +87,7 @@ Moving to DevOps has enabled an architectural move to refactor previous monolith
 
 When UST needed more capabilities in VSTS to accelerate the adoption of continuous delivery, UST contributed to the VSTS project directly. In this way, UST could make VSTS better for everyone rather than create custom tooling. The following table lists the VSTS features contributed to by UST.
 
-![Contributions Back to VSTS Figure 4](_img/ust-cd-4.png)
+![Contributions Back to VSTS Figure 4](../_img/ust-cd-4.png)
 
 ## Key learnings
 
@@ -113,4 +113,4 @@ The adoption of retail VSTS and 1ES tools have been critical to the success of U
 
 |             |                           |
 |-------------|---------------------------|
-|![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices.|
+|![Image: Sam Guckenheimer, MSFT](../_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices.|

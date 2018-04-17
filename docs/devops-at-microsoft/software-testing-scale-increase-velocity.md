@@ -89,7 +89,7 @@ optimization and test selection approaches is that for given scenarios,
 not all tests are equally well-suited. Some tests might be more
 effective than others.
 
-![graphic shows false positive probability on the verical axis and code issue probability on the horizontal axis, and it indicates lower false positives and lower code issues is good](_img/optimizing-testing-probability-quads.png)
+![graphic shows false positive probability on the verical axis and code issue probability on the horizontal axis, and it indicates lower false positives and lower code issues is good](../_img/optimizing-testing-probability-quads.png)
 
 ## Treat testing as development cost
 Let’s discuss the basic tradeoffs to increase agility. Assume our tests
@@ -177,7 +177,7 @@ apply them when recommending test skipping. To ensure we don’t
 permanently disable any test, we still guarantee that we run each test
 at least once in a given time window no matter the recommendation.
 
-![graphic shows a period of time for training the system followed by increasing rate of reducing tests with moments of automatically re-enabling tests again](_img/optimizing-testing-historical-costs.png)
+![graphic shows a period of time for training the system followed by increasing rate of reducing tests with moments of automatically re-enabling tests again](../_img/optimizing-testing-historical-costs.png)
 
 ### Protecting end-users
 Taken to extreme, with enough test skipping we run a risk of undetected
@@ -249,4 +249,4 @@ Quality](http://research.microsoft.com/apps/pubs/default.aspx?id=238350).
 
 |             |                           |
 |-------------|---------------------------|
-|![Jacek Czerwonka](_img/jacekcz_avatar_1502749714.png) |Jacek is a lead developer on the Tools for Software Engineers team focusing creating solutions for understanding software engineering organizations, and improving engineering processes at Microsoft. His team works on engineering data analytics platform CodeMine and code review experiences and tools. |
+|![Jacek Czerwonka](../_img/jacekcz_avatar_1502749714.png) |Jacek is a lead developer on the Tools for Software Engineers team focusing creating solutions for understanding software engineering organizations, and improving engineering processes at Microsoft. His team works on engineering data analytics platform CodeMine and code review experiences and tools. |

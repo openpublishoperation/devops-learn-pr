@@ -83,7 +83,7 @@ methods), and solution approach. These four all belong to so called
 “evolvability defects”, i.e., issues that affect future development
 effort rather runtime behavior \[3\].
 
-![Utility of specific comment classifications](_img/usefulness-of-comments.png)  
+![Utility of specific comment classifications](../_img/usefulness-of-comments.png)  
 > Figure 1: Utility of specific comment categories
 
 ## Reviewers with relevant experience improve the value
@@ -147,4 +147,4 @@ vol. 35, no. 3, pp. 430–448, May 2009.
 
 |             |                           |
 |-------------|---------------------------|
-|![Michaela Greiler](_img/michaelagreiler2_avatar_1502929123-130x130.jpg)|Michaela works as a software engineer and researcher at Microsoft. She supports product teams including Office, Windows, Exchange to optimize their software development processes. She especially focuses on optimizing effectiveness of company-wide testing and code reviewing activities. |
+|![Michaela Greiler](../_img/michaelagreiler2_avatar_1502929123-130x130.jpg)|Michaela works as a software engineer and researcher at Microsoft. She supports product teams including Office, Windows, Exchange to optimize their software development processes. She especially focuses on optimizing effectiveness of company-wide testing and code reviewing activities. |

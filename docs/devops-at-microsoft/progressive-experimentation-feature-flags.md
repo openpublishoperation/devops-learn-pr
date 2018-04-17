@@ -80,7 +80,7 @@ just looks like a switch. For example, you want to turn on the new
 release editor and click the switch on. You actually just flipped a
 feature flag yourself.
 
-![Opt in preview pane](_img/opt-in-preview-pane.png)
+![Opt in preview pane](../_img/opt-in-preview-pane.png)
 
 And then of course we can turn things on for every customer when we’re
 ready to roll it out globally. We have a great deal of control. I can
@@ -100,7 +100,7 @@ Let’s take a look at a quick example. We added a couple buttons here
 *Cherry-pick* and *Revert* in the pull request UI. We did this about a
 year ago under feature flags, and it makes for a nice example.
 
-![Pull request UI example](_img/pull-request-ui-example.png)
+![Pull request UI example](../_img/pull-request-ui-example.png)
 
 ## Defining Feature Flags
 Let’s take the Revert button. How do we define a feature flag for that?
@@ -167,7 +167,7 @@ Here’s an example of using the Web UI. Here I’ve got a feature flag for
 which happens to be in North Central, and I had it turned off for the
 account in West Europe.
 
-![Controlling feature flags through web UI](_img/controlling-features-through-web-ui.png)
+![Controlling feature flags through web UI](../_img/controlling-features-through-web-ui.png)
 
 As I mentioned earlier with the SSH example, I emailed people. We also
 let people know in User Voice which notified people who had voted for

@@ -68,7 +68,7 @@ Our model analyzes reported and manually classified false test alarms.
 The Figure below illustrates a simple flow chart of how this is used in
 practice:
 
-![Classifying test alarms flow chart](_img/clean-test-classification.png)
+![Classifying test alarms flow chart](../_img/clean-test-classification.png)
 
 ## Hypothesis: True failures lead to action
 Using association rule mining, we detect frequently occurring patterns
@@ -114,4 +114,4 @@ Alarms Using Association Rules. ICSE (2) 2015: 39-48
 
 |             |                           |
 |-------------|---------------------------|
-|![Kim Herzig](_img/kimh_avatar_1502754815-130x130.jpg)|Kim leads the analytical team on the Tools for Software Engineers team. The focuses lies on helping development teams to speed up their development process(es) while maintaining or increasing product quality and reliability. |
+|![Kim Herzig](../_img/kimh_avatar_1502754815-130x130.jpg)|Kim leads the analytical team on the Tools for Software Engineers team. The focuses lies on helping development teams to speed up their development process(es) while maintaining or increasing product quality and reliability. |

@@ -52,7 +52,7 @@ file bugs.
 ## Flaky Test Management – New Approach
 We built a new system that addressed all these drawbacks.
 
-![Flaky test management - new approach](_img/flaky-test-management-new-approach.png)
+![Flaky test management - new approach](../_img/flaky-test-management-new-approach.png)
 
 We used the reliability data automatically and immediately in the
 official test run. The system would automatically file bugs for flaky
@@ -62,7 +62,7 @@ didn’t remove flaky tests from the run, it simply filtered them out from
 the results. This was a key innovation. We didn’t quarantine the tests,
 we quarantine the results, which was much easier to do.
 
-![Flaky test - new approach worked](_img/flaky-test-management-new-approach-worked.png)
+![Flaky test - new approach worked](../_img/flaky-test-management-new-approach-worked.png)
 
 The new approach worked. The CI runs became very green. The system
 tracks resolution time on flaky test bugs and we fixed these bugs with
@@ -80,8 +80,8 @@ rate is typically 99+%. It doesn’t take too long to investigate the
 failures and take actions on them. The failures are removed fairly
 quickly.
 
-![CI pipeline in action](_img/ci-pipeline-in-action.jpg)
+![CI pipeline in action](../_img/ci-pipeline-in-action.jpg)
 
 |             |                           |
 |-------------|---------------------------|
-|![Munil Shah](_img/munils_avatar_1509056114-130x130.jpg)|As Partner Director of Engineering in Microsoft's Cloud and Enterprise division, Munil Shah leads engineering for Visual Studio Team Services and TFS products. Munil has over 20 years of experience building large scale software and distributed services. Prior to his current role, he held various engineering leadership positions Bing Advertising and Windows groups at Microsoft. He is passionate about leading engineering teams through significant transformation to deliver successful solutions to customers. |
+|![Munil Shah](../_img/munils_avatar_1509056114-130x130.jpg)|As Partner Director of Engineering in Microsoft's Cloud and Enterprise division, Munil Shah leads engineering for Visual Studio Team Services and TFS products. Munil has over 20 years of experience building large scale software and distributed services. Prior to his current role, he held various engineering leadership positions Bing Advertising and Windows groups at Microsoft. He is passionate about leading engineering teams through significant transformation to deliver successful solutions to customers. |

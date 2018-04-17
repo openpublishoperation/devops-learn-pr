@@ -36,7 +36,7 @@ these are different purposes, but the common thread is that code reviews
 allow a group of people to communicate over a shared view of an evolving
 artifact.
 
-![FIGURE 1. DEVELOPER'S MOTIVATIONS FOR PERFORMING CODE REVIEWS. SOURCE:\[1\]](_img/code-reviews-ranked-reasons.png)
+![FIGURE 1. DEVELOPER'S MOTIVATIONS FOR PERFORMING CODE REVIEWS. SOURCE:\[1\]](../_img/code-reviews-ranked-reasons.png)
 
 ## Code reviews have a cost
 Because of their many uses and benefits, code reviews are a standard
@@ -91,7 +91,7 @@ part of code base for the third time, the usefulness ratio increases to
 about 67% of their comments. By the fourth time, it is equivalent to the
 project’s long-term average \[5\].
 
-![FIGURE 2. CODE REVIEW COMMENT CATEGORIES, THEIR FREQUENCY AND USEFULNESS. SOURCE: \[6\]](_img/code-reviews-categories.png)
+![FIGURE 2. CODE REVIEW COMMENT CATEGORIES, THEIR FREQUENCY AND USEFULNESS. SOURCE: \[6\]](../_img/code-reviews-categories.png)
 
 ### Review code in small batches
 **Code review usefulness negatively correlates with the size of a code
@@ -147,4 +147,4 @@ Repositories (MSR 2015).
 
 |             |                           |
 |-------------|---------------------------|
-|![Jacek Czerwonka](_img/jacekcz_avatar_1502749714.png)|Jacek is a lead developer on the Tools for Software Engineers team focusing creating solutions for understanding software engineering organizations, and improving engineering processes at Microsoft. His team works on engineering data analytics platform CodeMine and code review experiences and tools. |
+|![Jacek Czerwonka](../_img/jacekcz_avatar_1502749714.png)|Jacek is a lead developer on the Tools for Software Engineers team focusing creating solutions for understanding software engineering organizations, and improving engineering processes at Microsoft. His team works on engineering data analytics platform CodeMine and code review experiences and tools. |
