@@ -117,7 +117,7 @@ This center combines our resources on learning DevOps practices, Git version con
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
-                            <img class="x-hidden-focus" alt="" src="_img/Devops-Self-Assessment-Results.svg" data-linktype="external">
+                            <img class="x-hidden-focus" alt="" src="_img/Devops-Self-Assessment.svg" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
