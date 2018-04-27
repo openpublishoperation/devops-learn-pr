@@ -22,7 +22,7 @@ This center combines our resources on learning DevOps practices, Git version con
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage bgdAccent1">
-                                <img class="x-hidden-focus" alt="" src="_img/learn-devops.png" data-linktype="external">
+                                <img class="x-hidden-focus" alt="" src="_img/learn-devops.svg" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText">
@@ -41,7 +41,7 @@ This center combines our resources on learning DevOps practices, Git version con
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage bgdAccent1">
-                                <img class="x-hidden-focus" alt="" src="_img/Learn-Git.png" data-linktype="external">
+                                <img class="x-hidden-focus" alt="" src="_img/Learn-Git.svg" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText">
