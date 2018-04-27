@@ -41,7 +41,7 @@ This center combines our resources on learning DevOps practices, Git version con
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage bgdAccent1">
-                                <img class="x-hidden-focus" alt="" src="_img/Learn-Git.svg" data-linktype="external">
+                                <img data-hoverimage="_img/Learn_Git.svg" src="_img/Learn_Git.svg" alt="" />">
                             </div>
                         </div>
                         <div class="cardText">
