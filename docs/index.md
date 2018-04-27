@@ -60,7 +60,7 @@ This center combines our resources on learning DevOps practices, Git version con
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage bgdAccent1">
-                                <img class="x-hidden-focus" alt="" src="_img/devops-kanban.png" data-linktype="external">
+                                <img class="x-hidden-focus" alt="" src="_img/Learn-Agile.svg" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText">
@@ -79,7 +79,7 @@ This center combines our resources on learning DevOps practices, Git version con
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage bgdAccent1">
-                                <img class="x-hidden-focus" alt="" src="_img/devops-public-clouds.png" data-linktype="external">
+                                <img class="x-hidden-focus" alt="" src="_img/Devops-at-Microsoft.svg" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText">
@@ -98,7 +98,7 @@ This center combines our resources on learning DevOps practices, Git version con
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
-                            <img class="x-hidden-focus" alt="" src="_img/devops-build-strength.png" data-linktype="external">
+                            <img class="x-hidden-focus" alt="" src="_img/DevOps-Talks.svg" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
@@ -117,7 +117,7 @@ This center combines our resources on learning DevOps practices, Git version con
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
-                            <img class="x-hidden-focus" alt="" src="_img/DevopsAssessment-Results.png" data-linktype="external">
+                            <img class="x-hidden-focus" alt="" src="_img/Devops-Self-Assessment-Results.svg" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
