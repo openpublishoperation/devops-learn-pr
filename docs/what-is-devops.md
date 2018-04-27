@@ -1,9 +1,9 @@
 ---
 title: What is DevOps?
 description: DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
 ms.date: 03/01/2018
@@ -47,23 +47,23 @@ The more frequently you deploy, the more can experiment, the more opportunity yo
 
 Remember, the goal is to shorten cycle time. Start with the release pipeline. How long does it take you to deploy a change of one line of code or configuration? Ultimately, that’s the brake on your velocity.
 
-1. [Continuous Integration](http://www.visualstudio.com/learn/what-is-continuous-integration) drives the ongoing merging and testing of code, which leads to finding defects early. Other benefits include less time wasted on fighting merge issues and rapid feedback for development teams.
+1. [Continuous Integration](what-is-continuous-integration.md) drives the ongoing merging and testing of code, which leads to finding defects early. Other benefits include less time wasted on fighting merge issues and rapid feedback for development teams.
 
     ![Image: How to Achieve DevOps](_img/devops-build-success.png)
 
-2. [Continuous Delivery](http://www.visualstudio.com/learn/what-is-continuous-delivery) of software solutions to production and testing environments helps organizations quickly fix bugs and respond to ever-changing business requirements.
+2. [Continuous Delivery](what-is-continuous-delivery.md) of software solutions to production and testing environments helps organizations quickly fix bugs and respond to ever-changing business requirements.
 
     ![Image: Continuously Delivery](_img/devops-continuous-delivery.png)
 
-3. [Version Control, Usually With Git](https://www.visualstudio.com/learn/what-is-git/), enables teams located anywhere in the world to communicate effectively during daily development activities as well as to integrate with software development tools for monitoring activities such as deployments.
+3. [Version Control, Usually With Git](git/what-is-git.md), enables teams located anywhere in the world to communicate effectively during daily development activities as well as to integrate with software development tools for monitoring activities such as deployments.
 
     ![Image: Version Control, Usually With Git](_img/devops-version-control.png)
 
-4. [Agile planning and lean project management](http://www.visualstudio.com/learn/what-is-agile) techniques are used to plan and isolate work into sprints, manage team capacity, and help teams quickly adapt to changing business needs. A DevOps Definition of Done is working software collecting telemetry against the intended business objectives.
+4. [Agile planning and lean project management](agile/what-is-agile.md) techniques are used to plan and isolate work into sprints, manage team capacity, and help teams quickly adapt to changing business needs. A DevOps Definition of Done is working software collecting telemetry against the intended business objectives.
 
     ![Image: Agile planning and lean project management techniques](_img/devops-kanban.png)
 
-5. [Monitoring and Logging](http://www.visualstudio.com/learn/what-is-monitoring) of running applications including production environments for application health as well as customer usage, helps organizations form a hypothesis and quickly validate or disprove strategies. Rich data is captured and stored in various logging formats.
+5. [Monitoring and Logging](what-is-monitoring.md) of running applications including production environments for application health as well as customer usage, helps organizations form a hypothesis and quickly validate or disprove strategies. Rich data is captured and stored in various logging formats.
 
     ![Image: Monitoring and Logging](_img/devops-monitor.png)
 
@@ -71,11 +71,11 @@ Remember, the goal is to shorten cycle time. Start with the release pipeline. Ho
 
     ![Image: Public and Hybrid Clouds](_img/devops-public-clouds.png)
 
-7. [Infrastructure as Code](http://www.visualstudio.com/learn/what-is-infrastructure-as-code) (IaC) is a practice which enables the automation and validation of creation and teardown of environments to help with delivering secure and stable application hosting platforms.
+7. [Infrastructure as Code](what-is-infrastructure-as-code.md) (IaC) is a practice which enables the automation and validation of creation and teardown of environments to help with delivering secure and stable application hosting platforms.
 
     ![Image:Infrastructure as Code](_img/devops-iac.png)
 
-8. [Microservices](http://www.visualstudio.com/learn/what-are-microservices) architecture is leveraged to isolate business use cases into small reusable services that communicate via interface contracts. This architecture enables scalability and efficiency. 
+8. [Microservices](what-are-microservices.md) architecture is leveraged to isolate business use cases into small reusable services that communicate via interface contracts. This architecture enables scalability and efficiency. 
 
     ![Image: Microservices v. monolithic services](_img/devops-microservices.png)
 

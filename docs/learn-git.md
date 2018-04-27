@@ -1,9 +1,9 @@
 ---
 title: What is Git? Tutorials
 description: Learn Git Learn Git with tutorials and best practices for individuals, teams, and enterprises 
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
 ms.date: 01/10/2018
@@ -16,22 +16,22 @@ ms.date: 01/10/2018
 
 ![learn git icon](_img/LearnGit_64x-2.png)
 ## Learn Git
-###### [What is Version Control?](what-is-version-control.md "What is Version Control?")
-###### [What is Git?](what-is-git.md "What is Git?")
-###### [Learn Git with Visual Studio Team Services](learn-git-with-team-services.md "Learn Git with Visual Studio Team Services")
+###### [What is Version Control?](git/what-is-version-control.md "What is Version Control?")
+###### [What is Git?](git/what-is-git.md "What is Git?")
+###### [Learn Git with Visual Studio Team Services](git/learn-git-with-team-services.md "Learn Git with Visual Studio Team Services")
 
 ![work with git icon](_img/WorkWithGit_64x-2.png)
 ## Work with Git
-###### [Install and setup Git](install-and-set-up-git.md "Install and Setup Git")
-###### [Setup a repository](set-up-a-git-repository.md "Setup a Git repository")
-###### [Save and share code with Git](git-share-code.md "Save and share code with Git")
-###### [Understand Git history](understand-git-history.md "Understand Git history")
-###### [Get feedback with pull requests](git-pull-requests.md "Get feedback with pull requests")
+###### [Install and setup Git](git/install-and-set-up-git.md "Install and Setup Git")
+###### [Setup a repository](git/set-up-a-git-repository.md "Setup a Git repository")
+###### [Save and share code with Git](git/git-share-code.md "Save and share code with Git")
+###### [Understand Git history](git/understand-git-history.md "Understand Git history")
+###### [Get feedback with pull requests](git/git-pull-requests.md "Get feedback with pull requests")
 
 ![Switch to Git icon](_img/SwitchToGit_64x-2.png)
 ## Switch to Git
-###### [Migrate from centralized to Git](centralized-to-git.md "Migrate from centralized to Git")
-###### [Migrate from TFVC to Git](migrate-from-tfvc-to-git.md "Migrate from TFVC to Git")
+###### [Migrate from centralized to Git](git/centralized-to-git.md "Migrate from centralized to Git")
+###### [Migrate from TFVC to Git](git/migrate-from-tfvc-to-git.md "Migrate from TFVC to Git")
 
 ![](_img/migrate-git-468x263.png)
 FEATURED
@@ -40,7 +40,7 @@ ARTICLE
 ###### By Robert Outlaw | ** Read time 6mins
 ###### Bring over the code in your TFVC main branch into a new Git repo, but avoid bringing over your TFVC checkin history with it. Keep your existing TFVC in the same team project as your new Git repo so you have easy access to your development history before the migration.
 
-[](migrate-from-tfvc-to-git.md)
+### [Read more \>](git/migrate-from-tfvc-to-git.md)
 
-#### [** How we do things at Microsoft](https://www.visualstudio.com/articles/devopsmsft/overview)      [** Blog](https://blogs.msdn.microsoft.com/visualstudioalm "Blog")       [** DevOps](https://www.visualstudio.com/devops/)       [** Agile](https://www.visualstudio.com/agile "Agile")
+#### [** How we do things at Microsoft](https://www.visualstudio.com/articles/devopsmsft/overview)      [** Blog](https://blogs.msdn.microsoft.com/visualstudioalm "Blog")       [** DevOps](/azure/devops/what-is-devops)       [** Agile](/azure/devops/agile/what-is-agile "Agile")
 ##### [VSTS](https://www.visualstudio.com/team-services/) has the Git tools your team needs to ship great code

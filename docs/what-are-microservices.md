@@ -1,9 +1,9 @@
 ---
 title: What are Microservices?
 description: Microservices provide many benefits over monolithic architectures.
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: article
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
 ms.date: 01/10/2018

@@ -3,14 +3,16 @@ title: DevOps Resource Center
 layout: LandingPage
 author: samgu
 description: do-come
-ms.prod: vs-devops-alm
-ms.technology: vs-devops-articles
-ms.topic: landing-page
+ms.topic: devops
+ms.topic: devops-learn
+ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
 ms.date: 03/09/2018
 ---
 # DevOps Resource Center
+
+This center combines our resources on learning DevOps practices, Git version control, Agile methods, how we work with DevOps at Microsoft, and how you can assess your own DevOps progression. Alternatively, you can jump to documentation on [getting started with DevOps on Azure](https://docs.microsoft.com/vsts/build-release/), or to dive in, [start your own Azure DevOps project](https://portal.azure.com/#create/Microsoft.AzureProject). If you’re interested in practices, read on. 
 
 <ul class="panelContent cardsC" style="display: flex;">
     <li>
@@ -33,7 +35,7 @@ ms.date: 03/09/2018
         </a>
     </li>
     <li>
-        <a href="what-is-git.md">
+        <a href="git/what-is-git.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -44,7 +46,7 @@ ms.date: 03/09/2018
                         </div>
                         <div class="cardText">
                             <h3>Learn Git</h3>
-                            <p>Git is a distributed version control system to track changes you make in your code over time. </p>
+                            <p>Git is a distributed version control system to track changes you make in your code over time.</p>
                         </div>
                     </div>
                 </div>
@@ -52,7 +54,7 @@ ms.date: 03/09/2018
         </a>
     </li>
     <li>
-        <a href="what-is-agile.md">
+        <a href="agile/what-is-agile.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -63,7 +65,7 @@ ms.date: 03/09/2018
                         </div>
                         <div class="cardText">
                             <h3>Learn Agile</h3>
-                            <p>Agile approaches to software development emphasize incremental delivery, team collaboration, continual planning, and continual learning.  </p>
+                            <p>Agile approaches to software development emphasize incremental delivery, team collaboration, continual planning, and continual learning.</p>
                         </div>
                     </div>
                 </div>
@@ -71,7 +73,7 @@ ms.date: 03/09/2018
         </a>
     </li>
     <li>
-        <a href="devops-at-microsoft.md">
+        <a href="devops-at-microsoft/index.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">
@@ -90,6 +92,7 @@ ms.date: 03/09/2018
         </a>
     </li>
     <li>
+        <a href="https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -100,28 +103,30 @@ ms.date: 03/09/2018
                     </div>
                     <div class="cardText">
                         <h3>DevOps Events and Talks</h3>
-                        <p>Take a look at some of our recent conference talks on youtube at the channel <a href="https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA">Devops at Microsoft</a>.</p>
+                        <p>Take a look at some of our recent conference talks on youtube at the channel Devops at Microsoft.</p>
                     </div>
                 </div>
             </div>
         </div>
+        </a>
     </li>
     <li>
-        <a href="https://devopsassessment.net">   
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage bgdAccent1">
-                                <img class="x-hidden-focus" alt="" src="_img/DevopsAssessment-Results.png" data-linktype="external">
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>DevOps Self-Assessment</h3>
-                            <p>Get tailored recommendations on how to improve your organization’s ability to develop and deliver value to customers, pivot when necessary, and beat competitors to market. </p>
+        <a href="https://devopsassessment.net">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage bgdAccent1">
+                            <img class="x-hidden-focus" alt="" src="_img/DevopsAssessment-Results.png" data-linktype="external">
                         </div>
                     </div>
+                    <div class="cardText">
+                        <h3>DevOps Self-Assessment</h3>
+                        <p>Get tailored recommendations on how to improve your organization’s ability to develop and deliver value to customers, pivot when necessary, and beat competitors to market. </p>
+                    </div>
+                </div>
             </div>
         </div>
+        </a>
     </li>
 </ul>
