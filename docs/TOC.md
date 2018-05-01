@@ -1,5 +1,4 @@
 # [DevOps Resource Center](index.md)
-
 # [DevOps at Microsoft](devops-at-microsoft/index.md)
 ## How We Work with Visual Studio Team Services
 ### [Moving to Cloud Cadence](devops-at-microsoft/moving-cloud-cadence.md)
