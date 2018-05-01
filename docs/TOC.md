@@ -1,6 +1,6 @@
 # [DevOps Resource Center](index.md)
 
-# [Devops at Microsoft](devops-at-microsoft/index.md)
+# [DevOps at Microsoft](devops-at-microsoft/index.md)
 ## How We Work with Visual Studio Team Services
 ### [Moving to Cloud Cadence](devops-at-microsoft/moving-cloud-cadence.md)
 ### [How We Use Git at Microsoft](devops-at-microsoft/use-git-microsoft.md)

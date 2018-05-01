@@ -79,7 +79,7 @@ This center combines our resources on learning DevOps practices, Git version con
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage bgdAccent1">
-                                <img class="x-hidden-focus" alt="" src="_img/Devops-at-Microsoft.svg" data-linktype="external">
+                                <img class="x-hidden-focus" alt="" src="_img/DevOps-at-Microsoft.svg" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText">
@@ -103,7 +103,7 @@ This center combines our resources on learning DevOps practices, Git version con
                     </div>
                     <div class="cardText">
                         <h3>DevOps Events and Talks</h3>
-                        <p>Take a look at some of our recent conference talks on youtube at the channel Devops at Microsoft.</p>
+                        <p>Take a look at some of our recent conference talks on youtube at the channel DevOps at Microsoft.</p>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@ This center combines our resources on learning DevOps practices, Git version con
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage bgdAccent1">
-                            <img class="x-hidden-focus" alt="" src="_img/Devops-Self-Assessment.svg" data-linktype="external">
+                            <img class="x-hidden-focus" alt="" src="_img/DevOps-Self-Assessment.svg" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
