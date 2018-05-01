@@ -54,7 +54,7 @@
 ### [Limited Refs](git/limited-refs.md)
 ### [The Race to Push](git/race-to-push.md)
 ### [Git Virtual File System Design History](git/gvfs-design-history.md)
-### [Technical Scale Challenges with Git](git/gvfs-architecture.md)
+### [Git Virtual File System Architecture](git/gvfs-architecture.md)
 
 # Learn Agile
 ## [What is Agile](agile/what-is-agile.md)
