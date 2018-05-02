@@ -54,11 +54,11 @@ A key advantage of the cloud service is that it provides a continuous feedback l
 
 By definition, a 24x7x365 service needs to be always available. [Buck describes how we have used cloud patterns for resiliency](patterns-resiliency-cloud.md), such as circuit breakers and throttling, to ensure the availability and performance of VSTS.
 
-> [!VIDEO https://www.youtube.com/embed/ed3ziUDq_n0]
+> [!VIDEO https://www.youtube.com/embed/yVnVY2HPVsI]
 
 Availability would be meaningless without suitable quality. Here [Munil Shah covers how we shift left to test](shift-left-make-testing-fast-reliable.md) fast and reliably. For example, he takes us through the evolution that has led to our ability to run 60,000 tests in the pull request flow before commit to master and continuous integration.
 
-> [!VIDEO https://www.youtube.com/embed/ed3ziUDq_n0]
+> [!VIDEO https://www.youtube.com/embed/iJkI8PwlxR4]
 
 To get a reliable signal from high-volume test automation, we need to be able to trust the test results. [Munil describes how we eliminate flaky tests](eliminating-flaky-tests.md) so that red can mean red.
 
