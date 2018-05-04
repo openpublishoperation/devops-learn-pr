@@ -6,7 +6,7 @@ ms.topic: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: kangan
-ms.date: 04/04/2017
+ms.date: 05/04/2018
 ---
 
 # What is Git?
@@ -51,7 +51,7 @@ lose information, or corrupt files without Git detecting it.
 Each developer saves changes their own local code repository. As a
 result, you can have many different changes based off the same commit.
 Git provides tools for isolating changes and later merging them back
-together. *Branches**,*** **** which are*** ***lightweight pointers to
+together. Branches, which are lightweight pointers to
 work in progress, manage this separation.  Once your work created in a
 branch is finished, merge it back into your team’s main (or master)
 branch.
