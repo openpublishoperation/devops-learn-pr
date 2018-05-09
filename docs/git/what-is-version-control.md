@@ -1,8 +1,8 @@
 ---
 title: What is version control?
 description: Version control systems are software that help you track changes you make in your code over time.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: routlaw

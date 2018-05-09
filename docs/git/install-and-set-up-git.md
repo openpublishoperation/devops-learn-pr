@@ -1,8 +1,8 @@
 ---
 title: Install and set up Git
 description: "IGit isn't usually set up by default on your computer, so you need to install and configure it before you can start using it to manage your code. It's important to keep Git up to date, just like all the other software on your machine. "
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: routlaw

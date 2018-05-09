@@ -1,8 +1,8 @@
 ---
 title: What is Scrum?
 description: "Scrum is a framework used by teams to manage their work. Scrum implements the principles of Agile as a concrete set of artifacts, practices, and roles. This article provides a basic description of Scrum. At the end, you’ll find helpful resources if you want to dig in more."
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: gregboe

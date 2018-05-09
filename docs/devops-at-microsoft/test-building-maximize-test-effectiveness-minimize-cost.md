@@ -1,8 +1,8 @@
 ---
 title: Test while building to maximize test effectiveness and minimize cost
 description: Unit testing is a commonly used practice for early detection of defects in software. One of its applications is regression testing, which ensures that software changes do not break any of the previously working functionality.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: jacekcz

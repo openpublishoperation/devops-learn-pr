@@ -1,8 +1,8 @@
 ---
 title: Software testing at scale to increase velocity
 description: "his article discusses how to decide what you need to test without spending more than necessary. Don't pay too much for software testing Software testing is like insurance. Creating tests is buying coverage against risks. Redundant tests, flaky tests or running tests unnecessarily is"
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: jacekcz

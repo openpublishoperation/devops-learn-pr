@@ -1,8 +1,8 @@
 ---
 title: Progressive Experimentation with Feature Flags
 description: One of the things that we needed to do as part of our cloud service journey was to be able to control disclosure of features. This was something we never had in the on-prem product.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: buckh

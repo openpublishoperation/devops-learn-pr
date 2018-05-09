@@ -1,8 +1,8 @@
 ---
 title: Getting the noise out of test runs
 description: "Can you believe your test results? If a test runs green or red, is it a true pass or fail, or might it be a false positive or negative? Sorting out the noise of false alarms from correct test results is"
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: kimh

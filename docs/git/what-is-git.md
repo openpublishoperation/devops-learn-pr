@@ -1,8 +1,8 @@
 ---
 title: What is Git?
 description: Git is the most commonly used version control system today. Will it be the standard for the future?
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: kangan

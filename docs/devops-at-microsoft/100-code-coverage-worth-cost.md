@@ -1,8 +1,8 @@
 ---
 title: Is 100% code coverage worth the cost?
 description: "Often you have code that does not have 100% test coverage. In other words, tests don't exercise all code paths. (The code and tests were developed independently, and the system has evolved over time.) How much engineering effort is worth investing to increase"
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu

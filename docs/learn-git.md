@@ -1,8 +1,8 @@
 ---
 title: What is Git? Tutorials
 description: Learn Git Learn Git with tutorials and best practices for individuals, teams, and enterprises 
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu

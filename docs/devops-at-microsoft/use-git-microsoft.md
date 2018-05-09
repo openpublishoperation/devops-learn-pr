@@ -1,8 +1,8 @@
 ---
 title: How We Use Git at Microsoft
 description: "We've talked a lot about hosting the world's largest Git repository, about how we're moving Microsoft to Git, and about the challenges of Git at scale."
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: mattc

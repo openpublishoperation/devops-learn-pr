@@ -1,8 +1,8 @@
 ---
 title: Git Virtual File System Architecture
 description: In previous articles, we have discussed the challenges of working in a Git repo with millions of files and some of our previous attempts to solve those issues.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: sanoursa

@@ -1,8 +1,8 @@
 ---
 title: What is Monitoring?
 description: Monitor your application in production. Monitoring delivers information about an application’s performance and usage patterns.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu

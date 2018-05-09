@@ -1,8 +1,8 @@
 ---
 title: Using a simple code churn metric to find software bugs
 description: A common problem in software engineering is understanding how to evolve large software projects, particularly when trying to maintain, modernize, or refactor.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: hitsaj

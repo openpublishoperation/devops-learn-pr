@@ -1,8 +1,8 @@
 ---
 title: Plan your migration to Git
 description: Switching from centralized version control to Git? Git uses a fundamentally different model for storing code. Here’s what you need to know.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: mattc

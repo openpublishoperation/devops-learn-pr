@@ -1,8 +1,8 @@
 ---
 title: Code ownership and software quality
 description: Collective code ownership has been advocated as a best practice [1]. Is it always? Several studies have shown that code ownership has an impact on software quality. This article outlines code ownership and its impact on quality and shows the results of two studies we performed at Microsoft investigating this topic.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: mgreiler

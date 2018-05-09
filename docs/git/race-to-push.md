@@ -1,8 +1,8 @@
 ---
 title: The Race to Push
 description: "In a team with more than a dozen or so members, people often end up racing with each other to push their changes to master or another shared branch. This results in wasted time, frustration, and reduced code quality since people can’t take the time to fully validate their changes out of fear of losing the race."
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: sanoursa

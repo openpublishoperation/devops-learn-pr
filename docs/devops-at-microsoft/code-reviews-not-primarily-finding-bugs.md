@@ -1,8 +1,8 @@
 ---
 title: Code reviews are not (primarily) for finding bugs
 description: Peer code reviews are a standard practice in software engineering. Open source workflows especially are designed to enforce a successful peer review before the merge of a change into the main codebase. Who reviews code and accepts or blocks the change from becoming a part of the codebase is crucially important.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: jacekcz

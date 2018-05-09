@@ -1,8 +1,8 @@
 ---
 title: What is version control?
 description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: buckh

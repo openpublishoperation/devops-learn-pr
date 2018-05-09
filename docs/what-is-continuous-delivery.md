@@ -1,8 +1,8 @@
 ---
 title: What is Continuous Delivery?
 description: Continuous Delivery (CD) is the process to build, test, configure and deploy from a build to a production environment.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu

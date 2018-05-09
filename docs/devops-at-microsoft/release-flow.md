@@ -1,8 +1,8 @@
 ---
 title: Release Flow
 description: "An introduction to Release Flow, the VSTS team's branching strategy and development process that ensures that we deliver code to production safely and efficiently."
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: ethomson

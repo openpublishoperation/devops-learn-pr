@@ -1,8 +1,8 @@
 ---
 title: Improving software security with stack traces from bug reports
 description: "As digital services connect sensitive data about nearly all aspects of our daily lives, software security may never have been as important as it is today. Breaking even simple systems may have significant consequences for individuals, companies, or even diplomatic relations"
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: kimh

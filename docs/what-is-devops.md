@@ -1,8 +1,8 @@
 ---
 title: What is DevOps?
 description: DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu

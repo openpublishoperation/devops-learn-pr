@@ -1,8 +1,8 @@
 ---
 title: "Universal Store: Journey to Continuous Delivery and DevOps"
 description: The Microsoft Universal Store Team (UST) is the main commercial engine of Microsoft with the mission to bring One Universal Store for all commerce at Microsoft. The UST encompasses everything Microsoft sells and everything others sell through the company, consumer and commercial.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu

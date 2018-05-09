@@ -1,8 +1,8 @@
 ---
 title: DevOps at Microsoft | Azure DevOps
 description: This center will keep you current on how we continue to adopt DevOps at Microsoft. We’ve selected the best videos and articles from both public conferences and internal training sessions. For most of the videos, we also provide an accompanying article. We focus on practices that we use in Visual Studio Team Services (VSTS), which is the backbone of our One Engineering System (1ES), lessons learned from across Microsoft, and the best of our learning from Microsoft Research.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu

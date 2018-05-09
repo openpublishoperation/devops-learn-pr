@@ -1,8 +1,8 @@
 ---
 title: Eliminating Flaky Tests
 description: "Eliminating Flaky Tests The next part of ensuring 'Master is Shippable' was eliminating flaky tests. A test is flaky when it passes sometimes and fails sometimes, without any noticeable change in the code, tests, or environment. Some tests fail, then you re-run them and they pass. They are useless tests and if left uncontrolled can completely"
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: munils

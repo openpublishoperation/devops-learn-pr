@@ -1,8 +1,8 @@
 ---
 title: Welcome to Agile
 description: What is Agile? What is Scrum? What is Agile Development? Learn about Agile principles, methodologies, and applications.
-ms.topic: devops
-ms.topic: devops-learn
+ms.prod: devops
+ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
