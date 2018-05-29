@@ -25,7 +25,7 @@ Aaron Bjork discusses how we incorporate Agile principles and what that looks li
 > [!VIDEO https://www.youtube.com/embed/-LvCJpnNljU]
 
 ### Combining dev and test with Munil Shah
-Microsoft’s decision to move to [a single engineering organization](evolving-test-practices-microsoft.md), where development and testing are a unified part of the build process rather than separate roles, has helped every engineer have a greater impact on the quality of the software. Munil Shah shares his first hand experiences.
+Microsoft’s decision to move to _a single engineering organization_, where development and testing are a unified part of the build process rather than separate roles, has helped every engineer have a greater impact on the quality of the software. Munil Shah shares his first hand experiences.
 
 * [Evolving test practices: combining development and test](evolving-test-practices-microsoft.md)
 
@@ -73,14 +73,17 @@ Availability would be meaningless without suitable quality. Munil Shah covers ho
 
 * [Munil Shah covers how we shift left to test](shift-left-make-testing-fast-reliable.md)
 
-To get a reliable signal from high-volume test automation, we need to be able to trust the test results. [Munil describes how we eliminate flaky tests](eliminating-flaky-tests.md) so that red can mean red.
+### Eliminating flaky tests with Munil Shah
+To get a reliable signal from high-volume test automation, we need to be able to trust the test results. Munil describes how we eliminate flaky tests so that red can mean red.
 
-> [!VIDEO https://www.youtube.com/embed/Q4c5cvt1b3k]
+* [Eliminating flaky tests to build trust](eliminating-flaky-tests.md)
 
-Testing only in pre-production environments helps you with the faults you’ve previously encountered, but not the ones you haven’t seen. [Munil explains how there is no place like production](shift-right-test-production.md) and that means we need to test in production too.
+### Shift right to test in production with Munil Shah
+Testing only in pre-production environments helps you with the faults you’ve previously encountered, but not the ones you haven’t seen. Munil explains how there is no place like production and that means we need to test in production too.
 
-> [!VIDEO https://www.youtube.com/embed/jFXTryMp5KY]
+* [Testing in production](shift-right-test-production.md)
 
+### Safe deployment practices with Ed Glas
 When you deploy continuously, you need to control the blast radius and continually expand based on the health of the release. Ed Glas goes over the safe deployment practices that we use for progressive exposure.
 
 > [!VIDEO https://www.youtube.com/embed/QP_u4ipP2SU]
@@ -94,9 +97,10 @@ For a demo of what it looks like in practice, my WinOps 2017 keynote demonstrate
 
 > [!VIDEO https://www.youtube.com/embed/NlI0bkgdG7E]
 
-Microsoft is a very large software company. As of September 2017, we have more than 75,000 engineers active on Visual Studio Team Services. For a [great discussion](moving-65000-microsofties-devops-public-cloud.md) of how the transformation has affected multiple divisions, we held an open-mic Q&A at Build 2017 with engineering leaders from across the company.
+### Q&A - Moving 65,000 engineers to DevOps on the public cloud
+Microsoft is a very large software company. As of September 2017, we have more than 75,000 engineers active on Visual Studio Team Services. For a great discussion of how the transformation has affected multiple divisions, we held an open-mic Q&A at Build 2017 with engineering leaders from across the company.
 
-> [!VIDEO https://www.youtube.com/embed/M7mHOhUQjmU]
+* [Q&A interview video and transcript](moving-65000-microsofties-devops-public-cloud.md)
 
 In addition to this panel, you can read a great experience report on how the [Universal Store Team adopted Continuous Delivery](universal-store-journey-continuous-delivery-devops.md) over the course of 12 months. One stunning example is an 8000x improvement in build frequency!
 
