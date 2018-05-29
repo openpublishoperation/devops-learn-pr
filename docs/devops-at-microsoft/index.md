@@ -19,20 +19,20 @@ For a great overview of lessons learned at Microsoft Developer Division, Lori La
 
 > [!VIDEO https://www.youtube.com/embed/Lprj_4Wpi2s]
 
+
+| Article                               | Description                                                                                                                                               |
+|------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| Agile principles in practice                                | Aaron Bjork discusses how we incorporate Agile principles and what that looks like in practice. Everything about how we manage teams, roles, planning, sprints, and flow has brought improvement to the software we build and use daily that customers can depend on.                                                                                                                    |
+| [Evolving test practices: combining development and test](evolving-test-practices-microsoft.md) | Microsoft’s decision to move to _a single engineering organization_, where development and testing are a unified part of the build process rather than separate roles, has helped every engineer have a greater impact on the quality of the software. Munil Shah shares his first hand experiences.                                                       |
+| [Git at scale: Release flow and branching strategy](release-flow.md)                       | Working in a single master and using the pull request flow have been a key ingredient to keeping debt out and deployments clean. Ed Thomson covers lightweight topic branching on Git combined with Release Flow as part of our move to safe deployment. He starts with the transition from a hierarchical version control to Git.                     |
+| Security in DevOps                    | Security is a key part of DevOps. Buck Hodges first walks through how we have done our security war games with red teams and blue teams. Buck goes on to cover our best practices for DevSecOps in running a SaaS business.                                                                                                                                  |
+| Live-Site Culture      | Live-Site Culture (or a Production-First Mindset) is essential to running a service. Tom Moore discusses both how we handle service reliability and how we practice, You Build It, You Run It. You can’t control what you can’t measure. Along the way, Tom Moore how we use telemetry to monitor VSTS and gain continual insight into both the health and usage of the service.                                     |
+
+
 ### Agile principles in practice with Aaron Bjork
 Aaron Bjork discusses how we incorporate Agile principles and what that looks like in practice. Everything about how we manage teams, roles, planning, sprints, and flow has brought improvement to the software we build and use daily that customers can depend on.
 
 > [!VIDEO https://www.youtube.com/embed/-LvCJpnNljU]
-
-### Combining dev and test with Munil Shah
-Microsoft’s decision to move to _a single engineering organization_, where development and testing are a unified part of the build process rather than separate roles, has helped every engineer have a greater impact on the quality of the software. Munil Shah shares his first hand experiences.
-
-* [Evolving test practices: combining development and test](evolving-test-practices-microsoft.md)
-
-### Git at scale: Release flow and branching strategy with Ed Thomson
-Working in a single master and using the pull request flow have been a key ingredient to keeping debt out and deployments clean. Ed Thomson covers lightweight topic branching on Git combined with Release Flow as part of our move to safe deployment. He starts with the transition from a hierarchical version control to Git.
-
-* [Git at scale: Release flow and branching strategy](release-flow.md)
 
 ### Security in DevOps with Buck Hodges
 Security is a key part of DevOps. Buck Hodges first walks through how we have done our security war games with red teams and blue teams. Buck goes on to cover our best practices for DevSecOps in running a SaaS business.
@@ -48,40 +48,17 @@ Live-Site Culture (or a Production-First Mindset) is essential to running a serv
 ## How We Architect Visual Studio Team Services (VSTS)
 These talks cover the accompanying technology behind VSTS and its evolution. 
 
-### From monolith to cloud service with Buck Hodges
-Buck Hodges starts with the path from monolith to cloud service as we moved from a single delivery stream of TFS on-prem to dual streams including VSTS on Azure. He discusses how we maintain consistency between the on-prem product and the hosted multi-tenant service.
+| Article                               | Description                                                                                                                                               |
+|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| [The path from monolith to cloud service](monolith-cloud-service.md)                                                | Buck Hodges starts with the path from monolith to cloud service as we moved from a single delivery stream of TFS on-prem to dual streams including VSTS on Azure. He discusses how we maintain consistency between the on-prem product and the hosted multi-tenant service.      |
+| [Achieving no downtime through versioned service updates](achieving-no-downtime-versioned-service-updates.md)       | Running the hosted service 24x7x365 globally requires that we can deploy updates intraday with no downtime. Buck describes the architecture and technical process for updating the service while live.                       |
+| [Progression experimentation with feature flags](progressive-experimentation-feature-flags.md)                      | A key advantage of the cloud service is that it provides a continuous feedback loop with our users. Here Buck discusses how we use feature flags to progressively reveal new functionality and to experiment in production.                      |
+| [Cloud patterns for resiliency and uptime](patterns-resiliency-cloud.md)                                            | By definition, a 24x7x365 service needs to be always available. Buck describes how we have used cloud patterns for resiliency, such as circuit breakers and throttling, to ensure the availability and performance of VSTS.                       |
+| [Shift left to test fast and reliably](shift-left-make-testing-fast-reliable.md)                                    | Availability would be meaningless without suitable quality. Munil Shah covers how we shift left to test fast and reliably - he takes us through the evolution that has led to our ability to run 60,000 tests in the pull request flow before commit to master and continuous integration.                      |
+| [Eliminating flaky tests to build trust](eliminating-flaky-tests.md)                                                | To get a reliable signal from high-volume test automation, we need to be able to trust the test results. Munil describes how we eliminate flaky tests so that red can mean red.                       |
+| [Shift right to test in production](shift-right-test-production.md)                                                 | Testing only in pre-production environments helps you with the faults you’ve previously encountered, but not the ones you haven’t seen. Munil explains how there is no place like production and that means we need to test in production too.                      |
+| Safe deployment practices                                   | When you deploy continuously, you need to control the blast radius and continually expand based on the health of the release. Ed Glas goes over the safe deployment practices that we use for progressive exposure.                       |
 
-* [The path from monolith to cloud service](monolith-cloud-service.md)
-
-### Achieving no downtime through versioned service updates with Buck Hodges
-Running the hosted service 24x7x365 globally requires that we can deploy updates intraday with no downtime. Buck describes the architecture and technical process for updating the service while live.
-
-* [Versioned service updates: the process for updating the service while live](achieving-no-downtime-versioned-service-updates.md)
-
-### Feature flags and new functionality with Buck Hodges
-A key advantage of the cloud service is that it provides a continuous feedback loop with our users. Here Buck discusses how we use feature flags to progressively reveal new functionality and to experiment in production.
-
-* [Progression experimentation with feature flags](progressive-experimentation-feature-flags.md)
-
-### Cloud patterns for resiliency and uptime with Buck Hodges
-By definition, a 24x7x365 service needs to be always available. Buck describes how we have used cloud patterns for resiliency, such as circuit breakers and throttling, to ensure the availability and performance of VSTS.
-
-* [Cloud patterns for resiliency](patterns-resiliency-cloud.md)
-
-### Shift left to test fast and reliably with Munil Shah
-Availability would be meaningless without suitable quality. Munil Shah covers how we shift left to test fast and reliably - he takes us through the evolution that has led to our ability to run 60,000 tests in the pull request flow before commit to master and continuous integration.
-
-* [Munil Shah covers how we shift left to test](shift-left-make-testing-fast-reliable.md)
-
-### Eliminating flaky tests with Munil Shah
-To get a reliable signal from high-volume test automation, we need to be able to trust the test results. Munil describes how we eliminate flaky tests so that red can mean red.
-
-* [Eliminating flaky tests to build trust](eliminating-flaky-tests.md)
-
-### Shift right to test in production with Munil Shah
-Testing only in pre-production environments helps you with the faults you’ve previously encountered, but not the ones you haven’t seen. Munil explains how there is no place like production and that means we need to test in production too.
-
-* [Testing in production](shift-right-test-production.md)
 
 ### Safe deployment practices with Ed Glas
 When you deploy continuously, you need to control the blast radius and continually expand based on the health of the release. Ed Glas goes over the safe deployment practices that we use for progressive exposure.
