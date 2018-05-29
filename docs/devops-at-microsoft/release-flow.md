@@ -30,8 +30,6 @@ deployment in multiple Azure data centers around the world.
 We call it "Release Flow", and it encompasses the entire DevOps process:
 from development to release.
 
-> [!VIDEO https://www.youtube.com/embed/ppzIBIQz_KY]
-
 ## Development
 
 1. **Branch**   
