@@ -20,7 +20,7 @@ For a great overview of lessons learned at Microsoft Developer Division, Lori La
 > [!VIDEO https://www.youtube.com/embed/Lprj_4Wpi2s]
 
 
-| Article  &nbsp; &nbsp; &nbsp; &nbsp; | Description                                                                   |
+| Article  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description                                                                   |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | Agile principles in practice                                | Aaron Bjork discusses how we incorporate Agile principles and what that looks like in practice. Everything about how we manage teams, roles, planning, sprints, and flow has brought improvement to the software we build and use daily that customers can depend on.                                                                                                                    |
 | [Evolving test practices: combining development and test](evolving-test-practices-microsoft.md) | Microsoft’s decision to move to _a single engineering organization_, where development and testing are a unified part of the build process rather than separate roles, has helped every engineer have a greater impact on the quality of the software. Munil Shah shares his first hand experiences.                                                       |
@@ -48,7 +48,7 @@ Live-Site Culture (or a Production-First Mindset) is essential to running a serv
 ## How We Architect Visual Studio Team Services (VSTS)
 These talks cover the accompanying technology behind VSTS and its evolution. 
 
-| Article    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                         | Description                                                                                                                             |
+| Article    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                             | Description                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [The path from monolith to cloud service](monolith-cloud-service.md)                                                | Buck Hodges starts with the path from monolith to cloud service as we moved from a single delivery stream of TFS on-prem to dual streams including VSTS on Azure. He discusses how we maintain consistency between the on-prem product and the hosted multi-tenant service.      |
 | [Achieving no downtime through versioned service updates](achieving-no-downtime-versioned-service-updates.md)       | Running the hosted service 24x7x365 globally requires that we can deploy updates intraday with no downtime. Buck describes the architecture and technical process for updating the service while live.                       |
