@@ -19,46 +19,59 @@ For a great overview of lessons learned at Microsoft Developer Division, Lori La
 
 > [!VIDEO https://www.youtube.com/embed/Lprj_4Wpi2s]
 
+### Agile principles in practice with Aaron Bjork
 Aaron Bjork discusses how we incorporate Agile principles and what that looks like in practice. Everything about how we manage teams, roles, planning, sprints, and flow has brought improvement to the software we build and use daily that customers can depend on.
 
 > [!VIDEO https://www.youtube.com/embed/-LvCJpnNljU]
 
+### Combining dev and test with Munil Shah
 Microsoft’s decision to move to [a single engineering organization](evolving-test-practices-microsoft.md), where development and testing are a unified part of the build process rather than separate roles, has helped every engineer have a greater impact on the quality of the software. Munil Shah shares his first hand experiences.
 
-> [!VIDEO https://www.youtube.com/embed/tj5mfW_gtRU]
+* [Evolving test practices: combining development and test](evolving-test-practices-microsoft.md)
 
+### Git at scale: Release flow and branching strategy with Ed Thomson
 Working in a single master and using the pull request flow have been a key ingredient to keeping debt out and deployments clean. Ed Thomson covers lightweight topic branching on Git combined with Release Flow as part of our move to safe deployment. He starts with the transition from a hierarchical version control to Git.
 
-> [!VIDEO https://www.youtube.com/embed/ppzIBIQz_KY]
+* [Git at scale: Release flow and branching strategy](release-flow.md)
 
+### Security in DevOps with Buck Hodges
 Security is a key part of DevOps. Buck Hodges first walks through how we have done our security war games with red teams and blue teams. Buck goes on to cover our best practices for DevSecOps in running a SaaS business.
 
 > [!VIDEO https://www.youtube.com/embed/7fW4wZbJtg0]
+
+### Live-Site Culture with Tom Moore
 
 Live-Site Culture (or a Production-First Mindset) is essential to running a service. Tom Moore discusses both how we handle service reliability and how we practice, You Build It, You Run It. You can’t control what you can’t measure. Along the way, Tom Moore how we use telemetry to monitor VSTS and gain continual insight into both the health and usage of the service.
 
 > [!VIDEO https://www.youtube.com/embed/UCP-e3sKL8k]
 
 ## How We Architect Visual Studio Team Services (VSTS)
-These talks cover the accompanying technology behind VSTS and its evolution. Buck Hodges starts with [the path from monolith to cloud service](monolith-cloud-service.md) as we moved from a single delivery stream of TFS on-prem to dual streams including VSTS on Azure. He discusses how we maintain consistency between the on-prem product and the hosted multi-tenant service.
+These talks cover the accompanying technology behind VSTS and its evolution. 
 
-> [!VIDEO https://www.youtube.com/embed/9frodP5xLxk]
+### From monolith to cloud service with Buck Hodges
+Buck Hodges starts with the path from monolith to cloud service as we moved from a single delivery stream of TFS on-prem to dual streams including VSTS on Azure. He discusses how we maintain consistency between the on-prem product and the hosted multi-tenant service.
 
-Running the hosted service 24x7x365 globally requires that we can deploy updates intraday with no downtime. Buck describes the architecture and technical [process for updating the service while live](achieving-no-downtime-versioned-service-updates.md).
+* [The path from monolith to cloud service](monolith-cloud-service.md)
 
-> [!VIDEO https://www.youtube.com/embed/wTYoW41U2n8]
+### Achieving no downtime through versioned service updates with Buck Hodges
+Running the hosted service 24x7x365 globally requires that we can deploy updates intraday with no downtime. Buck describes the architecture and technical process for updating the service while live.
 
-A key advantage of the cloud service is that it provides a continuous feedback loop with our users. Here Buck discusses how we use feature flags to progressively reveal new functionality and to [experiment in production](progressive-experimentation-feature-flags.md).
+* [Versioned service updates: the process for updating the service while live](achieving-no-downtime-versioned-service-updates.md)
 
-> [!VIDEO https://www.youtube.com/embed/ed3ziUDq_n0]
+### Feature flags and new functionality with Buck Hodges
+A key advantage of the cloud service is that it provides a continuous feedback loop with our users. Here Buck discusses how we use feature flags to progressively reveal new functionality and to experiment in production.
 
-By definition, a 24x7x365 service needs to be always available. [Buck describes how we have used cloud patterns for resiliency](patterns-resiliency-cloud.md), such as circuit breakers and throttling, to ensure the availability and performance of VSTS.
+* [Progression experimentation with feature flags](progressive-experimentation-feature-flags.md)
 
-> [!VIDEO https://www.youtube.com/embed/yVnVY2HPVsI]
+### Cloud patterns for resiliency and uptime with Buck Hodges
+By definition, a 24x7x365 service needs to be always available. Buck describes how we have used cloud patterns for resiliency, such as circuit breakers and throttling, to ensure the availability and performance of VSTS.
 
-Availability would be meaningless without suitable quality. Here [Munil Shah covers how we shift left to test](shift-left-make-testing-fast-reliable.md) fast and reliably. For example, he takes us through the evolution that has led to our ability to run 60,000 tests in the pull request flow before commit to master and continuous integration.
+* [Cloud patterns for resiliency](patterns-resiliency-cloud.md)
 
-> [!VIDEO https://www.youtube.com/embed/iJkI8PwlxR4]
+### Shift left to test fast and reliably with Munil Shah
+Availability would be meaningless without suitable quality. Munil Shah covers how we shift left to test fast and reliably - he takes us through the evolution that has led to our ability to run 60,000 tests in the pull request flow before commit to master and continuous integration.
+
+* [Munil Shah covers how we shift left to test](shift-left-make-testing-fast-reliable.md)
 
 To get a reliable signal from high-volume test automation, we need to be able to trust the test results. [Munil describes how we eliminate flaky tests](eliminating-flaky-tests.md) so that red can mean red.
 
