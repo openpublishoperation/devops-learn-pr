@@ -29,7 +29,7 @@ Aaron Bjork discusses how we incorporate Agile principles and what that looks li
 
 Microsoft’s decision to move to [a single engineering organization](evolving-test-practices-microsoft.md), where development and testing are a unified part of the build process rather than separate roles, has helped every engineer have a greater impact on the quality of the software. Munil Shah shares his first hand experiences.
 
-* [Evolving test practices: combining development and test](evolving-test-practices-microsoft).md)
+* [Evolving test practices: combining development and test](evolving-test-practices-microsoft.md)
 
 ### Git at scale: Release flow and branching strategy with Ed Thomson
 Working in a single master and using the pull request flow have been a key ingredient to keeping debt out and deployments clean. Ed Thomson covers lightweight topic branching on Git combined with Release Flow as part of our move to safe deployment. He starts with the transition from a hierarchical version control to Git.
