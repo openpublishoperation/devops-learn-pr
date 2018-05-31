@@ -142,7 +142,7 @@ Teams will self-organize itself each sprint into two distinct teams: **Features 
 4. **_Build the culture you want and you'll get the behavior you're looking for_**
 
 
-> TODO: Can you help me update this?
+> TODO: Can you help me update this with Aarons info below? @Samgu
 
 |             |                           |
 |-------------|---------------------------|
