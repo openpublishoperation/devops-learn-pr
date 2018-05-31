@@ -2,7 +2,7 @@
 # [DevOps at Microsoft](devops-at-microsoft/index.md)
 ## How We Work with Visual Studio Team Services
 ### [Moving to Cloud Cadence](devops-at-microsoft/moving-cloud-cadence.md)
-### Agile practices at Microsoft
+### Agile practices at Microsoft(agile-principles-in-practice.md)
 ### [How We Use Git at Microsoft](devops-at-microsoft/use-git-microsoft.md)
 ### [Release Flow: Our Branching Strategy](devops-at-microsoft/release-flow.md)
 ### [Evolving Test Practices at Microsoft](devops-at-microsoft/evolving-test-practices-microsoft.md)

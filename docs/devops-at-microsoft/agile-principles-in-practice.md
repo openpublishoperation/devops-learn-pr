@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 ---
 
 # Agile principles in practice
-> By: Sam Guckenheimer
+> By: Aaron Bjork
 
 Aaron Bjork discusses how we incorporate Agile principles and what that looks like in practice. Everything about how we manage teams, roles, planning, sprints, and flow has brought improvement to the software we build and use daily that customers can depend on.
 
@@ -98,9 +98,46 @@ At the end of every sprint, every team sends a mail saying what they've accompli
 
 ### We changed how we **plan** and **learn**
 
-## References:
-\* Kim Herzig, Nachiappan Nagappan: Empirically Detecting False Test
-Alarms Using Association Rules. ICSE (2) 2015: 39-48
+_"Plans are worthless, but planning is everything"_ - Dwight Eisenhower
+
+Our planning is broken down as follows:
+
+- Sprints (3 weeks)
+- Plans (3 sprints)
+- Seasons (6 months)
+- Strategies (12 months)
+
+> TODO: insert picture
+
+With engineers and teams responsbile mostly for Sprints and Plans, and leadership responsible for Seasons and Strategies.
+
+We've found that this planning structure helps us maximize our **_learning_** while we do our planning. We're able to get feedback, deploy, find out what customers want and actually implement those things quickly and efficiently.
+
+### Created new ways to **stay healthy**
+
+Before, we would let code bugs build up until the end of a code phase (the "code complete). We would then discover them, work on fixing them, rinse and repeat. This created a "roller coaster" of bugs, and as the number of bugs dropped, so did team morale as they did nothing but work on bug fixes instead of implementing new and fun features.
+
+Now, we implement what we call a "bug cap". A bug cap is calculated by the following formula:
+
+- `# of engineers x 5 = bug cap`
+
+If a team's bug count exceeds the bug cap at the end of a sprint, they stop working on new features until they are back down under their cap. A version of paying down their debt as they go.
+
+#### Shielding distractions
+
+Teams have come up with their own way to provide focus and assist with an interrupt culture in the form of bugs and live-site incidents. 
+
+Teams will self-organize itself each sprint into two distinct teams: **Features (F team)** and **Shielding (L teams)**. The F-team works on commited features and the L-team deals with all live site issues and interruptions. The rotating cadence is established by the team and it allows for members to plan activities outside of work mcuh easier.
+
+## Four key takeaways
+
+1. Take agile science seriously, but don't be overly prescriptive. Agile can become too strict, let it grow like a mindset or culture.
+2. Stop celebrating activity and start celebrating results. Lines of code shouldn't outweigh functionality deployments.
+3. You can't cheat shipping. Until you get into the mindset of updating services/products at the end of Sprints, you won't find all of the work that needs to be done. Shipping every Sprint helps establish a rhythm and cadence.
+4. **_Build the culture you want and you'll get the behavior you're looking for_**
+
+
+> TODO: Can you help me update this?
 
 |             |                           |
 |-------------|---------------------------|
