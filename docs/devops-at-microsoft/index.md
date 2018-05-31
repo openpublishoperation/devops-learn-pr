@@ -17,7 +17,7 @@ This center will keep you current on how we continue to adopt DevOps at Microsof
 ## How We Work with Visual Studio Team Services (VSTS)
 For a great overview of lessons learned at Microsoft Developer Division, Lori Lamkin covers our seven-year [journey to cloud cadence](moving-cloud-cadence.md). She goes through the sequence of steps we took, and that you can take as you become proficient at DevOps.
 
-
+<br>
 > [!VIDEO https://www.youtube.com/embed/Lprj_4Wpi2s]
 
 ### Videos and articles
