@@ -63,7 +63,7 @@ There is a delicate balance between the two - too much alignment and a negative 
 
 In order to balance the two, we try to implement something we call "Aligned Autonomy".
 
-> TODO: insert picture
+![Aligned autonomy](_img/aligned-autonomy.png)
 
 ### We changed our approach to **teams**
 
@@ -86,6 +86,10 @@ We started thinking about teams more than individuals in VSTS. We organized peop
 
 Before, teams would be horizontal - they would either cover **all** UI, **all** data, **all** API, etc. But now what we want are teams that own their area end-to-end in the product. We implement strict guidelines in certain tiers to ensure uniformity across the product among teams.
 
+We strive for vertical teams: 
+
+![Strive for vertical teams](_img/vertical-teams.png)
+
 #### Self-forming teams
 
 Every ~18 months we practice what we call the "yellow sticky exercise". This is an activity in which developers are able to choose which areas of the product they're interested in and would like to work on for the next couple of planning periods. This exercise provides the teams with autonomy - able to choose what they work on, and also helps the organization with alignment as it makes sure we have balance among the teams.
@@ -107,7 +111,7 @@ Our planning is broken down as follows:
 - Seasons (6 months)
 - Strategies (12 months)
 
-> TODO: insert picture
+![Planning chart](_img/planning.png)
 
 With engineers and teams responsbile mostly for Sprints and Plans, and leadership responsible for Seasons and Strategies.
 
