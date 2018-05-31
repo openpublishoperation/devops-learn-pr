@@ -65,12 +65,38 @@ In order to balance the two, we try to implement something we call "Aligned Auto
 
 > TODO: insert picture
 
-### We changed our approach to teams
+### We changed our approach to **teams**
 
 We started thinking about teams more than individuals in VSTS. We organized people and teams into two groups: PMs and engineers.
 
 - PMs: Responsible for what we're building and why we're building it
 - Engineers: Responsible for how we're building it and ensuring we build it with quality
+
+#### The characteristics of our teams:
+
+- Cross discipline
+- 10-12 people
+- Self-managing
+- Clear charter and goals for 12-18 months
+- Physical team rooms
+- Own features in production
+- Own deployment of features
+
+#### Makeup of teams:
+
+Before, teams would be horizontal - they would either cover **all** UI, **all** data, **all** API, etc. But now what we want are teams that own their area end-to-end in the product. We implement strict guidelines in certain tiers to ensure uniformity across the product among teams.
+
+#### Self-forming teams
+
+Every ~18 months we practice what we call the "yellow sticky exercise". This is an activity in which developers are able to choose which areas of the product they're interested in and would like to work on for the next couple of planning periods. This exercise provides the teams with autonomy - able to choose what they work on, and also helps the organization with alignment as it makes sure we have balance among the teams.
+
+About 80% of the people in this exercise end up going back to the team they currently work for, but they go back feeling empowered that they had a choice.
+
+#### Transparency and accountability
+
+At the end of every sprint, every team sends a mail saying what they've accomplished in the previous sprint, and what they plan on doing in the next sprint.
+
+### We changed how we **plan** and **learn**
 
 ## References:
 \* Kim Herzig, Nachiappan Nagappan: Empirically Detecting False Test
