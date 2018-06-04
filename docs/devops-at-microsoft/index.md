@@ -30,11 +30,6 @@ For a great overview of lessons learned at Microsoft Developer Division, Lori La
 | Security in DevOps                    | Security is a key part of DevOps. Buck Hodges first walks through how we have done our security war games with red teams and blue teams. Buck goes on to cover our best practices for DevSecOps in running a SaaS business.                                                                                                                                  |
 | Live-Site Culture                     | Live-Site Culture (or a Production-First Mindset) is essential to running a service. Tom Moore discusses both how we handle service reliability and how we practice, You Build It, You Run It. You can’t control what you can’t measure. Along the way, Tom Moore how we use telemetry to monitor VSTS and gain continual insight into both the health and usage of the service.  |
 
-### Security in DevOps with Buck Hodges
-Security is a key part of DevOps. Buck Hodges first walks through how we have done our security war games with red teams and blue teams. Buck goes on to cover our best practices for DevSecOps in running a SaaS business.
-
-> [!VIDEO https://www.youtube.com/embed/7fW4wZbJtg0]
-
 ### Live-Site Culture with Tom Moore
 
 Live-Site Culture (or a Production-First Mindset) is essential to running a service. Tom Moore discusses both how we handle service reliability and how we practice, You Build It, You Run It. You can’t control what you can’t measure. Along the way, Tom Moore how we use telemetry to monitor VSTS and gain continual insight into both the health and usage of the service.
