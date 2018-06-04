@@ -18,6 +18,13 @@ Security is a key part of DevOps. Buck Hodges first walks through how we have do
 
 > [!VIDEO https://www.youtube.com/embed/7fW4wZbJtg0]
 
+_"Fundamentally, if somebody wants to get in, they're getting in..accept that. What we tell clients is: number one, you're in the fight, whether you thought you were or not. Number two, you almost certainly are penetrated."_ - Michael Hayden, Former Director of NSA and CIA
+
+## The Mindset Shift
+
+
+
+
 
 |             |                           |
 |-------------|---------------------------|
