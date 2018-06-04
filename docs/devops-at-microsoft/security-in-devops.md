@@ -22,7 +22,22 @@ _"Fundamentally, if somebody wants to get in, they're getting in..accept that. W
 
 ## The Mindset Shift
 
+The Mindset Shift to a DevSecOps culture included an important thinking about not only **preventing breaches**, but **assuming breaches** as well:
 
+| Preventing breaches                      | Assuming breaches                              |
+|------------------------------------------|------------------------------------------------|
+| Threat models                            | War game exercises                             |
+| Code reviews                             | Central security monitors                      |
+| Security testing                         | Live site penetration tests                    |
+| Security development lifecycle (SDL)     |                                                |
+
+Both strategies are important, and the items in the **preventing breaches** mindset are great but we have found that they just aren't enough.
+
+**Assuming breaches** helps answer some important questions in security (so they don't have to be answered in an emergency):
+
+* How will I detect an attack?
+* What am I going to do if there is an attack or penetration?
+* How am I going to recover from the attack? (e.g. data leaking or tampering)
 
 
 
