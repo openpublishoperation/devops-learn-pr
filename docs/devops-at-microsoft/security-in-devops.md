@@ -22,7 +22,9 @@ _"Fundamentally, if somebody wants to get in, they're getting in..accept that. W
 
 ## The Mindset Shift
 
-The Mindset Shift to a DevSecOps culture included an important thinking about not only **preventing breaches**, but **assuming breaches** as well:
+The Mindset Shift to a DevSecOps culture included an important thinking about not only **preventing breaches**, but **assuming breaches** as well.
+
+### Security strategy components
 
 | Preventing breaches                      | Assuming breaches                              |
 |------------------------------------------|------------------------------------------------|
