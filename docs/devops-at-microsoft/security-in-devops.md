@@ -106,7 +106,7 @@ Red Vs. Blue has made us aware of a lot of security flaws that may have gone unn
 
 ### Red Vs. Blue guidelines
 
-We have established some guidelines to make Red Vs. Blue as productive as possible.
+We have established some guidelines to make Red Vs. Blue as productive and safe as possible.
 
 #### Code of conduct
 
