@@ -95,6 +95,8 @@ In Red vs. Blue, the goal is to not only detect security flaws, but enhance situ
 * Red Team taking longer to reach objectives, forced to find and chain 5-6 different vulnerabilities together
 * With Kalypso monitors, Blue Team is starting to catch Red Team in real time
 
+Red Vs. Blue has made us aware of a lot of security flaws that may have gone unnoticed before.
+
 | Number of repair items created from Red Vs. Blue  |                                               |
 |---------------------------------------------------|-----------------------------------------------|
 | 2015                                              | 63                                            |
@@ -123,7 +125,9 @@ We have established some guidelines to make Red Vs. Blue as productive as possib
 
 ### Example attack: Password in a text file or in code
 
-This was a real case (two cases, actually) where users were storing their plain-text passwords in either text files on their systems or in code. What we learned from this is that we needed better _secret management_ across our teams. Now, we require that all secrets (passwords, keys, tokens, storage account keys, certificates, and credentials used in test) be stored in an Azure Key Vault (AKV). We also implement a hierarchy of AKVs to stop duplication.
+This was a real case (two cases, actually) where users were storing their plain-text passwords in either text files on their systems or in code. 
+
+What we learned from this is that we needed better _secret management_ across our teams. Now, we require that all secrets (passwords, keys, tokens, storage account keys, certificates, and credentials used in test) be stored in an Azure Key Vault (AKV). We also implement a hierarchy of AKVs to stop duplication.
 
 ### Example attack: Mimikatz to go from test credentials to compromising production
 
