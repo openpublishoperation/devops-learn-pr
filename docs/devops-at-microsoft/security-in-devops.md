@@ -135,17 +135,42 @@ Mimikatz is a tool written by a French security researcher (external to Microsof
 
 Open file share --> Plaintext test credentials --> Dev box with test account as local admin --> Mimikatz credential dump --> Dev's credentials --> Repeat
 
-Also, Windows helps out the attacker quite a bit here by helping them figure out which machines they can get into. They can query SAM (Windows Security Access Manager) remotely via SAM-Rremote (SAMR) protocol. This builds a list of machines and their local admin group memberships which can be used to build an attack graph from compromised account/machine to target. 
+Also, Windows helps out the attacker quite a bit here by helping them figure out which machines they can get into. They can query SAM (Windows Security Access Manager) remotely via SAM-Remote (SAMR) protocol. This builds a list of machines and their local admin group memberships which can be used to build an attack graph from compromised account/machine to target. 
 
 This drives home an important point: _"Defenders think in lists. Attackers think in graphs. As long as this is true, attackers win"_ - John Lambert (MSTIC). Attackers are trying to get to an end result, they don't care how they get there.
 
 ## Kalypso for security monitoring
 
+Kalypso is a service that you can think of as a scheduler. It's running queries in Azure Log Analytics (every 5 minutes, for us) that you're expecting to come up with zero results every time. For example, if you were able to remotely exploit a bug in anything, and part of that exploit is running encoded Powershell so you can get a foot in the door, now you have a backdoor running. We've set that up in Kalypso, to detect an instance of powershell running and we get an alert. 
+
+Kalypso isn't something that we ship yet, but is something that you can create your own. We are talking to the Application Insights team to make it a product and we hope that happens. 
+
+
 ## Lessons learned
 
+### Red vs. Blue
 
+* Red vs. Blue completely changes the culture around how attacks are monitored, caught, and handled
+* The exercise keeps security closer to the top of the minds of developers and managers
 
+### Phishing
 
+* Phishing is **very** effective for attackers
+* Limit production access and require Two Factor Authentication (2FA) challenge
+
+### Engineering system
+
+* Control of the engineering system leads to control of everything
+* Strictly control build/RM agent, queue, pool, and definition access
+
+### Defense in depth
+
+* Make it harder for attackers. Slow them down. (For example, disabling SAMR enumeration)
+* Every boundary they have to breach is another opportunity to catch them
+
+### Don't ever cross trust realms
+
+* Production environments should never trust anything in Test environments
 
 
 
