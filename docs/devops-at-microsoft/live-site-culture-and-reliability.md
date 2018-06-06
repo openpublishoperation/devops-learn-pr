@@ -12,6 +12,9 @@ ms.date: 05/31/2018
 # Live site culture and site reliability
 > By: Tom Moore
 
+
+> [!VIDEO https://www.youtube.com/embed/UCP-e3sKL8k]
+
 ## Live Site Culture
 Live site culture is more important than ever. Now, customers can move across service providers fairly easily nowadays with the Cloud and Internet-based services, and this amplifies the importance of trust between you and your customers. It's important that your live site is always available and as-promised to your customers. 
 
