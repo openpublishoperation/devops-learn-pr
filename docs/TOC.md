@@ -6,6 +6,7 @@
 ### [How We Use Git at Microsoft](devops-at-microsoft/use-git-microsoft.md)
 ### [Release Flow: Our Branching Strategy](devops-at-microsoft/release-flow.md)
 ### [Security in DevOps](devops-at-microsoft/security-in-devops.md)
+### [Live site culture and site reliability](devops-at-microsoft/live-site-culture-and-reliability.md)
 ### [Evolving Test Practices at Microsoft](devops-at-microsoft/evolving-test-practices-microsoft.md)
 ## How We Architect Visual Studio Team Services
 ### [From Monolith to Cloud Service](devops-at-microsoft/monolith-cloud-service.md)
