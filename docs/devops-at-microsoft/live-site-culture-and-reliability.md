@@ -20,6 +20,8 @@ Live site culture is more important than ever. Now, customers can move across se
 
 Below you'll find the key factors of our Live Site Culture.
 
+![Our Live Site Culture](_img/live-site-culture.png)
+
 ### Live Site First
 
 Put live site experience first is integral to a successful platform. You can't put all of your focus on new, shiny features and disregard the avenue in which those features are presented to your users.
