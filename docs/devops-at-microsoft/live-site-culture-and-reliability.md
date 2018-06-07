@@ -54,7 +54,7 @@ We needed a 24x7 monitoring system that ran reliably all the time, espeially whe
 
 ### Cloud
 
-Devs can deploy things easily directly to the live site which brings them closer to the live site and makes devs helping with live site issues easier
+Devs can deploy things easily directly to the live site which brings them closer to the live site and makes devs helping with live site issues easier.
 
 ### Learn once and share
 
