@@ -22,29 +22,33 @@ Below you'll find the key factors of our Live Site Culture.
 
 ### Live Site First
 
-Put live site experience first, don't just focus on features
+Put live site experience first is integral to a successful platform. You can't put all of your focus on new, shiny features and disregard the avenue in which those features are presented to your users.
 
 ### Feel the Pain
 
-Ensure devs own areas and alerts. When they get a call in the middle of the night for a live site incident, they're going to be invested.
+It's important that developers fully own and take responsibility for their areas and the conflicts or issues that may arrive there. When there is a live-site incident, the developers are going to be much more invested if their phone starts to ring in the middle of the night than if they just get an email sent to their inbox. 
 
-### Drive good data
+An important consideration here is that there must be a balance in the urgency and frequency of alerts. You want your teams to feel responsible and motivated but not get spammed so much at weird times that they feel distanced.
 
-Build up telemetry, alerts, "turn the lights on" in production. Having good data offline that you can query about the live-site is important.
+### Drive with data
+
+Deeply embedded in good live-site culture is good data. Having good data off and online about the live-site that you can query is important for not just issue resolution but also for knowing the state of the environment during performance issues or outages. Build up telemetry for your live-site, create and manage alerts, really "turn the lights on" in production. 
 
 Kusto is a big log analytics system that brings in a lot of data that runs queries in seconds, as opposed to hours with our old SQL based database queries.
 
 ### Root cause is key
 
-Restarting everything may fix the problem, but if you don't dive in and find out the state of things when conflicts occur, you can't find the root cause and fix it from happening again
+Good data will help tremendously with this component of good live-site culture; digging in to find the root cause of issues or outages has many benefits to your team and also to your site.
+
+For instance, restarting everything may fix the problem, but if you don't dive in and find out the state of things when conflicts occur, you can't find the root cause and fix it from happening again. It's also important to be able to tell users exactly what happened and give them the confidence that you've fixed the underlying issue.
 
 ### Detect before customers
 
-It's embarassing when you're running a service and you're not aware of an issue before a customer escalates it to you
+It's embarassing when you're running a service and you're not aware of an issue before a customer escalates it to you.
 
-We needed a 24x7 monitoring system that ran reliably all the time. Espeially when the service was down or misbehaving. Our telemtry system collects rich data for both real-time and latent analysis.
+We needed a 24x7 monitoring system that ran reliably all the time, espeially when the service was down or misbehaving. Our telemetry system collects rich data for both real-time and latent analysis.
     
-    TODO: add image (23:00)
+![Live Site Detection](_img/live-site-detection.png)
 
 ### Cloud
 
