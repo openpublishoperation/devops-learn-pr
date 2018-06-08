@@ -51,6 +51,15 @@ When you deploy continuously, you need to control the blast radius and continual
 > [!VIDEO https://www.youtube.com/embed/QP_u4ipP2SU]
 
 ## One Engineering System at Microsoft
+
+| Article    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                             | Description                                                                                      |
+|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| [Moving 65,000 Microsofties to the Cloud and DevOps](move-engineers-to-devops.md)              | Place holder  |
+| [Q&A - Moving 65,000 Microsofties to the Cloud and DevOps](moving-65000-microsofties-devops-public-cloud.md)       | Microsoft is a very large software company. As of September 2017, we have more than 75,000 engineers active on Visual Studio Team Services. For a great discussion of how the transformation has affected multiple divisions, we held an open-mic Q&A at Build 2017 with engineering leaders from across the company. In addition to this panel, you can read a great experience report on how the [Universal Store Team adopted Continuous Delivery](universal-store-journey-continuous-delivery-devops.md) over the course of 12 months. One stunning example is an 8000x improvement in build frequency!                   |
+| [What moving engineers to DevOps and VSTS looks like in real-time (placeholder)]()                      | place holder                    |
+
+
+### [elbatk: need to move these to articles still]
 One of our principles is to learn from our own usage. We try practices and tools to see what works, and then we productize. Of course, we open source a lot too. In this video, Martin Woodward covers our end-to-end practices as we moved to One Engineering System at Microsoft.
 
 > [!VIDEO https://www.youtube.com/embed/W6dqrvb-Yyw]
@@ -59,12 +68,6 @@ For a demo of what it looks like in practice, my WinOps 2017 keynote demonstrate
 
 > [!VIDEO https://www.youtube.com/embed/NlI0bkgdG7E]
 
-### Q&A - Moving 65,000 engineers to DevOps on the public cloud
-Microsoft is a very large software company. As of September 2017, we have more than 75,000 engineers active on Visual Studio Team Services. For a great discussion of how the transformation has affected multiple divisions, we held an open-mic Q&A at Build 2017 with engineering leaders from across the company.
-
-* [Q&A interview video and transcript](moving-65000-microsofties-devops-public-cloud.md)
-
-In addition to this panel, you can read a great experience report on how the [Universal Store Team adopted Continuous Delivery](universal-store-journey-continuous-delivery-devops.md) over the course of 12 months. One stunning example is an 8000x improvement in build frequency!
 
 Microsoft’s Bing has been in the forefront of innovation in user-facing features and performance that are only possible through experimentation in the software platform and the developer experience. For Bing, it’s all about idea velocity.
 
