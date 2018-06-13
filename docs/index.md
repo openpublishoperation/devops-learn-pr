@@ -92,7 +92,7 @@ This center combines our resources on learning DevOps practices, Git version con
         </a>
     </li>
     <li>
-        <a href="https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA">
+        <a href="events-and-talks/index.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

@@ -5,6 +5,7 @@
 ### [How We Use Git at Microsoft](devops-at-microsoft/use-git-microsoft.md)
 ### [Release Flow: Our Branching Strategy](devops-at-microsoft/release-flow.md)
 ### [Evolving Test Practices at Microsoft](devops-at-microsoft/evolving-test-practices-microsoft.md)
+
 ## How We Architect Visual Studio Team Services
 ### [From Monolith to Cloud Service](devops-at-microsoft/monolith-cloud-service.md)
 ### [Achieving No Downtime Through Versioned Service Updates](devops-at-microsoft/achieving-no-downtime-versioned-service-updates.md)
@@ -13,9 +14,11 @@
 ### [Shift Left to Make Testing Fast and Reliable](devops-at-microsoft/shift-left-make-testing-fast-reliable.md)
 ### [Eliminating Flaky Tests](devops-at-microsoft/eliminating-flaky-tests.md)
 ### [Shift Right to Test in Production](devops-at-microsoft/shift-right-test-production.md)
+
 ## One Engineering System at Microsoft
 ### [Moving 65,000 Microsofties to DevOps on the Public Cloud](devops-at-microsoft/moving-65000-microsofties-devops-public-cloud.md)
 ### [Universal Store: Journey to Continuous Delivery and DevOps](devops-at-microsoft/universal-store-journey-continuous-delivery-devops.md)
+
 ## Microsoft Research on DevOps Productivity
 ### [Boosting your code reviews with useful comments](devops-at-microsoft/boosting-code-reviews-useful-comments.md)
 ### [Code reviews are not (primarily) for finding bugs](devops-at-microsoft/code-reviews-not-primarily-finding-bugs.md)
@@ -62,3 +65,5 @@
 ## [What is Scrum?](agile/what-is-scrum.md)
 ## [Creating Productive Teams](agile/productive-teams.md)
 ## [Scale Agile to Large Teams](agile/scale-agile-large-teams.md)
+
+# [Events and Talks](events-and-talks/index.md)
