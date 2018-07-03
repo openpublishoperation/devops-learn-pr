@@ -66,3 +66,5 @@
 ## [What is Scrum?](agile/what-is-scrum.md)
 ## [Creating Productive Teams](agile/productive-teams.md)
 ## [Scale Agile to Large Teams](agile/scale-agile-large-teams.md)
+
+# [Events and Talks](events-and-talks/index.md)
