@@ -14,11 +14,11 @@ ms.date: 11/09/2017
 
 This center will keep you current on how we continue to adopt DevOps at Microsoft. We’ve selected the best videos and articles from both public conferences and internal training sessions. For most of the videos, we also provide an accompanying article. We focus on practices that we use in Visual Studio Team Services (VSTS), which is the backbone of our One Engineering System (1ES), lessons learned from across Microsoft, and the best of our learning from Microsoft Research. For product news on VSTS, take a look at our [DevOps blog](https://blogs.msdn.microsoft.com/devops/).
 
-## How We Work with Visual Studio Team Services (VSTS)
-For a great overview of lessons learned at Microsoft Developer Division, Lori Lamkin covers our seven-year [journey to cloud cadence](moving-cloud-cadence.md). She goes through the sequence of steps we took, and that you can take as you become proficient at DevOps.
+## Why we do DevOps at Microsoft
+Martin Woodward leads a whistle-stop tour of Microsoft's seven-year DevOps journey, explaining why the company embarked on this transformation and what benefits it has already seen.
 
 <br>
-> [!VIDEO https://www.youtube.com/embed/Lprj_4Wpi2s]
+> [!VIDEO https://www.youtube.com/watch?v=X4uziBlC728]
 
 ### Videos and articles
 
@@ -42,36 +42,8 @@ These talks cover the accompanying technology behind VSTS and its evolution.
 | [Shift left to test fast and reliably](shift-left-make-testing-fast-reliable.md)                                    | Availability would be meaningless without suitable quality. Munil Shah covers how we shift left to test fast and reliably - he takes us through the evolution that has led to our ability to run 60,000 tests in the pull request flow before commit to master and continuous integration.                      |
 | [Eliminating flaky tests to build trust](eliminating-flaky-tests.md)                                                | To get a reliable signal from high-volume test automation, we need to be able to trust the test results. Munil describes how we eliminate flaky tests so that red can mean red.                       |
 | [Shift right to test in production](shift-right-test-production.md)                                                 | Testing only in pre-production environments helps you with the faults you’ve previously encountered, but not the ones you haven’t seen. Munil explains how there is no place like production and that means we need to test in production too.                      |
-| Safe deployment practices                                   | When you deploy continuously, you need to control the blast radius and continually expand based on the health of the release. Ed Glas goes over the safe deployment practices that we use for progressive exposure.                       |
+| [Safe deployment practices](safe-deployment-practices.md)                                   | When you deploy continuously, you need to control the blast radius and continually expand based on the health of the release. Ed Glas goes over the safe deployment practices that we use for progressive exposure.                       |
 
-
-### Safe deployment practices with Ed Glas
-When you deploy continuously, you need to control the blast radius and continually expand based on the health of the release. Ed Glas goes over the safe deployment practices that we use for progressive exposure.
-
-> [!VIDEO https://www.youtube.com/embed/QP_u4ipP2SU]
-
-## One Engineering System at Microsoft
-
-| Article    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                             | Description                                                                                      |
-|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| [Moving 65,000 Microsofties to the Cloud and DevOps](move-engineers-to-devops.md)              | Place holder  |
-| [Q&A - Moving 65,000 Microsofties to the Cloud and DevOps](moving-65000-microsofties-devops-public-cloud.md)       | Microsoft is a very large software company. As of September 2017, we have more than 75,000 engineers active on Visual Studio Team Services. For a great discussion of how the transformation has affected multiple divisions, we held an open-mic Q&A at Build 2017 with engineering leaders from across the company. In addition to this panel, you can read a great experience report on how the [Universal Store Team adopted Continuous Delivery](universal-store-journey-continuous-delivery-devops.md) over the course of 12 months. One stunning example is an 8000x improvement in build frequency!                   |
-| [What moving engineers to DevOps and VSTS looks like in real-time (placeholder)]()                      | place holder                    |
-
-
-### [elbatk: need to move these to articles still]
-One of our principles is to learn from our own usage. We try practices and tools to see what works, and then we productize. Of course, we open source a lot too. In this video, Martin Woodward covers our end-to-end practices as we moved to One Engineering System at Microsoft.
-
-> [!VIDEO https://www.youtube.com/embed/W6dqrvb-Yyw]
-
-For a demo of what it looks like in practice, my WinOps 2017 keynote demonstrates how we work with VSTS in real-time.
-
-> [!VIDEO https://www.youtube.com/embed/NlI0bkgdG7E]
-
-
-Microsoft’s Bing has been in the forefront of innovation in user-facing features and performance that are only possible through experimentation in the software platform and the developer experience. For Bing, it’s all about idea velocity.
-
-> [!VIDEO https://www.youtube.com/embed/SiPtRjiCe4U]
 
 ## Researching software practices
 We like to be informed by data. Measuring how well practices work is key. We’re sharing our research and learning, so that you can be informed too.
