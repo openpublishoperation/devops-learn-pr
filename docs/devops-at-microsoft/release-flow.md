@@ -6,7 +6,7 @@ ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: ethomson
-ms.date: 04/10/2018
+ms.date: 07/02/2018
 ---
 
 # Release Flow

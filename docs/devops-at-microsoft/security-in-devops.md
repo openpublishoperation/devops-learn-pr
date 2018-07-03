@@ -6,7 +6,7 @@ ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
-ms.date: 05/31/2018
+ms.date: 07/02/2018
 ---
 
 # Mindset shift to a DevSecOps culture
