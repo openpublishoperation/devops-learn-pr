@@ -1,0 +1,69 @@
+# [DevOps Resource Center](index.md)
+# [DevOps at Microsoft](devops-at-microsoft/index.md)
+## How We Work with Visual Studio Team Services
+### [Moving to Cloud Cadence](devops-at-microsoft/moving-cloud-cadence.md)
+### [How We Use Git at Microsoft](devops-at-microsoft/use-git-microsoft.md)
+### [Release Flow: Our Branching Strategy](devops-at-microsoft/release-flow.md)
+### [Evolving Test Practices at Microsoft](devops-at-microsoft/evolving-test-practices-microsoft.md)
+
+## How We Architect Visual Studio Team Services
+### [From Monolith to Cloud Service](devops-at-microsoft/monolith-cloud-service.md)
+### [Achieving No Downtime Through Versioned Service Updates](devops-at-microsoft/achieving-no-downtime-versioned-service-updates.md)
+### [Progressive Experimentation with Feature Flags](devops-at-microsoft/progressive-experimentation-feature-flags.md)
+### [Patterns for Resiliency in the Cloud](devops-at-microsoft/patterns-resiliency-cloud.md)
+### [Shift Left to Make Testing Fast and Reliable](devops-at-microsoft/shift-left-make-testing-fast-reliable.md)
+### [Eliminating Flaky Tests](devops-at-microsoft/eliminating-flaky-tests.md)
+### [Shift Right to Test in Production](devops-at-microsoft/shift-right-test-production.md)
+
+## One Engineering System at Microsoft
+### [Moving 65,000 Microsofties to DevOps on the Public Cloud](devops-at-microsoft/moving-65000-microsofties-devops-public-cloud.md)
+### [Universal Store: Journey to Continuous Delivery and DevOps](devops-at-microsoft/universal-store-journey-continuous-delivery-devops.md)
+
+## Microsoft Research on DevOps Productivity
+### [Boosting your code reviews with useful comments](devops-at-microsoft/boosting-code-reviews-useful-comments.md)
+### [Code reviews are not (primarily) for finding bugs](devops-at-microsoft/code-reviews-not-primarily-finding-bugs.md)
+### [Code ownership and software quality](devops-at-microsoft/code-ownership-software-quality.md)
+### [Getting the noise out of test runs](devops-at-microsoft/getting-noise-test-runs.md)
+### [Improving software security with stack traces from bug reports](devops-at-microsoft/improving-software-security-stack-traces-bug-reports.md)
+### [Is 100% code coverage worth the cost?](devops-at-microsoft/100-code-coverage-worth-cost.md)
+### [Software testing at scale to increase velocity](devops-at-microsoft/software-testing-scale-increase-velocity.md)
+### [Test while building to maximize test effectiveness and minimize cost](devops-at-microsoft/test-building-maximize-test-effectiveness-minimize-cost.md)
+### [Using a simple code churn metric to find software bugs](devops-at-microsoft/using-simple-code-churn-metric-find-software-bugs.md)
+
+# Learn DevOps
+## [What is DevOps?](what-is-devops.md)
+## [What is Continuous Integration?](what-is-continuous-integration.md)
+## [What is Continuous Delivery?](what-is-continuous-delivery.md)
+## [What is DevOps Culture?](what-is-devops-culture.md)
+## [What is Infrastructure as Code?](what-is-infrastructure-as-code.md)
+## [What are Microservices?](what-are-microservices.md)
+## [What is Monitoring?](what-is-monitoring.md)
+
+# Learn Git
+## [What is Version Control?](git/what-is-version-control.md)
+## [What is Git?](git/what-is-git.md)
+## [Learn Git with Team Services](git/learn-git-with-team-services.md)
+## [Install and set up Git](git/install-and-set-up-git.md)
+## [Set up a repository](git/set-up-a-git-repository.md)
+## [Save and share code with Git](git/git-share-code.md)
+## [Understand Git history](git/understand-git-history.md)
+## [Get feedback with pull requests](git/git-pull-requests.md)
+## [Plan your migration to Git](git/centralized-to-git.md)
+## [Migrate from TFVC to Git](git/migrate-from-tfvc-to-git.md)
+## [Migrate from other systems to Git](git/migrate-other-systems-to-git.md)
+## [Git at scale](git/git-at-scale.md)
+### [Technical Scale Challenges with Git](git/technical-scale-challenges.md)
+### [Limited Refs](git/limited-refs.md)
+### [The Race to Push](git/race-to-push.md)
+### [Git Virtual File System Design History](git/gvfs-design-history.md)
+### [Git Virtual File System Architecture](git/gvfs-architecture.md)
+
+# Learn Agile
+## [What is Agile](agile/what-is-agile.md)
+## [What is Agile development](agile/what-is-agile-development.md)
+## [Agile Culture](agile/agile-culture.md)
+## [What is Scrum?](agile/what-is-scrum.md)
+## [Creating Productive Teams](agile/productive-teams.md)
+## [Scale Agile to Large Teams](agile/scale-agile-large-teams.md)
+
+# [Events and Talks](events-and-talks/index.md)
