@@ -16,6 +16,7 @@
 ### [Shift Left to Make Testing Fast and Reliable](devops-at-microsoft/shift-left-make-testing-fast-reliable.md)
 ### [Eliminating Flaky Tests](devops-at-microsoft/eliminating-flaky-tests.md)
 ### [Shift Right to Test in Production](devops-at-microsoft/shift-right-test-production.md)
+### [Safe deployment practices](devops-at-microsoft/safe-deployment-practices.md)
 ## One Engineering System at Microsoft
 ### [Moving 65,000 Microsofties to DevOps on the Public Cloud](devops-at-microsoft/moving-65000-microsofties-devops-public-cloud.md)
 ### [Universal Store: Journey to Continuous Delivery and DevOps](devops-at-microsoft/universal-store-journey-continuous-delivery-devops.md)

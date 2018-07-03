@@ -16,4 +16,4 @@ When you deploy continuously, you need to control the blast radius and continual
 
 <br>
 
-> [!VIDEO https://youtu.be/QP_u4ipP2SU]
+> [!VIDEO https://www.youtube.com/embed/QP_u4ipP2SU]

@@ -18,7 +18,7 @@ This center will keep you current on how we continue to adopt DevOps at Microsof
 Martin Woodward leads a whistle-stop tour of Microsoft's seven-year DevOps journey, explaining why the company embarked on this transformation and what benefits it has already seen.
 
 <br>
-> [!VIDEO https://www.youtube.com/watch?v=X4uziBlC728]
+> [!VIDEO https://www.youtube.com/embed/X4uziBlC728]
 
 ### Videos and articles
 
