@@ -62,10 +62,6 @@ Two items we heavily consider for our approach are **alignment** and **autonomy*
 
 There is a delicate balance between the two - too much alignment and a negative culture gets created where people punch in, punch out, because that's what the "manual" says to do; too much autonomy and there's no structure or direction, leading to inefficient decisions and plans.
 
-In order to balance the two, we try to implement something we call "Aligned Autonomy".
-
-![Aligned autonomy](_img/aligned-autonomy.png)
-
 ### We changed our approach to **teams**
 
 We started thinking about teams more than individuals in VSTS. We organized people and teams into two groups: PMs and engineers.
@@ -142,8 +138,6 @@ Teams will self-organize itself each sprint into two distinct teams: **Features 
 4. **_Build the culture you want and you'll get the behavior you're looking for_**
 
 
-> TODO: Can you help me update this with Aarons info below? @Samgu
-
 |             |                           |
 |-------------|---------------------------|
-|![Kim Herzig](../_img/kimh_avatar_1502754815-130x130.jpg)|Kim leads the analytical team on the Tools for Software Engineers team. The focuses lies on helping development teams to speed up their development process(es) while maintaining or increasing product quality and reliability. |
+|![Aaron Bjork](../_img/aaron-bjork.png)| Aaron is the PM working on the Team Foundation Server Process Team. |
