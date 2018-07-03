@@ -30,12 +30,8 @@ Soma, could do his talk without the system live. Back then we only had
 one instance. So this problem affected the whole world, the blast radius
 was global.
 
-We had all kinds of problems. [It took a couple of weeks to root-cause everything](https://blogs.msdn.microsoft.com/bharry/2013/11/25/a-rough-patch/).
-The worst thing was that this happened on launch day, Wednesday November
-13. We sent the system into a tailspin, because we flipped on so many
-different features flags. We had many new features, and clearly we
-hadn’t understood all the interactions and certainly not at production
-scale.
+We had all kinds of problems. [It took a couple of weeks to root-cause everything](https://blogs.msdn.microsoft.com/bharry/2013/11/25/a-rough-patch/). The worst thing was that this happened on launch day, Wednesday November 1st. We sent the system into a tailspin, because we flipped on so many
+different features flags. We had many new features, and clearly we hadn’t understood all the interactions and certainly not at production scale.
 
 We had all kinds of things happen. For example, we were running out of
 ports in the load balancer. With TCP/IP, you’ve got 16 bits for the
