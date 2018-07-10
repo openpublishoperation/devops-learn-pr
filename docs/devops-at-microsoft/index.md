@@ -6,7 +6,7 @@ ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
-ms.date: 11/09/2017
+ms.date: 07/09/2018
 ---
 
 # DevOps at Microsoft
