@@ -2,7 +2,7 @@
 title: DevOps Resource Center
 layout: LandingPage
 author: samgu
-description: do-come
+description: Learn DevOps practices, Git version control, Agile methods, how we work with DevOps at Microsoft.
 ms.prod: devops
 ms.technology: devops-learn
 ms.topic: conceptual
