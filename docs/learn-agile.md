@@ -69,7 +69,7 @@ framework required.
 
 ### Agile at Microsoft
 
-###### Learn how the [Visual Studio Team Services (VSTS)](https://www.visualstudio.com/team-services/) team at Microsoft has changed their approach to building software and services by adopting an Agile culture and mindset. Aaron Bjork takes you on a journey of contrasting the “old way” with the “new way”, and shares key changes that contributed to the transformation including thoughts on teams, roles, sprints, planning, and learning.
+###### Learn how the [Visual Studio Team Services (VSTS)](https://visualstudio.microsoft.com/team-services/) team at Microsoft has changed their approach to building software and services by adopting an Agile culture and mindset. Aaron Bjork takes you on a journey of contrasting the “old way” with the “new way”, and shares key changes that contributed to the transformation including thoughts on teams, roles, sprints, planning, and learning.
 
 ###### [Read more \>](agile/agile-culture.md)
 

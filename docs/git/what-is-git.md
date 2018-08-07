@@ -110,7 +110,7 @@ productivity by encouraging collaboration, enforcing policies,
 automating processes, and improving visibility and traceability of work.
 You may choose individual tools for version control, work item tracking,
 and continuous integration and deployment. Or, you can choose a solution
-like [Visual Studio Team Services](https://www.visualstudio.com/team-services/) that lets you
+like [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/) that lets you
 manage all of these tasks in one place.
 
 #### Pull requests
@@ -124,12 +124,12 @@ vote to approve the code.
 
 #### Branch policies
 Your team can configure Visual Studio Team Services to enforce
-consistent workflows and process across your team. Set up [branch policies](https://www.visualstudio.com/docs/git/branch-policies)to
+consistent workflows and process across your team. Set up [branch policies](https://docs.microsoft.com/vsts/git/branch-policies)to
 ensure that pull requests meet your requirements before completion.
 Branch policies protect your important branches by preventing direct
 pushes, requiring reviewers, and ensuring clean builds.
 
-![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|

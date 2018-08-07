@@ -223,7 +223,7 @@ The actual process you take will vary based on the system you’re
 
 Learn more about migrating to [Team Services from Team Foundation Server](/vsts/articles/migrate-to-vsts-from-tfs) and get an overview of [how your TFVC commands and workflow map to Git](/vsts/git/concepts/mapping-my-tfvc-actions-to-git).
 
-![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|

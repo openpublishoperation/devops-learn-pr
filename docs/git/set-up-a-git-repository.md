@@ -82,13 +82,13 @@ You don’t need to add files or create an initial commit when you clone a
 repo since you copied all of the files and history of the existing repo
 during the clone.
 
-[Visual Studio Team Services](https://www.visualstudio.com/team-services/git/) provides
-unlimited free private Git repos. [Get started](https://www.visualstudio.com/en-us/docs/setup-admin/team-services/sign-up-for-visual-studio-team-services)
+[Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/) provides
+unlimited free private Git repos. [Get started](https://docs.microsoft.com/vsts/setup-admin/team-services/sign-up-for-visual-studio-team-services)
 today.
 Visual Studio user? Learn more about creating and cloning repos from
-Visual Studio in our [Team Services Git tutorial](https://www.visualstudio.com/en-us/docs/git/tutorial/creatingrepo).
+Visual Studio in our [Team Services Git tutorial](https://docs.microsoft.com/vsts/git/tutorial/creatingrepo).
 
-![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|
