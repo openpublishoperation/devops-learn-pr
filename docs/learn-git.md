@@ -42,5 +42,5 @@ ARTICLE
 
 ### [Read more \>](git/migrate-from-tfvc-to-git.md)
 
-#### [** How we do things at Microsoft](https://www.visualstudio.com/articles/devopsmsft/overview)      [** Blog](https://blogs.msdn.microsoft.com/visualstudioalm "Blog")       [** DevOps](/azure/devops/what-is-devops)       [** Agile](/azure/devops/agile/what-is-agile "Agile")
-##### [VSTS](https://www.visualstudio.com/team-services/) has the Git tools your team needs to ship great code
+#### [** How we do things at Microsoft](https://visualstudio.microsoft.com/articles/devopsmsft/overview)      [** Blog](https://blogs.msdn.microsoft.com/visualstudioalm "Blog")       [** DevOps](/azure/devops/what-is-devops)       [** Agile](/azure/devops/agile/what-is-agile "Agile")
+##### [VSTS](https://visualstudio.microsoft.com/team-services/) has the Git tools your team needs to ship great code

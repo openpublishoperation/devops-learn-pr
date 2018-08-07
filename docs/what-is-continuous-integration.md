@@ -47,9 +47,9 @@ which makes them less expensive to fix.  Automated tests run for every
 build to ensure builds maintain a consistent quality.
 
 Read more about the Continuous Integration capabilities of
-[Visual Studio Team Services](https://www.visualstudio.com/team-services/continuous-integration/ "Continuous Integration with VSTS").
+[Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/continuous-integration/ "Continuous Integration with VSTS").
 
-Learn how to set up [Continuous Integration](https://www.visualstudio.com/docs/build/overview "Continuous Integration with VSTS") for
+Learn how to set up [Continuous Integration](https://docs.microsoft.com/vsts/build/overview "Continuous Integration with VSTS") for
 any platform.
 
 |             |                           |

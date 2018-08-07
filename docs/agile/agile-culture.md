@@ -131,7 +131,7 @@ work for your organization. Agile transformations are a journey. Make
 changes and learn from them. Only then can you develop an agile culture
 that fits your organization.
 
-![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/agile-tools).
 
 |             |                           |
 |-------------|---------------------------|

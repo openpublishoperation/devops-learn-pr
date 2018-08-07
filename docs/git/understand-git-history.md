@@ -92,9 +92,9 @@ from their own branches into the master branch around the same time.
 Now that you understand how branches and merges create the shape of the
 graph, this shouldn’t be too scary\!
 
-Learn more about Git history in our [Team Services Git tutorial](https://www.visualstudio.com/en-us/docs/git/tutorial/history)
+Learn more about Git history in our [Team Services Git tutorial](https://docs.microsoft.com/vsts/git/tutorial/history)
 
-![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://www.visualstudio.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
 
 |             |                           |
 |-------------|---------------------------|

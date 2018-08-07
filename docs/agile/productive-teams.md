@@ -149,7 +149,7 @@ work for your team. Then, let us know how it works. You can find us on
 Twitter [@mmanela](https://twitter.com/mmanela) and
 [@ewaldhofman](https://twitter.com/ewaldhofman).
 
-![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/agile-tools).
 
 |             |                           |
 |-------------|---------------------------|

@@ -125,7 +125,7 @@ technical debt. Just like financial debt, technical debt becomes harder
 to pay off the longer it exists. A smart product owner works with their
 team to ensure there is time to pay off technical debt in every sprint.
 Balancing technical debt reduction with feature development is a
-difficult task. Read [Creating productive, customer focused teams](https://www.visualstudio.com/?post_type=learn&p=38736%2F&preview=true)
+difficult task. Read [Creating productive, customer focused teams](https://visualstudio.microsoft.com/?post_type=learn&p=38736%2F&preview=true)
 for ideas on how to manage this.
 
 ## Always Be Agile
@@ -149,7 +149,7 @@ If you are starting with agile development, expect more learning
 opportunities. Way more. An Agile team doesn’t waste those
 opportunities.
 
-![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/agile-tools).
 
 |             |                           |
 |-------------|---------------------------|

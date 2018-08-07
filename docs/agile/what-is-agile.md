@@ -129,7 +129,7 @@ ship high quality software more often.
 
 ![get started for free](../_img/AgileGetStartedForFree_32x.png)
 
-Get started with free agile tools in [Visual Studio Team Services](https://www.visualstudio.com/team-services/agile-tools).
+Get started with free agile tools in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/agile-tools).
 
 |             |                           |
 |-------------|---------------------------|

@@ -107,7 +107,7 @@ If it hurts, do it more often. Just like going to the gym, adopting new practice
 
 <sup>8</sup> This expression emerged in the Agile community a decade ago and has been widely quoted.
 
-Read more about the DevOps capabilities of [Visual Studio Team Services](https://www.visualstudio.com/team-services/devops/).
+Read more about the DevOps capabilities of [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/devops/).
 
 |             |                           |
 |-------------|---------------------------|
