@@ -13,7 +13,7 @@ ms.date: 04/04/2017
 
 This tutorial will walk you through some basic Git tasks using Visual
 Studio Team Services. You’ll work with Team Services and learn Git
-basics using your web browser and a [free Team Services account](https://docs.microsoft.com/vsts/setup-admin/team-services/sign-up-for-visual-studio-team-services).
+basics using your web browser and a [free Team Services account](/vsts/user-guide/sign-up-invite-teammates).
 This ten minute guide covers four key Git tasks:
 
 1. Create a new repo for your code.
@@ -22,7 +22,7 @@ This ten minute guide covers four key Git tasks:
 4. Merge the changes into your master branch using a pull request.
 
 When you’re done, you’ll have a Git repo that you can clone and use with
-our [quick start guide](https://docs.microsoft.com/vsts/git/gitquickstart) to get your
+our [quick start guide](/vsts/git/gitquickstart) to get your
 own code shared quickly.
 
 ### Create a new repo
@@ -153,7 +153,7 @@ HelloWorld.html on your `master` branch, which will now have the
 changes made in the `update-greeting` branch.
 
 ### What’s next
-Now that you have a repo and are familiar with some of the basics of Git, you can follow [the Git quick start](https://docs.microsoft.com/vsts/git/gitquickstart) to learn how to clone an existing repo and start working with Git using your favorite tools on your computer.
+Now that you have a repo and are familiar with some of the basics of Git, you can follow [the Git quick start](/vsts/git/gitquickstart) to learn how to clone an existing repo and start working with Git using your favorite tools on your computer.
 
 ![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
 

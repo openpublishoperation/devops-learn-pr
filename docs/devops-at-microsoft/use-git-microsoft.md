@@ -16,7 +16,7 @@ ms.date: 02/02/2018
 We've talked a lot about [hosting the world's largest Git repository](https://blogs.msdn.microsoft.com/bharry/2017/05/24/the-largest-git-repo-on-the-planet/),
 about how we're moving [Microsoft to Git](https://www.youtube.com/watch?v=rKgBV4yfK3g), and about the
 challenges of [Git at scale](../git/git-at-scale.md). We often get
-asked, "how does Microsoft actually use Git?" and, while we've given [a little guidance](https://docs.microsoft.com/en-us/vsts/git/concepts/git-branching-guidance)
+asked, "how does Microsoft actually use Git?" and, while we've given [a little guidance](/vsts/git/concepts/git-branching-guidance)
 based on our learnings, we'd like to be more thorough. This will be a
 whirlwind walkthrough of the standard Git workflow at Microsoft. There
 are certainly teams which diverge from these principles in big and small
@@ -73,7 +73,7 @@ a monolith, and its code organization reflects that.
 We use a branching strategy that we call "[Release Flow](release-flow.md)".
 It's a trunk-based development model, similar to the ones that we
 recommend to our customers in our
-[branch strategy guide](https://docs.microsoft.com/en-us/vsts/git/concepts/git-branching-guidance).
+[branch strategy guide](/vsts/git/concepts/git-branching-guidance).
 Release Flow lets us keep master buildable at all times (more on that later)
 and work from short-lived topic branches. When we're ready to ship,
 whether that's a sprint or a major TFS update, we start a new release
@@ -87,9 +87,9 @@ is shown in red.
 
 We use a couple of VSTS features to help enforce this structure and keep
 master clean. Branch policies prevent direct pushes to master. We
-require a [successful build](https://docs.microsoft.com/en-us/vsts/git/branch-policies#build-validation)
-(including passing tests), [signoff by the owners](https://docs.microsoft.com/en-us/vsts/git/branch-policies#automatically-include-code-reviewers)
-of any code that was touched, and a handful of [external checks](https://docs.microsoft.com/en-us/vsts/git/branch-policies#require-approval-from-external-services)
+require a [successful build](/vsts/git/branch-policies#build-validation)
+(including passing tests), [signoff by the owners](/vsts/git/branch-policies#automatically-include-code-reviewers)
+of any code that was touched, and a handful of [external checks](/vsts/git/branch-policies#require-approval-from-external-services)
 verifying corporate policies before a PR can be completed.
 
 ![screenshot of sign off policy](../_img/pr-policy.png)

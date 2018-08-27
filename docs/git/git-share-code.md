@@ -25,7 +25,7 @@ new feature, added test, and updated configuration in a new branch. Git
 branches are lightweight and are local to your machine, so you don’t
 have to worry about using resources or coordinating the changes with
 your team until you
-[push](https://docs.microsoft.com/vsts/git/tutorial/pushing)the
+[push](/vsts/git/tutorial/pushing)the
 branch.
 
 ![branching\_line](../_img/branching_line.png)
@@ -63,7 +63,7 @@ the same time:
 > git checkout -b <branchname>
 ```
 
-Learn more about working with Git branches in our [Team Services Git tutorial](https://docs.microsoft.com/vsts/git/tutorial/branches).
+Learn more about working with Git branches in our [Team Services Git tutorial](/vsts/git/tutorial/branches).
 
 ### Save your changes
 Git does not automatically snapshot your code as you make edits to files
@@ -113,7 +113,7 @@ Every commit has a message that describes its changes. A good commit
 message helps you remember the changes made in a commit, and makes it
 easier for others to review your commits.
 
-Learn more about staging files and committing changes in our [full Team Services Git tutorial](https://docs.microsoft.com/vsts/git/tutorial/commits).
+Learn more about staging files and committing changes in our [full Team Services Git tutorial](/vsts/git/tutorial/commits).
 
 ### Share your changes
 If you’re working on a team or just want to back up your code, you’ll
@@ -132,7 +132,7 @@ it doesn’t exist.
 If you’re working in a repo you created on your system with `git init`,
 you’ll need to set up connection information to your team’s Git server
 before you can push your changes. Learn more about setting up remotes
-and pushing changes in our [full Team Services Git tutorial](https://docs.microsoft.com/vsts/git/tutorial/pushing).
+and pushing changes in our [full Team Services Git tutorial](/vsts/git/tutorial/pushing).
 
 #### Sharing branches
 Push your local branch to your team’s shared repo, making its changes
@@ -146,7 +146,7 @@ and easily.
 > git push origin <branchname>
 ```
 
-Learn more about pushing your commits and branches in our [Team Services Git tutorial](https://docs.microsoft.com/vsts/git/tutorial/pushing).
+Learn more about pushing your commits and branches in our [Team Services Git tutorial](/vsts/git/tutorial/pushing).
 
 ![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
 

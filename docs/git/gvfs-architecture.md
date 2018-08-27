@@ -67,7 +67,7 @@ in detail:
 
 ### GvFlt
 Some optional background reading for those who are curious: GvFlt is a
-[file system filter driver](https://docs.microsoft.com/windows-hardware/drivers/ifs/file-system-filter-drivers)
+[file system filter driver](/windows-hardware/drivers/ifs/file-system-filter-drivers)
 that makes heavy use of [reparse points](https://msdn.microsoft.com/library/windows/desktop/aa365503\(v=vs.85\).aspx).
 We won’t get into the technical details of how filter drivers work, but
 the simplified description is that filter drivers allow us to extend and
@@ -254,7 +254,7 @@ files in a repo (though normally Git still has to download *all*
 contents when you run `git clone` or `git fetch`).
 
 The other existing feature is Git’s highly configurable set of [ignore
-files](https://docs.microsoft.com/vsts/git/tutorial/ignore-files),
+files](/vsts/git/tutorial/ignore-files),
 via `.gitignore` files in the repo and exclude files outside of it.
 Ignore files tell Git about files that it does not need to report as new
 untracked files in the `git status` command.

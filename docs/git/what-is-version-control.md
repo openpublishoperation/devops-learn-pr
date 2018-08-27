@@ -42,7 +42,7 @@ or content. As the demands of your users scale up, version control helps
 your team work together and ship on time.
 
 Get started using version control with your favorite tools with the
-[Team Services Git tutorial](https://docs.microsoft.com/vsts/git/tutorial/gitworkflow).
+[Team Services Git tutorial](/vsts/git/tutorial/gitworkflow).
 
 ![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
 

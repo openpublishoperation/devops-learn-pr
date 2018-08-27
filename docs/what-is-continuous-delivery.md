@@ -77,7 +77,7 @@ continuous stream of customer value.
 Read more about the Continuous Delivery capabilities of [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/release-management__trashed/ "Continuous Delivery with VSTS").
 
 Learn how to set up Continuous Deployment to
-[Azure](https://docs.microsoft.com/vsts/release/examples/examples).
+[Azure](/vsts/release/examples/examples).
 
 See how [Bing is using Continuous Delivery](http://stories.visualstudio.com/bing-continuous-delivery/ "Continuous Delivery at Bing")with
 Visual Studio Team Services.

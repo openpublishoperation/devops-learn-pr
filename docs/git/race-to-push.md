@@ -163,7 +163,7 @@ important drawbacks:
 Due to that last point, solving the race at push time isn’t really an
 option after all. But there was a better solution available.
 For code quality reasons, we already require [pull requests](git-pull-requests.md) for all
-changes to master. In an upcoming article, we’ll talk about [pull request policies](https://docs.microsoft.com/vsts/git/branch-policies) that allow us to implement things like required tests, code reviewers, and
+changes to master. In an upcoming article, we’ll talk about [pull request policies](/vsts/git/branch-policies) that allow us to implement things like required tests, code reviewers, and
 custom validation.
 
 At first glance, this may not seem all that interesting. Completing a

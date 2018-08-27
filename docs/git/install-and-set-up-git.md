@@ -71,7 +71,7 @@ to configure this information:
 `    > git config --global user.email "jamal@fabrikam.com"`
 
 Visual Studio offers a great out of the box Git experience without any
-additional tooling. Learn more in our [Visual Studio Git tutorial](https://docs.microsoft.com/vsts/git/tutorial/gitworkflow).
+additional tooling. Learn more in our [Visual Studio Git tutorial](/vsts/git/tutorial/gitworkflow).
 
 ![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
 
