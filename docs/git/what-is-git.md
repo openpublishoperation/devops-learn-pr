@@ -124,7 +124,7 @@ vote to approve the code.
 
 #### Branch policies
 Your team can configure Visual Studio Team Services to enforce
-consistent workflows and process across your team. Set up [branch policies](/vsts/git/branch-policies)to
+consistent workflows and process across your team. Set up [branch policies](/azure/devops/git/branch-policies)to
 ensure that pull requests meet your requirements before completion.
 Branch policies protect your important branches by preventing direct
 pushes, requiring reviewers, and ensuring clean builds.

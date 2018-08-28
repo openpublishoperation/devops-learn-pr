@@ -44,7 +44,7 @@ You may wish to consider:
 - Build and Test  
     When do you perform builds, and when do you run tests? Adopting
     [continuous integration](../what-is-continuous-integration.md),
-    so that [every check-in performs a build and a test pass](/vsts/build/define/triggers), will help you identify defects
+    so that [every check-in performs a build and a test pass](/azure/devops/build/define/triggers), will help you identify defects
     early and provides a strong safety net for your project.
 - Code reviews  
     Is your team performing regular code reviews? Are code reviews
@@ -149,7 +149,7 @@ of your source code. Small, infrequently-changed assets like icons can
 be included directly in a repository; since they do not change often,
 they will not bloat the history. But large or frequently changing assets
 should be stored using the Git LFS (Large File Storage) extension.
-Learn more about [managing large files with Git](/vsts/git/manage-large-files).
+Learn more about [managing large files with Git](/azure/devops/git/manage-large-files).
 
 ### Training
 Perhaps the biggest challenge in migrating to Git is helping developers
@@ -161,7 +161,7 @@ model and need to understand Git’s history model and the commit graph.
 Since people learn in different ways, plan on making several types of
 training material available. Live, lab-based training with an expert
 instructor works well for some people. The [Pro Git](https://git-scm.com/book/en/v2) book is available for free online
-and is an excellent starting point. Microsoft also offers a [Git walkthrough](/vsts/git/gitquickstart) designed to rapidly get someone up
+and is an excellent starting point. Microsoft also offers a [Git walkthrough](/azure/devops/git/gitquickstart) designed to rapidly get someone up
 to speed.
 
 Identify key members of the team as Git experts, empower them to help
@@ -176,7 +176,7 @@ recommend that you do one or more test migrations into a test
 repository. Before you do the real migration, you’ll want to make sure:
 
 - All code files have migrated and there are no stray binaries in the repository
-- You can [push the repository successfully to Visual Studio Team Services](/vsts/git/tutorial/pushing)
+- You can [push the repository successfully to Visual Studio Team Services](/azure/devops/git/tutorial/pushing)
 - Users have the appropriate permissions to fetch and push
 - All branches are available
 - Builds are successful, and all your tests are passing
@@ -221,7 +221,7 @@ The actual process you take will vary based on the system you’re
 | |Create the new Git repo on VSTS|
 | |Migrate the mainline branch first, followed by any additional branches needed|
 
-Learn more about migrating to [Team Services from Team Foundation Server](/vsts/articles/migrate-to-vsts-from-tfs) and get an overview of [how your TFVC commands and workflow map to Git](/vsts/git/concepts/mapping-my-tfvc-actions-to-git).
+Learn more about migrating to [Team Services from Team Foundation Server](/azure/devops/articles/migrate-to-vsts-from-tfs) and get an overview of [how your TFVC commands and workflow map to Git](/azure/devops/git/concepts/mapping-my-tfvc-actions-to-git).
 
 ![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
 

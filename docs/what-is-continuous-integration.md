@@ -49,7 +49,7 @@ build to ensure builds maintain a consistent quality.
 Read more about the Continuous Integration capabilities of
 [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/continuous-integration/ "Continuous Integration with VSTS").
 
-Learn how to set up [Continuous Integration](/vsts/pipelines/overview) for
+Learn how to set up [Continuous Integration](/azure/devops/pipelines/overview) for
 any platform.
 
 |             |                           |

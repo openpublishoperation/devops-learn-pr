@@ -254,7 +254,7 @@ files in a repo (though normally Git still has to download *all*
 contents when you run `git clone` or `git fetch`).
 
 The other existing feature is Git’s highly configurable set of [ignore
-files](/vsts/git/tutorial/ignore-files),
+files](/azure/devops/git/tutorial/ignore-files),
 via `.gitignore` files in the repo and exclude files outside of it.
 Ignore files tell Git about files that it does not need to report as new
 untracked files in the `git status` command.

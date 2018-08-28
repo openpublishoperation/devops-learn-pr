@@ -54,9 +54,9 @@ from development to release.
    example, I create branches inside the `users/ethomson` folder.
 
 3. **Pull Request**  
-   We use VSTS [Pull Requests](/vsts/git/pull-requests?view=vsts)
+   We use VSTS [Pull Requests](/azure/devops/git/pull-requests?view=vsts)
    to control how developers topic branches are merged into master.  Pull
-   Requests ensure that our [branch policies](/vsts/git/branch-policies?view=vsts)
+   Requests ensure that our [branch policies](/azure/devops/git/branch-policies?view=vsts)
    are satisfied:  first, we build the proposed changes and run a [quick test
    pass](https://blogs.msdn.microsoft.com/bharry/2017/06/28/testing-in-a-cloud-delivery-cadence/).
    We run about 60,000 tests &mdash; our "level 0" and "level 1" test suites
@@ -169,7 +169,7 @@ review it again, evaluate the branch policies, and test it.  Once it's
 merged, it will get deployed to our first "ring" of servers in minutes.
 From there, we'll [progressively deploy](../what-is-continuous-delivery.md)
 it to more VSTS accounts using
-[deployment rings](/vsts/articles/phase-rollout-with-rings?view=vsts).
+[deployment rings](/azure/devops/articles/phase-rollout-with-rings?view=vsts).
 As more users are exposed to the changes, we'll monitor its success and
 ensure that our change has fixed the bug while not introducing any new
 deficiencies or slowdowns as the fix is deployed to the rest of our data
