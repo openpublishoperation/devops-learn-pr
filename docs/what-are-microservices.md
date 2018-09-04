@@ -46,7 +46,7 @@ microservices. Containers allow for the isolation, packaging, and
 deployment of microservices, and orchestration scales out a group of
 containers into an application.
 
-Learn more about [microservices on Azure](https://azure.microsoft.com/en-us/documentation/articles/service-fabric-overview-microservices/ "Microservices on Azure service fabric.").
+Learn more about [microservices on Azure](https://azure.microsoft.com/documentation/articles/service-fabric-overview-microservices/ "Microservices on Azure service fabric.").
 
 |             |                           |
 |-------------|---------------------------|
