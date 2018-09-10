@@ -12,7 +12,7 @@ ms.date: 07/09/2018
 # DevOps at Microsoft
 > By: Sam Guckenheimer
 
-This center will keep you current on how we continue to adopt DevOps at Microsoft. We’ve selected the best videos and articles from both public conferences and internal training sessions. For most of the videos, we also provide an accompanying article. We focus on practices that we use in Visual Studio Team Services (VSTS), which is the backbone of our One Engineering System (1ES), lessons learned from across Microsoft, and the best of our learning from Microsoft Research. For product news on VSTS, take a look at our [DevOps blog](https://blogs.msdn.microsoft.com/devops/).
+This center will keep you current on how we continue to adopt DevOps at Microsoft. We’ve selected the best videos and articles from both public conferences and internal training sessions. For most of the videos, we also provide an accompanying article. We focus on practices that we use in Visual Studio Team Services (VSTS), which is the backbone of our One Engineering System (1ES), lessons learned from across Microsoft, and the best of our learning from Microsoft Research. For product news on VSTS, take a look at our [DevOps blog](https://devblogs.microsoft.com/devops/).
 
 ## Why we do DevOps at Microsoft
 Martin Woodward leads a whistle-stop tour of Microsoft's seven-year DevOps journey, explaining why the company embarked on this transformation and what benefits it has already seen.

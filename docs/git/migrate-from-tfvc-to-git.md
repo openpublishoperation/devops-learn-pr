@@ -11,7 +11,7 @@ ms.date: 04/04/2017
 # Migrate from TFVC to Git
 > By: Edward Thomson
 
-Visual Studio Team Services provides [a simple migration tool](/vsts/git/import-from-tfvc) to migrate from Team Foundation
+Visual Studio Team Services provides [a simple migration tool](/azure/devops/git/import-from-tfvc) to migrate from Team Foundation
 Version Control to Git. If you’re not using TFVC, you can [migrate from another system](migrate-other-systems-to-git.md)
 manually.
 
@@ -23,7 +23,7 @@ After you’ve prepared, you can begin the migration.
 
 #### Requirements
 In order to make migrations simple, there are a number of requirements
-on the [TFVC Import tool](/vsts/git/import-from-tfvc):
+on the [TFVC Import tool](/azure/devops/git/import-from-tfvc):
 
 1. Only a single branch is migrated. When [planning your migration](centralized-to-git.md) you should choose a new branching
     strategy for Git; migrating only the main branch supports a
@@ -62,7 +62,7 @@ In general, the process to migrate from TFVC is very easy:
 
 Steps 1-3 are optional; if you do not have any binaries in your
 repository and you do not need to set up a `.gitignore` or a
-`.gitattributes`, then you can skip straight to [performing the migration](/vsts/git/import-from-tfvc).
+`.gitattributes`, then you can skip straight to [performing the migration](/azure/devops/git/import-from-tfvc).
 
 ### Check out the latest version
 Create a new TFS workspace, and map a working folder for the server
@@ -84,14 +84,14 @@ of every file in history to every developer, checking in binary files
 directly to the repository will cause it to grow quickly and cause
 performance issues.
 
-For build tools and dependencies like libraries, adopt a [packaging solution](/vsts/package/overview) with versioning support, such as
+For build tools and dependencies like libraries, adopt a [packaging solution](/azure/devops/package/overview) with versioning support, such as
 NuGet. Many open source tools and libraries will already be available on
 the [NuGet Gallery](http://www.nuget.org/), but for proprietary
 dependencies, you will need to create your own NuGet packages.
 
 Once you have moved your dependencies into NuGet, make sure that they
 will not be included in your Git repository by adding them to your
-[`.gitignore`](/vsts/git/tutorial/ignore-files) file.
+[`.gitignore`](/azure/devops/git/tutorial/ignore-files) file.
 
 ### Convert version control-specific configuration
 Team Foundation Version Control provides a `.tfignore` file that will
@@ -100,7 +100,7 @@ can be used for automatically generated files like build output, so that
 it is not accidentally checked in.
 
 If you rely on this behavior, convert your `.tfignore` file to a
-[`.gitignore`](/vsts/git/tutorial/ignore-files) file.
+[`.gitignore`](/azure/devops/git/tutorial/ignore-files) file.
 
 Cross-platform TFVC clients also provide support for a `.tpattributes`
 file that controls how files are placed on the local disk or checked in
@@ -112,7 +112,7 @@ Check in any changes you made that remove binaries, migrate to package
 management, or convert version control-specific configuration. Once this
 final change is made in TFVC, you can perform the import.
 
-Follow the [Import repositories](/vsts/git/import-from-tfvc)
+Follow the [Import repositories](/azure/devops/git/import-from-tfvc)
 documentation to actually perform the input.
 
 ### Advanced migrations

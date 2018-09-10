@@ -66,9 +66,9 @@ Effective monitoring is essential to allow DevOps teams to deliver at
 speed, get feedback from production, and increase customers
 satisfaction, acquisition and retention.
 
-Read more about the monitoring capabilities of [Application Insights](https://visualstudio.microsoft.com/application-insights/).
+Read more about the monitoring capabilities of [Application Insights](https://azure.microsoft.com/services/application-insights/).
 
-Learn how to set up and use [Application Insights for monitoring](https://azure.microsoft.com/en-us/documentation/articles/app-insights-overview/).
+Learn how to set up and use [Application Insights for monitoring](https://azure.microsoft.com/documentation/articles/app-insights-overview/).
 
 |             |                           |
 |-------------|---------------------------|

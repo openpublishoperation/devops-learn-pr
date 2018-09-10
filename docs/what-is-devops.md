@@ -67,7 +67,7 @@ Remember, the goal is to shorten cycle time. Start with the release pipeline. Ho
 
     ![Image: Monitoring and Logging](_img/devops-monitor.png)
 
-6. [Public and Hybrid Clouds](https://azure.microsoft.com/en-us/overview/what-is-azure/) have made the impossible easy. The cloud has removed traditional bottlenecks and helped commoditize infrastructure. Whether you use Infrastructure as a Service (IaaS) to lift and shift your existing apps, or Platform as a Service (PaaS) to gain unprecedented productivity, the cloud gives you a datacenter without limits.
+6. [Public and Hybrid Clouds](https://azure.microsoft.com/overview/what-is-azure/) have made the impossible easy. The cloud has removed traditional bottlenecks and helped commoditize infrastructure. Whether you use Infrastructure as a Service (IaaS) to lift and shift your existing apps, or Platform as a Service (PaaS) to gain unprecedented productivity, the cloud gives you a datacenter without limits.
 
     ![Image: Public and Hybrid Clouds](_img/devops-public-clouds.png)
 
@@ -79,7 +79,7 @@ Remember, the goal is to shorten cycle time. Start with the release pipeline. Ho
 
     ![Image: Microservices v. monolithic services](_img/devops-microservices.png)
 
-9. [Containers](https://azure.microsoft.com/en-us/services/container-service/) are the next evolution in virtualization. They are much more lightweight than virtual machines, allow much faster hydration, and can be easily configured from files. 
+9. [Containers](https://azure.microsoft.com/services/container-service/) are the next evolution in virtualization. They are much more lightweight than virtual machines, allow much faster hydration, and can be easily configured from files. 
 
     ![Image: Fuzzed Containers on ship](_img/devops-containers.png)
 

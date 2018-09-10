@@ -58,7 +58,7 @@ branches separate from the pull request to make those changes.
 
 ### Protect branches with policies
 There are a few critical branches in your repo that the team relies on
-always being in good shape, such as your `master` branch. [Require pull requests](https://docs.microsoft.com/vsts/git/branch-policies) to make
+always being in good shape, such as your `master` branch. [Require pull requests](/azure/devops/git/branch-policies) to make
 any changes on these branches. Developers pushing changes directly to
 the protected branches will have their pushes rejected.
 
@@ -68,9 +68,9 @@ code and approval from multiple reviewers are some extra requirements
 you can set to protect your key branches.
 
 ### Learn more
-Read more about [giving great feedback in code reviews](https://docs.microsoft.com/vsts/articles/devopsmsft/code-review-comments) and
-[how to make your code reviews more effective](https://docs.microsoft.com/vsts/articles/devopsmsft/code-reviews-usefulness).
-Visual Studio Team Services has a [rich pull request experience](https://docs.microsoft.com/vsts/git/pull-requests)that’s
+Read more about [giving great feedback in code reviews](/azure/devops/repos/git/pull-requests#leave-comments) and
+[usng pull request templates to provide guidance to your reviewers](/azure/devops/repos/git/pull-request-templates).
+Visual Studio Team Services has a [rich pull request experience](/azure/devops/repos/git/pull-requests-overview) that’s
 easy to use and scales to your needs.
 
 ![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
