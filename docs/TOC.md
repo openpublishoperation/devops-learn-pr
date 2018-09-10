@@ -1,6 +1,6 @@
 # [DevOps Resource Center](index.md)
 # [DevOps at Microsoft](devops-at-microsoft/index.md)
-## How We Work with Visual Studio Team Services
+## How We Work with Azure DevOps
 ### [Moving to Cloud Cadence](devops-at-microsoft/moving-cloud-cadence.md)
 ### [Agile practices at Microsoft](devops-at-microsoft/agile-principles-in-practice.md)
 ### [How We Use Git at Microsoft](devops-at-microsoft/use-git-microsoft.md)
@@ -8,7 +8,7 @@
 ### [Mindset shift to DevSecOps culture](devops-at-microsoft/security-in-devops.md)
 ### [Live site culture and site reliability engineering](devops-at-microsoft/live-site-culture-and-reliability.md)
 ### [Evolving Test Practices at Microsoft](devops-at-microsoft/evolving-test-practices-microsoft.md)
-## How We Architect Visual Studio Team Services
+## How We Architect Azure DevOps
 ### [From Monolith to Cloud Service](devops-at-microsoft/monolith-cloud-service.md)
 ### [Achieving No Downtime Through Versioned Service Updates](devops-at-microsoft/achieving-no-downtime-versioned-service-updates.md)
 ### [Progressive Experimentation with Feature Flags](devops-at-microsoft/progressive-experimentation-feature-flags.md)
