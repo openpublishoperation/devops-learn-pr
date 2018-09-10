@@ -60,10 +60,11 @@
 ### [Git Virtual File System Architecture](git/gvfs-architecture.md)
 
 # Learn Agile
-## [What is Agile](agile/what-is-agile.md)
-## [What is Agile development](agile/what-is-agile-development.md)
-## [Agile Culture](agile/agile-culture.md)
+## [What is Agile?](agile/what-is-agile.md)
 ## [What is Scrum?](agile/what-is-scrum.md)
+## [What is Kanban?](agile/what-is-kanban.md)
+## [What is Agile Development?](agile/what-is-agile-development.md)
+## [Agile Culture](agile/agile-culture.md)
 ## [Creating Productive Teams](agile/productive-teams.md)
 ## [Scale Agile to Large Teams](agile/scale-agile-large-teams.md)
 
