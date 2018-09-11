@@ -223,7 +223,7 @@ feature flag.
 ## Feature Flags Help Work in Master
 We started working in Master before we had our testing as good as it is
 today, and it was rough. (It was still much better than the old way.)
-There is some tax to it, and you have to test cod both ways. However,
+There is some tax to it, and you have to test code both ways. However,
 the advantage you get of being able to have your code go out to
 production sooner and being able to iterate and experiment provides so
 much value that you’re willing to pay the price. And I don’t have to ask
