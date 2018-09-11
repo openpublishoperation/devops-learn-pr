@@ -16,7 +16,8 @@ This center will keep you current on how we continue to adopt DevOps at Microsof
 
 So that you don't get confused, I'll point out that Azure DevOps is the successor to Visual Studio Team Services (VSTS) and many of the articles refer to VSTS. I have not tried to monkey with the names just ot achieve political correctness. For product news on Azure DevOps, take a look at our [DevOps blog](https://blogs.msdn.microsoft.com/devops/).
 
-## Why We Do DevOps at Microsoft
+## Why We Do DevOps at Microsoft 
+
 Martin Woodward leads a whistle-stop tour of Microsoft's seven-year DevOps journey, explaining why the company embarked on this transformation and what benefits it has already seen.
 
 <br>
