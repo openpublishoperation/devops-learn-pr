@@ -6,13 +6,15 @@ ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
-ms.date: 07/09/2018
+ms.date: 09/10/2018
 ---
 
 # DevOps at Microsoft
 > By: Sam Guckenheimer
 
-This center will keep you current on how we continue to adopt DevOps at Microsoft. We’ve selected the best videos and articles from both public conferences and internal training sessions. For most of the videos, we also provide an accompanying article. We focus on practices that we use in Visual Studio Team Services (VSTS), which is the backbone of our One Engineering System (1ES), lessons learned from across Microsoft, and the best of our learning from Microsoft Research. For product news on VSTS, take a look at our [DevOps blog](https://devblogs.microsoft.com/devops/).
+This center will keep you current on how we continue to adopt DevOps at Microsoft. We’ve selected the best videos and articles from both public conferences and internal training sessions. For most of the videos, we also provide an accompanying article. We focus on practices that we use in Azure DevOps, which is the backbone of our One Engineering System (1ES), lessons learned from across Microsoft, and the best of our learning from Microsoft Research. 
+
+So that you don't get confused, I'll point out that Azure DevOps is the successor to Visual Studio Team Services (VSTS) and many of the articles refer to VSTS. I have not tried to monkey with the names just ot achieve political correctness. For product news on Azure DevOps, take a look at our [DevOps blog](https://blogs.msdn.microsoft.com/devops/).
 
 ## Why we do DevOps at Microsoft
 Martin Woodward leads a whistle-stop tour of Microsoft's seven-year DevOps journey, explaining why the company embarked on this transformation and what benefits it has already seen.
@@ -20,7 +22,8 @@ Martin Woodward leads a whistle-stop tour of Microsoft's seven-year DevOps journ
 <br>
 > [!VIDEO https://www.youtube.com/embed/X4uziBlC728]
 
-### Videos and articles
+## How We Work with AZure DevOps
+The first block of talks drills deeper into our culture changes over the last eight years as we moved to Azure DevOps from a slower-moving world of on-premise software. 
 
 | Article | Description                                                                   |
 |-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
@@ -31,8 +34,8 @@ Martin Woodward leads a whistle-stop tour of Microsoft's seven-year DevOps journ
 | [Live-Site Culture](live-site-culture-and-reliability.md)                    | Live-Site Culture (or a Production-First Mindset) is essential to running a service. Tom Moore discusses both how we handle service reliability and how we practice, You Build It, You Run It. You can’t control what you can’t measure. Along the way, Tom Moore how we use telemetry to monitor VSTS and gain continual insight into both the health and usage of the service.  |
 | [Evolving test practices: combining development and test](evolving-test-practices-microsoft.md) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Microsoft’s decision to move to _a single engineering organization_, where development and testing are a unified part of the build process rather than separate roles, has helped every engineer have a greater impact on the quality of the software. Munil Shah shares his first hand experiences.   |
 
-## How We Architect Visual Studio Team Services (VSTS)
-These talks cover the accompanying technology behind VSTS and its evolution. 
+## How We Architect AZure DevOps 
+These talks cover the accompanying technology behind Azure DevOps, its evolution from VSTS and from its on-premise origins. 
 
 | Article    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                             | Description                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
