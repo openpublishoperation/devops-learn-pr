@@ -16,7 +16,7 @@ This center will keep you current on how we continue to adopt DevOps at Microsof
 
 So that you don't get confused, I'll point out that Azure DevOps is the successor to Visual Studio Team Services (VSTS) and many of the articles refer to VSTS. I have not tried to monkey with the names just ot achieve political correctness. For product news on Azure DevOps, take a look at our [DevOps blog](https://blogs.msdn.microsoft.com/devops/).
 
-## Why we do DevOps at Microsoft
+## Why We Do DevOps at Microsoft
 Martin Woodward leads a whistle-stop tour of Microsoft's seven-year DevOps journey, explaining why the company embarked on this transformation and what benefits it has already seen.
 
 <br>
@@ -49,7 +49,7 @@ These talks cover the accompanying technology behind Azure DevOps, its evolution
 | [Safe deployment practices](safe-deployment-practices.md)                                   | When you deploy continuously, you need to control the blast radius and continually expand based on the health of the release. Ed Glas goes over the safe deployment practices that we use for progressive exposure.                       |
 
 
-## Researching software practices
+## Researching Software Practices
 We like to be informed by data. Measuring how well practices work is key. We’re sharing our research and learning, so that you can be informed too.
 
 |             |                           |
