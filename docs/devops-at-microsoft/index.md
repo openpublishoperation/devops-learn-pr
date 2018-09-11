@@ -22,7 +22,7 @@ Martin Woodward leads a whistle-stop tour of Microsoft's seven-year DevOps journ
 <br>
 > [!VIDEO https://www.youtube.com/embed/X4uziBlC728]
 
-## How We Work with AZure DevOps
+## How We Work with Azure DevOps
 The first block of talks drills deeper into our culture changes over the last eight years as we moved to Azure DevOps from a slower-moving world of on-premise software. 
 
 | Article | Description                                                                   |
@@ -34,7 +34,7 @@ The first block of talks drills deeper into our culture changes over the last ei
 | [Live-Site Culture](live-site-culture-and-reliability.md)                    | Live-Site Culture (or a Production-First Mindset) is essential to running a service. Tom Moore discusses both how we handle service reliability and how we practice, You Build It, You Run It. You can’t control what you can’t measure. Along the way, Tom Moore how we use telemetry to monitor VSTS and gain continual insight into both the health and usage of the service.  |
 | [Evolving test practices: combining development and test](evolving-test-practices-microsoft.md) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Microsoft’s decision to move to _a single engineering organization_, where development and testing are a unified part of the build process rather than separate roles, has helped every engineer have a greater impact on the quality of the software. Munil Shah shares his first hand experiences.   |
 
-## How We Architect AZure DevOps 
+## How We Architect Azure DevOps 
 These talks cover the accompanying technology behind Azure DevOps, its evolution from VSTS and from its on-premise origins. 
 
 | Article    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                             | Description                                                                                      |
