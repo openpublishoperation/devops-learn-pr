@@ -39,7 +39,7 @@ When you adopt DevOps practices, you shorten your cycle time by working in small
 ![Shorten Your Cycle Time](_img/devops-road-shorten-cycle-time.png)
 
 ## Optimize Validated Learning
-The more frequently you deploy, the more can experiment, the more opportunity you have to pivot or persevere, and to gain validated learning each cycle. This acceleration in validated learning is the value of improvement. Think of it as the sum of improvements that you achieve and the failures that you avoid.
+The more frequently you deploy, the more you can experiment, the more opportunity you have to pivot or persevere, and to gain validated learning each cycle. This acceleration in validated learning is the value of improvement. Think of it as the sum of improvements that you achieve and the failures that you avoid.
 
 ![Optimize Validated Learning](_img/devops-road-optimize-learning.png)
 
