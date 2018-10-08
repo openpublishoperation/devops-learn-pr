@@ -6,7 +6,7 @@ ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: sanoursa
-ms.date: 10/02/2017
+ms.date: 10/08/2018
 ---
 
 # Technical Scale Challenges with Git
@@ -38,10 +38,12 @@ most recent commit on the server (to be precise, your push must result
 in a fast-forward merge of the server’s master branch). In other words,
 if someone else pushed a change in between when you fetched and when you
 pushed, your push will fail.
+
 For a small team, this is not a major issue. The odds of a collision in
 that time window are fairly small, and when the collisions do happen,
 it’s fairly quick to fetch, redo the merge or rebase, and try to push
 again.
+
 On a large team, this issue brings your productivity to a standstill.
 Imagine you have 400 people all trying to push to master, and imagine
 that it’s the last day before a big milestone and everyone has lots of
@@ -51,10 +53,12 @@ to get your changes in. It is also very detrimental to code quality,
 because frustrated developers who are just trying to finish that last
 change so they can go home are likely to skip steps in their validation
 because that’s the only way to win the race.
+
 As you add more people to a repo, the odds of a push collision increase
 quadratically with the number of people. So while this is a minor issue
 for the GVFS repo, it’s a major nuisance for the VSTS repo, and it would
 be a complete show stopper for the Windows repo.
+
 See [The Race to Push](race-to-push.md)
 to see how we use pull requests and merge queues to solve this issue by
 handling that race for you.
@@ -69,6 +73,7 @@ have 5, 10, even 15 topic branches per person – some of those are
 active, some of them are parked, and some are forgotten, but by default
 everyone has to deal with all of these branches, regardless of how
 useful they are (or aren’t).
+
 There are several reasons that having too many branches can be painful:
 
 - When listing out the branches, either locally or in the web, you have to wade through all of the branches to find the few you care about.
@@ -83,6 +88,7 @@ definitely frustrating to sit there for that long “doing nothing”, but
 it’s not necessarily the end of the world. However for a team as big as
 Windows, with 100K branches or more, it would mean that fetching could
 take hours.
+
 And technically speaking, the problem isn’t actually “too many
 branches”, it’s actually “too many refs”. We’ll cover that in more
 detail as we talk about how the VSTS [Limited
@@ -112,10 +118,12 @@ History can grow for a few different reasons.
     way it stores its backend objects. All objects in history are both
     deltified and compressed, resulting in a fairly compact storage, as
     long as the files are diffable and compressible.
+
   - So the more the significant contribution to growth of history is
     edits to undiffable and uncompressible files, i.e. binaries. The
     more binaries there are in a repo, and the more churn those binaries
     go through, the faster the history grows.
+
   - And while a few important branches can be protected with server-side
     policies to prevent people from pushing unwanted changes, it’s very
     simple in Git to create a topic branch, commit whatever you want in
@@ -128,6 +136,7 @@ There are some solutions already available to help with these issues:
     3rd party dependencies out of the repo and consuming them as
     packages, we can eliminate some of the problems associated with fast
     history growth due to binary files.
+
   - Git LFS. For cases where binary files really need to be treated as
     sources, a tool like LFS can help because it stores the actual
     contents of the binaries in a separate content store, and the Git
@@ -139,6 +148,7 @@ However, there are cases where none of these solutions are ideal. We’ll
 talk in more depth later on about the core issue of sources vs binaries,
 and the range of tools and approaches that various teams have used to
 deal with these issues.
+
 The other solution that we’ve created to help with this situation is the
 Git Virtual File System (GVFS). Handling the size of history is actually
 just a secondary benefit of GVFS, but for repos that are large enough to
@@ -156,7 +166,9 @@ Some examples:
     files in the repo
   - ‘git checkout’ can take 3 hours
   - ‘git commit’ takes 30 minutes
+
 Why do these operations take so long? Two fundamental reasons:
+
   - Git maintains an index file that contains a flat list of every file
     in the repo. This creates overhead for every single command that
     needs the index, since Git has to read and parse the index every
@@ -171,6 +183,7 @@ Why do these operations take so long? Two fundamental reasons:
 
 This is the problem that GVFS is uniquely positioned to solve, without
 forcing a rewrite of all of Git.
+
 You can read more about the [design history of
 GVFS](gvfs-design-history.md), and
 coming soon we’ll discuss the inner workings of GVFS in much more
