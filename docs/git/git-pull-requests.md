@@ -69,7 +69,7 @@ you can set to protect your key branches.
 
 ### Learn more
 Read more about [giving great feedback in code reviews](/azure/devops/repos/git/pull-requests#leave-comments) and
-[usng pull request templates to provide guidance to your reviewers](/azure/devops/repos/git/pull-request-templates).
+[using pull request templates to provide guidance to your reviewers](/azure/devops/repos/git/pull-request-templates).
 Visual Studio Team Services has a [rich pull request experience](/azure/devops/repos/git/pull-requests-overview) that’s
 easy to use and scales to your needs.
 
