@@ -21,7 +21,7 @@ DevOps is the union of people, process, and products to enable continuous delive
 Be not afraid of DevOps. Some teams are born to DevOps; some achieve DevOps; others have DevOps thrust upon them.<sup>3</sup> What is DevOps? Why does DevOps matter? Why now? How do you achieve DevOps successfully? Those are the topics we’d like to look at.
 
 ## Understand your Cycle Time
-Let’s start with a basic assumption about software development. We’ll describe it with the OODA loop.<sup>4</sup> Originally designed to keep fighter pilots form being shot out of the sky, the OODA loop is a good way to think about staying ahead of your competitors. You start with observation of business, market, needs, current user behavior, and available telemetry data. Then you orient with the enumeration of options for what you can deliver, perhaps with experiments. Next you decide what to pursue, and you act by delivering working software to real users. All of this occurs in some cycle time.
+Let’s start with a basic assumption about software development. We’ll describe it with the OODA loop.<sup>4</sup> Originally designed to keep fighter pilots from being shot out of the sky, the OODA loop is a good way to think about staying ahead of your competitors. You start with observation of business, market, needs, current user behavior, and available telemetry data. Then you orient with the enumeration of options for what you can deliver, perhaps with experiments. Next you decide what to pursue, and you act by delivering working software to real users. All of this occurs in some cycle time.
 
 ![Image of DevOps cycle time](_img/devops-road.png)
 
