@@ -10,6 +10,7 @@ ms.date: 05/03/2017
 ---
 
 # Plan your migration to Git
+
 > By: Matt Cooper
 
 Moving your team from a centralized version control system to Git
@@ -19,9 +20,9 @@ way that is fundamentally different from a centralized version control
 system. A successful migration requires that you understand these
 differences and plan your migration accordingly.
 
-The Visual Studio Team Services team has helped numerous customers,
+The Azure DevOps team has helped numerous customers,
 including teams within Microsoft, migrate from centralized version
-control systems to Git. The VSTS team has developed this guidance based
+control systems to Git. The Azure DevOps team has developed this guidance based
 on their experience.
 
 We recommend that you:
@@ -35,31 +36,34 @@ We recommend that you:
 - Perform the actual migration to Git
 
 ### Evaluate your tools and processes
+
 Changing version control systems will naturally disrupt your development
 workflow as developers begin using new tools and practices. This
 disruption can be an opportunity to improve other aspects of the
 development process.
 
 You may wish to consider:
+
 - Build and Test  
-    When do you perform builds, and when do you run tests? Adopting
-    [continuous integration](../what-is-continuous-integration.md),
-    so that [every check-in performs a build and a test pass](/azure/devops/build/define/triggers), will help you identify defects
-    early and provides a strong safety net for your project.
+   When do you perform builds, and when do you run tests? Adopting
+  [continuous integration](../what-is-continuous-integration.md),
+  so that [every check-in performs a build and a test pass](/azure/devops/build/define/triggers), will help you identify defects
+  early and provides a strong safety net for your project.
 - Code reviews  
-    Is your team performing regular code reviews? Are code reviews
-    required, and are they happening before the code is checked in?
-    Git’s branching model makes a [pull request](git-pull-requests.md)-based
-    code review workflow a natural part of your development process, and
-    pull requests complement a continuous integration workflow nicely.
+   Is your team performing regular code reviews? Are code reviews
+  required, and are they happening before the code is checked in?
+  Git’s branching model makes a [pull request](git-pull-requests.md)-based
+  code review workflow a natural part of your development process, and
+  pull requests complement a continuous integration workflow nicely.
 - Release Management  
-    Are you performing [continuous delivery](../what-is-continuous-delivery.md)?
-    Moving to different version control tools will require you to make
-    changes to your deployment processes, so a migration is a good time
-    to adopt a modern release pipeline and automate your deployment
-    processes.
+   Are you performing [continuous delivery](../what-is-continuous-delivery.md)?
+  Moving to different version control tools will require you to make
+  changes to your deployment processes, so a migration is a good time
+  to adopt a modern release pipeline and automate your deployment
+  processes.
 
 ### Select a branching strategy
+
 Before migrating your code you should [select a branching strategy](https://visualstudio.com/articles/git-branching-guidance). Using long-lived, isolated
 feature branches is discouraged; this tends to delay merges until
 integration becomes very challenging. By using modern continuous
@@ -81,6 +85,7 @@ document the mapping between legacy branches and the new branches in Git
 so that your team understands where they should commit their new work.
 
 ### Migrating history
+
 You may be tempted to migrate your existing source code’s history to
 Git. There are numerous tools that claim to migrate a complete history
 of all branches from a centralized tool to Git, and at first glance this
@@ -102,12 +107,13 @@ most recent version of a branch into Git.
 
 For most development teams, the time spent trying to migrate history is
 typically better spent on other areas of the migration that have a
-higher return on investment, especially improving processes. The VSTS
+higher return on investment, especially improving processes. The Azure DevOps
 team has observed this while migrating numerous customers from a
 centralized system to Git, including many customers at Microsoft. In
 almost all cases, we recommend the tip migration.
 
 ### Maintaining your old version control system
+
 During and after a migration, developers will still need access to the
 history in your old version control system, so you can’t simply shut the
 old system down once you’ve migrated. This is especially true if you’ve
@@ -131,6 +137,7 @@ working on a project long after it’s been converted to Git and who don’t
 have familiarity with the old version control system.
 
 ### Binary files and tools
+
 Due to the way Git stores history, you should avoid adding binary files
 to a repository, especially binaries that are very large or that change
 regularly. Git’s storage model is optimized for versioning text files
@@ -152,6 +159,7 @@ should be stored using the Git LFS (Large File Storage) extension.
 Learn more about [managing large files with Git](/azure/devops/git/manage-large-files).
 
 ### Training
+
 Perhaps the biggest challenge in migrating to Git is helping developers
 understand how Git stores changes and how commits form a history of
 development. It’s not enough to just prepare a “cheat sheet” that maps
@@ -169,6 +177,7 @@ others, and make sure that the rest of the team is encouraged to ask
 them questions.
 
 ### Migrating code
+
 Once you’ve updated your processes, analyzed your code and started
 training your team, you can finally do a migration of the source code.
 Whether you do a tip migration or are trying to migrate history, we
@@ -176,7 +185,7 @@ recommend that you do one or more test migrations into a test
 repository. Before you do the real migration, you’ll want to make sure:
 
 - All code files have migrated and there are no stray binaries in the repository
-- You can [push the repository successfully to Visual Studio Team Services](/azure/devops/git/tutorial/pushing)
+- You can [push the repository successfully to Azure DevOps](/azure/devops/git/tutorial/pushing)
 - Users have the appropriate permissions to fetch and push
 - All branches are available
 - Builds are successful, and all your tests are passing
@@ -191,40 +200,41 @@ Plan to make a firm cutover from your old version control system to Git;
 trying to keep multiple systems operating in parallel is confusing since
 developers may not know how, or where, to check-in and there is no
 “single source of truth”. Set the old version control system read-only
-to avoid this, otherwise you may have to try to do a *second* migration
+to avoid this, otherwise you may have to try to do a _second_ migration
 to include any changes that were made in the old system during the
 migration.
 
 The actual process you take will vary based on the system you’re
- migrating from. We have a detailed article about [migrating from Team Foundation Version Control](migrate-from-tfvc-to-git.md), and guidance for [migrating from other systems](migrate-other-systems-to-git.md) as well.
+migrating from. We have a detailed article about [migrating from Team Foundation Version Control](migrate-from-tfvc-to-git.md), and guidance for [migrating from other systems](migrate-other-systems-to-git.md) as well.
 
 ### Migration checklist
-|Area|Task|
-|----|----|
-|Team workflows|Determine how builds will run |
-| |Determine when tests will run|
-| |Develop a release management process|
-| |Move your code reviews to pull requests|
-|Branching strategy|Pick a Git branching strategy|
-| |Document the branching strategy, including why it was selected and how legacy branches map
-|History |Decide how long to keep legacy VC running|
-| |Identify branches which need to migrate|
-| |If needed, create “breadcrumbs” to help engineers navigate back to the legacy system|
-|Binaries and tools|Identify which binaries and undiffable files to remove from the repo|
-| |Decide on an approach for large files, such as Git-LFS|
-| |Decide on an approach for delivering tools and libraries, such as NuGet |
-|Training|Identify training materials|
-| |Plan training: events, written material, videos, etc.|
-| |Identify members of the team to serve as local Git experts|
-|Code migration|Run multiple test runs to ensure the migration will go smoothly|
-| |Identify and communicate a time to make the cutover|
-| |Create the new Git repo on VSTS|
-| |Migrate the mainline branch first, followed by any additional branches needed|
 
-Learn more about migrating to [Team Services from Team Foundation Server](/azure/devops/articles/migrate-to-vsts-from-tfs) and get an overview of [how your TFVC commands and workflow map to Git](/azure/devops/git/concepts/mapping-my-tfvc-actions-to-git).
+| Area               | Task                                                                                       |
+| ------------------ | ------------------------------------------------------------------------------------------ |
+| Team workflows     | Determine how builds will run                                                              |
+|                    | Determine when tests will run                                                              |
+|                    | Develop a release management process                                                       |
+|                    | Move your code reviews to pull requests                                                    |
+| Branching strategy | Pick a Git branching strategy                                                              |
+|                    | Document the branching strategy, including why it was selected and how legacy branches map |
+| History            | Decide how long to keep legacy VC running                                                  |
+|                    | Identify branches which need to migrate                                                    |
+|                    | If needed, create “breadcrumbs” to help engineers navigate back to the legacy system       |
+| Binaries and tools | Identify which binaries and undiffable files to remove from the repo                       |
+|                    | Decide on an approach for large files, such as Git-LFS                                     |
+|                    | Decide on an approach for delivering tools and libraries, such as NuGet                    |
+| Training           | Identify training materials                                                                |
+|                    | Plan training: events, written material, videos, etc.                                      |
+|                    | Identify members of the team to serve as local Git experts                                 |
+| Code migration     | Run multiple test runs to ensure the migration will go smoothly                            |
+|                    | Identify and communicate a time to make the cutover                                        |
+|                    | Create the new Git repo on Azure DevOps                                                    |
+|                    | Migrate the mainline branch first, followed by any additional branches needed              |
 
-![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
+Learn more about migrating to [Azure DevOps from Team Foundation Server](/azure/devops/articles/migrate-to-vsts-from-tfs) and get an overview of [how your TFVC commands and workflow map to Git](/azure/devops/git/concepts/mapping-my-tfvc-actions-to-git).
 
-|             |                           |
-|-------------|---------------------------|
-|![Matt Cooper](https://secure.gravatar.com/avatar/430135977e33df497a125eef52420daf?s=130&d=mm&r=g)|Matt Cooper is currently a program manager for Visual Studio Team Services, focused on version control. Previously he's worked on package management, Xbox, and Dynamics CRM.|
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Azure Repos](https://azure.microsoft.com/en-us/services/devops/repos/).
+
+|                                                                                                    |                                                                                                                                                                |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Matt Cooper](https://secure.gravatar.com/avatar/430135977e33df497a125eef52420daf?s=130&d=mm&r=g) | Matt Cooper is currently a program manager for Azure DevOps, focused on Azure Pipelines. Previously he's worked on package management, Xbox, and Dynamics CRM. |

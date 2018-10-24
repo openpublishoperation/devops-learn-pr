@@ -10,7 +10,8 @@ ms.date: 04/04/2017
 ---
 
 # What is Infrastructure as Code?
-> By:  Sam Guckenheimer
+
+> By: Sam Guckenheimer
 
 ![Infrastructure as code defines the environment in a versioned
 file](_img/InfrastructureAsCode_600x300-3.png)
@@ -23,16 +24,16 @@ same binary, an IaC model generates the same environment every time it
 is applied. IaC is a key DevOps practice and is used in conjunction with
 [continuous delivery](what-is-continuous-delivery.md).
 
-Infrastructure as Code evolved to solve the problem of *environment
-drift* in the release pipeline. Without IaC, teams must maintain the
+Infrastructure as Code evolved to solve the problem of _environment
+drift_ in the release pipeline. Without IaC, teams must maintain the
 settings of individual deployment environments. Over time, each
-environment becomes a *snowflake*, that is, a unique configuration that
+environment becomes a _snowflake_, that is, a unique configuration that
 cannot be reproduced automatically. Inconsistency among environments
 leads to issues during deployments. With snowflakes, administration and
 maintenance of infrastructure involves manual processes which were hard
 to track and contributed to errors.
 
-*Idempotence* is a principle of Infrastructure as Code. Idempotence is
+_Idempotence_ is a principle of Infrastructure as Code. Idempotence is
 the property that a deployment command always sets the target
 environment into the same configuration, regardless of the environment’s
 starting state. Idempotency is achieved by either automatically
@@ -64,6 +65,6 @@ infrastructure rapidly, reliably, and at scale.
 
 Learn more about Infrastructure as Code with [Azure Resource Manager](https://azure.microsoft.com/documentation/articles/resource-group-overview/ "ARM for IaC").
 
-|             |                           |
-|-------------|---------------------------|
-|![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices.|
+|                                                         |                                                                                                                                                                                                                                                       |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg) | Sam Guckenheimer works on Microsoft Azure DevOps team. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices. |

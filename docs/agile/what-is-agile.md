@@ -10,6 +10,7 @@ ms.date: 10/03/2017
 ---
 
 # What is Agile?
+
 > By: Aaron Bjork
 
 ![what is agile](../_img/WhatIsAgile_600x300.png)
@@ -64,44 +65,46 @@ practices) carry the “Agile” label, because they are consistent with the
 principles in the agile manifesto.
 
 ## What agile isn’t
+
 As agile has gained popularity, many stereotypes and/or
 misinterpretations have cast a negative shadow regarding its
-effectiveness. It’s easy to say “*Yes, we’re doing Agile*”, without any
+effectiveness. It’s easy to say “_Yes, we’re doing Agile_”, without any
 accountability. Considering this, let’s look at a few things that Agile
 isn’t.
 
 - Agile is not [cowboy coding](https://en.wikipedia.org/wiki/Cowboy_coding). Agile should
-    not be confused with a “we’ll figure it out as we go” approach to
-    software development. This couldn’t be further from the truth. Agile
-    requires both a [Definition of Done](https://www.agilealliance.org/glossary/definition-of-done/)
-    and value delivered to customers in every sprint. While Agile values
-    autonomy for individuals and teams; Agile emphasizes aligned
-    autonomy, ensuring the delivery of increased value through increased
-    autonomy.
+  not be confused with a “we’ll figure it out as we go” approach to
+  software development. This couldn’t be further from the truth. Agile
+  requires both a [Definition of Done](https://www.agilealliance.org/glossary/definition-of-done/)
+  and value delivered to customers in every sprint. While Agile values
+  autonomy for individuals and teams; Agile emphasizes aligned
+  autonomy, ensuring the delivery of increased value through increased
+  autonomy.
 - Agile is not without rigor and planning. On the contrary, Agile
-    methodologies and practices typically emphasize discipline in
-    planning. The key is continual planning throughout the project, not
-    just planning up front. Continual planning ensures the team can
-    learn from the work they’re executing, thus maximizing planning ROI
-    (return on investment).
+  methodologies and practices typically emphasize discipline in
+  planning. The key is continual planning throughout the project, not
+  just planning up front. Continual planning ensures the team can
+  learn from the work they’re executing, thus maximizing planning ROI
+  (return on investment).
 
 > “Plans are worthless, but planning is everything.” — Dwight D.
 > Eisenhower
 
 - Agile is not an excuse for the lack of a roadmap. This one has
-    probably done the most harm to the agile movement overall.
-    Organizations and teams following an Agile approach absolutely know
-    where they’re going… and the results they want to
-    achieve. Recognizing change as a part of the process (an agile
-    approach) is different from pivoting in a new direction every week,
-    sprint, or month.
+  probably done the most harm to the agile movement overall.
+  Organizations and teams following an Agile approach absolutely know
+  where they’re going… and the results they want to
+  achieve. Recognizing change as a part of the process (an agile
+  approach) is different from pivoting in a new direction every week,
+  sprint, or month.
 - Agile is not development without specifications. It’s necessary in
-    any project to keep your team aligned on “why” and “how” work will
-    happen. An agile approach to specs includes ensuring specs are
-    “right-sized”, and reflect appropriately how the team will
-    sequence and deliver work.
+  any project to keep your team aligned on “why” and “how” work will
+  happen. An agile approach to specs includes ensuring specs are
+  “right-sized”, and reflect appropriately how the team will
+  sequence and deliver work.
 
 ## Why agile?
+
 So why would anyone consider an agile approach? It’s clear the rules of
 engagement around building software have fundamentally changed in the
 last 10-15 years. Many of the activities look similar, but the landscape
@@ -113,8 +116,8 @@ your products. How did we understand what people thought about our
 software before social media? Finally, think about how often you desire
 to update and improve the software you’re delivering. Delivering updates
 once a year doesn’t sound like a recipe for winning. Forrester’s Diego
-Lo Guidice and Dave West said it best in paper titled *Transforming
-Application Delivery* (February of 2011).
+Lo Guidice and Dave West said it best in paper titled _Transforming
+Application Delivery_ (February of 2011).
 
 > “Firms today experience a much higher velocity of business change.
 > Market opportunities appear or dissolve in months or weeks instead of
@@ -127,10 +130,8 @@ promise to establish a culture and environment where solutions emerge…
 through collaboration, continual planning and learning, and a desire to
 ship high quality software more often.
 
-![get started for free](../_img/AgileGetStartedForFree_32x.png)
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Azure Boards](https://azure.microsoft.com/en-us/services/devops/boards/).
 
-Get started with free agile tools in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/agile-tools).
-
-|             |                           |
-|-------------|---------------------------|
-|![Aaron Bjork](../_img/Aaron-Bjork_avatar_1472225238-130x130.jpg)|Aaron is a Principal Group Program Manager at Microsoft where he drives investments in work management, agile project management, reporting, and collaboration for Microsoft’s Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) products. |
+|                                                                   |                                                                                                                                                                                                                                        |
+| ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Aaron Bjork](../_img/Aaron-Bjork_avatar_1472225238-130x130.jpg) | Aaron is a Principal Group Program Manager at Microsoft where he drives investments in work management, agile project management, reporting, and collaboration for Microsoft’s Azure DevOps and Team Foundation Server (TFS) products. |

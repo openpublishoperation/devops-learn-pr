@@ -14,7 +14,7 @@ ms.date: 02/21/2018
 We recently
 [announced](https://blogs.msdn.microsoft.com/bharry/2017/05/24/the-largest-git-repo-on-the-planet/)
 that the entire Windows codebase has moved to a single Git repo that is
-hosted on Visual Studio Team Services. This migration presented us with
+hosted on Azure DevOps. This migration presented us with
 some very interesting scale challenges to solve, ranging from issues
 inherent in the Git protocol and object storage, to the performance of
 the git command line, to workflow challenges for a team of that size
@@ -31,7 +31,7 @@ some specific examples along that scale spectrum, we’ll refer to the
 following classes of repos throughout these articles.
 
 - [Small repos](#small-repos), e.g. the GVFS repo
-- [Medium repos](#medium-repos), e.g. the VSTS repo
+- [Medium repos](#medium-repos), e.g. the Azure DevOps repo
 - [Extra large repos](#extra-large-repos), e.g. the Windows repo
 
 These are all real repos that we use inside Microsoft, and they range
@@ -68,12 +68,12 @@ pull requests and release process, that sort of thing.
 
 ### Medium repos
 
-Visual Studio Team Services and Team Foundation Server are both built
+Azure DevOps and Team Foundation Server are both built
 out of one codebase. At Microsoft, we consider this a medium-sized repo,
 though compared to most other repos in the world, it’s definitely on the
 larger end of the spectrum. We currently have on the order of 10 or so
 repos in Microsoft that are around this size.
-VSTS stats:
+Azure DevOps stats:
 
 - Repo size: 10GB packfile, 3GB working directory, 100K files
 - Team: 400 people
@@ -125,4 +125,4 @@ a repo grows in size.
 
 |             |                           |
 |-------------|---------------------------|
-|![Saeed Noursalehi](../_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Visual Studio Team Services team at Microsoft, and works on making Git scale for the largest teams in Microsoft|
+|![Saeed Noursalehi](../_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Azure DevOps team at Microsoft, and works on making Git scale for the largest teams in Microsoft|

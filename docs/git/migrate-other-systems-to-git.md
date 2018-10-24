@@ -10,6 +10,7 @@ ms.date: 04/04/2017
 ---
 
 # Migrate from other systems to Git
+
 > By: Robert Outlaw
 
 Before you try to migrate your source code from a legacy version control
@@ -17,7 +18,7 @@ system to Git, be sure that you familiarize yourself with the
 differences between centralized version control systems and Git, and
 [plan your team’s migration](centralized-to-git.md).
 
-Visual Studio Team Services has simple tools to [migrate from Team
+Azure DevOps has simple tools to [migrate from Team
 Foundation Version Control (TFVC)](migrate-from-tfvc-to-git.md),
 but migrating from a different centralized version control system is
 also straightforward.
@@ -26,7 +27,7 @@ In general, the migration process is:
 
 #### For the mainline or first branch you wish to migrate
 
-1.  Create a repository in Visual Studio Team Services and clone it
+1.  Create a repository in Azure DevOps and clone it
     locally.
 2.  Check out the latest revision or changeset in your legacy version
     control system.
@@ -45,7 +46,7 @@ In general, the migration process is:
 6.  Optionally, create and commit a “breadcrumbs” file that provides
     information about how to access your legacy version control system.
 7.  Add and commit your files to the Git repository and push the
-    repository to Visual Studio Team Services.
+    repository to Azure DevOps.
 8.  Since you may need to run these steps multiple times, for test
     migrations before the final migration, you should create a script
     for this process that can be run repeatably.
@@ -57,10 +58,11 @@ In general, the migration process is:
     legacy branch.
 3.  Add and commit all files. (Due to the way Git stores history, only
     the files that differ in this branch will actually be uploaded.)
-4.  Push your new branch to Visual Studio Team Services.
+4.  Push your new branch to Azure DevOps.
 5.  Checkout master again to prepare for the next branch.
 
 ### Prerequisites
+
 Install [Git for Windows](https://git-scm.com/download/win) if you
 haven’t done so already. Make sure to **Enable Git Credential
 Manager** during the installation so you can easily connect to Team
@@ -69,6 +71,7 @@ Services or TFS.
 ![Set up the Git Credential Manager to easily connect to Team Services/TFS](../_img/gcminstall.png)
 
 ### Create and clone your Git repository
+
 [Create a Git repository](/azure/devops/git/create-new-repo) in Visual Studio
 Team Services or an on-premises Team Foundation Server that will contain
 your code when the migration is complete.
@@ -84,12 +87,14 @@ populate with the contents of your legacy version control system:
 `git clone https://fabrikam.visualstudio.com/DefaultCollection/FabrikamApp`
 
 ### Populate your Git repository
+
 Get or check out the latest version of the main branch of your
 application from your legacy version control system, and copy it into
 the folder that you created when you cloned your repository.
 Do not stage or commit your migrated code in Git yet.
 
 ### Remove binary dependencies and assets
+
 Due to the way Git stores the history of changed files, providing a copy
 of every file in history to every developer, checking in binary files
 directly to the repository will cause it to grow quickly and cause
@@ -112,6 +117,7 @@ This returns the 25 largest files in your repository. You can tweak this
 command and filter the output on other criteria as needed.
 
 #### Exclude tools and libraries
+
 For tools and libraries, adopt a [packaging
 solution](/docs/package/overview) with versioning support, such as
 NuGet. Many open source tools and libraries will already be available on
@@ -122,6 +128,7 @@ will not be included in your Git repository by adding them to your
 [`.gitignore`](/azure/devops/git/tutorial/ignore-files) file.
 
 #### Manage asset files with Git-LFS
+
 Look at the size and the history of the binary asset files in your
 repository, such as images and models. If they are small and very rarely
 updated, such as an icon file, then you can add them to Git directly
@@ -134,6 +141,7 @@ to manage these assets. Simply [follow the instructions](https://github.com/gith
 the Large File Support extension, then add the files to your local repository.
 
 ### Convert version control-specific configuration
+
 Many version control tools offer an “ignore” file to ensure that some
 files are not included in version control. For example, Team Foundation
 Version Control provides a `.tfignore` file and Subversion offers a
@@ -148,6 +156,7 @@ file can enforce. If you rely on this behavior, convert these files to a
 [`.gitattributes`](https://git-scm.com/docs/gitattributes).
 
 ### Delete legacy version control metadata
+
 Many version control systems place metadata on-disk within the working
 folder. For example, Team Foundation Version Control creates a `$tf`
 directory on Windows (`.tf` on macOS and Unix platforms) to store
@@ -159,6 +168,7 @@ should included in your `.gitignore` file or deleted from the local disk
 entirely.
 
 ### Add a breadcrumbs file (optional)
+
 If you’re doing a “tip migration”, only bringing in the latest version
 of your source, then you may want to add a “breadcrumbs” file that
 reminds people how to find older versions of the source tree.
@@ -171,6 +181,7 @@ it and commit it:
 `git commit README-history.md -m"Import from legacy version control: readme for earlier history"`
 
 ### Add and commit your files
+
 Finally, you can add and commit your code to your local git repository.
 
 `git commit --all -m "Initial import from legacy version control"`
@@ -178,15 +189,16 @@ Finally, you can add and commit your code to your local git repository.
 This will commit your code to the `master` branch of your new Git
 repository, which is commonly the name of the default branch. Once the
 code is committed, push it to the `master` branch of your Git repository
-in Visual Studio Team Services:
+in Azure DevOps:
 
 `git push origin master`
 
-The main branch of your code is now in a Git repository in VSTS. If you
+The main branch of your code is now in a Git repository in Azure DevOps. If you
 don’t need to migrate any other branches, then your migration is
 complete.
 
 ### Migrate branches
+
 Once you’ve committed and pushed your code, migrate additional branches
 by creating a new branch from the `master` branch in your new Git
 repository and switching to it. Do this for each branch you want to
@@ -207,22 +219,22 @@ branch to Git:
 
 `git commit --all -m "Initial import of the release 2.0 branch"`
 
-Then push your branch to Visual Studio Team Services:
+Then push your branch to Azure DevOps:
 
-`git push -u origin releases/20`
+`git push -u origin releases/20`
 
-Finally, switch back to the master branch by running `git checkout
-master`, and repeat this process for any other branches you need to
+Finally, switch back to the master branch by running `git checkout master`, and repeat this process for any other branches you need to
 migrate.
 
 ### Update your workflow
+
 Moving from a centralized version control system to Git is more than
 just migrating code. Your team needs training to understand how Git is
 different from your legacy version control system and how these
 differences affect day-to-day work. [Learn more](centralized-to-git.md).
 
-![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Azure Repos](https://azure.microsoft.com/en-us/services/devops/repos/).
 
-|             |                           |
-|-------------|---------------------------|
-|![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg) |Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server. |
+|                                                                       |                                                                                                |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| ![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg) | Robert is a content developer at Microsoft working on Azure DevOps and Team Foundation Server. |

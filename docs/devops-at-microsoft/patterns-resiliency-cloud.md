@@ -336,4 +336,4 @@ best testing, things will go wrong and you need to recover.
 
 |             |                           |
 |-------------|---------------------------|
-|![Image: Buck Hodges, MSFT](https://secure.gravatar.com/avatar/baad17c3a2d3ea8fffc392f9dd209426?s=130&d=mm&r=g)|Buck Hodges is Director of Engineering for Visual Studio Team Services. He's been a member of the team since the beginning of TFS, starting as a developer on Team Foundation Version Control for the first version of TFS. He's helped lead the transition of the team to the cloud and DevOps.|
+|![Image: Buck Hodges, MSFT](https://secure.gravatar.com/avatar/baad17c3a2d3ea8fffc392f9dd209426?s=130&d=mm&r=g)|Buck Hodges is Director of Engineering for Azure DevOps. He's been a member of the team since the beginning of TFS, starting as a developer on Team Foundation Version Control for the first version of TFS. He's helped lead the transition of the team to the cloud and DevOps.|

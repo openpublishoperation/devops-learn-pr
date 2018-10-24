@@ -10,13 +10,15 @@ ms.date: 11/14/2017
 ---
 
 # Evolving Test Practices at Microsoft
+
 > By Munil Shah
 
 ## Testing at Microsoft circa 1990s
+
 For a long period of time Microsoft shipped software with a basic setup
 for the engineering team. Every product team had three distinct
-disciplines. *PMs* owned understanding customer requirements and writing
-feature specs, *Devs* owned designing and coding the features. *Testers*
+disciplines. _PMs_ owned understanding customer requirements and writing
+feature specs, _Devs_ owned designing and coding the features. _Testers_
 owned testing the features. Teams had a ratio of 1 dev to 1 test to 0.5
 PM, with some variance among
 teams.
@@ -32,6 +34,7 @@ went to the same colleges. If we hired from industry, we’d pretty much
 hire developers and then convert them into SDETs.
 
 ### How Did It Work in Practice?
+
 It worked reasonably well back in the days. We achieved commercial
 success with big products like Windows and Office. The test discipline
 provided product signoff based on very formal quality measurements. That
@@ -44,6 +47,7 @@ developed deep expertise in testing because the test discipline was
 solely focused on testing, thinking about this day-in day-out.
 
 ### What Didn’t Work
+
 Did it really work though? In a single word – NO. We started seeing some
 problems but were somewhat masked by the commercial success of the
 products. By late 90s the problems boiled over. Developers threw the
@@ -55,6 +59,7 @@ this setup. Testing became a bottleneck and caused product delays, but
 again we couldn’t see through it.
 
 ### First Transformation, circa 2000: Collapsing SDET and STE
+
 By 2000, the whole company recognized this problem. We did our first
 major transformation in the test discipline. A companywide decision was
 made to get rid of the STE roles and make SDETs accountable for not only
@@ -80,6 +85,7 @@ without good sense of priority or wrong people working on things that in
 the grand scheme of things were just low priority.
 
 ### Enter Cloud Cadence
+
 Things changed dramatically with the arrival of the cloud cadence around
 mid-2000s. It brought new pressure on the engineering system to go
 faster and even more faster. Long stabilization phases are gone. We
@@ -95,11 +101,12 @@ the changes.
 
 This initial approach didn’t work. Testing became a major bottleneck –
 we reached a breaking point. In theory we were operating in cloud
-cadence but the trains didn’t run on time. In VSTS, at times we would
+cadence but the trains didn’t run on time. In Azure DevOps, at times we would
 spend 3 weeks after the end of sprint to stabilize and deploy –
 effectively killing the next sprint.
 
 ### Quality in the Cloud Cadence – What Changed?
+
 It became very apparent the model wasn’t working; we were doing it
 wrong. We were not the first team to recognize the problem. There were
 services before us, like Bing, that saw this. And we started observing
@@ -128,6 +135,7 @@ integration style testing in the lab. The rest of the document describes
 \#1 in a little bit more detail.
 
 ### The Org Change for Quality Ownership
+
 We did ‘combined engineering’ – a term used at Microsoft to indicate
 merging of responsibilities for dev and test in a single engineering
 role. It is not just an organization change where you bring the Dev and
@@ -158,6 +166,7 @@ point there are no separate dev and test teams at Microsoft. They are
 just engineering teams with the combined engineer roles.
 
 #### Making the change
+
 How did we make this transition? In short, very carefully\! We
 meticulously inventoried everything the test team did and refactored how
 all those activities would get done in the new world.
@@ -182,6 +191,7 @@ recognize an SDET or an SDE among the Engineers. That said, some
 engineers didn’t quite make the transition and had to find other roles.
 
 ### Specialization
+
 A core principle of the Combined Engineering is elimination of tasks
 passing from one team to another. Handoff introduce delays and dilutes
 accountability. There are no specialized central teams that do certain
@@ -208,6 +218,7 @@ quick actions. Engineers in these special v-teams share expertise but
 their accountability is aligned to the feature team they work in.
 
 #### Higher Velocity
+
 On the surface it would appear that every engineer is now doing twice or
 more amount of work than before and therefore feature velocity would
 slow down. But total capacity in feature teams hasn’t changed because of
@@ -218,6 +229,6 @@ efficiency gain from the reduced handoff and new testing practices. We
 have seen continuous and fairly noticeable gain in feature velocity
 since implementing this change.
 
-|             |                           |
-|-------------|---------------------------|
-|![Munil Shah](../_img/munils_avatar_1509056114-130x130.jpg)|As Partner Director of Engineering in Microsoft's Cloud and Enterprise division, Munil Shah leads engineering for Visual Studio Team Services and TFS products. Munil has over 20 years of experience building large scale software and distributed services. Prior to his current role, he held various engineering leadership positions Bing Advertising and Windows groups at Microsoft. He is passionate about leading engineering teams through significant transformation to deliver successful solutions to customers. |
+|                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Munil Shah](../_img/munils_avatar_1509056114-130x130.jpg) | As Partner Director of Engineering in Microsoft's Cloud and Enterprise division, Munil Shah leads engineering for Azure DevOps and TFS products. Munil has over 20 years of experience building large scale software and distributed services. Prior to his current role, he held various engineering leadership positions Bing Advertising and Windows groups at Microsoft. He is passionate about leading engineering teams through significant transformation to deliver successful solutions to customers. |

@@ -10,14 +10,15 @@ ms.date: 04/04/2017
 ---
 
 # What is DevOps Culture?
+
 > By: Sam Guckenheimer
 
 ![DevOps culture](_img/DevOps-lifecycle_600x300.png)
 
 DevOps culture stresses small, multidisciplinary teams, who work
 autonomously and take collective accountability for how actual users
-experience their software. For a DevOps team, *there’s no place like
-production.* Everything they do is about making customers’ live
+experience their software. For a DevOps team, _there’s no place like
+production._ Everything they do is about making customers’ live
 experience better.
 
 DevOps teams apply agile practices and include operations in the team
@@ -26,12 +27,12 @@ end-to-end delivery of customer value, and strive to eliminate waste and
 impediments along the way. There are no silos and no blame game, because
 the team is mutually accountable.
 
-DevOps teams apply a *growth mindset*. They make beliefs explicit,
+DevOps teams apply a _growth mindset_. They make beliefs explicit,
 hypothesize impact to create better results, and implement the
 hypotheses as experiments. DevOps teams use monitoring and telemetry to
 gather evidence in production and observe results in real time. When
 evidence diminishes hypotheses, the experiences become opportunities to
-*fail fast* or gather validated learning quickly from the experiment.
+_fail fast_ or gather validated learning quickly from the experiment.
 When evidence supports hypotheses, the team uses the opportunity to
 persevere, or double down, on the actions that lead to improvement.
 
@@ -51,6 +52,6 @@ build it, you run it.
 
 See how [Bing has built a DevOps culture](http://stories.visualstudio.com/bing-continuous-delivery/ "Bing DevOps Culture").
 
-|             |                           |
-|-------------|---------------------------|
-|![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices.|
+|                                                         |                                                                                                                                                                                                                                                       |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg) | Sam Guckenheimer works on Microsoft Azure DevOps team. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices. |

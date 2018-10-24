@@ -1,6 +1,6 @@
 ---
 title: Learn Git with Team Services
-description: This tutorial will walk you through some basic Git tasks using Visual Studio Team Services.
+description: This tutorial will walk you through some basic Git tasks using Azure DevOps.
 ms.prod: devops
 ms.technology: devops-learn
 ms.topic: conceptual
@@ -8,7 +8,9 @@ ms.manager: douge
 ms.author: routlaw
 ms.date: 04/04/2017
 ---
+
 # Learn Git with Team Services
+
 > By: Robert Outlaw
 
 This tutorial will walk you through some basic Git tasks using Visual
@@ -26,6 +28,7 @@ our [quick start guide](/azure/devops/git/gitquickstart) to get your
 own code shared quickly.
 
 ### Create a new repo
+
 Code in Git is stored in repositories, or repos. A repo isn’t much more
 than a folder where Git manages your files. A repo contains the current
 version of the code you are working on plus all versions of files ever
@@ -35,7 +38,7 @@ Create a repo on the web in Team Services with the following steps:
 
 1.  Open your account on the web. Select **Code**, then select the
     drop-down next to the current repo name and choose **New
-    Repository.**  
+    Repository.**
 
     ![create a new repo from the repository drop-down](../_img/get-started-new-repo.png)
 
@@ -46,6 +49,7 @@ Create a repo on the web in Team Services with the following steps:
     code to it.
 
 ### Add code to your repo
+
 Now that you’ve created your repo, add some code to it. Select the **…**
 next to your repo name on the left and select **Add File(s)..**.
 
@@ -72,6 +76,7 @@ HelloWorld.html file to your repo.  You create a new commit every time
 you want to save changes in Git.
 
 ### Create a branch
+
 So far you’ve updated code only in the `master` branch of your repo.
 Branches let you save changes to your code without changing the code in
 the master branch. It’s a good idea to create a new branch for each task
@@ -110,6 +115,7 @@ The `update-greeting` branch now points to a different version of
 HelloWorld.html than the `master` branch does.
 
 ### Merge branches via pull request
+
 Once your changes in a branch are ready you’ll need to merge them to the
 `master` branch that everyone shares. Keeping `master` up to date is
 important-it makes sure that your team’s new branches are based off the
@@ -133,7 +139,7 @@ message to create a pull request for the `update-greeting` branch after
 you saved the new version of HelloWorld.html in the previous
 section.
 
-![create\_pr\_from\_push](../_img/create_pr_from_push.png)
+![create_pr_from_push](../_img/create_pr_from_push.png)
 
 Select **Create a pull request** to open a new pull request to get the
 changes in `update-greeting` merged into the `master` branch.
@@ -153,10 +159,11 @@ HelloWorld.html on your `master` branch, which will now have the
 changes made in the `update-greeting` branch.
 
 ### What’s next
+
 Now that you have a repo and are familiar with some of the basics of Git, you can follow [the Git quick start](/azure/devops/git/gitquickstart) to learn how to clone an existing repo and start working with Git using your favorite tools on your computer.
 
-![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Azure Repos](https://azure.microsoft.com/en-us/services/devops/repos/).
 
-|             |                           |
-|-------------|---------------------------|
-|![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|
+|                                                                       |                                                                                                |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| ![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg) | Robert is a content developer at Microsoft working on Azure DevOps and Team Foundation Server. |

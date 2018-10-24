@@ -10,9 +10,11 @@ ms.date: 02/02/2018
 ---
 
 # How We Use Git at Microsoft
+
 > By: Matt Cooper
 
 ## How We Use Git
+
 We've talked a lot about [hosting the world's largest Git repository](https://blogs.msdn.microsoft.com/bharry/2017/05/24/the-largest-git-repo-on-the-planet/),
 about how we're moving [Microsoft to Git](https://www.youtube.com/watch?v=rKgBV4yfK3g), and about the
 challenges of [Git at scale](../git/git-at-scale.md). We often get
@@ -24,13 +26,14 @@ ways based on their needs, but by and large, these are the default
 practices for most teams.
 
 ## The Team and Product Hosting Git
+
 Other articles and videos on this site go into more detail about the
 team and product makeup. As a refresher, there are around 500 engineers
 in our organization. We're geographically distributed into 3 main sites
 (Redmond, Raleigh, and Hyderabad) plus dozens of remote workers in
 cities across the world. We ship multiple products from our codebase:
 Team Foundation Server comes out yearly and has several point updates
-per year. Visual Studio Team Services ships every three weeks, plus a
+per year. Azure DevOps ships every three weeks, plus a
 daily hotfix train. These two products, though separate, share about 90%
 of their code. In addition, we have several components built from our
 repository which ship on a different schedule, such as Team Explorer for
@@ -39,7 +42,8 @@ structure, and workflows is to support a large distributed team pumping
 out complex software.
 
 ## Git Repository Structure
-The majority of our code is in one Git repository hosted by VSTS. That
+
+The majority of our code is in one Git repository hosted by Azure DevOps. That
 repository contains about 8GB worth of history on a fresh clone. We
 follow a single-trunk model; more on our branch structure later.
 
@@ -60,16 +64,18 @@ of other packages we depend on come from other places, and we consume
 them via NuGet.
 
 ### Mono Repo or Multi-Repo with Git
+
 It's worth pausing to reflect that this isn't the only way. While we've
 elected to have a single monolithic repository (the "mono-repo"), other
 products at Microsoft use a multi-repo approach. Skype, for instance,
 has hundreds of small repositories that get stitched together in various
 combinations to create their many different clients, services, and
 tools. Especially for teams embracing microservices, multi-repo can be
-the right approach. TFS/VSTS, like many products at Microsoft, began as
+the right approach. TFS/Azure DevOps, like many products at Microsoft, began as
 a monolith, and its code organization reflects that.
 
 ### Git Branch Structure and Policies
+
 We use a branching strategy that we call "[Release Flow](release-flow.md)".
 It's a trunk-based development model, similar to the ones that we
 recommend to our customers in our
@@ -85,7 +91,7 @@ is shown in red.
 
 ![screenshot of Git branch structure and policies](../_img/branch-strategy.png)
 
-We use a couple of VSTS features to help enforce this structure and keep
+We use a couple of Azure DevOps features to help enforce this structure and keep
 master clean. Branch policies prevent direct pushes to master. We
 require a [successful build](/azure/devops/git/branch-policies#build-validation)
 (including passing tests), [signoff by the owners](/azure/devops/git/branch-policies#automatically-include-code-reviewers)
@@ -103,6 +109,7 @@ some automation tools have permission to the integrations/ folder.
 ![screenshot of branches](../_img/vso-branches.png)
 
 ## Working in the Git Repository
+
 Within this structure, how do engineers actually get their daily work
 done? Obviously the environment's going to vary heavily by team and by
 individual &mdash; some people like the command line, others like Visual
@@ -111,6 +118,7 @@ policies in place on our repository ensure a solid and consistent
 foundation. Let's walk through a handful of common tasks.
 
 ### Git Workflow to Build a New Feature
+
 Our first stop has to be building a new feature. That's the meat of a
 software engineer's job, right? We'll skip past the non-Git parts like
 looking at telemetry data, coming up with a design and a spec, and even
@@ -124,6 +132,7 @@ changes, commits, and pushes to the server. When our engineer starts a
 pull request, several interesting things happen.
 
 ### Using Git Branch Policy
+
 First, automated systems start checking that the new code builds, hasn't
 broken anything, and hasn't violated any policies (security, compliance,
 and so on). This doesn't block other work from happening in parallel.
@@ -146,7 +155,7 @@ in the browser. That's pretty amazing &mdash; by using an extensibility point,
 the Windows team built something cool enough that we're turning around
 and including in our own workflow.
 
-VSTS merges the code to master, and it'll deploy in the next sprint or
+Azure DevOps merges the code to master, and it'll deploy in the next sprint or
 TFS release. Importantly, that doesn't mean the new feature will show up
 right away. We've talked elsewhere about how we decouple deployment and
 exposure of new features using [feature flags](progressive-experimentation-feature-flags.md).
@@ -156,6 +165,7 @@ master. Once in master, the code ends up in an official build, where
 it's (again) tested, confirmed to meet policy, and digitally signed.
 
 ### Shipping
+
 Deployment is a complex topic which we've [covered elsewhere on the site](achieving-no-downtime-versioned-service-updates.md).
 The branch model is the main intersection between deployment and Git. At
 the end of each sprint, one of our release managers sends out an email
@@ -168,6 +178,7 @@ cherry-pick the changes into the release branch. These cherry-picks go
 through a PR to land in the release branch.
 
 ### Feature Flags Allow Code to Be Deployed with Controlled Exposure
+
 As we deploy out through our rings and stages, controlling exposure with
 feature flags, maybe we [discover an issue](shift-right-test-production.md)
 in production. Despite all our automation and review, things happen.
@@ -192,6 +203,7 @@ cutting the release branch and putting the product in the hands of
 customers.
 
 ## Git Facilitates our Shift Left
+
 Working this way with Git gives us a number of benefits. First, we work
 out of a single master, virtually eliminating merge debt. Second, the
 pull request flow gives us a common point to force testing, code review,
@@ -205,6 +217,6 @@ integration builds per day. Together, that amounts to 500 test runs
 every 24 hours, a level that would have been a fantasy without this
 workflow.
 
-|             |                           |
-|-------------|---------------------------|
-|![Matt Cooper](https://secure.gravatar.com/avatar/430135977e33df497a125eef52420daf?s=130&d=mm&r=g)|Matt Cooper is currently a program manager for Visual Studio Team Services, focused on version control. Previously he's worked on package management, Xbox, and Dynamics CRM.|
+|                                                                                                    |                                                                                                                                                                |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Matt Cooper](https://secure.gravatar.com/avatar/430135977e33df497a125eef52420daf?s=130&d=mm&r=g) | Matt Cooper is currently a program manager for Azure DevOps, focused on Azure Pipelines. Previously he's worked on package management, Xbox, and Dynamics CRM. |

@@ -10,6 +10,7 @@ ms.date: 10/12/2017
 ---
 
 # What is Agile Development?
+
 > By: Dan Hellem
 
 [Agile](what-is-agile.md) development
@@ -35,6 +36,7 @@ teams:
 - Minimize technical debt
 
 ## Diligent backlog refinement
+
 An agile development team works off of a backlog of requirements, often
 called “user stories”. The backlog is prioritized so the most important
 user stories are at the top. The product owner owns the backlog and
@@ -57,6 +59,7 @@ development team takes an incredible amount of effort and discipline.
 When refining the backlog, remember the following:
 
 #### Refining user stories is often a long-lead activity
+
 Elegant user interfaces, beautiful screen designs, and customer
 delighting solutions all take time and energy to create. Diligent
 product owners refine user stories 2-3 sprints in advance. They account
@@ -65,15 +68,18 @@ user story is something the agile team is proud to deliver to the
 customer.
 
 #### A user story is not refined unless the team says it is
+
 The team needs to review the user story, and agree it’s ready to work
 on. If a team has not seen the user story until day 1 of a sprint,
 that’s a big red flag.
 
 #### User stories further down the backlog can remain ambiguous
+
 Don’t waste time refining lower priority items. Stay intently focused on
 the top of the backlog.
 
 ## Integrate early and often
+
 [Continuous integration](../what-is-continuous-integration.md)
 and [continuous delivery](../what-is-continuous-delivery.md)
 (CICD) sets your team up for the fast pace of Agile Development. As soon
@@ -93,25 +99,31 @@ and deployments will fail. CICD forces you to fix deployment issues as
 they occur, ensuring your product is ever ready to ship.
 
 CICD key activities are:
+
 #### Unit testing
+
 Unit tests are your first defense against human error. Unit tests should
 be considered part of coding and checked in with the code. Executing
 unit tests should be considered part of your build. Failed unit tests
 mean a failed build.
 
 #### Build automation
+
 Have your build system automatically pull code and tests directly from
 source control when builds execute.
 
 #### Branch and build policies
+
 Configure your branch and build policies to build automatically as your
 team checks code into a specific branch.
 
 #### Deploy to an environment
+
 Setup a release pipeline that automatically deploys your built
 project(s) to an environment that mimics production.
 
 ## Minimize technical debt
+
 With personal finances, it’s easier to stay out of debt than to dig out
 from under it. The same rule applies for technical debt. Technical debt
 includes anything the team must do to deploy production quality code and
@@ -129,6 +141,7 @@ difficult task. Read [Creating productive, customer focused teams](https://visua
 for ideas on how to manage this.
 
 ## Always Be Agile
+
 Being agile means learning from what you do and continually improving.
 Agile development provides many more learning cycles than traditional
 project planning. Each sprint provides something new for the team to
@@ -143,14 +156,14 @@ For example:
 - They find that certain features perform poorly in production and
   make plans to improve performance.
 - Someone on the team hears of a new practice and the team decides to
-    try it out for a few sprints.
+  try it out for a few sprints.
 
 If you are starting with agile development, expect more learning
 opportunities. Way more. An Agile team doesn’t waste those
 opportunities.
 
-![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/agile-tools).
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Azure Boards](https://azure.microsoft.com/en-us/services/devops/boards/).
 
-|             |                           |
-|-------------|---------------------------|
-|![Dan Hellem](../_img/Dan-Hellem_avatar_1491925080-130x130.jpg)|Dan is a Senior Program Manager with Microsoft's Visual Studio Team Services. Dan focuses on the Agile space as well as the customer adoption of the service. Before coming to Microsoft in 2012 Dan spent his career building applications using Microsoft technologies and assembling Agile teams centered on delivering high quality software to customers. |
+|                                                                 |                                                                                                                                                                                                                                                                                                                                                 |
+| --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Dan Hellem](../_img/Dan-Hellem_avatar_1491925080-130x130.jpg) | Dan is a Senior Program Manager with Microsoft's Azure DevOps. Dan focuses on the Agile space as well as the customer adoption of the service. Before coming to Microsoft in 2012 Dan spent his career building applications using Microsoft technologies and assembling Agile teams centered on delivering high quality software to customers. |

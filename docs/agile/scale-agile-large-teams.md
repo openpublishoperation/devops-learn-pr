@@ -10,6 +10,7 @@ ms.date: 01/16/2018
 ---
 
 # Scale Agile to Large Teams
+
 > By: Gregg Boer
 
 Many people wouldn’t use the words “Big” and
@@ -21,7 +22,7 @@ have learned to scale Agile principles and have done so before scaling
 frameworks such as SAFe, LeSS, or Nexus became popular.
 
 One such group, the Team Services organization at Microsoft, builds the
-Visual Studio Team Services product. Team Services has 35 feature teams
+Azure DevOps product. Team Services has 35 feature teams
 that release to production every 3 weeks.
 
 Every team within Team Services owns everything from start to finish and
@@ -45,6 +46,7 @@ To manage the delicate balance between alignment and autonomy, define
 your taxonomy, your planning process and use feature chats.
 
 ## Taxonomy
+
 A clearly defined taxonomy defines the nomenclature for your
 organization.
 
@@ -61,6 +63,7 @@ A common taxonomy is Epics, Features, Stories, and Tasks.
 ![](../_img/AgileScaledGraph-2.png)
 
 #### Epics
+
 Epics declare initiatives important the organizations success. Epics may
 take several teams and several sprints to accomplish, but they are not
 without an end. Epics have a clearly defined goal. Once attained the
@@ -68,6 +71,7 @@ Epic is closed. The number of Epics in progress should be manageable, to
 keep your organization focused. Epics are broken down into Features.
 
 #### Features
+
 Features define new functionality required to realize an Epic’s goal.
 Features are the release-unit, that is, they represent what is released
 to the customer. Your published release notes can be built based on the
@@ -76,6 +80,7 @@ to complete, but should be sized to ensure a consistent flow of value to
 the customer. Features are broken down into stories.
 
 #### Stories
+
 Stories define incremental value the team must deliver to create a
 Feature. The team breaks the Feature down into incremental pieces. A
 single completed story may not provide meaningful value to the customer.
@@ -84,9 +89,11 @@ Stories are the team’s work unit. The team defines the stories required
 to complete a Feature. Stories optionally breakdown into Tasks.
 
 #### Tasks
+
 Tasks define the work required to complete a Story.
 
 #### Initiatives
+
 This taxonomy is not a one-size-fits-all. Many organizations introduce a
 level above Epics called Initiatives, Initiatives break down into
 Epics.
@@ -98,6 +105,7 @@ the names defined above (Epics, Features, Stories) are fairly close to
 being industry standard.
 
 ## Line of Autonomy
+
 Once your taxonomy is set, define your Line of Autonomy. The Line of
 Autonomy is the point at which the team is the clear owner and
 management doesn’t interfere.
@@ -117,6 +125,7 @@ goals. While a team owns their backlog of stories, they must align their
 backlog with the Features assigned to them.
 
 ## Planning
+
 To scale Agile planning, you need a plan for each level of your
 taxonomy. Rolling wave planning is key: The plan provides direction for
 a fixed period of time, with expected calibration on regular intervals.
@@ -128,6 +137,7 @@ Features, Stories, Tasks.
 ![](../_img/AgileScaledGraph-5.png)
 
 #### Vision
+
 Expressed through Epics and sets the long-term direction of the
 organization. Management owns the plan and calibrates it every 6 months.
 Epics define what we want to complete in the next 18 months. The Vision
@@ -135,6 +145,7 @@ is presented at an all-hands meeting. Expect to accomplish about 60% of
 the Vision plan.
 
 #### Season
+
 Described through Features and sets the strategy for the next 6 months.
 Features determine what we want to light up for our customers.
 Management owns the Seasonal plan and presents the Vision and Seasonal
@@ -143,6 +154,7 @@ management’s Seasonal plan. Expect to accomplish about 80% of the
 Seasonal plan.
 
 #### 3-Sprint Plan
+
 Defines the Stories and Features the team will finish over the next 3
 sprints. The team owns the plan and calibrates it every sprint. The team
 presents the plan to management via the Feature Chat (see below). The
@@ -150,6 +162,7 @@ plan specifies how the team’s execution aligns with the 6-month Seasonal
 plan. Expect to accomplish about 90% of the 3-Sprint plan.
 
 #### Sprint Plan
+
 Defines the Stories and Features the team will finish in the next
 sprint. The team owns the sprint plan and emails it to the entire
 organization for full transparency. The plan includes what the team
@@ -158,6 +171,7 @@ accomplished in the past sprint and their focus for the next sprint.
 Expect to accomplish about 95% of the Sprint plan
 
 #### Line of Autonomy
+
 The Line of Autonomy is drawn to show where teams have planning
 autonomy. The above planning process draws the Line of Autonomy as
 follows:
@@ -169,6 +183,7 @@ Autonomy. They provide guidance using the Vision and Season plans and
 give teams autonomy to create 3-Sprint and Sprint plans.
 
 ## Feature Chats – where autonomy meets alignment
+
 A Feature Chat is a low-ceremony meeting where each team presents their
 3-Sprint Plan to management. This meeting ensures team plans align with
 the organizational goals. It also helps management stays informed on
@@ -180,9 +195,11 @@ feature teams, you could schedule these meetings over a 2.5-hour time
 block. Each team prepares a 3-slide deck, with the following slides:
 
 #### Features
+
 The features the team will light up in the next 3 sprints.
 
 #### Debt
+
 How the team is managing their technical debt. Debt is anything that
 doesn’t meet management’s quality bars. The Director of Engineering sets
 the quality bars, which are the same for all teams (alignment). Example
@@ -190,6 +207,7 @@ quality bars include \# bugs/engineer, % unit tests passing, and
 performance goals.
 
 #### Issues/Dependencies
+
 Anything that impacts the team’s progress. Issues the team can’t resolve
 or dependencies on other teams that need escalation.
 Each team, not middle managers, presents their slides directly to
@@ -203,13 +221,14 @@ management may request a re-plan. In this rare event, the team will
 re-plan and schedule a second feature chat to review it.
 
 ## Trust – the glue that holds it alignment and autonomy together
+
 When practicing Agile at scale, trust is a 2-way street:
 
-*Management must trust teams to do the right thing. If management
-doesn’t trust the teams, they won’t give teams autonomy.*
+_Management must trust teams to do the right thing. If management
+doesn’t trust the teams, they won’t give teams autonomy._
 
-*A team earns trust by consistently delivering high quality code. If
-teams aren’t trustworthy, management won’t give them autonomy.*
+_A team earns trust by consistently delivering high quality code. If
+teams aren’t trustworthy, management won’t give them autonomy._
 
 Management must provide clear plans for teams to align with and trust
 their teams to execute. Teams must align their plans with the
@@ -221,8 +240,8 @@ goals. The critical building blocks are clearly defined ownership and a
 culture of trust. Once you have this foundation in place, you will find
 that Agile can scale very well.
 
-![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/agile-tools).
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Azure Boards](https://azure.microsoft.com/en-us/services/devops/boards/).
 
-|             |                           |
-|-------------|---------------------------|
-|![Gregg Boer](../_img/greggboe_avatar_1472497044-130x130.jpg)|Gregg Boer is a Principal Group Program Manager at Microsoft. He works in the Microsoft’s Visual Studio Cloud Services (VSCS) division. A big believer in the benefits of Agile, Gregg drives the vision for Agile management solution provided by Microsoft’s Visual Studio Team Services and Team Foundation Server products.|
+|                                                               |                                                                                                                                                                                                                                           |
+| ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Gregg Boer](../_img/greggboe_avatar_1472497044-130x130.jpg) | Gregg Boer is a Principal Group Program Manager in Azure DevOps. A big believer in the benefits of Agile, Gregg drives the vision for Agile management solution provided by Microsoft’s Azure DevOps and Team Foundation Server products. |

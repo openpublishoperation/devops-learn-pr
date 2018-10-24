@@ -8,6 +8,7 @@ ms.manager: douge
 ms.author: samgu
 ms.date: 01/19/2018
 ---
+
 # Welcome to Agile
 
 #### Your guide through the theory and application of Agile
@@ -51,7 +52,7 @@ FEATURED ARTICLES
 
 ### Building product, customer focused teams
 
-###### By Matthew Manela | ** Read time 8mins
+###### By Matthew Manela | \*\* Read time 8mins
 
 Learn how teams can balance building features customers need tomorrow
 and fixing issues customers face today.
@@ -60,7 +61,7 @@ and fixing issues customers face today.
 
 ### Scale Agile to Large Teams
 
-###### By Gregg Boer | ** Read time 9mins
+###### By Gregg Boer | \*\* Read time 9mins
 
 Simple practices to scale Agile principles to large teams. No extensive
 framework required.
@@ -69,7 +70,7 @@ framework required.
 
 ### Agile at Microsoft
 
-###### Learn how the [Visual Studio Team Services (VSTS)](https://visualstudio.microsoft.com/team-services/) team at Microsoft has changed their approach to building software and services by adopting an Agile culture and mindset. Aaron Bjork takes you on a journey of contrasting the “old way” with the “new way”, and shares key changes that contributed to the transformation including thoughts on teams, roles, sprints, planning, and learning.
+###### Learn how the [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/) team at Microsoft has changed their approach to building software and services by adopting an Agile culture and mindset. Aaron Bjork takes you on a journey of contrasting the “old way” with the “new way”, and shares key changes that contributed to the transformation including thoughts on teams, roles, sprints, planning, and learning.
 
 ###### [Read more \>](agile/agile-culture.md)
 

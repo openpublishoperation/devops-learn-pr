@@ -58,8 +58,8 @@ Multiple repos also make your release process more complicated. In the
 end, if the scale issues can be solved, having one repo often makes the
 overall workflows far simpler.
 
-#### VSTS
-The VSTS product comprises several different services that all work
+#### Azure DevOps
+The Azure DevOps product comprises several different services that all work
 together, and when we first moved to Git, we put each of those services
 in their own repo. Our reasoning was that there are fewer scale issues
 to deal with in any one repo, and having separate repos also helps
@@ -74,7 +74,7 @@ those tools then had issues of their own, and our developers were very
 frustrated.
 
 Secondly, our release process became much more complicated. While the
-VSTS service deploys once every 3 weeks and each service can deploy
+Azure DevOps service deploys once every 3 weeks and each service can deploy
 mostly independently, we also ship a box product, Team Foundation
 Server, once a quarter. TFS is built out of the same codebase, and it
 has an added constraint that all of those services must be installed on
@@ -321,4 +321,4 @@ performance goals.
 
 |             |                           |
 |-------------|---------------------------|
-|![Saeed Noursalehi](../_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Visual Studio Team Services team at Microsoft, and works on making Git scale for the largest teams in Microsoft|
+|![Saeed Noursalehi](../_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Azure DevOps team at Microsoft, and works on making Git scale for the largest teams in Microsoft|

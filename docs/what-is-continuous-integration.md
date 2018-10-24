@@ -10,6 +10,7 @@ ms.date: 04/04/2017
 ---
 
 # What is Continuous Integration?
+
 > By: Sam Guckenheimer
 
 ![Continuous Integration Build sequence showing pass/fail and time](_img/ContinuousIntegration_600x300.png)
@@ -47,11 +48,11 @@ which makes them less expensive to fix.  Automated tests run for every
 build to ensure builds maintain a consistent quality.
 
 Read more about the Continuous Integration capabilities of
-[Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/continuous-integration/ "Continuous Integration with VSTS").
+[Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/ "Continuous Integration with Azure DevOps").
 
 Learn how to set up [Continuous Integration](/azure/devops/pipelines/overview) for
 any platform.
 
-|             |                           |
-|-------------|---------------------------|
-|![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices.|
+|                                                         |                                                                                                                                                                                                                                                       |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Image: Sam Guckenheimer, MSFT](_img/samgu-avatar.jpg) | Sam Guckenheimer works on Microsoft Azure DevOps team. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices. |

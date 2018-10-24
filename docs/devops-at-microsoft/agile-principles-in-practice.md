@@ -10,6 +10,7 @@ ms.date: 05/31/2018
 ---
 
 # Agile principles in practice
+
 > By: Aaron Bjork
 
 Aaron Bjork discusses how we incorporate Agile principles and what that looks like in practice. Everything about how we manage teams, roles, planning, sprints, and flow has brought improvement to the software we build and use daily that customers can depend on.
@@ -17,33 +18,33 @@ Aaron Bjork discusses how we incorporate Agile principles and what that looks li
 <br>
 > [!VIDEO https://www.youtube.com/embed/-LvCJpnNljU]
 
-## Introduction to VSTS and TFS
+## Introduction to Azure DevOps and TFS
 
-The Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) team is made of about 800 people that contribute to either the subscription-based cloud service (VSTS) or the on-permise product (TFS). VSTS and TFS are platforms for software development teams to collaborate, plan, write, build, test, and deploy their code.
+The Azure DevOps team is made of about 800 people that contribute to either the subscription-based cloud service (Azure DevOps Server) or the on-permise product (TFS). Azure DevOps and TFS are platforms for software development teams to collaborate, plan, write, build, test, and deploy their code.
 
-The VSTS development teams work in 3-week sprints, shipping at the end of each sprint. About 3-4 times a year, the updates are packaged and applied to TFS via updates.
+The Azure DevOps development teams work in 3-week sprints, shipping at the end of each sprint. About 3-4 times a year, the updates are packaged and applied to TFS via updates.
 
 ## Before vs After
 
 Below you can find some of the changes our development team made as we made the leap to apply Agile practices to our workflow.
 
-| Before                                    | After                                                                                                 |
-|-------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| 4-6 month milestones                      | 3-week sprints
-| Horizontal teams                          | Vertical teams
-| Personal offices                          | Team rooms
-| Long planning cycles                      | Continual Planning and learning
-| PM, Dev, Test                             | PM and Engineering
-| Yearly customer engagement                | Continual customer engagement
-| Feature branches                          | Everyone in master
-| 20+ person teams                          | 8-12 person teams
-| Secret roadmap                            | Publicly shared roadmap
-| Bug debt                                  | Zero debt
-| 100 page spec documents                   | Specs in PPT
-| Private repositories                      | Open source
-| Deep organization hierarchy               | Flattened organization hierarchy
-| Success is a measure of install numbers   | User satisfaction determines success
-| Features shipped once a year              | Features shipped every sprint
+| Before                                  | After                                |
+| --------------------------------------- | ------------------------------------ |
+| 4-6 month milestones                    | 3-week sprints                       |
+| Horizontal teams                        | Vertical teams                       |
+| Personal offices                        | Team rooms                           |
+| Long planning cycles                    | Continual Planning and learning      |
+| PM, Dev, Test                           | PM and Engineering                   |
+| Yearly customer engagement              | Continual customer engagement        |
+| Feature branches                        | Everyone in master                   |
+| 20+ person teams                        | 8-12 person teams                    |
+| Secret roadmap                          | Publicly shared roadmap              |
+| Bug debt                                | Zero debt                            |
+| 100 page spec documents                 | Specs in PPT                         |
+| Private repositories                    | Open source                          |
+| Deep organization hierarchy             | Flattened organization hierarchy     |
+| Success is a measure of install numbers | User satisfaction determines success |
+| Features shipped once a year            | Features shipped every sprint        |
 
 ## Instrumental changes
 
@@ -64,7 +65,7 @@ There is a delicate balance between the two - too much alignment and a negative 
 
 ### We changed our approach to **teams**
 
-We started thinking about teams more than individuals in VSTS. We organized people and teams into two groups: PMs and engineers.
+We started thinking about teams more than individuals in Azure DevOps. We organized people and teams into two groups: PMs and engineers.
 
 - PMs: Responsible for what we're building and why we're building it
 - Engineers: Responsible for how we're building it and ensuring we build it with quality
@@ -83,7 +84,7 @@ We started thinking about teams more than individuals in VSTS. We organized peop
 
 Before, teams would be horizontal - they would either cover **all** UI, **all** data, **all** API, etc. But now what we want are teams that own their area end-to-end in the product. We implement strict guidelines in certain tiers to ensure uniformity across the product among teams.
 
-We strive for vertical teams: 
+We strive for vertical teams:
 
 ![Strive for vertical teams](_img/vertical-teams.png)
 
@@ -126,7 +127,7 @@ If a team's bug count exceeds the bug cap at the end of a sprint, they stop work
 
 #### Shielding distractions
 
-Teams have come up with their own way to provide focus and assist with an interrupt culture in the form of bugs and live-site incidents. 
+Teams have come up with their own way to provide focus and assist with an interrupt culture in the form of bugs and live-site incidents.
 
 Teams will self-organize itself each sprint into two distinct teams: **Features (F team)** and **Shielding (L teams)**. The F-team works on commited features and the L-team deals with all live site issues and interruptions. The rotating cadence is established by the team and it allows for members to plan activities outside of work mcuh easier.
 
@@ -137,7 +138,6 @@ Teams will self-organize itself each sprint into two distinct teams: **Features 
 3. You can't cheat shipping. Until you get into the mindset of updating services/products at the end of Sprints, you won't find all of the work that needs to be done. Shipping every Sprint helps establish a rhythm and cadence.
 4. **_Build the culture you want and you'll get the behavior you're looking for_**
 
-
-|             |                           |
-|-------------|---------------------------|
-|![Aaron Bjork](../_img/aaron-bjork.png)| Aaron is the PM working on the Team Foundation Server Process Team. |
+|                                         |                                                   |
+| --------------------------------------- | ------------------------------------------------- |
+| ![Aaron Bjork](../_img/aaron-bjork.png) | Aaron is the PM working on the Azure DevOps team. |

@@ -51,7 +51,7 @@ is required by the underlying build system.
 ## Fitting a DevOps Delivery Cadence
 Microsoft has rapidly adopted agile software engineering methodology to
 enable a delivery cadence of days or weeks. For instance, Office 365,
-Visual Studio Team Services, and SQL Azure have release cycles measured
+Azure DevOps, and SQL Azure have release cycles measured
 in weeks. Others might even release several times daily.
 
 ## Enter CloudBuild for fast feedback

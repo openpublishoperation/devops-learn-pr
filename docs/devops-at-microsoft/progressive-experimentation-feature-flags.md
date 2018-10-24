@@ -73,7 +73,7 @@ can use it, go experiment with it. Select customers have opted into our
 second stage of feature flags.
 
 ## Opt in
-In the VSTS web UI, there is a preview panel that you can get to from
+In the Azure DevOps web UI, there is a preview panel that you can get to from
 your avatar: click on your avatar and click on preview features. Those
 are all feature flags. But in the web UI, it doesn’t look that way. It
 just looks like a switch. For example, you want to turn on the new
@@ -265,4 +265,4 @@ centrally.
 
 |             |                           |
 |-------------|---------------------------|
-|![Image: Buck Hodges, MSFT](https://secure.gravatar.com/avatar/baad17c3a2d3ea8fffc392f9dd209426?s=130&d=mm&r=g)|Buck Hodges is Director of Engineering for Visual Studio Team Services. He's been a member of the team since the beginning of TFS, starting as a developer on Team Foundation Version Control for the first version of TFS. He's helped lead the transition of the team to the cloud and DevOps.|
+|![Image: Buck Hodges, MSFT](https://secure.gravatar.com/avatar/baad17c3a2d3ea8fffc392f9dd209426?s=130&d=mm&r=g)|Buck Hodges is Director of Engineering for Azure DevOps. He's been a member of the team since the beginning of TFS, starting as a developer on Team Foundation Version Control for the first version of TFS. He's helped lead the transition of the team to the cloud and DevOps.|

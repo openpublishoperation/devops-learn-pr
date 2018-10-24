@@ -10,6 +10,7 @@ ms.date: 04/04/2017
 ---
 
 # Get feedback with pull requests
+
 > By Robert Outlaw
 
 Pull requests combine the review and merge of your code into a single
@@ -21,6 +22,7 @@ changes. There’s no commitment to merge the changes as the owner can
 abandon the pull request at any time.
 
 ### Get your code reviewed
+
 The code review done in a pull request isn’t just to find obvious
 bugs—that’s what your tests are for. A good code review catches less
 obvious problems that could lead to costly issues later.  Code reviews
@@ -33,6 +35,7 @@ a wide range of reviewers in your code reviews. Diffusing skills and
 knowledge makes your team stronger and more resilient.
 
 ### Give great feedback
+
 High quality reviews  start with high quality feedback. The keys to
 great feedback in a pull request are:
 
@@ -57,6 +60,7 @@ request. Take these suggestions and create new work items and feature
 branches separate from the pull request to make those changes.
 
 ### Protect branches with policies
+
 There are a few critical branches in your repo that the team relies on
 always being in good shape, such as your `master` branch. [Require pull requests](/azure/devops/git/branch-policies) to make
 any changes on these branches. Developers pushing changes directly to
@@ -68,13 +72,14 @@ code and approval from multiple reviewers are some extra requirements
 you can set to protect your key branches.
 
 ### Learn more
+
 Read more about [giving great feedback in code reviews](/azure/devops/repos/git/pull-requests#leave-comments) and
 [using pull request templates to provide guidance to your reviewers](/azure/devops/repos/git/pull-request-templates).
-Visual Studio Team Services has a [rich pull request experience](/azure/devops/repos/git/pull-requests-overview) that’s
+Azure DevOps has a [rich pull request experience](/azure/devops/repos/git/pull-requests-overview) that’s
 easy to use and scales to your needs.
 
-![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Azure Repos](https://azure.microsoft.com/en-us/services/devops/repos/).
 
-|             |                           |
-|-------------|---------------------------|
-|![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|
+|                                                                       |                                                                                                |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| ![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg) | Robert is a content developer at Microsoft working on Azure DevOps and Team Foundation Server. |

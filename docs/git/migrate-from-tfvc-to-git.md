@@ -1,6 +1,6 @@
 ---
 title: Migrate from TFVC to Git
-description: Visual Studio Team Services provides a simple migration tool to migrate from Team Foundation Version Control to Git.
+description: Azure DevOps provides a simple migration tool to migrate from Team Foundation Version Control to Git.
 ms.prod: devops
 ms.technology: devops-learn
 ms.topic: conceptual
@@ -8,10 +8,12 @@ ms.manager: douge
 ms.author: routlaw
 ms.date: 04/04/2017
 ---
+
 # Migrate from TFVC to Git
+
 > By: Edward Thomson
 
-Visual Studio Team Services provides [a simple migration tool](/azure/devops/git/import-from-tfvc) to migrate from Team Foundation
+Azure DevOps provides [a simple migration tool](/azure/devops/git/import-from-tfvc) to migrate from Team Foundation
 Version Control to Git. If you’re not using TFVC, you can [migrate from another system](migrate-other-systems-to-git.md)
 manually.
 
@@ -22,23 +24,24 @@ and [plan your team’s migration](centralized-to-git.md).
 After you’ve prepared, you can begin the migration.
 
 #### Requirements
+
 In order to make migrations simple, there are a number of requirements
 on the [TFVC Import tool](/azure/devops/git/import-from-tfvc):
 
 1. Only a single branch is migrated. When [planning your migration](centralized-to-git.md) you should choose a new branching
-    strategy for Git; migrating only the main branch supports a
-    topic-branch based workflow like
-    [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/)
-    or [GitHub Flow](https://guides.github.com/introduction/flow/index.html).
+   strategy for Git; migrating only the main branch supports a
+   topic-branch based workflow like
+   [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/)
+   or [GitHub Flow](https://guides.github.com/introduction/flow/index.html).
 2. A “tip migration”, importing only the latest version of the source
-    code, is suggested. You can opt to migrate some history, up to 180
-    days, so that your team doesn’t need to refer back to TFVC as often,
-    but [this is discouraged](centralized-to-git.md) unless your history is
-    very simple.
+   code, is suggested. You can opt to migrate some history, up to 180
+   days, so that your team doesn’t need to refer back to TFVC as often,
+   but [this is discouraged](centralized-to-git.md) unless your history is
+   very simple.
 3. You do not have binary assets like images, scientific data sets, or
-    game models in your repository. These assets should use the Git LFS
-    (Large File Support) extension, which the import tool does not
-    configure.
+   game models in your repository. These assets should use the Git LFS
+   (Large File Support) extension, which the import tool does not
+   configure.
 4. The imported repository cannot exceed 1GB in size.
 
 If you do not meet these requirements, you can use the Git-TFS tool to
@@ -65,6 +68,7 @@ repository and you do not need to set up a `.gitignore` or a
 `.gitattributes`, then you can skip straight to [performing the migration](/azure/devops/git/import-from-tfvc).
 
 ### Check out the latest version
+
 Create a new TFS workspace, and map a working folder for the server
 directory that you’re going to migrate to Git. You do not need to do a
 full working folder mapping; you only need to map folders that contain
@@ -74,11 +78,12 @@ that contain version control system-specific configuration files like
 
 Once you have set up your mappings, get the folder locally:
 
-``` prettyprint
+```prettyprint
 tf get /version:T /recursive
 ```
 
 ### Remove binaries and build tools
+
 Due to the way Git stores the history of changed files, providing a copy
 of every file in history to every developer, checking in binary files
 directly to the repository will cause it to grow quickly and cause
@@ -94,6 +99,7 @@ will not be included in your Git repository by adding them to your
 [`.gitignore`](/azure/devops/git/tutorial/ignore-files) file.
 
 ### Convert version control-specific configuration
+
 Team Foundation Version Control provides a `.tfignore` file that will
 ensure that certain files are not added to your TFVC repository. This
 can be used for automatically generated files like build output, so that
@@ -108,6 +114,7 @@ to the repository. If you use a `.tpattributes` file, convert it to a
 [`.gitattributes`](https://git-scm.com/docs/gitattributes) file.
 
 ### Check in to TFVC and perform the migration
+
 Check in any changes you made that remove binaries, migrate to package
 management, or convert version control-specific configuration. Once this
 final change is made in TFVC, you can perform the import.
@@ -116,6 +123,7 @@ Follow the [Import repositories](/azure/devops/git/import-from-tfvc)
 documentation to actually perform the input.
 
 ### Advanced migrations
+
 The [Git-TFS tool](https://github.com/git-tfs/git-tfs) is a two-way
 bridge between Team Foundation Version Control and Git, and can be used
 to perform a migration. Git-TFS is appropriate if you want to attempt a
@@ -155,13 +163,14 @@ provides documentation on how to do a migration from TFVC to Git,
 or [cloning all branches with merge history](https://github.com/git-tfs/git-tfs/blob/master/doc/usecases/manage_tfs_branches.md#clone-all-history).
 
 ### Update your workflow
+
 Moving from a centralized version control system to Git is more than
 just migrating code. Your team needs training to understand how Git is
 different from your existing version control system and how these
 differences affect day-to-day work. [Learn more](centralized-to-git.md).
 
-![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Azure Repos](https://azure.microsoft.com/en-us/services/devops/repos/).
 
-|             |                           |
-|-------------|---------------------------|
-|![Edward Thomson](https://secure.gravatar.com/avatar/1bd10d2eb4ea34a361c566f8ca396202?s=130&d=mm&r=g)|Edward is a Program Manager for Visual Studio Team Services, focusing on Git and Version Control. He is the author of “Git for Visual Studio” training from O’Reilly Media and a contributor to “Professional Team Foundation Server 2013”.|
+|                                                                                                       |                                                                                                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Edward Thomson](https://secure.gravatar.com/avatar/1bd10d2eb4ea34a361c566f8ca396202?s=130&d=mm&r=g) | Edward is a Program Manager for Azure DevOps, focusing on Git and Version Control. He is the author of “Git for Visual Studio” training from O’Reilly Media and a contributor to “Professional Team Foundation Server 2013”. |

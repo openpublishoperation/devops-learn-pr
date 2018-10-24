@@ -10,6 +10,7 @@ ms.date: 04/04/2017
 ---
 
 # Building productive, customer focused teams
+
 > By: Matthew Manela
 
 Engineers thrive in environments where they can focus and “get in the
@@ -35,6 +36,7 @@ Successful implementation relies on these key elements:
 - Frequent adjustments to crew size
 
 ## Feature crew
+
 The feature crew (F-crew) focuses on the **future**. They work as an
 effective unit with a clear mission and goal: build and ship high
 quality features.
@@ -63,6 +65,7 @@ feature, to dedicate full attention to it. People leave their time on
 the F-crew feeling refreshed and accomplished.
 
 ## Customer crew
+
 The customer crew (C-crew) focuses on the **now**, providing frontline
 support for customer and live-site issues, bugs, telemetry, and
 monitoring. The C-crew often huddles around a computer, debugging a
@@ -90,6 +93,7 @@ C-crews. However, this pace can be draining, necessitating a frequent
 rotation between crews.
 
 ## Crew rotation
+
 A well-defined rotation process makes the two-crew system work. You
 could simply swap the crews (F-crew becomes C-crew and vice versa), but
 this limits knowledge sharing between and within the crews. Instead, opt
@@ -112,6 +116,7 @@ others. Often times, new F-crew members will quickly find a previously
 overlooked design or code flaw.
 
 ## Crew size
+
 Crew size varies to maintain the health of the team. If a team has a
 high incoming rate of live-site issues or has a lot of technical debt,
 the C-crew gets larger, and vice versa. Adjusting sizes weekly increases
@@ -131,6 +136,7 @@ team and with management about what the team can accomplish each week
 and each sprint.
 
 ## Final thoughts
+
 The two-crew system can help teams struggling to understand where
 engineers should spend their time and to make progress on many competing
 priorities.
@@ -149,8 +155,8 @@ work for your team. Then, let us know how it works. You can find us on
 Twitter [@mmanela](https://twitter.com/mmanela) and
 [@ewaldhofman](https://twitter.com/ewaldhofman).
 
-![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/agile-tools).
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Azure Boards](https://azure.microsoft.com/en-us/services/devops/boards/).
 
-|             |                           |
-|-------------|---------------------------|
-|![Matthew Manela](../_img/Matthew-Manela_avatar_1472490234-130x130.jpg)|Matthew Manela is a software engineering manager working on Agile tooling in Visual Studio Team Services. He is passionate about building scalable high quality services, Pair Programming, Test Driven Development and Open Source software.|
+|                                                                         |                                                                                                                                                                                                                                |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Matthew Manela](../_img/Matthew-Manela_avatar_1472490234-130x130.jpg) | Matthew Manela is a software engineering manager working on Agile tooling in Azure DevOps. He is passionate about building scalable high quality services, Pair Programming, Test Driven Development and Open Source software. |

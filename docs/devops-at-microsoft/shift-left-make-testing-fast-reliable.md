@@ -54,7 +54,7 @@ just to get to that point.
 
 ## New Quality Vision
 It became clear we needed a completely new approach. In Feb 2015 we came
-out with the new VSTS Quality vision document.
+out with the new Azure DevOps Quality vision document.
 
 The core part of the vision was turning he entire test portfolio on its
 head. We drew this conceptual picture of what we wanted our test
@@ -62,7 +62,7 @@ portfolio to look like. The y-axis has no real numbers but was drawn to
 scale to illustrate the point. L0, L1s are the unit tests and the L2,
 L3s are the functional tests.
 
-![published VSTS quality vision](../_img/published-vsts-quality-vision.png)
+![published Azure DevOps quality vision](../_img/published-vsts-quality-vision.png)
 
 ## Test Principles
 We came out with a set of principles that the team would adhere to.
@@ -246,7 +246,7 @@ many are simply deleted. Mission accomplished\! The new test portfolio
 looks even better than the one we set out to do with the picture shown
 earlier.
 
-![VSTS Test Portfolio Balance](../_img/vsts-test-portfolio-balance.png)
+![Azure DevOps Test Portfolio Balance](../_img/vsts-test-portfolio-balance.png)
 
 Let’s talk about how we made this journey. We left the old functional
 tests (“TRA tests”) alone when we started. First we wanted to get the
@@ -314,4 +314,4 @@ getting data back from the customers.
 
 |             |                           |
 |-------------|---------------------------|
-|![Munil Shah](../_img/munils_avatar_1509056114-130x130.jpg)|As Partner Director of Engineering in Microsoft's Cloud and Enterprise division, Munil Shah leads engineering for Visual Studio Team Services and TFS products. Munil has over 20 years of experience building large scale software and distributed services. Prior to his current role, he held various engineering leadership positions Bing Advertising and Windows groups at Microsoft. He is passionate about leading engineering teams through significant transformation to deliver successful solutions to customers. |
+|![Munil Shah](../_img/munils_avatar_1509056114-130x130.jpg)|As Partner Director of Engineering in Microsoft's Cloud and Enterprise division, Munil Shah leads engineering for Azure DevOps and TFS products. Munil has over 20 years of experience building large scale software and distributed services. Prior to his current role, he held various engineering leadership positions Bing Advertising and Windows groups at Microsoft. He is passionate about leading engineering teams through significant transformation to deliver successful solutions to customers. |

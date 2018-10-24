@@ -10,6 +10,7 @@ ms.date: 10/03/2017
 ---
 
 # Agile Culture
+
 > By: Aaron Bjork
 
 If there’s anything we’ve all learned in the last decade of “agile
@@ -78,6 +79,7 @@ key characteristics that make success for an agile team much easier to
 achieve:
 
 #### Whenever possible, co-locate your teams
+
 Can a team find success with people spread out across different
 geographies? Of course. But let’s be honest… it’s more difficult. When
 people are co-located and sitting in the same room, the right
@@ -86,6 +88,7 @@ globe and different time zones. However, do everything you can to ensure
 a team is co-located together.
 
 #### Keep your teams intact for a reasonable length of time
+
 Allow them to master the art of building software together. When you
 adjust the makeup of a team, you disrupt the team’s chemistry. There are
 times when it’s appropriate to reorganize teams. However, teams
@@ -94,6 +97,7 @@ together. As a guideline, try to keep your teams intact for at least 12
 months.
 
 #### Load balance work, not people
+
 What happens if a team falls behind? When this happens it’s best to load
 balance work to another team, rather than load-balancing people between
 teams. When you pull a person off a team to help a team falling behind,
@@ -106,6 +110,7 @@ already established to step in and help out. It becomes a priority
 conversation, instead of a people conversation.
 
 ## Teams should own feature areas, not layers of architecture
+
 Strive to build vertical teams that own feature areas. These teams are
 responsible for all the work required to add features to their area,
 from database to user interface changes. The team is empowered to
@@ -125,14 +130,15 @@ the more you can strive to build vertical teams, the more effective they
 will be.
 
 ## Start your journey…
+
 As you embark on your own agile transformation, keep these foundational
 principles in mind. And remember, there is no single recipe that will
 work for your organization. Agile transformations are a journey. Make
 changes and learn from them. Only then can you develop an agile culture
 that fits your organization.
 
-![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/agile-tools).
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Azure Boards](https://azure.microsoft.com/en-us/services/devops/boards/).
 
-|             |                           |
-|-------------|---------------------------|
-|![Aaron Bjork](../_img/Aaron-Bjork_avatar_1472225238-130x130.jpg)|Aaron is a Principal Group Program Manager at Microsoft where he drives investments in work management, agile project management, reporting, and collaboration for Microsoft’s Azure DevOps Services and Team Foundation Server (TFS) products. |
+|                                                                   |                                                                                                                                                                                                                                                 |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Aaron Bjork](../_img/Aaron-Bjork_avatar_1472225238-130x130.jpg) | Aaron is a Principal Group Program Manager at Microsoft where he drives investments in work management, agile project management, reporting, and collaboration for Microsoft’s Azure DevOps Services and Team Foundation Server (TFS) products. |

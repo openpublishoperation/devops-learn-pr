@@ -9,8 +9,8 @@ ms.author: samgu
 ms.date: 03/09/2017
 ---
 
-
 # Universal Store: Journey to Continuous Delivery and DevOps
+
 > By: Sam Guckenheimer
 
 ## Overview
@@ -18,21 +18,21 @@ ms.date: 03/09/2017
 The “Microsoft Universal Store Team” (UST) is the main commercial engine of Microsoft with the mission to bring One Universal Store for all commerce at Microsoft. The UST encompasses everything Microsoft sells and everything others sell through the company, consumer and commercial, digital and physical, subscription and transaction, via all channels and storefronts.
 
 To achieve the objective of one Universal Store, UST had to bring together multiple teams from across Microsoft with different engineering systems, engineering culture, and processes into one streamlined delivery cadence catering to cost, agility and quality needs of the business.
-**Continuous Delivery** is a key part of the UST transformation. Visual Studio Team Services (VSTS) in the Microsoft One Engineering System (1ES) made continuous delivery practical for the UST. This case study provides an overview of the approach, the challenges and the process adopted to help achieve the objective.
+**Continuous Delivery** is a key part of the UST transformation. Azure DevOps in the Microsoft One Engineering System (1ES) made continuous delivery practical for the UST. This case study provides an overview of the approach, the challenges and the process adopted to help achieve the objective.
 
 ## DevOps Improvements at a Glance
 
-The UST piloted VSTS in December 2015 through Feb 2016 and went into production in March 2016. The fastest way to see the changes is to contrast a few key metrics, showing improvement of 40x to 8000x year over year.
+The UST piloted Azure DevOps in December 2015 through Feb 2016 and went into production in March 2016. The fastest way to see the changes is to contrast a few key metrics, showing improvement of 40x to 8000x year over year.
 
-|                                   | **December 2015** | **December 2016**                                      |
-| --------------------------------- | ----------------- | ------------------------------------------------------ |
-| Number of active services on VSTS | \< 10             | 800 +                                                  |
-| Monthly active users (GIT)        | \< 100            | 4000 +                                                 |
-| Builds per month                  | \< 50             | 400K +                                                 |
-| Production deployments per month  | \< 100            | 10K +                                                  |
-| Builds with automated tests run   | 0                 | ~ 30%                                                  |
-| Build wait time                   | N/A               | 0 minutes (median) 0 minutes (75th) 1 minute (90th)    |
-| Time to complete CI build         | N/A               | 8 minutes (median) 12 minutes (75th) 23 minutes (90th) |
+|                                           | **December 2015** | **December 2016**                                      |
+| ----------------------------------------- | ----------------- | ------------------------------------------------------ |
+| Number of active services on Azure DevOps | \< 10             | 800 +                                                  |
+| Monthly active users (GIT)                | \< 100            | 4000 +                                                 |
+| Builds per month                          | \< 50             | 400K +                                                 |
+| Production deployments per month          | \< 100            | 10K +                                                  |
+| Builds with automated tests run           | 0                 | ~ 30%                                                  |
+| Build wait time                           | N/A               | 0 minutes (median) 0 minutes (75th) 1 minute (90th)    |
+| Time to complete CI build                 | N/A               | 8 minutes (median) 12 minutes (75th) 23 minutes (90th) |
 
 ## Before DevOps
 
@@ -56,22 +56,22 @@ The UST put a set of principles in place to make the transformation to DevOps a 
 
 ### Git
 
-Git under VSTS is now the standard version control for UST, with more than 2000 Git repos in use among 4000 monthly active users. The UST transitioned from centralized version control to Git in the beginning of 2016 and currently more than 70% of the code bases in UST are in Git.
+Git under Azure DevOps is now the standard version control for UST, with more than 2000 Git repos in use among 4000 monthly active users. The UST transitioned from centralized version control to Git in the beginning of 2016 and currently more than 70% of the code bases in UST are in Git.
 As part of the process, we were also able to drive productivity improvements by consolidating or retiring several legacy services and their code bases.
 
-![Git under VSTS Figure 2](../_img/ust-cd-2.png)
+![Git under Azure DevOps Figure 2](../_img/ust-cd-2.png)
 
 ### Package Management
 
-UST retired its custom NuGet servers and moved to VSTS native package management. This has resulted a trusted package feed with higher reliability. Teams are now empowered to manage their own feeds helping with version control and standardization.
+UST retired its custom NuGet servers and moved to Azure DevOps native package management. This has resulted a trusted package feed with higher reliability. Teams are now empowered to manage their own feeds helping with version control and standardization.
 
 ### Deployment
 
-UST now has more than 10,000 monthly deployments through VSTS Release Management, up from 0 at the beginning of 2016. Most UST services use an experimentation service called AutoPilot. Teams therefore required help in moving their workflows into VSTS with deployment into AutoPilot. We had a-la-carte of tools to help this including a custom solution for E2E delivery (from modeling to release) and VSTS tasks for deploying binaries to AutoPilot. This resulted in a 72% MoM growth of VSTS deployments within the first 6 months.
+UST now has more than 10,000 monthly deployments through Azure DevOps Release Management, up from 0 at the beginning of 2016. Most UST services use an experimentation service called AutoPilot. Teams therefore required help in moving their workflows into Azure DevOps with deployment into AutoPilot. We had a-la-carte of tools to help this including a custom solution for E2E delivery (from modeling to release) and Azure DevOps tasks for deploying binaries to AutoPilot. This resulted in a 72% MoM growth of Azure DevOps deployments within the first 6 months.
 
 ### Agile Work Management
 
-The UST leverages the work management features heavily to track stories, scenarios and work items at the team level. At the same time, the UST wanted to consolidate portfolio views integrating multiple data sources by organizational structure. To help with this, the UST created a Team Map to align organizational data to other data domains such as VSTS Area Paths.
+The UST leverages the work management features heavily to track stories, scenarios and work items at the team level. At the same time, the UST wanted to consolidate portfolio views integrating multiple data sources by organizational structure. To help with this, the UST created a Team Map to align organizational data to other data domains such as Azure DevOps Area Paths.
 
 ![Agile Work Management Figure 3](../_img/ust-cd-3.png)
 
@@ -83,11 +83,11 @@ Testing practices had to change radically to enable this level of automation. In
 
 Moving to DevOps has enabled an architectural move to refactor previous monoliths into microservices. The UST uses a declarative service model to decouple its functions into discrete services.
 
-### Internal Open Source: Contributions Back to VSTS
+### Internal Open Source: Contributions Back to Azure DevOps
 
-When UST needed more capabilities in VSTS to accelerate the adoption of continuous delivery, UST contributed to the VSTS project directly. In this way, UST could make VSTS better for everyone rather than create custom tooling. The following table lists the VSTS features contributed to by UST.
+When UST needed more capabilities in Azure DevOps to accelerate the adoption of continuous delivery, UST contributed to the Azure DevOps project directly. In this way, UST could make Azure DevOps better for everyone rather than create custom tooling. The following table lists the Azure DevOps features contributed to by UST.
 
-![Contributions Back to VSTS Figure 4](../_img/ust-cd-4.png)
+![Contributions Back to Azure DevOps Figure 4](../_img/ust-cd-4.png)
 
 ## Key learnings
 
@@ -105,12 +105,12 @@ Embedded SMEs partnered with teams to migrate their first service and coach user
 
 ### Enable developer self service
 
-A principle was to help engineers and teams move as fast as they wanted. UST avoided central processes that hinder agility. For tooling, the UST created extensions in VSTS extensions to automate release workflows. Self-help tools facilitated repetitive management tasks. Individual teams could determine their own policy and compliance tasks.
+A principle was to help engineers and teams move as fast as they wanted. UST avoided central processes that hinder agility. For tooling, the UST created extensions in Azure DevOps extensions to automate release workflows. Self-help tools facilitated repetitive management tasks. Individual teams could determine their own policy and compliance tasks.
 
 ## Summary
 
-The adoption of retail VSTS and 1ES tools have been critical to the success of UST. They enable a high degree of collaboration, a consistent way of managing code and releases across several services and teams and a means to share knowledge and best practices in a diverse environment.
+The adoption of retail Azure DevOps and 1ES tools have been critical to the success of UST. They enable a high degree of collaboration, a consistent way of managing code and releases across several services and teams and a means to share knowledge and best practices in a diverse environment.
 
-|             |                           |
-|-------------|---------------------------|
-|![Image: Sam Guckenheimer, MSFT](../_img/samgu-avatar.jpg)|Sam Guckenheimer works on Microsoft Visual Studio Cloud Services, including VS Team Services and Team Foundation Server. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices.|
+|                                                            |                                                                                                                                                                                                                                                       |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Image: Sam Guckenheimer, MSFT](../_img/samgu-avatar.jpg) | Sam Guckenheimer works on Microsoft Azure DevOps team. He acts as the chief customer advocate, responsible for strategy of the next releases of these products, focusing on DevOps. He has written four books on DevOps and Agile Software practices. |

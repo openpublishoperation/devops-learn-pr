@@ -36,7 +36,7 @@ or three years. We had some good stuff there. The 2010 release in part
 set us up for being able to move to the cloud. It was the first release
 where you could have load balanced application tiers. It was also the
 first release that had the notion of a collection and that became an
-account in VSTS.
+account in Azure DevOps.
 
 TFS was still an on-prem product. We had no experience with Azure
 whatsoever. Of course, Azure was still fairly new in 2010. All of our
@@ -52,7 +52,7 @@ that mean? It meant that a project collection database is an account in
 the cloud.
 
 In the beginning, in the cloud every collection was its own database
-too. Every time somebody would sign up in VSTS, the service would create
+too. Every time somebody would sign up in Azure DevOps, the service would create
 a new database. At one point we had 11,000 databases in Azure North
 Central. We had a lot of DBs and we were going to go broke if we kept it
 that way, but that’s where we started. Also, upgrades were offline. We
@@ -131,7 +131,7 @@ when it was a single tenant.
 SQL table with PartitionID
 
 How do we protect against leaking data from one account to another? We
-take advantage of the fact that we have both on-prem TFS and VSTS in the
+take advantage of the fact that we have both on-prem TFS and Azure DevOps in the
 cloud, since the same code runs on prem. When we began TFS, SQL is where
 the data is, so we put a ton of logic into stored procedures. As a
 result to really test the product, you’ve got to test its SQL. Since
@@ -159,7 +159,7 @@ I didn’t want to grow that monolith. I want to be able to build services
 outside of that monolith. That meant we had to split out what we call
 “shared platform services (SPS),” which include account, identity,
 licensing, profile, and other common services that every functional
-service in VSTS needs to access. We split this out in the spring of
+service in Azure DevOps needs to access. We split this out in the spring of
 2013. While the system was alive, we were literally ripping essentially
 the heart out of TFS, pulling it out into a separate service.
 
@@ -190,7 +190,7 @@ is that it’s only internal accounts. If we do something bad, it only
 affects us, and not our external customers.
 
 From there we started adding more scale units. For example, SU7 is
-Australia. We now have 17 instances of VSTS. In September, we added
+Australia. We now have 17 instances of Azure DevOps. In September, we added
 Canada. We group scale units into deployment rings, and a related
 article discusses our [safe deployment practices across
 rings](https://youtu.be/QP_u4ipP2SU). Using rings has been critical to
@@ -211,7 +211,7 @@ do not contribute to building a giant monolith.
 A typical scale unit might have an Application Tier with four Dv2
 instances of a PaaS web role. An application tier is responsible for all
 the communication with the client. So when you fire up Visual Studio,
-when you fire up a browser and you connect to VSTS, you’re connecting to
+when you fire up a browser and you connect to Azure DevOps, you’re connecting to
 an application tier. The AT has the REST and SOAP endpoints and serves
 up the web UI. That’s the public face of the service.
 
@@ -228,8 +228,8 @@ ATs, 32 partition DBs with about 40,000 accounts per DB, and about 120
 terabytes in blob storage. These days we don’t let the scale units get
 quite so big. We tend to cut them off at around 800,000 accounts.
 
-## Scale of VSTS in Azure
-We have 31 services in VSTS today. This table gives you a feel for the
+## Scale of Azure DevOps in Azure
+We have 31 services in Azure DevOps today. This table gives you a feel for the
 scale of the service.
 
 |                                               |
@@ -248,16 +248,16 @@ free, and therefore cost matters a lot.
 
 Today the job agents are on virtual machines, and we’re going to move to
 containers. We could use a different Azure technology, but we have the
-constraint that we ship TFS on-prem product and VSTS in the cloud. We
+constraint that we ship TFS on-prem product and Azure DevOps in the cloud. We
 try to keep the code base the same. If we were to run very differently
 in the cloud, it would be harder for us to test the on-prem product and
 know that we have the right quality. This is becoming a bigger and
-bigger challenge as most of Microsoft is now using VSTS rather than TFS.
+bigger challenge as most of Microsoft is now using Azure DevOps rather than TFS.
 If we were simply cloud only, we would take advantage of Azure functions
 and other cloud-native technology.
 
 ## Consistency between Cloud and On-prem
-VSTS and TFS share 90% of the same code base. This is possible because
+Azure DevOps and TFS share 90% of the same code base. This is possible because
 the server framework abstracts away some of the differences. The server
 framework allows us to write a bunch of different services and have them
 all work the same way. For example, authentication and identity are
@@ -390,7 +390,7 @@ course is with REST APIs.
 The REST APIs unlike SOAP, are very much a part of our public face. We
 build a platform, and you need to be able to call the REST APIs to be
 able to write extensions that do any number of things. Other services
-call into VSTS. If you go look at our SOAP APIs, you can tell looking at
+call into Azure DevOps. If you go look at our SOAP APIs, you can tell looking at
 them that each one was done by a different team. In fact, I helped
 create the problem as a developer on TFVC.
 
@@ -418,4 +418,4 @@ more consistent.
 
 |             |                           |
 |-------------|---------------------------|
-|![Buck Hodges](https://secure.gravatar.com/avatar/baad17c3a2d3ea8fffc392f9dd209426?s=130&d=mm&r=g)|Buck Hodges is Director of Engineering for Visual Studio Team Services. He's been a member of the team since the beginning of TFS, starting as a developer on Team Foundation Version Control for the first version of TFS. He's helped lead the transition of the team to the cloud and DevOps. |
+|![Buck Hodges](https://secure.gravatar.com/avatar/baad17c3a2d3ea8fffc392f9dd209426?s=130&d=mm&r=g)|Buck Hodges is Director of Engineering for Azure DevOps. He's been a member of the team since the beginning of TFS, starting as a developer on Team Foundation Version Control for the first version of TFS. He's helped lead the transition of the team to the cloud and DevOps. |

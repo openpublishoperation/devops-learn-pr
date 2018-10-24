@@ -1,6 +1,6 @@
 ---
 title: Release Flow
-description: "An introduction to Release Flow, the VSTS team's branching strategy and development process that ensures that we deliver code to production safely and efficiently."
+description: "An introduction to Release Flow, the Azure DevOps team's branching strategy and development process that ensures that we deliver code to production safely and efficiently."
 ms.prod: devops
 ms.technology: devops-learn
 ms.topic: conceptual
@@ -16,14 +16,14 @@ ms.date: 07/02/2018
 
 Microsoft is actively pursuing a strategy of using "one engineering
 system" throughout the company: a modern system to build all our products
-[based on Git and Visual Studio Team Services](use-git-microsoft.md).
+[based on Git and Azure DevOps](use-git-microsoft.md).
 And one of the questions that we're often asked is how we use version
 control and branching to deliver changes safely to production.
 
-The Visual Studio Team Services team uses a [trunk-based branching
-strategy](https://trunkbaseddevelopment.com/) to help us develop VSTS
+The Azure DevOps team uses a [trunk-based branching
+strategy](https://trunkbaseddevelopment.com/) to help us develop Azure DevOps
 quickly and deploy it regularly.  This strategy needs to be able to scale
-to our development needs: a single repository that contains the entire VSTS
+to our development needs: a single repository that contains the entire Azure DevOps
 product, hundreds of developers split across three main offices, and
 deployment in multiple Azure data centers around the world.
 
@@ -54,7 +54,7 @@ from development to release.
    example, I create branches inside the `users/ethomson` folder.
 
 3. **Pull Request**  
-   We use VSTS [Pull Requests](/azure/devops/git/pull-requests?view=vsts)
+   We use Azure DevOps [Pull Requests](/azure/devops/git/pull-requests?view=vsts)
    to control how developers topic branches are merged into master.  Pull
    Requests ensure that our [branch policies](/azure/devops/git/branch-policies?view=vsts)
    are satisfied:  first, we build the proposed changes and run a [quick test
@@ -63,7 +63,7 @@ from development to release.
    &mdash; in just under five minutes.  This isn't our complete test matrix,
    but it's enough to quickly give us a high confidence in pull request.
 
-   Next, we require that other members of the VSTS team review the code and
+   Next, we require that other members of the Azure DevOps team review the code and
    approve the changes.  Code review picks up where the automated tests left
    off, and are particularly good at spotting architectural problems.  Manual
    code reviews ensure that more engineers on the team have visibility into
@@ -94,7 +94,7 @@ _before_ they're merged into master.  This means that developers need
 to wait in the "deployment queue" to test their changes before they can
 merge their pull requests.
 
-The VSTS team has several hundred developers working constantly in our
+The Azure DevOps team has several hundred developers working constantly in our
 repository, and we complete over 200 pull requests into master per day.
 If each of those pull requests required a deployment to multiple Azure
 data centers across the globe, our developers would waste time waiting
@@ -120,7 +120,7 @@ weeks, during the next sprint deployment.
 
 Obviously, some changes need to go to production more quickly.  We
 generally won't add big new features in the middle of a sprint, but
-sometimes we want to bring a bug fix into VSTS quickly to unblock users.
+sometimes we want to bring a bug fix into Azure DevOps quickly to unblock users.
 Sometimes we have embarassing typos that we want to correct.  And
 sometimes we have a bug that causes an availability issue, which we call a
 "live site incident".
@@ -143,7 +143,7 @@ stress that can arise during an outage.  So by always bringing our changes
 to `master` first, we know that we'll always have our changes in both the
 `master` branch and our release branch.
 
-Visual Studio Team Services actually has unique functionality to enable
+Azure DevOps actually has unique functionality to enable
 this workflow: from the Pull Request page, you can cherry-pick a pull
 request onto a different branch.  To bring changes immediately into
 production, once we have merged the pull request into master, we
@@ -154,13 +154,13 @@ were just merged into `master`.
 ![Illustration of cherry-picking a hotfix commit into branch 129](../_img/releaseflow-2.png)
 
 By opening a new pull request, we get traceability and reliability from
-branch policies.  And using the VSTS cherry-pick functionality allows us
+branch policies.  And using the Azure DevOps cherry-pick functionality allows us
 to do it quickly: we don't need to download the release branch to a local
 computer to cherry-pick the changes, it's all handled efficiently on the
 server.  And if we need to make changes, to fix merge conflicts or make
 minor changes due to differences between the two branches, we can do
 _that_ on the server, too.  We can edit changes directly from the text
-editor built-in to Visual Studio Team Services, or we can use the
+editor built-in to Azure DevOps, or we can use the
 [Pull Request Merge Conflict Extension](https://marketplace.visualstudio.com/items?itemName=ms-devlabs.conflicts-tab)
 for a more advanced experience.
 
@@ -168,7 +168,7 @@ Once we have a pull request targeting our release branch, we'll code
 review it again, evaluate the branch policies, and test it.  Once it's
 merged, it will get deployed to our first "ring" of servers in minutes.
 From there, we'll [progressively deploy](../what-is-continuous-delivery.md)
-it to more VSTS accounts using
+it to more Azure DevOps accounts using
 [deployment rings](/azure/devops/articles/phase-rollout-with-rings?view=vsts).
 As more users are exposed to the changes, we'll monitor its success and
 ensure that our change has fixed the bug while not introducing any new
@@ -200,7 +200,7 @@ also be in the `releases/M130` branch that we create.
 
 ## In Conclusion
 
-The Release Flow model is at the heart of the VSTS team's development
+The Release Flow model is at the heart of the Azure DevOps team's development
 methodology.  It allows us to use a simple, trunk-based branching strategy
 for our online service.  But instead of keeping our developers stuck in a
 deployment queue, waiting to be able to merge their changes, our developers
@@ -213,4 +213,4 @@ efficiently.
 
 |             |                           |
 |-------------|---------------------------|
-|![Edward Thomson](https://secure.gravatar.com/avatar/1bd10d2eb4ea34a361c566f8ca396202?s=130&d=mm&r=g)|Edward Thomson is the Git Community program manager for Visual Studio Team Services.  Previously, he was a software engineer working on version control at Microsoft, GitHub and SourceGear.|
+|![Edward Thomson](https://secure.gravatar.com/avatar/1bd10d2eb4ea34a361c566f8ca396202?s=130&d=mm&r=g)|Edward Thomson is the Git Community program manager for Azure DevOps.  Previously, he was a software engineer working on version control at Microsoft, GitHub and SourceGear.|

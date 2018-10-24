@@ -66,13 +66,13 @@ server have to do a lot of calculations to figure out what to fetch, and
 the number of calculations grows linearly with the number of refs. So
 the more refs there are, the longer it takes to even figure out what to
 send, before the client can start downloading the new contents.
-Before we did anything to fix this, devs in the VSTS repo had a pretty
+Before we did anything to fix this, devs in the Azure DevOps repo had a pretty
 frustrating experience when they fetched. After typing “git fetch” or
 “git pull”, they would see the first acknowledgement from the server
 (“remote: Microsoft (R) Visual Studio (R) Team Services”) fairly
 quickly, and then… nothing… sometimes lasing 5 minutes or longer, before
 a message like “remote: Found X objects to send”. Only then would the
-download of new contents actually begin. The VSTS repo typically has as
+download of new contents actually begin. The Azure DevOps repo typically has as
 many as 20K refs in it, and the negotiations for that many refs take a
 while.
 
@@ -83,17 +83,17 @@ finding the one you want.
 
 While refs are technically unstructured and can have whatever names you
 want to give them, we learned early on that you really need a good
-naming structure to help organize all those branches. In the VSTS repo,
+naming structure to help organize all those branches. In the Azure DevOps repo,
 we like to use the pattern `users//` for topic
 branches, and similar patterns for release branches (releases/*), team
 branches (teams/*), and other “types” of branches that we commonly use.
 We’ll talk more about those best practices in an upcoming article.
-We have also updated the tools that we build (like the VSTS web UI and
+We have also updated the tools that we build (like the Azure DevOps web UI and
 Visual Studio’s Team Explorer) to render branches as a hierarchy, but
 not all Git tools do this. See the example above about listing branches
 using the Git command line.
 
-But even with those improvements, having 20K refs in the VSTS repo, or
+But even with those improvements, having 20K refs in the Azure DevOps repo, or
 100K+ refs in the Windows repo presents a serious usability challenge
 for a dev who needs to find one branch out of that huge list.
 
@@ -128,12 +128,12 @@ helpful to have a well-organized hierarchical naming pattern for your
 branches so that you can configure a small number of ref “folders” and
 not have to keep updating this list all the time.
 
-For the VSTS repo, we know that every user needs the master branch. We
+For the Azure DevOps repo, we know that every user needs the master branch. We
 also create a release branch at the end of each sprint, with the naming
 pattern of `releases/`, and we figure most people will need
 these branches as well. So we’ve configured Limited Refs to always
 return these refs to all of our users. As I write this, this
-configuration alone reduces the number of visible refs in the VSTS repo
+configuration alone reduces the number of visible refs in the Azure DevOps repo
 from about 20K down to 100.
 
 For the Windows repo, even all of the “important” branches would be too
@@ -149,7 +149,7 @@ have personally created.
 ### Favorite branches
 And we know that no matter how much flexibility we provide in the
 configuration of important branches, we can never fine tune it perfectly
-for each individual person. Therefore in the VSTS web UI (or via REST
+for each individual person. Therefore in the Azure DevOps web UI (or via REST
 APIs) you can also mark any branch or branch “folder” as a favorite, and
 all of your favorite branches are also included in the responses to your
 info/refs requests.
@@ -162,7 +162,7 @@ local clone of a repo are:
   - All branches that you created
   - All branches that you favorited
 
-As a result of that, a typical user in the VSTS repo now sees around 100
+As a result of that, a typical user in the Azure DevOps repo now sees around 100
 branches at clone time instead of close to 20K, and the negotiations at
 the beginning of fetch now take a couple of seconds instead of minutes.
 And a typical user in the Windows repo sees a couple dozen branches
@@ -196,18 +196,18 @@ own, because it would require you to have to remember a bunch of steps
 (go to the web, find the branch, favorite it, go to your repo, fetch)
 every time you want to work with someone else’s branch.
 
-In the VSTS repo, what we’ve done is adopt a naming pattern that allows
+In the Azure DevOps repo, what we’ve done is adopt a naming pattern that allows
 people to very easily favorite all of their nearby teammates’ topic
 branches. Across the broader team, there are 400+ people, but any given
 feature team has around 10 or so people in it. So the pattern we’ve
 adopted is that each team creates all of their topic branches using the
 naming pattern `teams///`. Each person
 on a team can then just go favorite the `teams/` “branch
-folder” in the VSTS web UI, and from then on they have access to all
+folder” in the Azure DevOps web UI, and from then on they have access to all
 branches created by their nearby teammates.
 
 The Windows team has taken a different approach. They’ve created a
-command line tool that will call the VSTS REST APIs to favorite a
+command line tool that will call the Azure DevOps REST APIs to favorite a
 branch.If a user wants to favorite a branch, they can just call that
 tooland pass in the name of the branch, and then run `git fetch` again.
 
@@ -252,4 +252,4 @@ boundary problem, and Limited Refs solves a scale problem.
 
 |             |                           |
 |-------------|---------------------------|
-|![Saeed Noursalehi](../_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Visual Studio Team Services team at Microsoft, and works on making Git scale for the largest teams in Microsoft|
+|![Saeed Noursalehi](../_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Azure DevOps team at Microsoft, and works on making Git scale for the largest teams in Microsoft|

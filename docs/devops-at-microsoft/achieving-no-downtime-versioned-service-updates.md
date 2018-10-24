@@ -10,16 +10,16 @@ ms.date: 11/09/2017
 ---
 
 # Achieving No Downtime Through Versioned Service Updates
+
 > By: Buck Hodges
 
 With on-premises software like Team Foundation Server (TFS), it often
-means taking the server offline for updates and upgrades. Visual Studio
-Team Services (VSTS) and TFS share the same code-base, so operating like
+means taking the server offline for updates and upgrades. Azure DevOps and TFS share the same code-base, so operating like
 TFS would mean downtime. Downtime is a complete nonstarter for global
-24×7 service. VSTS is a critical dependency for our customers. They
+24×7 service. Azure DevOps is a critical dependency for our customers. They
 count on it in order to ship their own software. There’s never a good
 time for everybody. So how did we decide to handle upgrades for
-VSTS?
+Azure DevOps?
 
 > [!VIDEO https://www.youtube.com/embed/wTYoW41U2n8]
 
@@ -27,12 +27,12 @@ VSTS?
 
 We have to be able to upgrade online. With a distributed online service
 in multiple datacenters and separate data storage, not everything can
-change simultaneously. If you broadly split the VSTS service into
+change simultaneously. If you broadly split the Azure DevOps Service into
 application code and databases, which are versioned independently of
 each other, one of those needs to absorb the complexity of handling
 versioning.
 
-We chose to handle it in the application code. VSTS and TFS have a lot
+We chose to handle it in the application code. Azure DevOps and TFS have a lot
 of SQL in the databases. Lots of IF statements are possible with SQL,
 but never fun. So instead of further complicating our SQL, we handle
 this complexity in our application code. Specifically, we created a set
@@ -98,7 +98,7 @@ The database upgrades are all performed using a migration pattern – we
 have a set of code and scripts that look at the version of the database
 and then make the incremental changes to migrate the schema between from
 the old to the new version. All migrations are automated and rolled out
-via the Release Management service in VSTS.
+via the Release Management service in Azure DevOps.
 
 We also need to update the web UI without disrupting users. When we
 upgrade the Javascript files, style sheets or images, we don’t want a
@@ -112,6 +112,6 @@ when a user action results in a full page refresh does the new web UI
 get loaded into the browser. This ensures that the user’s experience is
 never disrupted by the upgrade.
 
-|             |                           |
-|-------------|---------------------------|
-|![Image: Buck Hodges, MSFT](https://secure.gravatar.com/avatar/baad17c3a2d3ea8fffc392f9dd209426?s=130&d=mm&r=g)|Buck Hodges is Director of Engineering for Visual Studio Team Services. He's been a member of the team since the beginning of TFS, starting as a developer on Team Foundation Version Control for the first version of TFS. He's helped lead the transition of the team to the cloud and DevOps.|
+|                                                                                                                 |                                                                                                                                                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Image: Buck Hodges, MSFT](https://secure.gravatar.com/avatar/baad17c3a2d3ea8fffc392f9dd209426?s=130&d=mm&r=g) | Buck Hodges is Director of Engineering for Azure DevOps. He's been a member of the team since the beginning of TFS, starting as a developer on Team Foundation Version Control for the first version of TFS. He's helped lead the transition of the team to the cloud and DevOps. |

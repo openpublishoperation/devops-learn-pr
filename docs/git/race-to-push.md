@@ -21,7 +21,7 @@ take the time to fully validate their changes out of fear of losing the
 race.
 
 In this article we’ll look at the details of why this race exists, and
-how we’ve solved the issue for Git repos hosted on VSTS.
+how we’ve solved the issue for Git repos hosted on Azure DevOps.
 
 ## Understanding the race
 A small bit of background: Git history forms a directed acyclic graph
@@ -84,7 +84,7 @@ However, Bob’s push would be blocked, because there is no path that gets
 from B to C, without having to move backward through the DAG.
 
 Side note: Git allows you to override this behavior with a force push.
-However, VSTS and many other services allow you to configure the repo to
+However, Azure DevOps and many other services allow you to configure the repo to
 block force pushes to important branches like master. It’s generally a
 good idea to prevent arbitrary pushes to shared branches.
 
@@ -118,7 +118,7 @@ people are in the fetch/merge/push cycle that you may never be able to
 complete yours fast enough and this can result in a never-ending spiral
 of fetch/merge/push/start over.
 
-When the [VSTS repo](git-at-scale.md#medium-repos)
+When the [Azure DevOps repo](git-at-scale.md#medium-repos)
 first moved to Git, this was one of our biggest productivity killers.
 Developers would routinely get stuck in this race, unable to make
 progress because 400+ other people were working as fast as they could on
@@ -243,7 +243,7 @@ succeeds, or it fails because of a merge conflict.
 
 ## Result
 With this approach in place, and with a bunch of optimization work on
-the server, the VSTS repo is now able to keep up with developers trying
+the server, the Azure DevOps repo is now able to keep up with developers trying
 to complete PRs into master, and this is no longer a bottleneck to our
 productivity.
 
@@ -262,4 +262,4 @@ upcoming article.
 
 |             |                           |
 |-------------|---------------------------|
-|![Saeed Noursalehi](../_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Visual Studio Team Services team at Microsoft, and works on making Git scale for the largest teams in Microsoft|
+|![Saeed Noursalehi](../_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Azure DevOps team at Microsoft, and works on making Git scale for the largest teams in Microsoft|

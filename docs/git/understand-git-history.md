@@ -94,8 +94,8 @@ graph, this shouldn’t be too scary\!
 
 Learn more about Git history in our [Team Services Git tutorial](/azure/devops/git/tutorial/history)
 
-![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Visual Studio Team Services](https://visualstudio.microsoft.com/team-services/git/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Azure Repos](https://azure.microsoft.com/en-us/services/devops/repos/).
 
 |             |                           |
 |-------------|---------------------------|
-|![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Visual Studio Team Services and Team Foundation Server.|
+|![Robert Outlaw](../_img/Robert-Outlaw_avatar_1479411198-130x130.jpg)|Robert is a content developer at Microsoft working on Azure DevOps and Team Foundation Server.|
