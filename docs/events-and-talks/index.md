@@ -5,7 +5,7 @@ ms.prod: devops
 ms.technology: devops 
 ms.manager: douge
 ms.date: 05/11/2018
-ms.author: dhellem	
+ms.author: samgu	
 author: Dan Hellem
 ms.topic: conceptual
 ---

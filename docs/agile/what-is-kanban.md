@@ -5,7 +5,7 @@ ms.prod: devops
 ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
-ms.author: dhellem
+ms.author: samgu
 ms.date: 09/04/2018
 ---
 
