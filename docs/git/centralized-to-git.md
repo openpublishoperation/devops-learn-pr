@@ -6,7 +6,7 @@ ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
-ms.date: 05/03/2017
+ms.date: 11/06/2018
 ---
 
 # Plan your migration to Git
@@ -64,7 +64,7 @@ You may wish to consider:
 
 ### Select a branching strategy
 
-Before migrating your code you should [select a branching strategy](https://visualstudio.com/articles/git-branching-guidance). Using long-lived, isolated
+Before migrating your code you should [select a branching strategy](/azure/devops/repos/git/git-branching-guidance). Using long-lived, isolated
 feature branches is discouraged; this tends to delay merges until
 integration becomes very challenging. By using modern continuous
 delivery techniques like [“feature flags”](../what-is-continuous-delivery.md),
