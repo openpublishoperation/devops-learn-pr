@@ -1,5 +1,5 @@
 ---
-title: What is version control?
+title: From monolith to cloud service
 description: What is version control? If you're developing code, building websites, or writing documentation, using version control is essential to protect your work.
 ms.prod: devops
 ms.technology: devops-learn
