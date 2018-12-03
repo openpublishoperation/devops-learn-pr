@@ -213,7 +213,7 @@ championing the changes through the org. We created another v-team with
 subject matter experts in quality tenets like Security and
 Accessibility. We created Performance v-team which identified common
 performance bottlenecks in the product and drove changes. Another v-team
-was responsible for monitored the health of the CI pipeline and droving
+was responsible for monitoring the health of the CI pipeline and driving
 quick actions. Engineers in these special v-teams share expertise but
 their accountability is aligned to the feature team they work in.
 
