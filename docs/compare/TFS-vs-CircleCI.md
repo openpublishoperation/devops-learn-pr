@@ -16,6 +16,6 @@ ms.date: 10/21/2018
 
 ## Comparing TFS' CI/CD with CircleCI
 
-Rather than maintaining separate comparisons for our on-premises and cloud-hosted versions of Azure DevOps, please visit the [Azure Pipelines vs. CircleCI](~/compare/Azure-Pipelines-vs-CircleCI) page to learn how the two products actually compare.  
+Rather than maintaining separate comparisons for our on-premises and cloud-hosted versions of Azure DevOps, please visit the [Azure Pipelines vs. CircleCI](Azure-Pipelines-vs-CircleCI.md) page to learn how the two products actually compare.  
 
-If you'd like to compare specifically the CI/CD capabilities (i.e., automated build, testing, deplolyment and reporting) of TFS, you can look directly into the [Azure Pipelines comparison](~/compare/Azure-Pipelines-vs-CircleCI#how-does-circleci-compare-with-azure-pipelines) (Azure Pipelines is the cloud-hosted counterpart to TFS' CI/CD capabilities).  You can also [compare the breadth of TFS capabilities](~/compare/Azure-Pipelines-vs-CircleCI#how-does-circleci-compare-with-azure-devops) with CircleCI.
+If you'd like to compare specifically the CI/CD capabilities (i.e., automated build, testing, deplolyment and reporting) of TFS, you can look directly into the [Azure Pipelines comparison](Azure-Pipelines-vs-CircleCI.md#compare-circleci-with-azure-pipelines) (Azure Pipelines is the cloud-hosted counterpart to TFS' CI/CD capabilities).  You can also [compare the breadth of TFS capabilities](Azure-Pipelines-vs-CircleCI.md#compare-circleci-with-azure-devops) with CircleCI.
