@@ -6,7 +6,7 @@ ms.technology: devops-learn
 ms.topic: conceptual
 ms.manager: douge
 ms.author: samgu
-ms.date: 03/01/2018
+ms.date: 01/04/2018
 ---
 
 # What is DevOps?
