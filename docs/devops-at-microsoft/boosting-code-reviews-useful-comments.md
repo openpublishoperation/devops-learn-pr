@@ -131,7 +131,7 @@ files.
 
 ## Want more details?
 For more information on this subject please have a look at the related
-[technical report](https://www.microsoft.com/research/wp-content/uploads/2016/02/bosu2015useful.pdf).
+[technical report](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/bosu2015useful.pdf).
 
 ## References
 \[1\] A. Bosu, M. Greiler and C. Bird, “Characteristics of useful code
