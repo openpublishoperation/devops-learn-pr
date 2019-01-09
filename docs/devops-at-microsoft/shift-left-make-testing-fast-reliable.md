@@ -56,7 +56,7 @@ just to get to that point.
 It became clear we needed a completely new approach. In Feb 2015 we came
 out with the new Azure DevOps Quality vision document.
 
-The core part of the vision was turning he entire test portfolio on its
+The core part of the vision was turning the entire test portfolio on its
 head. We drew this conceptual picture of what we wanted our test
 portfolio to look like. The y-axis has no real numbers but was drawn to
 scale to illustrate the point. L0, L1s are the unit tests and the L2,
