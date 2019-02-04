@@ -109,9 +109,7 @@ If it hurts, do it more often. Just like going to the gym, adopting new practice
 
 <sup>6</sup> Eric Ries, Lean Startup
 
-<sup>7</sup> Ibidem
 
-<sup>8</sup> This expression emerged in the Agile community a decade ago and has been widely quoted.
 
 Read more about the DevOps capabilities of [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/).
 
