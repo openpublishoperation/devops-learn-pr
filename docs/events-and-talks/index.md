@@ -14,9 +14,9 @@ ms.topic: conceptual
 
 ## Highlights 
 
-|DevOps at Scale|Agile at Microsoft|Git (Anti-) Patterns|
+|Introduction to Azure DevOps|Agile at Microsoft|Git (Anti-) Patterns|
 |----------------|------------|------------|
-|[![Lessons Learned Doing DevOps at Microsoft at Scale](../_img/highlight-thumb-cicd-1.png)](https://www.youtube.com/watch?v=3LpuncdAehE)|[![Agile at Microsoft](../_img/highlight-thumb-2.png)](https://youtu.be/-LvCJpnNljU)|[![Git patterns and anti-patterns for successful developers](../_img/highlight-thumb-3.png)](https://medius.studios.ms/Embed/Video/THR2017?sid=THR2017)|
+|[![Introduction to Azure DevOps](../_img/highlight-thumb-azuredevops.png)](https://www.youtube.com/watch?v=JhqpF-5E10I&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)|[![Agile at Microsoft](../_img/highlight-thumb-2.png)](https://youtu.be/-LvCJpnNljU)|[![Git patterns and anti-patterns for successful developers](../_img/highlight-thumb-3.png)](https://medius.studios.ms/Embed/Video/THR2017?sid=THR2017)|
 
 ---
 
@@ -25,8 +25,17 @@ ms.topic: conceptual
 
 Selected videos from both public conferences and internal training sessions.
 
-| TITLE| DESCRIPTION | PRESENTERS  | LENGTH | DATE |
-|:-----|:------------|:------------|--------|------|
+| TITLE| DESCRIPTION | DOWNLOAD |
+|:-----|:------------|:------------|
+|[Azure DevOps Overview](https://www.youtube.com/watch?v=JhqpF-5E10I&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| x | Coming soon |
+|[Plan your work with Azure Boards](https://www.youtube.com/watch?v=SbFKi6Hflc0&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| Deliver value to your users faster using proven agile tools to plan, track and discuss work across your teams. | Coming soon |
+|[Manage and store your code in Azure Repos](https://www.youtube.com/watch?v=-5QzZzkBpF8&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| x | Coming soon |
+|[Continuous Builds with your GitHub projects using Azure Pipelines](https://www.youtube.com/watch?v=vlBuNM6Wzic&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| x | Coming soon |
+|[Building and deploying your code with Azure Pipelines](https://www.youtube.com/watch?v=NuYDAs3kNV8&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| x | Coming soon |
+|[Getting started with Azure Artifacts](https://www.youtube.com/watch?v=b3BPkyikvNM&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| x | Coming soon |
+|[Automated and Manual Testing with Azure Test Plans](https://www.youtube.com/watch?v=LF0hmSysWCg&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| x | Coming soon |
+
+|[Azure DevOps Server](TBD)| x | Coming soon |
 |[From Idea to Production: the LifeCycle of a Pull Request](https://www.youtube.com/watch?v=6lGmsdIwQK0)| Originally presented at Nike DevOpsDays, this talk walks you through how Microsoft does DevOps with a live demo taking a change from an idea to production.|Sam Guckenheimer | 55 |June 2018 |
 |[Global DevOps Bootcamp 2018 Keynote](https://www.youtube.com/watch?v=aIiLhK0NIlY)|In this video, Buck Hodges gives a 30 minute overview of how we evolved from TFS into VSTS as a service that ships every sprint.|Buck Hodges | 26 |June 2018 |
 |[DevOpsDays Seattle 2018: Moving 75,000 Engineers To DevOps On The Public Cloud](https://www.youtube.com/watch?v=q3JLW0npSr8)| Transforming Microsoft to One Engineering System with a globally distributed 24x7x365 service on the public cloud. We’ll show you round the system that handles the load of some of the most demanding engineering teams in the world and share some stories about how they got there.|Sam Guckenheimer | 33 |June 2018 |
