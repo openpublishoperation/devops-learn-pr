@@ -3,10 +3,10 @@ title: DevOps Resources
 description: Videos related to DevOps transformations, events, and products
 ms.prod: devops
 ms.technology: devops 
-ms.manager: douge
-ms.date: 05/11/2018
-ms.author: samgu	
-author: Dan Hellem
+ms.manager: kaelli
+ms.date: 02/28/2019
+ms.author: anishap	
+author: Anisha Pindoria
 ms.topic: conceptual
 ---
 
@@ -34,7 +34,6 @@ Azure DevOps services decks and videos.
 |[Building and deploying your code with Azure Pipelines](https://www.youtube.com/watch?v=NuYDAs3kNV8&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| With Azure Pipelines you can build and deploy your code written in any language using any platform, no problem. In this video we will show why Azure Pipelines is the best tool on the planet for Continuous Integration and Continuous Deployment (CI/CD) of your code. | Coming soon |
 |[Getting started with Azure Artifacts](https://www.youtube.com/watch?v=b3BPkyikvNM&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| Azure Artifacts helps you manage the software components you use by providing an intuitive UI, as well as helpful tools to ensure immutability and performance for the components you create or consume. In this video, we will show you some initial steps to help you get started, by creating a feed for an npm package to use in your Azure Pipeline. | Coming soon |
 |[Automated and Manual Testing with Azure Test Plans](https://www.youtube.com/watch?v=LF0hmSysWCg&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| Azure DevOps Test Plan provides all the tools you need to successfully test your applications. Create and run manual test plans, generate automated tests and collect feedback from users. In this video we will show you the basic aspects on how to get started with Azure Test Plan, so you can start testing your application today. | Coming soon |
-|[Azure DevOps Server](TBD)| x | Coming soon |
 
 ## Azure Devops Server
 
