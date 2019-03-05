@@ -14,9 +14,9 @@ ms.topic: conceptual
 
 ## Highlights 
 
-|Introduction to Azure DevOps|Agile at Microsoft|Git (Anti-) Patterns|
+|Introduction to Azure DevOps|Agile at Microsoft|
 |----------------|------------|------------|
-|[![Introduction to Azure DevOps](../_img/highlight-thumb-azuredevops.png)](https://www.youtube.com/watch?v=JhqpF-5E10I&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)|[![Agile at Microsoft](../_img/highlight-thumb-2.png)](https://youtu.be/-LvCJpnNljU)|[![Git patterns and anti-patterns for successful developers](../_img/highlight-thumb-3.png)](https://medius.studios.ms/Embed/Video/THR2017?sid=THR2017)|
+|[![Introduction to Azure DevOps](../_img/highlight-thumb-azuredevops.png)](https://www.youtube.com/watch?v=JhqpF-5E10I&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)|[![Agile at Microsoft](../_img/highlight-thumb-2.png)](https://youtu.be/-LvCJpnNljU)|
 
 ---
 
@@ -25,23 +25,34 @@ ms.topic: conceptual
 
 Azure DevOps services decks and videos.
 
-| TITLE| DESCRIPTION | DOWNLOAD |
-|:-----|:------------|:------------|
-|[Azure DevOps Overview](https://www.youtube.com/watch?v=JhqpF-5E10I&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| x | Coming soon |
-|[Plan your work with Azure Boards](https://www.youtube.com/watch?v=SbFKi6Hflc0&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| Anyone who has worked on a software project knows that there are issues to track, manage and prioritize. Azure Boards has all the features your team needs to successfully manage your work. Visualize work with Kanban boards, execute in sprints, manage your backlog, and use queries to find work and visualize results. In this video we will show you how to get started with and introduce you to the basic aspects of Azure Boards. | Coming soon |
-|[Manage and store your code in Azure Repos](https://www.youtube.com/watch?v=-5QzZzkBpF8&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| If you are writing code, then you need a place to store and manage that code with a reliable version control system like Git. Azure Repos provides a best in class Git solution. With Azure Repos you get free private and public repos, social code reviews, and more. In this video we will walk you on how to get started with Git in Azure Repos and how your team can use pull requests to work together to collaborate on code. | Coming soon |
-|[Continuous Builds with your GitHub projects using Azure Pipelines](https://www.youtube.com/watch?v=vlBuNM6Wzic&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| In this longer training video you'll learn how to take a GitHub repo and add continuous builds using Azure Pipelines. We will walk you through each step in taking a Node.js GitHub project and adding continuous builds to validate the code quality of each pull request. All using the free for open source projects Azure Pipelines service. | Coming soon |
-|[Building and deploying your code with Azure Pipelines](https://www.youtube.com/watch?v=NuYDAs3kNV8&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| With Azure Pipelines you can build and deploy your code written in any language using any platform, no problem. In this video we will show why Azure Pipelines is the best tool on the planet for Continuous Integration and Continuous Deployment (CI/CD) of your code. | Coming soon |
-|[Getting started with Azure Artifacts](https://www.youtube.com/watch?v=b3BPkyikvNM&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| Azure Artifacts helps you manage the software components you use by providing an intuitive UI, as well as helpful tools to ensure immutability and performance for the components you create or consume. In this video, we will show you some initial steps to help you get started, by creating a feed for an npm package to use in your Azure Pipeline. | Coming soon |
-|[Automated and Manual Testing with Azure Test Plans](https://www.youtube.com/watch?v=LF0hmSysWCg&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE)| Azure DevOps Test Plan provides all the tools you need to successfully test your applications. Create and run manual test plans, generate automated tests and collect feedback from users. In this video we will show you the basic aspects on how to get started with Azure Test Plan, so you can start testing your application today. | Coming soon |
+| TITLE| DESCRIPTION | VIDEO | DOWNLOAD |
+|:-----|:------------|:------|:---------|
+|Azure DevOps Overview| Plan smarter, collaborate better and ship faster with a set of modern dev services. | [Video](https://www.youtube.com/watch?v=JhqpF-5E10I&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE) | [PPT](http://aka.msdevopspitch) |
+|Plan your work with Azure Boards | Anyone who has worked on a software project knows that there are issues to track, manage and prioritize. Azure Boards has all the features your team needs to successfully manage your work. Visualize work with Kanban boards, execute in sprints, manage your backlog, and use queries to find work and visualize results. In this video we will show you how to get started with and introduce you to the basic aspects of Azure Boards. | [Video](https://www.youtube.com/watch?v=SbFKi6Hflc0&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE) | [PPT]() |
+|Manage and store your code in Azure Repos| If you are writing code, then you need a place to store and manage that code with a reliable version control system like Git. Azure Repos provides a best in class Git solution. With Azure Repos you get free private and public repos, social code reviews, and more. In this video we will walk you on how to get started with Git in Azure Repos and how your team can use pull requests to work together to collaborate on code. | [Video](https://www.youtube.com/watch?v=-5QzZzkBpF8&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE) | Coming soon |
+|Continuous Builds with your GitHub projects using Azure Pipelines| In this longer training video you'll learn how to take a GitHub repo and add continuous builds using Azure Pipelines. We will walk you through each step in taking a Node.js GitHub project and adding continuous builds to validate the code quality of each pull request. All using the free for open source projects Azure Pipelines service. | [Video](https://www.youtube.com/watch?v=vlBuNM6Wzic&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE) | Coming soon |
+|Building and deploying your code with Azure Pipelines | With Azure Pipelines you can build and deploy your code written in any language using any platform, no problem. In this video we will show why Azure Pipelines is the best tool on the planet for Continuous Integration and Continuous Deployment (CI/CD) of your code. | [Video](https://www.youtube.com/watch?v=NuYDAs3kNV8&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE) | Coming soon |
+|Getting started with Azure Artifacts | Azure Artifacts helps you manage the software components you use by providing an intuitive UI, as well as helpful tools to ensure immutability and performance for the components you create or consume. In this video, we will show you some initial steps to help you get started, by creating a feed for an npm package to use in your Azure Pipeline. | [Video](https://www.youtube.com/watch?v=b3BPkyikvNM&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE) | Coming soon |
+|Automated and Manual Testing with Azure Test Plans | Azure DevOps Test Plan provides all the tools you need to successfully test your applications. Create and run manual test plans, generate automated tests and collect feedback from users. In this video we will show you the basic aspects on how to get started with Azure Test Plan, so you can start testing your application today. | [Video](https://www.youtube.com/watch?v=LF0hmSysWCg&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE) | Coming soon |
 
 ## Azure Devops Server
 
 Azure DevOps Server decks and videos.
 
-| TITLE| DESCRIPTION | DOWNLOAD |
-|:-----|:------------|:------------|
-|[Azure DevOps Server](TBD)| x | Coming soon |
+| TITLE| DESCRIPTION | VIDEO | DOWNLOAD |
+|:-----|:------------|:------|:---------|
+|Azure DevOps Server | Share code, track work and ship software using integrated developer tools, hosted on-premises. | Coming soon | [PPT](http://aka.ms/devopsserverdeck) |
+
+## Azure Devops Lessons Learned and Journey stories
+
+Azure Devops Lessons Learned and Journey stories decks and videos.
+
+| TITLE| DESCRIPTION | VIDEO | DOWNLOAD |
+|:-----|:------------|:------|:---------|
+| 60,000 tests in 6 min: Create a reliable testing pipeline & deploy safely w/Azure Pipelines | Good test coverage is essential for catching issues before a pull request has been merged, but they have to be the right kind of tests and must be reliable. Sam Guckenheimer digs into the testing transformation his team at Microsoft underwent as they started on their DevOps journey. He explains how they used to test their products and the issues (both technical and cultural) this presented. He walks you through the changes they went through and why and explains the data they found to prove their case for change and what they did to move. Sam also details which things are best covered by unit tests, which you should leave to manual code review in the pull request, and which are best suited to testing in production. | [Video](https://youtu.be/E9ZRZTcPHc4) | [PPT]() |
+| Progressive Deployment, Experimentation, Multitenancy, No Downtime, Cloud Security | This experience report is about rearchitecture from a monolith to cloud-native practices. We cover moving stepwise from single tenancy to multitenancy, scaling up to scaling out, fixed resources to optimized variable costs, periodic upgrades to zero-downtime updates, single backlog to continual experimentation, linear to progressive deployment with a controlled blast radius, long release cycles to continual testing, opacity to observability, and pre-release security reports to continuous security practices. Progressive Deployment, Experimentation, Multitenancy, No Downtime, Cloud Security, Oh My! | [Video](https://youtu.be/nGMbR0pRg30) | [PPT]() |
+| DevOps for AI | Because the AI field is young compared to traditional software development, best practices and solutions around life cycle management for these AI systems have yet to solidify. This talk will discuss how we did this at Microsoft in different departments (one of them being Bing). DevOps for AI  | [Video](https://youtu.be/HwZlGQuCTj4) | Coming soon |
+| Evolving Windows: This Journey to DevOps | An overview of the journey Windows has been on to transform its process, tools, and culture to a DevOps model. | [Video](https://youtu.be/SIKX8eEuGAs) | [PPT]() |
 
 <!--|[From Idea to Production: the LifeCycle of a Pull Request](https://www.youtube.com/watch?v=6lGmsdIwQK0)| Originally presented at Nike DevOpsDays, this talk walks you through how Microsoft does DevOps with a live demo taking a change from an idea to production.|Sam Guckenheimer | 55 |June 2018 |
 |[Global DevOps Bootcamp 2018 Keynote](https://www.youtube.com/watch?v=aIiLhK0NIlY)|In this video, Buck Hodges gives a 30 minute overview of how we evolved from TFS into VSTS as a service that ships every sprint.|Buck Hodges | 26 |June 2018 |
@@ -74,7 +85,7 @@ Azure DevOps Server decks and videos.
 
 ---
 
-<a id="youtube"></a>
+<!--<a id="youtube"></a>
 ## YouTube Channel
 
 The Microsoft channel for videos related to various DevOps products, such as Visual Studio Team Services (VSTS), App Center, Application Insights, and others.
@@ -109,4 +120,4 @@ Reusable content that you can use for your own DevOps presentations and events.
 |VSTS as the Azure DevOps solution|Template slide to drive the VSTS is the Azure DevOps solution message in your presentation(s). See this [video](https://youtu.be/gjH8HSHbAe4?list=PLNMUSSKcxKjd9BvApTKqtOkvAak7ZvCkS) for more context.| | [Download](https://1drv.ms/p/s!AnFDv11RH3N2b9BXC1KGIXxdy2o)|
 |Why move to VSTS in the Cloud|Team Foundation Server (TFS) and other users interested in moving their engineering system to the cloud.|30| [Download](https://1drv.ms/p/s!AnFDv11RH3N2bXAED61fZ-kePzY)|
 
----
+-->
