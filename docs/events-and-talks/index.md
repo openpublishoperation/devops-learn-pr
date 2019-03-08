@@ -54,6 +54,12 @@ Azure Devops Lessons Learned and Journey stories decks and videos.
 | DevOps for AI | Because the AI field is young compared to traditional software development, best practices and solutions around life cycle management for these AI systems have yet to solidify. This talk will discuss how we did this at Microsoft in different departments (one of them being Bing). DevOps for AI  | [Video](https://youtu.be/HwZlGQuCTj4) | [PPT](https://aka.ms/devopsforai2018) |
 | Evolving Windows: This Journey to DevOps | An overview of the journey Windows has been on to transform its process, tools, and culture to a DevOps model. | [Video](https://youtu.be/SIKX8eEuGAs) | [PPT](https://aka.ms/windowsjourneytodevops) |
 
+## Find more videos
+| Azure DevOps - YouTube | DevOps Videos - Channel9 |
+|:--------|:---------|
+| [![Azure DevOps on YouTube](../_img/logo_youtube.png)](https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA) | [![Channel9 DevOps](../_img/logo_channel9.png)](https://channel9.msdn.com/Search?term=DevOps) |
+
+
 <!--|[From Idea to Production: the LifeCycle of a Pull Request](https://www.youtube.com/watch?v=6lGmsdIwQK0)| Originally presented at Nike DevOpsDays, this talk walks you through how Microsoft does DevOps with a live demo taking a change from an idea to production.|Sam Guckenheimer | 55 |June 2018 |
 |[Global DevOps Bootcamp 2018 Keynote](https://www.youtube.com/watch?v=aIiLhK0NIlY)|In this video, Buck Hodges gives a 30 minute overview of how we evolved from TFS into VSTS as a service that ships every sprint.|Buck Hodges | 26 |June 2018 |
 |[DevOpsDays Seattle 2018: Moving 75,000 Engineers To DevOps On The Public Cloud](https://www.youtube.com/watch?v=q3JLW0npSr8)| Transforming Microsoft to One Engineering System with a globally distributed 24x7x365 service on the public cloud. We’ll show you round the system that handles the load of some of the most demanding engineering teams in the world and share some stories about how they got there.|Sam Guckenheimer | 33 |June 2018 |
