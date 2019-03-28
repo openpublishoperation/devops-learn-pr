@@ -55,6 +55,6 @@ Azure Devops Lessons Learned and Journey stories decks and videos.
 | Evolving Windows: This Journey to DevOps | An overview of the journey Windows has been on to transform its process, tools, and culture to a DevOps model. | [Video](https://youtu.be/SIKX8eEuGAs) | [PPT](https://aka.ms/windowsjourneytodevops) |
 
 ## Find more videos
-| Azure DevOps - YouTube | DevOps Videos - Channel9 |
+| Azure DevOps - YouTube | DevOps Videos - Channel 9 |
 |:--------|:---------|
 | [![Azure DevOps on YouTube](../_img/logo_youtube.png)](https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA) | [![Channel9 DevOps](../_img/logo_channel9.png)](https://channel9.msdn.com/Search?term=DevOps) |
