@@ -4,7 +4,7 @@ description: Videos related to DevOps transformations, events, and products
 ms.prod: devops
 ms.technology: devops 
 ms.manager: kaelli
-ms.date: 02/28/2019
+ms.date: 03/28/2019
 ms.author: anishap	
 author: Anisha Pindoria
 ms.topic: conceptual
@@ -35,7 +35,7 @@ Azure DevOps services decks and videos.
 |Getting started with Azure Artifacts | Azure Artifacts helps you manage the software components you use by providing an intuitive UI, as well as helpful tools to ensure immutability and performance for the components you create or consume. In this video, we will show you some initial steps to help you get started, by creating a feed for an npm package to use in your Azure Pipeline. | [Video](https://www.youtube.com/watch?v=b3BPkyikvNM&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE) | Coming soon |
 |Automated and Manual Testing with Azure Test Plans | Azure DevOps Test Plan provides all the tools you need to successfully test your applications. Create and run manual test plans, generate automated tests and collect feedback from users. In this video we will show you the basic aspects on how to get started with Azure Test Plan, so you can start testing your application today. | [Video](https://www.youtube.com/watch?v=LF0hmSysWCg&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE) | Coming soon |
 
-## Azure Devops Server
+## Azure DevOps Server
 
 Azure DevOps Server decks and videos.
 
