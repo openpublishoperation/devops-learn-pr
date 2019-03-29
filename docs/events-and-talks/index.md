@@ -21,10 +21,11 @@ ms.topic: conceptual
 ---
 
 <a id="presentations"></a>
-## Azure Devops services
+## Azure DevOps services
 
 Azure DevOps services decks and videos.
 
+[!div class="mx-tdCol2BreakAll"]
 | TITLE| DESCRIPTION | VIDEO | DOWNLOAD |
 |:-----|:------------|:------|:---------|
 |Azure DevOps Overview| Plan smarter, collaborate better and ship faster with a set of modern dev services. | [Video](https://www.youtube.com/watch?v=JhqpF-5E10I&list=PLNMUSSKcxKjfu-84Vc_Fug93D3LfRc1SE) | [PPT](http://aka.ms/devopspitch) |
@@ -39,6 +40,7 @@ Azure DevOps services decks and videos.
 
 Azure DevOps Server decks and videos.
 
+[!div class="mx-tdCol2BreakAll"]
 | TITLE| DESCRIPTION | VIDEO | DOWNLOAD |
 |:-----|:------------|:------|:---------|
 |Azure DevOps Server | Share code, track work and ship software using integrated developer tools, hosted on-premises. | Coming soon | [PPT](http://aka.ms/devopsserverdeck) |
@@ -47,6 +49,7 @@ Azure DevOps Server decks and videos.
 
 Azure Devops Lessons Learned and Journey stories decks and videos.
 
+[!div class="mx-tdCol2BreakAll"]
 | TITLE| DESCRIPTION | VIDEO | DOWNLOAD |
 |:-----|:------------|:------|:---------|
 | 60,000 tests in 6 min: Create a reliable testing pipeline & deploy safely w/Azure Pipelines | Good test coverage is essential for catching issues before a pull request has been merged, but they have to be the right kind of tests and must be reliable. Sam Guckenheimer digs into the testing transformation his team at Microsoft underwent as they started on their DevOps journey. He explains how they used to test their products and the issues (both technical and cultural) this presented. He walks you through the changes they went through and why and explains the data they found to prove their case for change and what they did to move. Sam also details which things are best covered by unit tests, which you should leave to manual code review in the pull request, and which are best suited to testing in production. | [Video](https://youtu.be/E9ZRZTcPHc4) | [PPT](https://aka.ms/60000tests6mins) |
@@ -55,6 +58,8 @@ Azure Devops Lessons Learned and Journey stories decks and videos.
 | Evolving Windows: This Journey to DevOps | An overview of the journey Windows has been on to transform its process, tools, and culture to a DevOps model. | [Video](https://youtu.be/SIKX8eEuGAs) | [PPT](https://aka.ms/windowsjourneytodevops) |
 
 ## Find more videos
+
+[!div class="mx-tdCol2BreakAll"]
 | Azure DevOps - YouTube | DevOps Videos - Channel 9 |
 |:--------|:---------|
 | [![Azure DevOps on YouTube](../_img/logo_youtube.png)](https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA) | [![Channel9 DevOps](../_img/logo_channel9.png)](https://channel9.msdn.com/Search?term=DevOps) |
