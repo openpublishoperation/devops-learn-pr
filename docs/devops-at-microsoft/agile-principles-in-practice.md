@@ -15,7 +15,6 @@ ms.date: 05/31/2018
 
 Aaron Bjork discusses how we incorporate Agile principles and what that looks like in practice. Everything about how we manage teams, roles, planning, sprints, and flow has brought improvement to the software we build and use daily that customers can depend on.
 
-<br>
 > [!VIDEO https://www.youtube.com/embed/-LvCJpnNljU]
 
 ## Introduction to Azure DevOps and TFS

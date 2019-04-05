@@ -1,56 +1,65 @@
 {
-    "build": {
-    "markdownEngineName": "dfm",
-        "content": [{
-            "files": [
-                "**/*.md",
-                "**/*.yml"
-            ],
-            "exclude": [
-                "**/obj/**",
-                "**/includes/**",
-                "_themes/**",
-                "_themes.pdf/**",
-                "README.md",
-                "LICENSE",
-                "LICENSE-CODE",
-                "ThirdPartyNotices"
-            ]
-        }],
-        "resource": [{
-            "files": [
-                "**/*.png",
-                "**/*.jpg",
-                "**/*.svg"
-            ],
-            "exclude": [
-                "**/obj/**",
-                "**/includes/**",
-                "_themes/**",
-                "_themes.pdf/**"
-            ]
-        }],
-        "overwrite": [],
-        "externalReference": [],
-        "globalMetadata": {
-            "uhfHeaderId": "MSDocsHeader-AzureDevOps",
-            "ms.topic": "conceptual",
-            "breadcrumb_path": "/azure/devops/breadcrumb/toc.json",
-            "extendBreadcrumb": true,
-            "searchScope": ["VSTS", "Visual Studio Team Services", "Azure", "DevOps"],
-            "author": "samgu",
-            "ms.author": "samgu",
-            "ms.prod": "devops",
-            "ms.version": "ALM",
-            "MSHAttr.msprod": "ms.prod:devops",
-            "ms.prodfamily": "ALM",
-            "feedback_system": "GitHub",
-            "feedback_github_repo": "MicrosoftDocs/vsts-docs",
-            "feedback_product_url": "https://developercommunity.visualstudio.com/spaces/21/index.html",
-            "titleSuffix": "Azure DevOps"
-        },
-        "fileMetadata": {},
-        "template": [],
-        "dest": "azure-devops"
-    }
+  "build": {
+    "markdownEngineName": "markdig",
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-AzureDevOps",
+      "ms.topic": "conceptual",
+      "breadcrumb_path": "/azure/devops/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "searchScope": [
+        "VSTS",
+        "Visual Studio Team Services",
+        "Azure",
+        "DevOps"
+      ],
+      "author": "samgu",
+      "ms.author": "samgu",
+      "ms.prod": "devops",
+      "ms.version": "ALM",
+      "MSHAttr.msprod": "ms.prod:devops",
+      "ms.prodfamily": "ALM",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/vsts-docs",
+      "feedback_product_url": "https://developercommunity.visualstudio.com/spaces/21/index.html",
+      "titleSuffix": "Azure DevOps"
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "azure-devops"
+  }
 }

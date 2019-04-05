@@ -151,9 +151,8 @@ nearly any agile team dealing with competing priorities.
 
 Try this approach on your team for a sprint or two. Use this article as
 the basis for your own approach, then learn from it and refine it to
-work for your team. Then, let us know how it works. You can find us on
-Twitter [@mmanela](https://twitter.com/mmanela) and
-[@ewaldhofman](https://twitter.com/ewaldhofman).
+work for your team. Then, let us know how it works. You can find me on
+Twitter [@mmanela](https://twitter.com/mmanela).
 
 ![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Azure Boards](https://azure.microsoft.com/en-us/services/devops/boards/).
 

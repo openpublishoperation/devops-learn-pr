@@ -20,7 +20,6 @@ So that you don't get confused, I'll point out that Azure DevOps is the successo
 
 Martin Woodward leads a whistle-stop tour of Microsoft's seven-year DevOps journey, explaining why the company embarked on this transformation and what benefits it has already seen.
 
-<br>
 > [!VIDEO https://www.youtube.com/embed/X4uziBlC728]
 
 ## How We Work with Azure DevOps

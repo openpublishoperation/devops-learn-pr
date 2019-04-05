@@ -175,7 +175,7 @@ At a high level, GVFS has a few primary responsibilities:
 #### Disk layout
 When GVFS first creates a new clone, it creates the following layout on
 disk:
-    
+
     |
     |__ .gvfs
     |   |__ 
@@ -366,6 +366,7 @@ Stay tuned for future articles on our caching solution, more details
 about speeding up particular Git commands, and what we plan to do for
 GVFS on other operating systems.
 
-|             |                           |
-|-------------|---------------------------|
-|![Saeed Noursalehi](../_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg)|Saeed Noursalehi is a Principal Program Manager on the Azure DevOps team at Microsoft, and works on making Git scale for the largest teams in Microsoft|nd works on making Git scale for the largest teams in Microsoft
+|                                                                             |                                                                                                                                                         |
+|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Saeed Noursalehi](../_img/Saeed-Noursalehi_avatar_1495566196-130x130.jpg) | Saeed Noursalehi is a Principal Program Manager on the Azure DevOps team at Microsoft, and works on making Git scale for the largest teams in Microsoft |
+

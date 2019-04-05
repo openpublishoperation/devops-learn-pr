@@ -261,8 +261,8 @@ We did not focus on writing new L2 tests until sprint 101. In the
 meantime, the TRA test count went down from 27,000 to 14,000 from Sprint
 78 to Sprint 101. Some of the TRA tests were replaced by the new unit
 tests, but many were simply deleted based on team’s analysis of their
-usefulness. Notice how the TRA tests jumped from 2100 to 3800 in sprint
-110. No, we did not write new TRA tests. We simply discovered more of
+usefulness. Notice how the TRA tests jumped from 2100 to 3800 in sprint 110.
+No, we did not write new TRA tests. We simply discovered more of
 them in the source tree and added them to this graph\! We were running
 the tests but weren’t tracking them properly.
 

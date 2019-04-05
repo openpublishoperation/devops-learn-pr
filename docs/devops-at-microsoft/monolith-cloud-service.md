@@ -159,8 +159,8 @@ I didn’t want to grow that monolith. I want to be able to build services
 outside of that monolith. That meant we had to split out what we call
 “shared platform services (SPS),” which include account, identity,
 licensing, profile, and other common services that every functional
-service in Azure DevOps needs to access. We split this out in the spring of
-2013. While the system was alive, we were literally ripping essentially
+service in Azure DevOps needs to access. We split this out in the spring of 2013.
+While the system was alive, we were literally ripping essentially
 the heart out of TFS, pulling it out into a separate service.
 
 We did it on a Saturday, March 23rd, 2013. We all got together that
