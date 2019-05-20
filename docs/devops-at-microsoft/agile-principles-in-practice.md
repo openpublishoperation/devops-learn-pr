@@ -128,7 +128,7 @@ If a team's bug count exceeds the bug cap at the end of a sprint, they stop work
 
 Teams have come up with their own way to provide focus and assist with an interrupt culture in the form of bugs and live-site incidents.
 
-Teams will self-organize itself each sprint into two distinct teams: **Features (F team)** and **Shielding (L teams)**. The F-team works on commited features and the L-team deals with all live site issues and interruptions. The rotating cadence is established by the team and it allows for members to plan activities outside of work mcuh easier.
+Teams will self-organize itself each sprint into two distinct teams: **Features (F team)** and **Shielding (L teams)**. The F-team works on commited features and the L-team deals with all live site issues and interruptions. The rotating cadence is established by the team and it allows for members to plan activities outside of work much easier.
 
 ## Four key takeaways
 
