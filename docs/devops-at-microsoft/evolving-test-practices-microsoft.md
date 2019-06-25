@@ -122,8 +122,7 @@ big things.
     testing perspective, we pushed two things: shift-left testing (i.e.
     greater emphasis on unit testing) and [eliminating flaky
     tests](eliminating-flaky-tests.md).
-3.  We also understood there is no place like production. This is the
-    shift-right part of the strategy. This is the shift-right part of
+3.  We also understood there is no place like production. This is the shift-right part of
     the strategy. it’s a set of practices about both safeguarding the
     production as well as [ensuring quality in
     production](shift-right-test-production.md).

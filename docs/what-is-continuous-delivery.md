@@ -23,7 +23,7 @@ environments support progressively longer-running activities of
 integration, load, and user acceptance testing. [Continuous
 Integration](what-is-continuous-integration.md "Continuous Integration")
 starts the CD process and the pipeline stages each successive
-environment the next upon successful completion of tests.
+environment to the next upon successful completion of tests.
 
 Continuous Delivery may sequence multiple deployment “rings” for
 progressive exposure (also known as “controlling the blast radius”).

@@ -119,7 +119,7 @@ command and filter the output on other criteria as needed.
 #### Exclude tools and libraries
 
 For tools and libraries, adopt a [packaging
-solution](/docs/package/overview) with versioning support, such as
+solution](/vsts/package/overview) with versioning support, such as
 NuGet. Many open source tools and libraries will already be available on
 the [NuGet Gallery](http://www.nuget.org/), but for proprietary
 dependencies, you will need to create your own NuGet packages.
