@@ -15,5 +15,5 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 This list is not indexed by search engines but does provide an index to the different Azure DevOps comparisons that we currently support.  In addition to this list, there are search engine-optimized pages that help customers looking for variants (e.g., TFS or VSTS), but this index only contains the primary comparisons:
 
-- [CircleCI](Azure-Pipelines-vs-CircleCI)
-- [GitLab](Azure-DevOps-vs-GitLab)
+- [CircleCI](Azure-Pipelines-vs-CircleCI.md)
+- [GitLab](Azure-DevOps-vs-GitLab.md)

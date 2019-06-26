@@ -22,6 +22,6 @@ ms.date: 11/7/2018
 - [Azure Test Plans](https://azure.microsoft.com/services/devops/test-plans/) - Test and ship with confidence using manual and exploratory testing tools.
 
 ## Azure Pipelines vs CircleCI
-CircleCI only provides a subset of these servcies.  Although it is fair to ask how Azure DevOps compares with CircleCI, it makes more sense to compare the services that CircleCI does offer...  CI/CD.  We have a [separate comparison page](Azure-Pipelines-vs-CircleCI.md) which evaluates [Azure Pipelines against CircleCI](Azure-Pipelines-vs-CircleCI.md#compare-circleci-with-azure-pipelines) and also [Azure DevOps services as a whole against CircleCI](Azure-Pipelines-vs-CircleCI.md#compare-circleci-with-azure-devops).
+CircleCI only provides a subset of these services.  Although it is fair to ask how Azure DevOps compares with CircleCI, it makes more sense to compare the services that CircleCI does offer...  CI/CD.  We have a [separate comparison page](Azure-Pipelines-vs-CircleCI.md) which evaluates [Azure Pipelines against CircleCI](Azure-Pipelines-vs-CircleCI.md#compare-circleci-with-azure-pipelines) and also [Azure DevOps services as a whole against CircleCI](Azure-Pipelines-vs-CircleCI.md#compare-circleci-with-azure-devops).
 
 Please visit the [Azure Pipelines vs. CircleCI](Azure-Pipelines-vs-CircleCI.md) page to learn how the two products actually compare.

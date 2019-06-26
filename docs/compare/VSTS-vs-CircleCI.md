@@ -1,5 +1,5 @@
 ---
-title:VSTS vs CircleCI
+title: VSTS vs CircleCI
 description: Azure DevOps (the new VSTS) and how it compares to CircleCI
 ms.prod: devops
 ms.technology: devops-learn
@@ -17,6 +17,6 @@ Azure DevOps Services are the new version of  Visual Studio Team Services (VSTS)
 
 ## Azure Pipelines vs CircleCI
 
-CircleCI only provides a subset of the Azure DevOps servcies.  Although it is fair to ask how Azure DevOps compares with CircleCI, it makes more sense to compare the service that CircleCI does offer...  CI/CD.  We have a [separate comparison page](./Azure-Pipelines-vs-CircleCI) which evaluates [Azure Pipelines against CircleCI](./Azure-Pipelines-vs-CircleCI#compare-circleci-with-azure-pipelines) and also [Azure DevOps services as a whole against CircleCI](./Azure-Pipelines-vs-CircleCI#compare-circleci-with-azure-devops).
+CircleCI only provides a subset of the Azure DevOps servcies.  Although it is fair to ask how Azure DevOps compares with CircleCI, it makes more sense to compare the service that CircleCI does offer...  CI/CD.  We have a [separate comparison page](Azure-Pipelines-vs-CircleCI.md) which evaluates [Azure Pipelines against CircleCI](./Azure-Pipelines-vs-CircleCI.md#compare-circleci-with-azure-pipelines) and also [Azure DevOps services as a whole against CircleCI](Azure-Pipelines-vs-CircleCI.md#compare-circleci-with-azure-devops).
 
-Please visit the [Azure Pipelines vs. CircleCI](./Azure-Pipelines-vs-CircleCI) page to learn how the two products actually compare.
+Please visit the [Azure Pipelines vs. CircleCI](Azure-Pipelines-vs-CircleCI.md) page to learn how the two products actually compare.
