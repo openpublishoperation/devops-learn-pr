@@ -137,7 +137,7 @@ technical debt. Just like financial debt, technical debt becomes harder
 to pay off the longer it exists. A smart product owner works with their
 team to ensure there is time to pay off technical debt in every sprint.
 Balancing technical debt reduction with feature development is a
-difficult task. Read [Creating productive, customer focused teams](https://visualstudio.microsoft.com/?post_type=learn&p=38736%2F&preview=true)
+difficult task. Read [Creating productive, customer focused teams](productive-teams.md)
 for ideas on how to manage this.
 
 ## Always Be Agile
