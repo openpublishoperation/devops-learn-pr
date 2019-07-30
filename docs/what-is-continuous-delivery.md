@@ -18,7 +18,7 @@ ms.date: 04/04/2017
 Continuous Delivery (CD) is the process to build, test, configure and
 deploy from a build to a production environment. Multiple testing or
 staging environments create a _Release Pipeline_ to automate the
-creation of infrastructure and deployment of a new. Successive
+creation of infrastructure and deployment of a new build. Successive
 environments support progressively longer-running activities of
 integration, load, and user acceptance testing. [Continuous
 Integration](what-is-continuous-integration.md "Continuous Integration")
