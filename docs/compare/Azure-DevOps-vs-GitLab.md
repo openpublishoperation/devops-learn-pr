@@ -246,6 +246,8 @@ CE](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/bitnami.gitlab
 as you form your own opinion and decide which DevOps tools are best for your
 environment.
 
+For further changes to the comparison set, please check out the [GitLab feature set](https://about.gitlab.com/devops-tools/azure-devops-vs-gitlab.html) at GitLab.
+
 ## Are you still reading?
 
 Doing your research is important, but one of the best ways for you to convince
