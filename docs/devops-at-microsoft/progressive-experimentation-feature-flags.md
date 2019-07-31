@@ -239,7 +239,7 @@ The feature teams own the decision as to whether they need a feature
 flag or not for a given change. Not every change requires one, so if I
 choose to change some element on a web page or whatever, it’s a judgment
 call. But in the case of something like the revert feature I used as an
-example here, it was it was great to be able to have that behind a
+example here, it was great to be able to have that behind a
 feature flag because that meant we could put the feature out in
 production with controlled exposure. Teams own their feature area.
 [Aaron Bjork talks about autonomy](https://youtu.be/-LvCJpnNljU), and
