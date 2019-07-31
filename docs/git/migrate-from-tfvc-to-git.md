@@ -34,10 +34,7 @@ on the [TFVC Import tool](/azure/devops/git/import-from-tfvc):
    [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/)
    or [GitHub Flow](https://guides.github.com/introduction/flow/index.html).
 2. A “tip migration”, importing only the latest version of the source
-   code, is suggested. You can opt to migrate some history, up to 180
-   days, so that your team doesn’t need to refer back to TFVC as often,
-   but [this is discouraged](centralized-to-git.md) if your history is
-   very simple.
+   code, is suggested. If your TFVC history is simple, you can opt to migrate some history, up to 180 days, so that your team can work only out of Git. For more information, see [Plan your migration to Git](centralized-to-git.md).
 3. You do not have binary assets like images, scientific data sets, or
    game models in your repository. These assets should use the Git LFS
    (Large File Support) extension, which the import tool does not
