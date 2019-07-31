@@ -64,7 +64,7 @@ A common taxonomy is Epics, Features, Stories, and Tasks.
 
 #### Epics
 
-Epics declare initiatives important the organizations success. Epics may
+Epics declare initiatives important to the organization's success. Epics may
 take several teams and several sprints to accomplish, but they are not
 without an end. Epics have a clearly defined goal. Once attained the
 Epic is closed. The number of Epics in progress should be manageable, to
