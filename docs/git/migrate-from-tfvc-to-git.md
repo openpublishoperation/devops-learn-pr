@@ -36,7 +36,7 @@ on the [TFVC Import tool](/azure/devops/git/import-from-tfvc):
 2. A “tip migration”, importing only the latest version of the source
    code, is suggested. You can opt to migrate some history, up to 180
    days, so that your team doesn’t need to refer back to TFVC as often,
-   but [this is discouraged](centralized-to-git.md) unless your history is
+   but [this is discouraged](centralized-to-git.md) if your history is
    very simple.
 3. You do not have binary assets like images, scientific data sets, or
    game models in your repository. These assets should use the Git LFS
