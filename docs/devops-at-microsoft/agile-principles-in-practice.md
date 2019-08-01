@@ -17,11 +17,11 @@ Aaron Bjork discusses how we incorporate Agile principles and what that looks li
 
 > [!VIDEO https://www.youtube.com/embed/-LvCJpnNljU]
 
-## Introduction to Azure DevOps and TFS
+## Introduction to Azure DevOps and Azure DevOps Server
 
-The Azure DevOps team is made of about 800 people that contribute to either the subscription-based cloud service (Azure DevOps Server) or the on-permise product (TFS). Azure DevOps and TFS are platforms for software development teams to collaborate, plan, write, build, test, and deploy their code.
+The Azure DevOps team is made of about 800 people that contribute to either the subscription-based cloud service (Azure DevOps) or the on-permise product (Azure DevOps Server). Azure DevOps and Azure DevOps Server are platforms for software development teams to collaborate, plan, write, build, test, and deploy their code.
 
-The Azure DevOps development teams work in 3-week sprints, shipping at the end of each sprint. About 3-4 times a year, the updates are packaged and applied to TFS via updates.
+The Azure DevOps development teams work in 3-week sprints, shipping at the end of each sprint. About 3-4 times a year, the updates are packaged and applied to Azure DevOps Server via updates.
 
 ## Before vs After
 
