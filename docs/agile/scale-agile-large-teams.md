@@ -240,7 +240,7 @@ goals. The critical building blocks are clearly defined ownership and a
 culture of trust. Once you have this foundation in place, you will find
 that Agile can scale very well.
 
-![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Azure Boards](https://azure.microsoft.com/en-us/services/devops/boards/).
+![get started for free](../_img/AgileGetStartedForFree_32x.png) Get started with free agile tools in [Azure Boards](https://azure.microsoft.com/services/devops/boards/).
 
 |                                                               |                                                                                                                                                                                                                                           |
 | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

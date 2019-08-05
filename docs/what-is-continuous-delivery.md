@@ -75,7 +75,7 @@ fast and safely. Issues found in production can be remediated quickly by
 rolling forward with a new deployment. In this way, CD creates a
 continuous stream of customer value.
 
-Read more about the Continuous Delivery capabilities of [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/).
+Read more about the Continuous Delivery capabilities of [Azure Pipelines](https://azure.microsoft.com/services/devops/pipelines/).
 
 Learn how to set up Continuous Deployment to
 [Azure](/azure/devops/release/examples/examples).

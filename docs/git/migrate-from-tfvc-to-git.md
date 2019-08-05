@@ -166,7 +166,7 @@ just migrating code. Your team needs training to understand how Git is
 different from your existing version control system and how these
 differences affect day-to-day work. [Learn more](centralized-to-git.md).
 
-![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Azure Repos](https://azure.microsoft.com/en-us/services/devops/repos/).
+![Learn Git](../_img/LearnGIT_32x.png) Get started with unlimited free private Git repos in [Azure Repos](https://azure.microsoft.com/services/devops/repos/).
 
 |                                                                                                       |                                                                                                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

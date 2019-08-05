@@ -48,7 +48,7 @@ which makes them less expensive to fix.  Automated tests run for every
 build to ensure builds maintain a consistent quality.
 
 Read more about the Continuous Integration capabilities of
-[Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/ "Continuous Integration with Azure DevOps").
+[Azure Pipelines](https://azure.microsoft.com/services/devops/pipelines/ "Continuous Integration with Azure DevOps").
 
 Learn how to set up [Continuous Integration](/azure/devops/pipelines/overview) for
 any platform.
