@@ -1,9 +1,9 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "azure-devops",
+      "docset_name": "azure-devops-learn",
       "build_source_folder": "docs",
-      "build_output_subfolder": "azure-devops",
+      "build_output_subfolder": "azure-devops-learn",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
