@@ -18,8 +18,7 @@
     }
   ],
   "notification_subscribers": [
-    "samgu@microsoft.com",
-    "douge@microsoft.com"
+    "samgu@microsoft.com"
   ],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
