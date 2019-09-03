@@ -6,7 +6,7 @@ ms.technology: devops
 ms.manager: kaelli
 ms.date: 03/28/2019
 ms.author: anishap	
-author: Anisha Pindoria
+author: anipind
 ms.topic: conceptual
 ---
 
